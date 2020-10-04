@@ -2,7 +2,11 @@
 
 # Year 1 content for Computer Science for Games :sparkles:
 
-:warning: This repository contains the specifications for my course and is going to be used primarily for version control for my university work. While the content in each folder is licensed under the MIT License, any content included should not be used directly before the end of the year because of restrictions on plagiarism. Feel free to read through if you're stuck or confused, but using this content directly or with slight modification for your own course is prohibited. :warning:
+:warning: :warning: :warning:
+
+This repository contains the specifications for my course and is going to be used primarily for version control for my university work. While the content in each folder is licensed under the MIT License, any content included should not be used directly before the end of the year because of restrictions on plagiarism. Feel free to read through if you're stuck or confused, but using this content directly or with slight modification for your own course is prohibited.
+
+:warning: :warning: :warning:
 
 * [Year 1 content for Computer Science for Games](#year-1-content-for-computer-science-for-games)
   * [CI401-Introduction-to-Programming](#ci401-introduction-to-programming)
