@@ -1,6 +1,8 @@
-# y1-university
+# :sparkles: y1-university :sparkles:
+# Year 1 content for Computer Science for Games
 
-* [y1-university](#y1-university)
+* [:sparkles: y1-university :sparkles:](#sparkles-y1-university-sparkles)
+* [Year 1 content for Computer Science for Games](#year-1-content-for-computer-science-for-games)
   * [CI401-Introduction-to-Programming](#ci401-introduction-to-programming)
     * [Task 1 (50%) Simple Application (LO 1,2,3,4,5,6)](#task-1-50-simple-application-lo-123456)
     * [Task 2 (50%) 1.5 hour examination (LO 1,2,3,4,5,6)](#task-2-50-15-hour-examination-lo-123456)
@@ -22,11 +24,11 @@
 
 ## CI401-Introduction-to-Programming
 
-[Link to Specification](CI401-Introduction-to-Programming/CI401-Specification.pdf)
-
 [comment]: <> (//NOTE: Introduction to Programming)
 
 > The module is the entry level programming module and will introduce the student to the fundamental concepts and skills required to write simple programs in a high-level language
+
+[Link to Specification](CI401-Introduction-to-Programming/CI401-Specification.pdf)
 
 ### Task 1 (50%) Simple Application (LO 1,2,3,4,5,6)
 
@@ -59,13 +61,13 @@ evaluating their completed work. (equivalent to 1,750 words).
 
 ## CI410-Introduction-to-Game-Design-and-Development
 
-[Link to Specification](CI410-Introduction-to-Game-Design-and-Development/CI410-Specification.pdf)
-
 [comment]: <> (//NOTE: Introduction to Game Design and Development)
 
 > This module explores the methods and techniques used to design and build computer games. Students are taught how to:
 > - Analyse and deconstruct complex game systems in order to assess their entertainment value
 > - Turn original game designs into working prototypes
+
+[Link to Specification](CI410-Introduction-to-Game-Design-and-Development/CI410-Specification.pdf)
 
 As part of their guided independent study and tutorial exercises, each student will develop a prototype game of their own design. The task will require the submission of the prototype and the source code. Each student will submit a reflective report addressing the implementation of their game.
 
@@ -81,11 +83,11 @@ Game prototype.
 
 ## CI435-Introduction-to-Web-Development
 
-[Link to Specification](CI435-Introduction-to-Web-Development/CI435-Specification.pdf)
-
 [comment]: <> (//NOTE: Introduction to Web Development)
 
 > This module will introduce a range of current web technologies, equipping students to build basic standards-compliant static and interactive web pages.
+
+[Link to Specification](CI435-Introduction-to-Web-Development/CI435-Specification.pdf)
 
 ### Task 1: Coursework 50% (L.O.s 1, 2 and 3)
 
@@ -103,11 +105,11 @@ done in class.
 
 ## CI465-Working-in-the-Digital-and-Games-Industries
 
-[Link to Specification](CI465-Working-in-the-Digital-and-Games-Industries/CI465-Specification.pdf)
-
 [comment]: <> (//NOTE: Working in the Digital and Games Industries)
 
 > The module introduces students to the digital and games industries context and working practices, using the Brighton & Hove digital sector as a case study. Students prepare for work experience applications by producing a personal digital portfolio and managing their professional online presence. The module integrates an introduction to the University learning environment and a foundation in academic study skills.
+
+[Link to Specification](CI465-Working-in-the-Digital-and-Games-Industries/CI465-Specification.pdf)
 
 ### Task 1: Coursework 50% (LO1, LO3, LO4, LO5, LO6)
 
@@ -115,7 +117,9 @@ Project done in groups of 3-4, investigating a company in the digital or games s
 
 a) A 3,000 word group report, plus an individual statement of
 contribution to the group effort
+
 b) A 30 minute group slideshow presentation, including questions
+
 c) A 5-6 minute video production, hosted online, plus an individual
 statement of contribution to the group effort
 
@@ -125,16 +129,17 @@ Individual project producing an online portfolio of work, including social media
 
 a) 15 minute presentation, including questions, demonstrating the
 portfolio to the tutor and peers
+
 b) 1,500 word report explaining the rationale for the work and
 reflecting on how the assessment brief has been met
 
 ## CI474-Introduction-to-3D-Modelling-and-Animation
 
-[Link to Specification](CI474-Introduction-to-3D-Modelling-and-Animation/CI474-Specification.pdf)
-
 [comment]: <> (//NOTE: Introduction to 3D Modelling and Animation)
 
 > This module will provide an introduction to the foundations of 3D computer graphics and basic animation. Covering the fundamentals of basic 3D design, modelling, texturing, simple lighting and animation, students will on completion be able to create simple 3D animated rendered sequences for multi format delivery.
+
+[Link to Specification](CI474-Introduction-to-3D-Modelling-and-Animation/CI474-Specification.pdf)
 
 ### Portfolio task 1: Production plan for animation project (LO1) (30%)
 
