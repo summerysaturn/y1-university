@@ -2,6 +2,8 @@
 
 ## CI401-Introduction-to-Programming
 
+[Link to Specification](CI401-Introduction-to-Programming/CI401-Specification.pdf)
+
 [comment]: <> (//NOTE: Introduction to Programming)
 
 > The module is the entry level programming module and will introduce the student to the fundamental concepts and skills required to write simple programs in a high-level language
@@ -17,6 +19,8 @@ copy workbook of material relating to the practical exercises done in
 class.
 
 ## CI405-Computing-Technologies
+
+[Link to Specification](CI405-Computing-Technologies/CI405-Specification.pdf)
 
 [comment]: <> (//NOTE: Computing Technologies)
 
@@ -34,6 +38,8 @@ Each student will submit their learning journal demonstrating and
 evaluating their completed work. (equivalent to 1,750 words).
 
 ## CI410-Introduction-to-Game-Design-and-Development
+
+[Link to Specification](CI410-Introduction-to-Game-Design-and-Development/CI410-Specification.pdf)
 
 [comment]: <> (//NOTE: Introduction to Game Design and Development)
 
@@ -55,6 +61,8 @@ Game prototype.
 
 ## CI435-Introduction-to-Web-Development
 
+[Link to Specification](CI435-Introduction-to-Web-Development/CI435-Specification.pdf)
+
 [comment]: <> (//NOTE: Introduction to Web Development)
 
 > This module will introduce a range of current web technologies, equipping students to build basic standards-compliant static and interactive web pages.
@@ -74,6 +82,8 @@ in a hard copy workbook of material relating to the practical exercises
 done in class.
 
 ## CI465-Working-in-the-Digital-and-Games-Industries
+
+[Link to Specification](CI465-Working-in-the-Digital-and-Games-Industries/CI465-Specification.pdf)
 
 [comment]: <> (//NOTE: Working in the Digital and Games Industries)
 
@@ -99,6 +109,8 @@ b) 1,500 word report explaining the rationale for the work and
 reflecting on how the assessment brief has been met
 
 ## CI474-Introduction-to-3D-Modelling-and-Animation
+
+[Link to Specification](CI474-Introduction-to-3D-Modelling-and-Animation/CI474-Specification.pdf)
 
 [comment]: <> (//NOTE: Introduction to 3D Modelling and Animation)
 
