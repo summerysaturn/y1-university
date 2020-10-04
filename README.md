@@ -1,7 +1,9 @@
-# :sparkles: y1-university :sparkles:
-# Year 1 content for Computer Science for Games
+![y1-university](.github/preview.png)
 
-* [:sparkles: y1-university :sparkles:](#sparkles-y1-university-sparkles)
+# Year 1 content for Computer Science for Games :sparkles:
+
+:warning: This repository contains the specifications for my course and is going to be used primarily for version control for my university work. While the content in each folder is licensed under the MIT License, any content included should not be used directly before the end of the year because of restrictions on plagiarism. Feel free to read through if you're stuck or confused, but using this content directly or with slight modification for your own course is prohibited. :warning:
+
 * [Year 1 content for Computer Science for Games](#year-1-content-for-computer-science-for-games)
   * [CI401-Introduction-to-Programming](#ci401-introduction-to-programming)
     * [Task 1 (50%) Simple Application (LO 1,2,3,4,5,6)](#task-1-50-simple-application-lo-123456)
@@ -42,11 +44,11 @@ class.
 
 ## CI405-Computing-Technologies
 
-[Link to Specification](CI405-Computing-Technologies/CI405-Specification.pdf)
-
 [comment]: <> (//NOTE: Computing Technologies)
 
 > The module enables students to gain an understanding of the basic principles underlying the architecture and operations of a computer system including the storage and retrieval of data.
+
+[Link to Specification](CI405-Computing-Technologies/CI405-Specification.pdf)
 
 ### Task 1: 1 hour multiple choice examination 40% (LO 4, 5,6)
 
