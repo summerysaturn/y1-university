@@ -1,5 +1,25 @@
 # y1-university
 
+* [y1-university](#y1-university)
+  * [CI401-Introduction-to-Programming](#ci401-introduction-to-programming)
+    * [Task 1 (50%) Simple Application (LO 1,2,3,4,5,6)](#task-1-50-simple-application-lo-123456)
+    * [Task 2 (50%) 1.5 hour examination (LO 1,2,3,4,5,6)](#task-2-50-15-hour-examination-lo-123456)
+  * [CI405-Computing-Technologies](#ci405-computing-technologies)
+    * [Task 1: 1 hour multiple choice examination 40% (LO 4, 5,6)](#task-1-1-hour-multiple-choice-examination-40-lo-4-56)
+    * [Task 2: Coursework 60% (LO 1-3)](#task-2-coursework-60-lo-1-3)
+  * [CI410-Introduction-to-Game-Design-and-Development](#ci410-introduction-to-game-design-and-development)
+    * [Task 1: Summative Assessment Report, 50% (LO 1,2)](#task-1-summative-assessment-report-50-lo-12)
+    * [Task 2: Summative Assessment Report, 50% (LO 1-4)](#task-2-summative-assessment-report-50-lo-1-4)
+  * [CI435-Introduction-to-Web-Development](#ci435-introduction-to-web-development)
+    * [Task 1: Coursework 50% (L.O.s 1, 2 and 3)](#task-1-coursework-50-los-1-2-and-3)
+    * [Task 2: 1.5 hour written examination 50% (L.O.s 1, 2, 3 and 4)](#task-2-15-hour-written-examination-50-los-1-2-3-and-4)
+  * [CI465-Working-in-the-Digital-and-Games-Industries](#ci465-working-in-the-digital-and-games-industries)
+    * [Task 1: Coursework 50% (LO1, LO3, LO4, LO5, LO6)](#task-1-coursework-50-lo1-lo3-lo4-lo5-lo6)
+    * [Task 2: Coursework 50% (LO1, LO2, LO4)](#task-2-coursework-50-lo1-lo2-lo4)
+  * [CI474-Introduction-to-3D-Modelling-and-Animation](#ci474-introduction-to-3d-modelling-and-animation)
+    * [Portfolio task 1: Production plan for animation project (LO1) (30%)](#portfolio-task-1-production-plan-for-animation-project-lo1-30)
+    * [Portfolio task 2: Finished 3D animated scene. (LO 2,3, 4) (70%)](#portfolio-task-2-finished-3d-animated-scene-lo-23-4-70)
+
 ## CI401-Introduction-to-Programming
 
 [Link to Specification](CI401-Introduction-to-Programming/CI401-Specification.pdf)
