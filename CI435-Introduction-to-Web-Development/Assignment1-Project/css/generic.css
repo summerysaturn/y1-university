@@ -1,0 +1,158 @@
+body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+/*
+* Column system like Bootstrap, but 4 instead of 12
+* https://www.w3schools.com/css/css_rwd_grid.asp
+*/
+
+[class*="col-"] {
+  width: 100%;
+}
+
+/*
+* Media rule to make columns 100% width below 576px. This makes it so that
+* mobile devices and small width viewports wont get a sidebar. Very similar
+* to bootstrap, just with less breakpoints.
+* https://www.w3schools.com/css/css_rwd_mediaqueries.asp
+*/
+
+@media (min-width: 768px) {
+  .col-1 {
+    width: 25%;
+  }
+  .col-2 {
+    width: 50%;
+  }
+  .col-3 {
+    width: 75%;
+  }
+  .col-4 {
+    width: 100%;
+  }
+
+  [class*="col-"] {
+    float: left;
+  }
+
+  .row::after {
+    clear: both;
+    display: table;
+  }
+
+  .sidebar {
+    position: fixed;
+    height: 100vh;
+  }
+
+  .container {
+    margin-left: 25%;
+  }
+}
+
+/*
+* Background colouring for header and footer
+*/
+
+header,
+footer {
+  background-color: #eee;
+}
+
+nav .h4 {
+  text-align: center;
+}
+
+/*
+* CSS to keep footer down
+* https://matthewjamestaylor.com/bottom-footer
+*/
+
+header {
+  background-color: #eee;
+  padding: 2rem;
+}
+
+.container {
+  min-height: 100vh;
+  position: relative;
+  word-wrap: break-word;
+}
+
+main {
+  padding-bottom: 6rem;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 3rem;
+  background-color: #eee;
+  padding: 1.5rem;
+  line-height: 1.5rem;
+}
+
+/*
+* Custom CSS
+*/
+
+button:focus {
+  outline: 1px dotted;
+  outline: 10px auto -webkit-focus-ring-color;
+}
+
+.sidebar {
+  background-color: #323;
+  color: white;
+  text-align: center;
+  padding: 2rem 0 2rem 0;
+}
+
+nav a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem;
+}
+
+.nav-box {
+  border-radius: 5px;
+  margin: 0 1rem 1rem 1rem;
+  background-color: #434;
+}
+
+.nav-active {
+  background-color: #535;
+}
+
+.sublinks {
+  padding-bottom: 8px;
+}
+
+.sublinks a {
+  text-align: start;
+  line-height: 0.4rem;
+  font-size: 14px;
+}
+
+.sublinks a::before {
+  content: "\2022  ";
+}
+
+.text-body {
+  padding: 1rem;
+}
+
+.text-muted {
+  color: #888;
+  text-decoration: none;
+}
