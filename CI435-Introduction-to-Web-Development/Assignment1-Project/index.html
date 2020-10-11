@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <!--
       https://www.w3schools.com/tags/tag_meta.asp
     -->
+    <title>CI435-01-Charlotte Ward</title>
     <meta charset="UTF-8" />
     <meta name="author" content="Charlotte Ward" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -16,10 +17,6 @@
       <nav id="navbar" class="nav">
         <div class="nav-box nav-active">
           <a href="#">Home</a>
-
-          <div class="sublinks">
-            <a href="#post1">Post 1</a>
-          </div>
         </div>
 
         <div class="nav-box">
@@ -28,29 +25,63 @@
         <div class="nav-box">
           <a href="contact.html">Contact</a>
         </div>
+
+        <hr class="nav-hr" />
+
+        <h3>Homepage Posts</h3>
+
+        <div class="nav-box nav-active">
+          <div class="sublinks">
+            <a href="#post1">W1 - Starting Out</a>
+            <a href="#post2">W2 - TODO</a>
+          </div>
+        </div>
       </nav>
     </div>
 
     <div class="container">
       <main>
-        <header id="post1">
-          <h1>Header Text</h1>
-          <h5 class="text-muted">Date written: 2020-10-08</h5>
-        </header>
+        <article>
+          <header id="post1">
+            <h1>W1 - Starting Out</h1>
+            <h5 class="text-muted">Date written: 2020-10-10</h5>
+          </header>
 
-        <div class="text-body">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-            ullamcorper dolor est, in interdum eros sollicitudin viverra. In hac
-            habitasse platea dictumst. Mauris interdum magna malesuada magna
-            eleifend vehicula. Phasellus sit amet ligula interdum, convallis
-            mauris eu, semper nunc. Interdum et malesuada fames ac ante ipsum
-            primis in faucibus. Ut pulvinar, lectus a condimentum elementum,
-            nisi tellus aliquet leo, id eleifend ligula lectus in magna.
-            Maecenas auctor tellus vitae erat dapibus rutrum. Integer non
-            convallis justo. Pellentesque viverra sed ipsum nec lobortis.
-          </p>
-        </div>
+          <div class="text-body">
+            <p>
+              This week was our introduction to the course, Computer Science for
+              Games, with multiple modules being introduced with various
+              assignments. Of these, the Game Design & Development Course is
+              definitely the most interesting to me because of the application
+              of knowledge it requires:
+            </p>
+            <ul>
+              <li>Learning how games work</li>
+              <li>Learning the theory behind 'fun'</li>
+              <li>Implementing these ideas in a way that creates fun</li>
+            </ul>
+            <p>
+              Overall, I'm also very interested with how the course is going.
+              Additionally, I've been putting some time into learning Rust, a
+              low-level language similar to C or C++, with an amazing compiler
+              that enforces safe-practices. I think that having knowledge in a
+              more complex language, when compared with Javascript and Python,
+              where I'm more experienced, will be a big benefit going forward.
+              Having the knowledge of how to write safe and fast code is a big
+              positive in my view.
+            </p>
+          </div>
+        </article>
+        <article>
+          <header id="post2">
+            <h1>W2 - TODO</h1>
+            <h5 class="text-muted">Date written: 2020-10-XX</h5>
+          </header>
+
+          <div class="text-body">
+            <p>Watch this space!</p>
+          </div>
+        </article>
       </main>
       <footer>
         <a href="https://summerysaturn.github.io/" class="text-muted"

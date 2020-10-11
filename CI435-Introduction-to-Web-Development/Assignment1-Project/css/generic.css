@@ -114,7 +114,7 @@ button:focus {
   background-color: #323;
   color: white;
   text-align: center;
-  padding: 2rem 0 2rem 0;
+  padding: 0;
 }
 
 nav a {
@@ -134,8 +134,13 @@ nav a {
   background-color: #535;
 }
 
+.nav-hr {
+  margin: 2rem 0 2rem 0;
+  color: #434;
+}
+
 .sublinks {
-  padding-bottom: 8px;
+  padding: 8px 0 8px 0;
 }
 
 .sublinks a {
