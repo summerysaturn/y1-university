@@ -51,6 +51,7 @@ body {
   .sidebar {
     position: fixed;
     height: 100vh;
+    padding: 0 !important;
   }
 
   .container {
@@ -114,7 +115,7 @@ button:focus {
   background-color: #323;
   color: white;
   text-align: center;
-  padding: 0;
+  padding: 1px 0 1px 0; /* For some reason 0px makes this look weird */
 }
 
 nav a {
