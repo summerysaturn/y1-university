@@ -102,10 +102,6 @@ footer {
   line-height: 1.5rem;
 }
 
-/*
-* Custom CSS
-*/
-
 button:focus {
   outline: 1px dotted;
   outline: 10px auto -webkit-focus-ring-color;
@@ -161,4 +157,23 @@ nav a {
 .text-muted {
   color: #888;
   text-decoration: none;
+}
+
+form {
+  width: 90%;
+}
+
+form label {
+  width: 95%;
+}
+
+form textarea {
+  resize: vertical;
+  padding: 0.5rem;
+  height: 8rem;
+}
+
+.textbox {
+  width: 95%;
+  margin-bottom: 1rem;
 }

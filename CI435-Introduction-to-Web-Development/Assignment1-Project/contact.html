@@ -30,35 +30,28 @@
     <div class="container">
       <main>
         <header id="post1">
-          <h1>Todo: Contact Form</h1>
+          <h1>Contact Form</h1>
         </header>
 
         <div class="text-body">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-            ullamcorper dolor est, in interdum eros sollicitudin viverra. In hac
-            habitasse platea dictumst. Mauris interdum magna malesuada magna
-            eleifend vehicula. Phasellus sit amet ligula interdum, convallis
-            mauris eu, semper nunc. Interdum et malesuada fames ac ante ipsum
-            primis in faucibus. Ut pulvinar, lectus a condimentum elementum,
-            nisi tellus aliquet leo, id eleifend ligula lectus in magna.
-            Maecenas auctor tellus vitae erat dapibus rutrum. Integer non
-            convallis justo. Pellentesque viverra sed ipsum nec lobortis.
-          </p>
+          <div style="display: flex; justify-content: center">
+            <form id="f">
+              <label for="f1">Full name</label><br />
+              <input class="textbox" id="f1" type="text" /><br />
 
-          <p>
-            Cras enim tellus, pharetra sit amet bibendum vel, laoreet at velit.
-            Donec dui justo, ullamcorper ac lorem sit amet, accumsan pulvinar
-            sem. Nam eleifend diam id orci bibendum, vitae finibus ipsum
-            consectetur. Integer vitae lorem in odio dignissim molestie. Duis et
-            nunc turpis. Cras vulputate magna eu dolor bibendum facilisis. In
-            hac habitasse platea dictumst. Integer efficitur rhoncus tortor, ac
-            suscipit elit blandit nec. Integer neque velit, posuere in suscipit
-            sit amet, tempor vel magna. Vestibulum ac consectetur metus. Mauris
-            bibendum viverra ultrices. Nulla id eros lacus. Nam non posuere mi,
-            vel mollis velit. Curabitur tincidunt, augue nec iaculis gravida,
-            tortor nunc imperdiet nisl, non vestibulum nisi ex ac ante.
-          </p>
+              <label for="f2">Email</label><br />
+              <input class="textbox" id="f2" type="email" /><br />
+
+              <label for="f3">Comment</label><br />
+              <textarea class="textbox" id="f3" form="f"></textarea><br />
+
+              <div style="display: flex; justify-content: center">
+                <br />
+
+                <input type="submit" value="Submit" /><br />
+              </div>
+            </form>
+          </div>
         </div>
       </main>
       <footer>
