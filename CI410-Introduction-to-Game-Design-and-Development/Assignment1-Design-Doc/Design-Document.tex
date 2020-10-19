@@ -1,0 +1,73 @@
+\documentclass{scrreprt}
+
+\usepackage[backend=biber,style=apa]{biblatex}
+\addbibresource{Design-Document.bib}
+\let\cite\textcite
+\let\citep\autocite
+
+\begin{document}
+\author{Charlotte Ward}
+\title{
+{\huge Cybersky - Design Document} \\
+{\small Shoot 'Em Up Game}
+}
+\maketitle
+
+\chapter{Game Rules}
+
+\section{Core Mechanics}
+
+\subsection{Basis}
+
+\subsubsection{Space Invaders (1978)}
+
+// TODO Research Space Invaders
+
+\subsubsection{Tempest (1981)}
+
+// TODO Research Tempest
+
+\subsubsection{Giga Wing (1999)}
+
+// TODO Research Giga Wing
+
+\subsubsection{Ikaruga (2001)}
+
+// TODO Research Ikaruga
+
+\section{Design}
+
+\paragraph{}
+
+According to \cite{Techlector001}, phone aspect ratios fall into three major categories: 16:9, 18:9 and 19:9. The former ratio is described as the most common, being in use since around 2010. This ratio is also common in computer displays.
+
+\paragraph{}
+
+Phone screen sizes in the United Kingdom. \citep{DeviceAtlas2019}
+
+\begin{tabular}{ c c c c }
+
+  Place & Screen resolution & Share   & Aspect Ratio \\
+
+  1.    & 750x1334          & 24.35\% & 9:16         \\
+
+  2.    & 1080x1920         & 17.97\% & 9:16         \\
+
+  3.    & 1440x2960         & 13.54\% & 9:18.5       \\
+
+  4.    & 640x1136          & 7.30\%  & 9:16         \\
+
+  5.    & 720x1280          & 7.29\%  & 9:16         \\
+\end{tabular}
+
+\paragraph{}
+
+Using this data, it's unclear exactly how prevalent the newer, taller screen sizes are in the general market. This data doesn't necessarily represent my target audience, and as such may skew the result towards a different value.
+
+\chapter{Scoring}
+
+\chapter{Reward Mechanics}
+
+\printbibliography
+
+\end{document}
