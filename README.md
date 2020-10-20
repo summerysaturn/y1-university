@@ -8,173 +8,59 @@ This repository contains the specifications for my course and is going to be use
 
 :warning: :warning: :warning:
 
+## Table of Contents
+
 * [Year 1 content for Computer Science for Games :sparkles:](#year-1-content-for-computer-science-for-games-sparkles)
+  * [Table of Contents](#table-of-contents)
   * [CI401-Introduction-to-Programming](#ci401-introduction-to-programming)
-    * [Task 1 (50%) Simple Application (LO 1,2,3,4,5,6)](#task-1-50-simple-application-lo-123456)
-    * [Task 2 (50%) 1.5 hour examination (LO 1,2,3,4,5,6)](#task-2-50-15-hour-examination-lo-123456)
   * [CI405-Computing-Technologies](#ci405-computing-technologies)
-    * [Task 1: 1 hour multiple choice examination 40% (LO 4, 5,6)](#task-1-1-hour-multiple-choice-examination-40-lo-4-56)
-    * [Task 2: Coursework 60% (LO 1-3)](#task-2-coursework-60-lo-1-3)
   * [CI410-Introduction-to-Game-Design-and-Development](#ci410-introduction-to-game-design-and-development)
-    * [Task 1: Summative Assessment Report, 50% (LO 1,2)](#task-1-summative-assessment-report-50-lo-12)
-    * [Task 2: Summative Assessment Report, 50% (LO 1-4)](#task-2-summative-assessment-report-50-lo-1-4)
   * [CI435-Introduction-to-Web-Development](#ci435-introduction-to-web-development)
-    * [Task 1: Coursework 50% (L.O.s 1, 2 and 3)](#task-1-coursework-50-los-1-2-and-3)
-    * [Task 2: 1.5 hour written examination 50% (L.O.s 1, 2, 3 and 4)](#task-2-15-hour-written-examination-50-los-1-2-3-and-4)
   * [CI465-Working-in-the-Digital-and-Games-Industries](#ci465-working-in-the-digital-and-games-industries)
-    * [Task 1: Coursework 50% (LO1, LO3, LO4, LO5, LO6)](#task-1-coursework-50-lo1-lo3-lo4-lo5-lo6)
-    * [Task 2: Coursework 50% (LO1, LO2, LO4)](#task-2-coursework-50-lo1-lo2-lo4)
   * [CI474-Introduction-to-3D-Modelling-and-Animation](#ci474-introduction-to-3d-modelling-and-animation)
-    * [Portfolio task 1: Production plan for animation project (LO1) (30%)](#portfolio-task-1-production-plan-for-animation-project-lo1-30)
-    * [Portfolio task 2: Finished 3D animated scene. (LO 2,3, 4) (70%)](#portfolio-task-2-finished-3d-animated-scene-lo-23-4-70)
 
 ## CI401-Introduction-to-Programming
 
-[comment]: <> (//NOTE: CI401 Introduction to Programming)
+[Link to CI401 Page](https://github.com/summerysaturn/y1-university/tree/main/CI401-Introduction-to-Programming)
 
-> The module is the entry level programming module and will introduce the student to the fundamental concepts and skills required to write simple programs in a high-level language
-
-[Link to Specification](CI401-Introduction-to-Programming/CI401-Specification.pdf)
-
-### Task 1 (50%) Simple Application (LO 1,2,3,4,5,6)
-
-**Due: Unknown**
-
-As part of their guided independent study and weekly lab classes, students will create a simple application. This coursework requires each student to submit their application and a technical report which explains how their code works. (17.5 hours)
-
-### Task 2 (50%) 1.5 hour examination (LO 1,2,3,4,5,6)
-
-**Due: Unknown**
-
-The examination is open book: students are permitted to bring in a hard
-copy workbook of material relating to the practical exercises done in
-class.
+Waiting on assignment: [Link to MyStudies](https://studentcentral.brighton.ac.uk/webapps/blackboard/content/listContent.jsp?course_id=_115415_1&content_id=_3597841_1&mode=reset)
 
 ## CI405-Computing-Technologies
 
-[comment]: <> (//NOTE: CI405 Computing Technologies)
+[Link to CI405 Page](https://github.com/summerysaturn/y1-university/tree/main/CI405-Computing-Technologies)
 
-> The module enables students to gain an understanding of the basic principles underlying the architecture and operations of a computer system including the storage and retrieval of data.
-
-[Link to Specification](CI405-Computing-Technologies/CI405-Specification.pdf)
-
-### Task 1: 1 hour multiple choice examination 40% (LO 4, 5,6)
-
-**Due: Unknown**
-
-The unseen examination assesses knowledge and skills mainly gained
-through practical exercises undertaken in semester 1 lab classes.
-
-### Task 2: Coursework 60% (LO 1-3)
-
-**Due: Unknown**
-
-Students create a learning journal based on a set of lab exercises.
-Each student will submit their learning journal demonstrating and
-evaluating their completed work. (equivalent to 1,750 words).
+Waiting on assignment: [Link to MyStudies](https://studentcentral.brighton.ac.uk/webapps/blackboard/content/listContent.jsp?course_id=_115410_1&content_id=_3597771_1&mode=reset)
 
 ## CI410-Introduction-to-Game-Design-and-Development
 
-[comment]: <> (//NOTE: CI410 Introduction to Game Design and Development)
+[Link to CI410 Page](https://github.com/summerysaturn/y1-university/tree/main/CI410-Introduction-to-Game-Design-and-Development)
 
-> This module explores the methods and techniques used to design and build computer games. Students are taught how to:
-> - Analyse and deconstruct complex game systems in order to assess their entertainment value
-> - Turn original game designs into working prototypes
+1,750 word design report for a small mobile game.
 
-[Link to Specification](CI410-Introduction-to-Game-Design-and-Development/CI410-Specification.pdf)
+Assignment 1: <https://github.com/summerysaturn/y1-university/milestone/1>
 
-As part of their guided independent study and tutorial exercises, each student will develop a prototype game of their own design. The task will require the submission of the prototype and the source code. Each student will submit a reflective report addressing the implementation of their game.
-
-### Task 1: Summative Assessment Report, 50% (LO 1,2)
-
-**Due: Friday 15th January (2021-01-15) @ 15:00**
-
-Game Design
-
-This task will require the creation and submission of a report that documents the design of an original 2D game.
-
-### Task 2: Summative Assessment Report, 50% (LO 1-4)
-
-**Due: Friday 21st May (2021-05-21) @ 15:00**
-
-Game prototype.
+[Link to Brief](https://github.com/summerysaturn/y1-university/blob/main/CI410-Introduction-to-Game-Design-and-Development/CI410%20CW1%20Brief.pdf)
 
 ## CI435-Introduction-to-Web-Development
 
-[comment]: <> (//NOTE: CI435 Introduction to Web Development)
+[Link to CI435 Page](https://github.com/summerysaturn/y1-university/tree/main/CI435-Introduction-to-Web-Development)
 
-> This module will introduce a range of current web technologies, equipping students to build basic standards-compliant static and interactive web pages.
+Assignment 1: <https://github.com/summerysaturn/y1-university/milestone/2>
 
-[Link to Specification](CI435-Introduction-to-Web-Development/CI435-Specification.pdf)
-
-### Task 1: Coursework 50% (L.O.s 1, 2 and 3)
-
-**Due: Unknown**
-
-Students make a 2-3 page website including a blog-style learning journal with weekly posts, contact form and an independently produced page on a given topic. This work is undertaken during weekly taught lab classes and guided independent study time.
-
-The task requires the submission of a URL and the source files for the validated web pages - 17.5 hours of effort to prepare and complete.
-
-### Task 2: 1.5 hour written examination 50% (L.O.s 1, 2, 3 and 4)
-
-**Due: Unknown**
-
-The unseen examination assesses the knowledge and skill mainly
-gained through practical exercises undertaken in semester 2 lab
-classes. The examination is open book: students are permitted to bring
-in a hard copy workbook of material relating to the practical exercises
-done in class.
+[Link to Brief](https://github.com/summerysaturn/y1-university/blob/main/CI435-Introduction-to-Web-Development/CI435_Sem1_Assignment_2020.pdf)
 
 ## CI465-Working-in-the-Digital-and-Games-Industries
 
-[comment]: <> (//NOTE: CI465 Working in the Digital and Games Industries)
+[Link to CI465 Page](https://github.com/summerysaturn/y1-university/tree/main/CI465-Working-in-the-Digital-and-Games-Industries)
 
-> The module introduces students to the digital and games industries context and working practices, using the Brighton & Hove digital sector as a case study. Students prepare for work experience applications by producing a personal digital portfolio and managing their professional online presence. The module integrates an introduction to the University learning environment and a foundation in academic study skills.
+Assignment 1: <https://github.com/summerysaturn/y1-university/milestone/4>
 
-[Link to Specification](CI465-Working-in-the-Digital-and-Games-Industries/CI465-Specification.pdf)
-
-### Task 1: Coursework 50% (LO1, LO3, LO4, LO5, LO6)
-
-**Due: Unknown**
-
-Project done in groups of 3-4, investigating a company in the digital or games sector. Students can choose to be assessed by one of the following -
-
-a) A 3,000 word group report, plus an individual statement of
-contribution to the group effort
-
-b) A 30 minute group slideshow presentation, including questions
-
-c) A 5-6 minute video production, hosted online, plus an individual
-statement of contribution to the group effort
-
-### Task 2: Coursework 50% (LO1, LO2, LO4)
-
-**Due: Unknown**
-
-Individual project producing an online portfolio of work, including social media presence and a conventional CV. The work of producing the portfolio is done in scheduled lab workshops and practice-based independent study. The task requires the submission of a URL and, if appropriate, the source files and assets for the portfolio artefact. Students can choose for their portfolio to be assessed by one of the following -
-
-a) 15 minute presentation, including questions, demonstrating the
-portfolio to the tutor and peers
-
-b) 1,500 word report explaining the rationale for the work and
-reflecting on how the assessment brief has been met
+[Link to Brief](https://github.com/summerysaturn/y1-university/blob/main/CI465-Working-in-the-Digital-and-Games-Industries/CI465%20Assessment%201%20Brief.pdf)
 
 ## CI474-Introduction-to-3D-Modelling-and-Animation
 
-[comment]: <> (//NOTE: CI474 Introduction to 3D Modelling and Animation)
+[Link to CI474 Page](https://github.com/summerysaturn/y1-university/tree/main/CI474-Introduction-to-3D-Modelling-and-Animation)
 
-> This module will provide an introduction to the foundations of 3D computer graphics and basic animation. Covering the fundamentals of basic 3D design, modelling, texturing, simple lighting and animation, students will on completion be able to create simple 3D animated rendered sequences for multi format delivery.
+Assignment 1: <https://github.com/summerysaturn/y1-university/milestone/3>
 
-[Link to Specification](CI474-Introduction-to-3D-Modelling-and-Animation/CI474-Specification.pdf)
-
-### Portfolio task 1: Production plan for animation project (LO1) (30%)
-
-**Due: Thursday 21st January (2021-01-21) @ 15:00**
-
-As part of their guided independent study and lab/tutorial exercises, students will complete a production plan for animated sequence. The task will require the submission of the Storyboard, Concept Art and a short reflective report (approximately 1,000 words).
-
-### Portfolio task 2: Finished 3D animated scene. (LO 2,3, 4) (70%)
-
-**Due: Thursday 21st January (2021-05-21) @ 15:00**
-
-As part of their guided independent study and lab/tutorial exercises, students will complete a short animated sequence. The task will require the submission of the finished 3D scene with associated files, rendered animated sequence and a short reflective report of (approximately 2,000 words).
+[Link to Brief](https://github.com/summerysaturn/y1-university/blob/main/CI474-Introduction-to-3D-Modelling-and-Animation/CI474%20Portfolio%201%20Brief2020-21%20.pdf)
