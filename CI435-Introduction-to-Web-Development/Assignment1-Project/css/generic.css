@@ -177,3 +177,10 @@ form textarea {
   width: 95%;
   margin-bottom: 1rem;
 }
+
+.text-monospace {
+  font-family: monospace;
+  background-color: #ddd;
+  padding: 0.25em 0.4em;
+  border-radius: 0.25rem;
+}
