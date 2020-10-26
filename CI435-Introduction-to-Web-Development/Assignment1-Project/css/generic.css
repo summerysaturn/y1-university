@@ -184,3 +184,18 @@ form textarea {
   padding: 0.25em 0.4em;
   border-radius: 0.25rem;
 }
+
+.terminal-ul {
+  font-family: monospace;
+  background-color: #ddd;
+  padding: 0.5em 2em;
+  border-radius: 0.25rem;
+}
+
+.terminal-ul li::marker {
+  content: "";
+}
+
+.terminal-ul li::before {
+  content: "$ ";
+}
