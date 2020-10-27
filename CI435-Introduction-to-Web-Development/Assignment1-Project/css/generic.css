@@ -54,6 +54,10 @@ body {
     padding: 0 !important;
   }
 
+  .sidebar img {
+    width: 50% !important;
+  }
+
   .container {
     margin-left: 25%;
   }
@@ -82,7 +86,7 @@ button:focus {
 }
 
 .sidebar img {
-  width: 50%;
+  width: 10rem;
   margin-top: 1.5rem;
 }
 
@@ -92,7 +96,7 @@ button:focus {
 
 nav a {
   display: block;
-  color: white;
+  color: white !important;
   text-decoration: none;
   padding: 0.5rem;
 }
@@ -181,20 +185,17 @@ form textarea {
   content: "$ ";
 }
 
-.bibliography a {
-  color: #000;
-}
-
-.bibliography a:visited {
-  color: #333;
-}
-
 .bibliography h4 {
   margin-bottom: 0.4rem;
 }
 
 a {
+  color: #444;
   text-decoration: none;
+}
+
+a:visited {
+  color: #666;
 }
 
 a:hover {
