@@ -13,7 +13,9 @@
 
   <body>
     <div class="col-1 sidebar">
-      <h3>Lyla's Page</h3>
+      <img src="image/mask-2-colour.png" />
+      <h3>Lottie's Page</h3>
+
       <nav id="navbar" class="nav">
         <div class="nav-box">
           <a href="index.html">Home</a>
@@ -29,41 +31,47 @@
 
     <div class="container">
       <main>
-        <header id="post1">
-          <h1>Contact Form</h1>
-        </header>
+        <article>
+          <header id="post1">
+            <div class="text-container">
+              <h1>Contact Form</h1>
+            </div>
+          </header>
 
-        <div class="text-body">
-          <div style="display: flex; justify-content: center">
-            <form id="f">
-              <label for="f1">Full name</label><br />
-              <input class="textbox" id="f1" type="text" /><br />
+          <div class="text-container">
+            <div style="display: flex; justify-content: center">
+              <form id="f">
+                <label for="f1">Full name</label><br />
+                <input class="textbox" id="f1" type="text" /><br />
 
-              <label for="f2">Email</label><br />
-              <input class="textbox" id="f2" type="email" /><br />
+                <label for="f2">Email</label><br />
+                <input class="textbox" id="f2" type="email" /><br />
 
-              <label for="f3">Comment</label><br />
-              <textarea class="textbox" id="f3" form="f"></textarea><br />
+                <label for="f3">Comment</label><br />
+                <textarea class="textbox" id="f3" form="f"></textarea><br />
 
-              <div style="display: flex; justify-content: center">
-                <br />
+                <div style="display: flex; justify-content: center">
+                  <br />
 
-                <input type="submit" value="Submit" /><br />
-              </div>
-            </form>
+                  <input type="submit" value="Submit" /><br />
+                </div>
+              </form>
+            </div>
           </div>
-        </div>
+        </article>
       </main>
       <footer>
-        <a href="https://summerysaturn.github.io/" class="text-muted"
-          >Check out my other work</a
-        >
-        <br />
-        <a
-          href="https://github.com/summerysaturn/y1-university/tree/main/CI435-Introduction-to-Web-Development/Assignment1-Project/"
-          class="text-muted"
-          >This site's source code</a
-        >
+        <div class="text-container">
+          <a href="https://summerysaturn.github.io/" class="text-muted"
+            >My GitHub</a
+          >
+          <span class="text-muted">|</span>
+          <a
+            href="https://github.com/summerysaturn/y1-university/tree/main/CI435-Introduction-to-Web-Development/Assignment1-Project/"
+            class="text-muted"
+            >Site Source Code</a
+          >
+        </div>
       </footer>
     </div>
   </body>

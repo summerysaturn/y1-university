@@ -57,49 +57,16 @@ body {
   .container {
     margin-left: 25%;
   }
-}
 
-/*
-* Background colouring for header and footer
-*/
-
-header,
-footer {
-  background-color: #eee;
+  .text-container {
+    max-width: 720px;
+    margin-right: auto;
+    margin-left: auto;
+  }
 }
 
 nav .h4 {
   text-align: center;
-}
-
-/*
-* CSS to keep footer down
-* https://matthewjamestaylor.com/bottom-footer
-*/
-
-header {
-  background-color: #eee;
-  padding: 2rem;
-}
-
-.container {
-  min-height: 100vh;
-  position: relative;
-  word-wrap: break-word;
-}
-
-main {
-  padding-bottom: 6rem;
-}
-
-footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 3rem;
-  background-color: #eee;
-  padding: 1.5rem;
-  line-height: 1.5rem;
 }
 
 button:focus {
@@ -112,6 +79,15 @@ button:focus {
   color: white;
   text-align: center;
   padding: 1px 0 1px 0; /* For some reason 0px makes this look weird */
+}
+
+.sidebar img {
+  width: 50%;
+  margin-top: 1.5rem;
+}
+
+.sidebar h3 {
+  margin: 0 0 2rem 0;
 }
 
 nav a {
@@ -150,8 +126,13 @@ nav a {
   content: "\2022  ";
 }
 
-.text-body {
+.text-container {
   padding: 1rem;
+  text-align: justify;
+}
+
+.text-container img {
+  max-width: 100%;
 }
 
 .text-muted {
@@ -160,11 +141,11 @@ nav a {
 }
 
 form {
-  width: 90%;
+  width: 100%;
 }
 
 form label {
-  width: 95%;
+  width: 100%;
 }
 
 form textarea {
@@ -180,15 +161,15 @@ form textarea {
 
 .text-monospace {
   font-family: monospace;
-  background-color: #ddd;
-  padding: 0.25em 0.4em;
+  background-color: #eee;
+  padding: 0.25rem 0.4rem;
   border-radius: 0.25rem;
 }
 
 .terminal-ul {
   font-family: monospace;
-  background-color: #ddd;
-  padding: 0.5em 2em;
+  background-color: #eee;
+  padding: 0.6rem 1.2rem;
   border-radius: 0.25rem;
 }
 
@@ -198,4 +179,51 @@ form textarea {
 
 .terminal-ul li::before {
   content: "$ ";
+}
+
+.bibliography a {
+  color: #000;
+}
+
+.bibliography a:visited {
+  color: #333;
+}
+
+.bibliography h4 {
+  margin-bottom: 0.4rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/*
+* CSS to keep footer down
+* https://matthewjamestaylor.com/bottom-footer
+*/
+
+header {
+  background-color: #eee;
+  padding: 1rem;
+}
+
+.container {
+  min-height: 100vh;
+  position: relative;
+  word-wrap: break-word;
+}
+
+main {
+  padding-bottom: 3rem;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #eee;
 }
