@@ -18,23 +18,23 @@ This repository contains the specifications for my course and is going to be use
 
 | Module                                                                                                              | Deliverable               | Issues                                                          | Deadline   | Done?              |
 | :------------------------------------------------------------------------------------------------------------------ | :------------------------ | :-------------------------------------------------------------- | :--------: | :----------------: |
-| [CI401](https://github.com/summerysaturn/y1-university/tree/main/CI401-Introduction-to-Programming)                 | Exam                      | :question:                                                      | :question: | :x:                |
-| [CI405](https://github.com/summerysaturn/y1-university/tree/main/CI405-Computing-Technologies)                      | Exam                      | :question:                                                      | :question: | :x:                |
+| [CI401](https://github.com/summerysaturn/y1-university/tree/main/CI401-Introduction-to-Programming)                 | Open Book Exam            | :question:                                                      | :question: | :x:                |
+| [CI405](https://github.com/summerysaturn/y1-university/tree/main/CI405-Computing-Technologies)                      | Multiple Choice Exam      | :question:                                                      | :question: | :x:                |
 | [CI410](https://github.com/summerysaturn/y1-university/tree/main/CI410-Introduction-to-Game-Design-and-Development) | 1,750 Word Report         | [#11](https://github.com/summerysaturn/y1-university/issues/11) | 2021-01-15 | :heavy_check_mark: |
 | [CI435](https://github.com/summerysaturn/y1-university/tree/main/CI435-Introduction-to-Web-Development)             | Website Zip               | [#6](https://github.com/summerysaturn/y1-university/issues/6)   | 2021-01-15 | :heavy_check_mark: |
-| [CI465](https://github.com/summerysaturn/y1-university/tree/main/CI465-Working-in-the-Digital-and-Games-Industries) | Group Video Report        | [#13](https://github.com/summerysaturn/y1-university/issues/13) | 2021-02-12 | :x:                |
-| [CI474](https://github.com/summerysaturn/y1-university/tree/main/CI474-Introduction-to-3D-Modelling-and-Animation)  | Report, Storyboard, Scene | [#5](https://github.com/summerysaturn/y1-university/issues/5)   | 2021-02-18 | :x:                |
+| [CI465](https://github.com/summerysaturn/y1-university/tree/main/CI465-Working-in-the-Digital-and-Games-Industries) | Group Video Report        | [#13](https://github.com/summerysaturn/y1-university/issues/13) | 2021-01-15 | :x:                |
+| [CI474](https://github.com/summerysaturn/y1-university/tree/main/CI474-Introduction-to-3D-Modelling-and-Animation)  | Report, Storyboard, Scene | [#5](https://github.com/summerysaturn/y1-university/issues/5)   | 2021-01-21 | :x:                |
 
 ### Assignment 2
 
-| Module                                                                                                              | Deliverable | Issues     | Deadline   | Done? |
-| :------------------------------------------------------------------------------------------------------------------ | :---------- | :--------- | :--------: | :---: |
-| [CI401](https://github.com/summerysaturn/y1-university/tree/main/CI401-Introduction-to-Programming)                 | Simple App  | :question: | :question: | :x:   |
-| [CI405](https://github.com/summerysaturn/y1-university/tree/main/CI405-Computing-Technologies)                      | :question:  | :question: | :question: | :x:   |
-| [CI410](https://github.com/summerysaturn/y1-university/tree/main/CI410-Introduction-to-Game-Design-and-Development) | :question:  | :question: | :question: | :x:   |
-| [CI435](https://github.com/summerysaturn/y1-university/tree/main/CI435-Introduction-to-Web-Development)             | :question:  | :question: | :question: | :x:   |
-| [CI465](https://github.com/summerysaturn/y1-university/tree/main/CI465-Working-in-the-Digital-and-Games-Industries) | :question:  | :question: | :question: | :x:   |
-| [CI474](https://github.com/summerysaturn/y1-university/tree/main/CI474-Introduction-to-3D-Modelling-and-Animation)  | :question:  | :question: | :question: | :x:   |
+| Module                                                                                                              | Deliverable                                         | Issues     | Deadline   | Done? |
+| :------------------------------------------------------------------------------------------------------------------ | :-------------------------------------------------- | :--------- | :--------: | :---: |
+| [CI401](https://github.com/summerysaturn/y1-university/tree/main/CI401-Introduction-to-Programming)                 | Simple App                                          | :question: | :question: | :x:   |
+| [CI405](https://github.com/summerysaturn/y1-university/tree/main/CI405-Computing-Technologies)                      | Learning Journal Labs                               | :question: | :question: | :x:   |
+| [CI410](https://github.com/summerysaturn/y1-university/tree/main/CI410-Introduction-to-Game-Design-and-Development) | Game Prototype                                      | :question: | :question: | :x:   |
+| [CI435](https://github.com/summerysaturn/y1-university/tree/main/CI435-Introduction-to-Web-Development)             | Open Book Exam                                      | :question: | :question: | :x:   |
+| [CI465](https://github.com/summerysaturn/y1-university/tree/main/CI465-Working-in-the-Digital-and-Games-Industries) | Portfolio, CV, Social Media, etc                    | :question: | :question: | :x:   |
+| [CI474](https://github.com/summerysaturn/y1-university/tree/main/CI474-Introduction-to-3D-Modelling-and-Animation)  | Animated Scene, Reflective Report                   | :question: | :question: | :x:   |
 
 ## Usage Notes
 
