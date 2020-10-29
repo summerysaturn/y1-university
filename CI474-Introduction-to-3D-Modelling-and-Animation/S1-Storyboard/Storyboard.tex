@@ -1,30 +1,79 @@
-\documentclass{scrartcl}
+\documentclass{article}
 
-% Bibliography Preamble
-\usepackage[backend=biber,style=apa,sorting=none]{biblatex}
-\addbibresource{Storyboard.bib}
-\let\cite\textcite
-\let\citep\autocite
-
-% Graphic / Figure Preamble
 \usepackage{graphicx}
-\graphicspath{{img/}}
-
-\usepackage{hyperref}
+\usepackage{caption}
+\usepackage[a4paper,landscape,margin=1in]{geometry}
+\usepackage[capbesideposition={top},facing=yes,capbesidesep=quad]{floatrow}
 
 \begin{document}
-\author{Charlotte Ward}
-\title{3D Modelling and Animation \\ Semester 1 Project Storyboard}
-\maketitle
 
-\section*{Frame 1}
+\begin{figure}[!ht]
+  \fcapside
+  {
+    \captionsetup{labelformat=empty}
+    \caption{Frame 1:}
+  }
+  {\includegraphics[width=0.45\textwidth]{Frame1.png}}
+\end{figure}
 
-\section*{Frame 2}
+\begin{figure}[!ht]
+  \fcapside
+  {
+    \captionsetup{labelformat=empty}
+    \caption{Frame 2:}
+  }
+  {\includegraphics[width=0.45\textwidth]{Frame2.png}}
+\end{figure}
 
-\section*{Frame 3}
+\pagebreak
 
-\section*{Frame 4}
+\begin{figure}[!ht]
+  \fcapside
+  {
+    \captionsetup{labelformat=empty}
+    \caption{Frame 3:}
+  }
+  {\includegraphics[width=0.45\textwidth]{Frame3.png}}
+\end{figure}
 
-\printbibliography
+\begin{figure}[!ht]
+  \fcapside
+  {
+    \captionsetup{labelformat=empty}
+    \caption{Frame 4:}
+  }
+  {\includegraphics[width=0.45\textwidth]{Frame4.png}}
+\end{figure}
+
+\pagebreak
+
+\begin{figure}[!ht]
+  \fcapside
+  {
+    \captionsetup{labelformat=empty}
+    \caption{Frame 5:}
+  }
+  {\includegraphics[width=0.45\textwidth]{Frame5.png}}
+\end{figure}
+
+\begin{figure}[!ht]
+  \fcapside
+  {
+    \captionsetup{labelformat=empty}
+    \caption{Frame 6:}
+  }
+  {\includegraphics[width=0.45\textwidth]{Frame6.png}}
+\end{figure}
+
+\pagebreak
+
+\begin{figure}[!ht]
+  \fcapside
+  {
+    \captionsetup{labelformat=empty}
+    \caption{Frame 7:}
+  }
+  {\includegraphics[width=0.45\textwidth]{Frame7.png}}
+\end{figure}
 
 \end{document}
