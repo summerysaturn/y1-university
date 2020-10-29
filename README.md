@@ -16,25 +16,25 @@ This repository contains the specifications for my course and is going to be use
 
 ### Assignment 1
 
-| Module | Deliverable | Issues | Done? | Deadline |
-| :- | :-: | :-: | :-: | -: |
-| [CI401] | Exam | :question: | :x: | :question: |
-| [CI405] | Exam | :question: | :x: | :question: |
-| [CI410] | 1,750 Word Report | [#11](https://github.com/summerysaturn/y1-university/issues/11) | :heavy_check_mark: | :question: |
-| [CI435] | Website Zip | [#6](https://github.com/summerysaturn/y1-university/issues/6) | :heavy_check_mark: | :question: |
-| [CI465] | Group Video Report | [#13](https://github.com/summerysaturn/y1-university/issues/13) | :x: | :question: |
-| [CI474] | Report, Storyboard, Scene | [#5](https://github.com/summerysaturn/y1-university/issues/5) | :x: | :question: |
+| Module                                                                                                              | Deliverable               | Issues                                                          | Done?              | Deadline   |
+| :------------------------------------------------------------------------------------------------------------------ | :-----------------------: | :-------------------------------------------------------------: | :----------------: | ---------: |
+| [CI401](https://github.com/summerysaturn/y1-university/tree/main/CI401-Introduction-to-Programming)                 | Exam                      | :question:                                                      | :x:                | :question: |
+| [CI405](https://github.com/summerysaturn/y1-university/tree/main/CI405-Computing-Technologies)                      | Exam                      | :question:                                                      | :x:                | :question: |
+| [CI410](https://github.com/summerysaturn/y1-university/tree/main/CI410-Introduction-to-Game-Design-and-Development) | 1,750 Word Report         | [#11](https://github.com/summerysaturn/y1-university/issues/11) | :heavy_check_mark: | :question: |
+| [CI435](https://github.com/summerysaturn/y1-university/tree/main/CI435-Introduction-to-Web-Development)             | Website Zip               | [#6](https://github.com/summerysaturn/y1-university/issues/6)   | :heavy_check_mark: | :question: |
+| [CI465](https://github.com/summerysaturn/y1-university/tree/main/CI465-Working-in-the-Digital-and-Games-Industries) | Group Video Report        | [#13](https://github.com/summerysaturn/y1-university/issues/13) | :x:                | :question: |
+| [CI474](https://github.com/summerysaturn/y1-university/tree/main/CI474-Introduction-to-3D-Modelling-and-Animation)  | Report, Storyboard, Scene | [#5](https://github.com/summerysaturn/y1-university/issues/5)   | :x:                | :question: |
 
 ### Assignment 2
 
-| Module | Deliverable | Issues | Done? | Deadline |
-| :- | :-: | :-: | :-: | -: |
-| [CI401] | :question: | :question: | :x: | :question: |
-| [CI405] | :question: | :question: | :x: | :question: |
-| [CI410] | :question: | :question: | :x: | :question: |
-| [CI435] | :question: | :question: | :x: | :question: |
-| [CI465] | :question: | :question: | :x: | :question: |
-| [CI474] | :question: | :question: | :x: | :question: |
+| Module                                                                                                              | Deliverable | Issues     | Done? | Deadline   |
+| :------------------------------------------------------------------------------------------------------------------ | :---------: | :--------: | :---: | ---------: |
+| [CI401](https://github.com/summerysaturn/y1-university/tree/main/CI401-Introduction-to-Programming)                 | :question:  | :question: | :x:   | :question: |
+| [CI405](https://github.com/summerysaturn/y1-university/tree/main/CI405-Computing-Technologies)                      | :question:  | :question: | :x:   | :question: |
+| [CI410](https://github.com/summerysaturn/y1-university/tree/main/CI410-Introduction-to-Game-Design-and-Development) | :question:  | :question: | :x:   | :question: |
+| [CI435](https://github.com/summerysaturn/y1-university/tree/main/CI435-Introduction-to-Web-Development)             | :question:  | :question: | :x:   | :question: |
+| [CI465](https://github.com/summerysaturn/y1-university/tree/main/CI465-Working-in-the-Digital-and-Games-Industries) | :question:  | :question: | :x:   | :question: |
+| [CI474](https://github.com/summerysaturn/y1-university/tree/main/CI474-Introduction-to-3D-Modelling-and-Animation)  | :question:  | :question: | :x:   | :question: |
 
 ## Usage Notes
 
