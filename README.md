@@ -2,41 +2,12 @@
 
 # Year 1 content for Computer Science for Games :sparkles:
 
-* [Year 1 content for Computer Science for Games :sparkles:](#year-1-content-for-computer-science-for-games-sparkles)
-  * [Introductory Note](#introductory-note)
-  * [Progress Chart](#progress-chart)
-    * [Assignment 1](#assignment-1)
-    * [Assignment 2](#assignment-2)
-  * [Usage Notes](#usage-notes)
-    * [CI410](#ci410)
-    * [CI435](#ci435)
-  * [CI401 Programming](#ci401-programming)
-    * [Specification Link](#specification-link)
-    * [CI401 Assignment 1](#ci401-assignment-1)
-    * [CI401 Assignment 2](#ci401-assignment-2)
-  * [CI405 Comp Tech](#ci405-comp-tech)
-    * [Specification Link](#specification-link-1)
-    * [CI405 Assignment 1](#ci405-assignment-1)
-    * [CI405 Assignment 2](#ci405-assignment-2)
-  * [CI410 Game Design](#ci410-game-design)
-    * [Specification Link](#specification-link-2)
-    * [CI410 Assignment 1](#ci410-assignment-1)
-    * [CI410 Assignment 2](#ci410-assignment-2)
-  * [CI435 Web Dev](#ci435-web-dev)
-    * [Specification Link](#specification-link-3)
-    * [CI435 Assignment 1](#ci435-assignment-1)
-    * [CI435 Assignment 2](#ci435-assignment-2)
-  * [CI465 D&G Industries](#ci465-dg-industries)
-    * [Specification Link](#specification-link-4)
-    * [CI465 Assignment 1](#ci465-assignment-1)
-      * [CI465 A1 Breakdown](#ci465-a1-breakdown)
-    * [CI465 Assignment 2](#ci465-assignment-2)
-  * [CI474 3D M&A](#ci474-3d-ma)
-    * [Specification Link](#specification-link-5)
-    * [CI474 Assignment 1](#ci474-assignment-1)
-      * [CI474 A1 Breakdown](#ci474-a1-breakdown)
-    * [CI474 Assignment 2](#ci474-assignment-2)
-      * [CI474 A2 Breakdown](#ci474-a2-breakdown)
+* [CI401 Programming](#ci401-programming)
+* [CI405 Computing Technologies](#ci405-comp-tech)
+* [CI410 Game Design & Development](#ci410-game-design)
+* [CI435 Web Development](#ci435-web-dev)
+* [CI465 Digital & Games Industries](#ci465-dg-industries)
+* [CI474 3D Modelling & Animation](#ci474-3d-ma)
 
 ## Introductory Note
 
@@ -50,9 +21,9 @@ This repository contains the specifications for my course and is going to be use
  :warning: :warning: :warning:
 </h3>
 
-## Progress Chart
+![Progress Chart](.github/progress-chart.png)
 
-### Assignment 1
+### A1 Progress Chart
 
 | Module | Deliverable               | Issues                                                          | Deadline   | Done?              |
 | :----- | :------------------------ | :-------------------------------------------------------------- | :--------: | :----------------: |
@@ -63,7 +34,7 @@ This repository contains the specifications for my course and is going to be use
 | CI465  | Group Video Report        | [#13](https://github.com/summerysaturn/y1-university/issues/13) | 2021-01-15 | :x:                |
 | CI474  | Report, Storyboard, Scene | [#5](https://github.com/summerysaturn/y1-university/issues/5)   | 2021-01-21 | :x:                |
 
-### Assignment 2
+### A2 Progress Chart
 
 | Module | Deliverable                       | Issues     | Deadline   | Done? |
 | :----- | :-------------------------------- | :--------- | :--------: | :---: |
@@ -74,7 +45,7 @@ This repository contains the specifications for my course and is going to be use
 | CI465  | Portfolio, CV, Social Media, etc  | :question: | :question: | :x:   |
 | CI474  | Animated Scene, Reflective Report | :question: | :question: | :x:   |
 
-## Usage Notes
+![Usage Notes](.github/usage.png)
 
 ### CI410
 
@@ -83,6 +54,8 @@ This section features a LaTeX document that must be prepared using `texlive` (or
 ### CI435
 
 This section features a static site. This segment is still under development, even if the assignment is considered "done". This is because the only extra parts to add are extra posts. Once the deadline rolls around I'll push it to the gh-pages branch and add it as a release. In the meantime, this site is viewable at <http://ci435-01.kmjw10.brighton.domains/index.html>.
+
+![Assignments](.github/assignments.png)
 
 ## CI401 Programming
 
