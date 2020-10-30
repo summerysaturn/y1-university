@@ -1,3 +1,8 @@
+/*
+* CSS Rework
+* Things appear in used order.
+*/
+
 body {
   overflow-x: hidden;
   margin: 0;
@@ -8,6 +13,18 @@ body {
     "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
+
+/*
+* Sidebar
+*/
+
+nav {
+  text-align: center;
+}
+
+/*
+* Articles
+*/
 
 main {
   padding: 2rem;
@@ -23,7 +40,9 @@ article {
 }
 
 header hr {
-  border: 1px solid #f0dbe3;
+  height: 2px;
+  background-image: linear-gradient(to right, #cf9050, #db84d7);
+  border: 0;
 }
 
 header h1 {
@@ -31,13 +50,80 @@ header h1 {
 }
 
 /*
-* Column system like Bootstrap, but 4 instead of 12
-* https://www.w3schools.com/css/css_rwd_grid.asp
+* Breakpoints reference from
+* https://getbootstrap.com/docs/4.5/layout/overview/
+* // TODO: move the responsive stuff into these
 */
 
-[class*="col-"] {
-  width: 100%;
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .container {
+    max-width: 372px;
+    margin-right: auto;
+    margin-left: auto;
+  }
 }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .container {
+    width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .sidebar {
+    width: 192px;
+    position: fixed;
+    height: 100vh;
+    padding: 0 !important;
+  }
+
+  .container {
+    width: 508px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .sidebar {
+    width: 248px;
+    position: fixed;
+    height: 100vh;
+    padding: 0 !important;
+  }
+
+  .container {
+    width: 672px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .sidebar {
+    width: 300px;
+    position: fixed;
+    height: 100vh;
+    padding: 0 !important;
+  }
+
+  .container {
+    width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+/*
+* Old CSS below
+*/
 
 /*
 * Media rule to make columns 100% width below 576px. This makes it so that
@@ -50,15 +136,6 @@ header h1 {
   .col-1 {
     width: 25%;
   }
-  .col-2 {
-    width: 50%;
-  }
-  .col-3 {
-    width: 75%;
-  }
-  .col-4 {
-    width: 100%;
-  }
 
   [class*="col-"] {
     float: left;
@@ -69,34 +146,13 @@ header h1 {
     display: table;
   }
 
-  .sidebar {
-    position: fixed;
-    height: 100vh;
-    padding: 0 !important;
-  }
-
   .sidebar img {
     width: 50% !important;
   }
 
-  .container {
+  .wrapper {
     margin-left: 25%;
   }
-
-  .main {
-    max-width: 720px;
-    margin-right: auto;
-    margin-left: auto;
-  }
-}
-
-nav .h4 {
-  text-align: center;
-}
-
-button:focus {
-  outline: 1px dotted;
-  outline: 10px auto -webkit-focus-ring-color;
 }
 
 .sidebar {
@@ -166,12 +222,12 @@ form label {
 
 form textarea {
   resize: vertical;
-  padding: 0.5rem;
+  padding: 1%;
   height: 8rem;
 }
 
 .textbox {
-  width: 95%;
+  width: 98%;
   margin-bottom: 1rem;
 }
 
@@ -197,6 +253,10 @@ form textarea {
   content: "$ ";
 }
 
+.bibliography {
+  text-align: left;
+}
+
 .bibliography h4 {
   margin-bottom: 0.4rem;
 }
@@ -219,10 +279,13 @@ a:hover {
 * https://matthewjamestaylor.com/bottom-footer
 */
 
-.container {
+.wrapper {
   min-height: 100vh;
   position: relative;
   word-wrap: break-word;
+
+  /* this line demonstrates a bug with the sidebar
+  background-color: #f9f9f9;*/
 }
 
 main {
@@ -233,5 +296,5 @@ footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  background-color: #eee;
+  padding: 1rem;
 }
