@@ -9,6 +9,27 @@ body {
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
+main {
+  padding: 2rem;
+  text-align: justify;
+}
+
+img {
+  max-width: 100%;
+}
+
+article {
+  padding-bottom: 1rem;
+}
+
+header hr {
+  border: 1px solid #f0dbe3;
+}
+
+header h1 {
+  font-size: 2rem;
+}
+
 /*
 * Column system like Bootstrap, but 4 instead of 12
 * https://www.w3schools.com/css/css_rwd_grid.asp
@@ -62,7 +83,7 @@ body {
     margin-left: 25%;
   }
 
-  .text-container {
+  .main {
     max-width: 720px;
     margin-right: auto;
     margin-left: auto;
@@ -128,15 +149,6 @@ nav a {
 
 .sublinks a::before {
   content: "\2022  ";
-}
-
-.text-container {
-  padding: 1rem;
-  text-align: justify;
-}
-
-.text-container img {
-  max-width: 100%;
 }
 
 .text-muted {
@@ -207,11 +219,6 @@ a:hover {
 * https://matthewjamestaylor.com/bottom-footer
 */
 
-header {
-  background-color: #eee;
-  padding: 1rem;
-}
-
 .container {
   min-height: 100vh;
   position: relative;
@@ -219,7 +226,7 @@ header {
 }
 
 main {
-  padding-bottom: 3rem;
+  padding-bottom: 4rem;
 }
 
 footer {

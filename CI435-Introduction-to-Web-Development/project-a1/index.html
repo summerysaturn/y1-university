@@ -31,7 +31,7 @@
 
         <hr class="nav-hr" />
 
-        <h3>Homepage Posts</h3>
+        <h3>Posts</h3>
 
         <div class="nav-box">
           <a href="#post1">Starting Week</a>
@@ -46,13 +46,12 @@
     </div>
 
     <div class="container">
-      <main>
-        <article>
-          <header id="post1">
-            <div class="text-container">
-              <h1>Starting Week</h1>
-              <h5 class="text-muted">Date written: 2020-10-10</h5>
-            </div>
+      <main class="text-container">
+        <article id="post1">
+          <header>
+            <h1>Starting Week</h1>
+            <hr />
+            <h5 class="text-muted underline">Date written: 2020-10-10</h5>
           </header>
 
           <div class="text-container">
@@ -81,191 +80,206 @@
           </div>
         </article>
 
-        <article>
-          <header id="post2">
-            <div class="text-container">
-              <h1>LaTeX Setup</h1>
-              <h5 class="text-muted">Date written: 2020-10-18</h5>
-            </div>
+        <article id="post2">
+          <header>
+            <h1>LaTeX Setup</h1>
+            <hr />
+            <h5 class="text-muted">Date written: 2020-10-18</h5>
           </header>
 
-          <div class="text-container">
-            <p>
-              The highlight of this week involved setting up LaTeX for my Game
-              Design and Development essay. LaTeX is a set of additions to the
-              TeX typesetting system, which allows you to compile documents out
-              of plaintext files. This can be especially useful for essays and
-              articles, as the compiler handles all of the layout and styling.
-              Much like HTML, LaTeX can be utilised to effectively structure
-              documents.
-            </p>
-            <p>
-              Setting up LaTeX on Linux, specifically a Debian distribution, is
-              fairly easy, as it just involves installing some packages. Finding
-              the right packages to do what you want to do is the tricky bit.
-              Starting out with installing
-              <span class="text-monospace">texlive</span> with
-              <span class="text-monospace">apt</span> is the best bet. This
-              package allows you to utilise the core of TeX.
-            </p>
+          <p>
+            The highlight of this week involved setting up LaTeX for my Game
+            Design and Development essay. LaTeX is a set of additions to the TeX
+            typesetting system, which allows you to compile documents out of
+            plaintext files. This can be especially useful for essays and
+            articles, as the compiler handles all of the layout and styling.
+            Much like HTML, LaTeX can be utilised to effectively structure
+            documents.
+          </p>
+          <p>
+            Setting up LaTeX on Linux, specifically a Debian distribution, is
+            fairly easy, as it just involves installing some packages. Finding
+            the right packages to do what you want to do is the tricky bit.
+            Starting out with installing
+            <span class="text-monospace">texlive</span> with
+            <span class="text-monospace">apt</span> is the best bet. This
+            package allows you to utilise the core of TeX.
+          </p>
 
-            <ul class="terminal-ul">
-              <li>sudo apt install texlive</li>
-            </ul>
+          <ul class="terminal-ul">
+            <li>sudo apt install texlive</li>
+          </ul>
 
-            <p>
-              This installs the majority of what's needed to use LaTeX,
-              inculding the
-              <span class="text-monospace">pdflatex</span> command. This is a
-              standard compiler for LaTeX. What's missing from this is the
-              BibLaTeX package, which is required for proper handling of the
-              bibliography. As my essay needs to have proper citations, I'll be
-              using BibLaTeX to implement this functionality.
-            </p>
+          <p>
+            This installs the majority of what's needed to use LaTeX, inculding
+            the
+            <span class="text-monospace">pdflatex</span> command. This is a
+            standard compiler for LaTeX. What's missing from this is the
+            BibLaTeX package, which is required for proper handling of the
+            bibliography. As my essay needs to have proper citations, I'll be
+            using BibLaTeX to implement this functionality.
+          </p>
 
-            <ul class="terminal-ul">
-              <li>sudo apt install biber</li>
-            </ul>
+          <ul class="terminal-ul">
+            <li>sudo apt install biber</li>
+          </ul>
 
-            <p>
-              This commant installs <span class="text-monospace">biber</span>,
-              which is a processing backend for LaTeX that additionally provides
-              the BibLaTeX package for use with
-              <span class="text-monospace">pdflatex</span>. Using this, I can
-              generate and utilise bibliographies, and have LaTeX and BibLaTeX
-              handle the document layout.
-            </p>
+          <p>
+            This commant installs <span class="text-monospace">biber</span>,
+            which is a processing backend for LaTeX that additionally provides
+            the BibLaTeX package for use with
+            <span class="text-monospace">pdflatex</span>. Using this, I can
+            generate and utilise bibliographies, and have LaTeX and BibLaTeX
+            handle the document layout.
+          </p>
 
-            <p>
-              LaTeX is useful for someone like me as it allows for me to
-              effectively program what I want without worrying about layout.
-              Whereas software like Word can create documents that look right,
-              getting them to look correct takes a lot of time and effort.
-              Having LaTeX handle it for me can speed up my workflow by a huge
-              amount. Additionally, BibLaTeX is one of my favourite things in
-              the document preparation ecosystem.
-            </p>
-          </div>
+          <p>
+            LaTeX is useful for someone like me as it allows for me to
+            effectively program what I want without worrying about layout.
+            Whereas software like Word can create documents that look right,
+            getting them to look correct takes a lot of time and effort. Having
+            LaTeX handle it for me can speed up my workflow by a huge amount.
+            Additionally, BibLaTeX is one of my favourite things in the document
+            preparation ecosystem.
+          </p>
         </article>
 
-        <article>
-          <header id="post3">
-            <div class="text-container">
-              <h1>Ubuntu 20.10 and Linux 5.8</h1>
-              <h5 class="text-muted">Date written: 2020-10-27</h5>
-            </div>
+        <article id="post3">
+          <header>
+            <h1>Ubuntu 20.10 and Linux 5.8</h1>
+            <hr />
+            <p class="text-muted">Date written: 2020-10-27</p>
           </header>
 
-          <div class="text-container">
-            <p>
-              The 22nd of October marked a special day in the realm of Linux;
-              Ubuntu finalised and launcher their 20.10 release, following on
-              from version 20.04. This is a short-term release, indicating that
-              it'll be supported for 9 months, unlike 20.04, which gets 5 years
-              of support as an LTS release. I prefer rolling releases with
-              operating systems, as I prefer to stay on the bleeding edge as
-              much as possible.
-            </p>
-            <p>
-              This launch involved numerous updates to the packages provided by
-              Ubuntu, including Gnome 3.38, bringing with it numerous bug fixes
-              and improvement, a few of which are very important to me.
-              Additionally, the Linux 5.8 kernel is included, bringing with it
-              better driver support, including native exFAT drivers and all the
-              improvements from kernels 5.5 to 5.7.
-            </p>
-            <p>
-              Since LTS builds of Ubuntu specialise on stability, there's a long
-              time period between a release of each build and the so-called
-              "feature freeze". This is because Canonical spend a long time
-              making sure that the packages are all stable and work together,
-              and as such have a deadline for packages to be submitted.
-              Otherwise, they'd end up optimising packages forever and never
-              reaching a stable build.
-            </p>
-            <p>
-              A by-product of this is that packages end up many versions out of
-              date, including the kernel. This is significant as sometimes newer
-              devices may only function with a newer kernel. This is relevant
-              because of how STR (short term release) builds have a shorter
-              window which, while increasing instability somewhat, also means
-              that the package versions are much closer to bleeding-edge.
-            </p>
-            <p>
-              Some of the features I love the most come from Gnome 3.38,
-              including better support for multiple displays with differing
-              refresh rates (improving upon a prior issue where it'll sync to
-              the lowest refresh rate possible), and fixing an issue where the
-              wallpaper appears blurry due to an OpenGL issue.
-            </p>
-            <p>
-              Additionally, I spent some time customising a GTK theme and
-              applying it to my desktop. Using Linux makes desktop customisation
-              much easier, which makes it very enjoyable to use for me (on top
-              of the benefits in software):
-            </p>
+          <br />
 
-            <img
-              src="image/df8s7908.jpg"
-              alt="An image of my desktop running Linux"
-            />
+          <p>
+            The 22nd of October marked a special day in the realm of Linux;
+            Ubuntu finalised and launcher their 20.10 release, following on from
+            version 20.04. This is a short-term release, indicating that it'll
+            be supported for 9 months, unlike 20.04, which gets 5 years of
+            support as an LTS release. I prefer rolling releases with operating
+            systems, as I prefer to stay on the bleeding edge as much as
+            possible.
+          </p>
+          <p>
+            This launch involved numerous updates to the packages provided by
+            Ubuntu, including Gnome 3.38, bringing with it numerous bug fixes
+            and improvement, a few of which are very important to me.
+            Additionally, the Linux 5.8 kernel is included, bringing with it
+            better driver support, including native exFAT drivers and all the
+            improvements from kernels 5.5 to 5.7.
+          </p>
+          <p>
+            Since LTS builds of Ubuntu specialise on stability, there's a long
+            time period between a release of each build and the so-called
+            "feature freeze". This is because Canonical spend a long time making
+            sure that the packages are all stable and work together, and as such
+            have a deadline for packages to be submitted. Otherwise, they'd end
+            up optimising packages forever and never reaching a stable build.
+          </p>
+          <p>
+            A by-product of this is that packages end up many versions out of
+            date, including the kernel. This is significant as sometimes newer
+            devices may only function with a newer kernel. This is relevant
+            because of how STR (short term release) builds have a shorter window
+            which, while increasing instability somewhat, also means that the
+            package versions are much closer to bleeding-edge.
+          </p>
+          <p>
+            Some of the features I love the most come from Gnome 3.38, including
+            better support for multiple displays with differing refresh rates
+            (improving upon a prior issue where it'll sync to the lowest refresh
+            rate possible), and fixing an issue where the wallpaper appears
+            blurry due to an OpenGL issue.
+          </p>
+          <p>
+            Additionally, I spent some time customising a GTK theme and applying
+            it to my desktop. Using Linux makes desktop customisation much
+            easier, which makes it very enjoyable to use for me (on top of the
+            benefits in software):
+          </p>
 
-            <div class="bibliography">
-              <h4>References</h4>
+          <img
+            src="image/df8s7908.jpg"
+            alt="An image of my desktop running Linux"
+          />
+
+          <h4>References</h4>
+          <ul class="bibliography">
+            <li>
               <a
                 href="https://www.omgubuntu.co.uk/2020/05/ubuntu-20-10-release-features"
-                >OMG! Ubuntu! - 20.10 release features</a
-              ><br />
+              >
+                OMG! Ubuntu! - 20.10 release features
+              </a>
+            </li>
+            <li>
               <a
                 href="https://www.omgubuntu.co.uk/2020/01/its-not-your-eyes-its-a-bug-why-hq-desktop-backgrounds-look-blurry-on-ubuntu"
               >
                 OMG! Ubuntu! - Why HQ Desktop Backgrounds Look Blurry on
                 Ubuntu</a
               >
-              <br />
-              <a href="https://ubuntuforums.org/showthread.php?t=2304030"
-                >Ubuntu Forums - "Why are software packages in Ubuntu so
-                OLD?"</a
-              >
-            </div>
-          </div>
+            </li>
+            <li>
+              <a href="https://ubuntuforums.org/showthread.php?t=2304030">
+                Ubuntu Forums - "Why are software packages in Ubuntu so OLD?"
+              </a>
+            </li>
+          </ul>
         </article>
 
         <article>
           <header>
-            <div class="text-container">
-              <h1>Page Design References</h1>
-            </div>
+            <h1>Page Design References</h1>
+            <hr />
           </header>
 
-          <div class="text-container bibliography">
-            <a href="https://www.w3schools.com/tags/tag_meta.asp"
-              >W3Schools - Meta Tags</a
-            >
-            <br />
-            <a href="https://www.w3schools.com/css/css_rwd_grid.asp"
-              >W3Schools - Grid View CSS</a
-            ><br />
-            <a href="https://www.w3schools.com/css/css_rwd_mediaqueries.asp"
-              >W3Schools - Media Queries</a
-            ><br />
-            <a href="https://matthewjamestaylor.com/bottom-footer"
-              >Matthew James Taylor - Footer CSS</a
-            ><br />
-            <a href="https://www.w3schools.com/html/html_forms.asp"
-              >W3Schools - Form HTML</a
-            ><br />
-            <a
-              href="https://developer.mozilla.org/en-US/docs/Learn/Forms/HTML5_input_types"
-              >Mozilla - Form HTML Reference</a
-            ><br />
-            <a
-              href="https://www.w3schools.com/csSref/css3_pr_justify-content.asp"
-              >W3Schools - CSS Justify Content Property</a
-            ><br />
-          </div>
+          <ul class="bibliography">
+            <li>
+              <a href="https://www.w3schools.com/tags/tag_meta.asp">
+                W3Schools - Meta Tags
+              </a>
+            </li>
+            <li>
+              <a href="https://www.w3schools.com/css/css_rwd_grid.asp">
+                W3Schools - Grid View CSS
+              </a>
+            </li>
+            <li>
+              <a href="https://www.w3schools.com/css/css_rwd_mediaqueries.asp">
+                W3Schools - Media Queries
+              </a>
+            </li>
+            <li>
+              <a href="https://matthewjamestaylor.com/bottom-footer">
+                Matthew James Taylor - Footer CSS
+              </a>
+            </li>
+            <li>
+              <a href="https://www.w3schools.com/html/html_forms.asp">
+                W3Schools - Form HTML
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://developer.mozilla.org/en-US/docs/Learn/Forms/HTML5_input_types"
+              >
+                Mozilla - Form HTML Reference
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.w3schools.com/csSref/css3_pr_justify-content.asp"
+              >
+                W3Schools - CSS Justify Content Property
+              </a>
+            </li>
+          </ul>
         </article>
       </main>
+
       <footer>
         <div class="text-container">
           <a href="https://summerysaturn.github.io/" class="text-muted"
