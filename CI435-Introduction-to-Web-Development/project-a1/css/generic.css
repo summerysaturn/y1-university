@@ -41,6 +41,7 @@ article {
 }
 
 header hr {
+  text-align: left;
   height: 2px;
   background-image: linear-gradient(to right, #cf9050, #db84d7);
   border: 0;
