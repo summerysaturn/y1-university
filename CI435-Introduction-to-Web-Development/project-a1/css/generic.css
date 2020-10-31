@@ -164,7 +164,7 @@ header h1 {
 }
 
 .sidebar {
-  background-color: #323;
+  background-color: #282c34;
   color: white;
   text-align: center;
   padding: 1px 0 1px 0; /* For some reason 0px makes this look weird */
@@ -176,24 +176,26 @@ header h1 {
 }
 
 .sidebar h3 {
-  margin: 0 0 2rem 0;
+  margin: 1.5rem 0 1.5rem 0;
 }
 
 nav a {
   display: block;
   color: white !important;
-  text-decoration: none;
   padding: 0.5rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .nav-box {
   border-radius: 5px;
   margin: 0 1rem 1rem 1rem;
-  background-color: #434;
+  background-color: #353b46;
 }
 
 .nav-active {
-  background-color: #535;
+  background-image: linear-gradient(to bottom, #ca6351, #ca5b6d);
 }
 
 .nav-hr {
