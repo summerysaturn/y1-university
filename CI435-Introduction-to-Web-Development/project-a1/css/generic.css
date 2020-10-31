@@ -87,6 +87,10 @@ header h1 {
     margin-right: auto;
     margin-left: auto;
   }
+
+  .wrapper {
+    margin-left: 192px;
+  }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -103,6 +107,10 @@ header h1 {
     margin-right: auto;
     margin-left: auto;
   }
+
+  .wrapper {
+    margin-left: 248px;
+  }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
@@ -118,6 +126,10 @@ header h1 {
     width: 800px;
     margin-right: auto;
     margin-left: auto;
+  }
+
+  .wrapper {
+    margin-left: 300px;
   }
 }
 
@@ -148,10 +160,6 @@ header h1 {
 
   .sidebar img {
     width: 50% !important;
-  }
-
-  .wrapper {
-    margin-left: 25%;
   }
 }
 
