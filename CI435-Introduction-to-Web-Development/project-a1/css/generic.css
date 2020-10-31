@@ -49,6 +49,32 @@ header h1 {
   font-size: 2rem;
 }
 
+ul {
+  padding-left: 1.5rem;
+}
+
+.bibliography {
+  text-align: left;
+  padding-left: 0.4rem;
+}
+
+.bibliography li {
+  padding: 0.2rem 0 0.2rem 0;
+}
+
+.bibliography li::marker {
+  content: "";
+}
+
+.bibliography li::before {
+  color: gray;
+  content: "\25B8";
+}
+
+.bibliography h4 {
+  margin-bottom: 0.4rem;
+}
+
 /*
 * Breakpoints reference from
 * https://getbootstrap.com/docs/4.5/layout/overview/
@@ -62,6 +88,16 @@ header h1 {
     margin-right: auto;
     margin-left: auto;
   }
+
+  .sidebar-container {
+    max-width: 280px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .sidebar {
+    padding-bottom: 2rem !important;
+  }
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -70,6 +106,16 @@ header h1 {
     width: 500px;
     margin-right: auto;
     margin-left: auto;
+  }
+
+  .sidebar-container {
+    max-width: 280px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .sidebar {
+    padding-bottom: 2rem !important;
   }
 }
 
@@ -261,14 +307,6 @@ form textarea {
 
 .terminal-ul li::before {
   content: "$ ";
-}
-
-.bibliography {
-  text-align: left;
-}
-
-.bibliography h4 {
-  margin-bottom: 0.4rem;
 }
 
 a {
