@@ -25,25 +25,25 @@ This repository contains the specifications for my course and is going to be use
 
 ### A1 Progress Chart
 
-| Module | Deliverable               | Issues                                                          | Deadline   | Done?              |
-| :----- | :------------------------ | :-------------------------------------------------------------- | :--------: | :----------------: |
-| CI401  | Open Book Exam            | :question:                                                      | :question: | :x:                |
-| CI405  | Multiple Choice Exam      | :question:                                                      | :question: | :x:                |
-| CI410  | 1,750 Word Report         | [#11](https://github.com/summerysaturn/y1-university/issues/11) | 2021-01-15 | :heavy_check_mark: |
-| CI435  | Website Zip               | [#6](https://github.com/summerysaturn/y1-university/issues/6)   | 2021-01-15 | :heavy_check_mark: |
-| CI465  | Group Video Report        | [#13](https://github.com/summerysaturn/y1-university/issues/13) | 2021-01-15 | :x:                |
-| CI474  | Report, Storyboard, Scene | [#5](https://github.com/summerysaturn/y1-university/issues/5)   | 2021-01-21 | :x:                |
+| Module | Deliverable               | Issues                                                          | Deadline   | Done?              | Link to Assignment                                                                                   |
+| :----- | :------------------------ | :-------------------------------------------------------------- | :--------: | :----------------: | :--------------------------------------------------------------------------------------------------- |
+| CI401  | Open Book Exam            | :question:                                                      | :question: | :x:                | :question:                                                                                           |
+| CI405  | Multiple Choice Exam      | :question:                                                      | :question: | :x:                | :question:                                                                                           |
+| CI410  | 1,750 Word Report         | [#11](https://github.com/summerysaturn/y1-university/issues/11) | 2021-01-15 | :heavy_check_mark: | [Link](CI410-Introduction-to-Game-Design-and-Development/Assignment1-Design-Doc/Design-Document.pdf) |
+| CI435  | Website Zip               | [#6](https://github.com/summerysaturn/y1-university/issues/6)   | 2021-01-15 | :heavy_check_mark: | [Link](CI435-Introduction-to-Web-Development/project-a1)                                             |
+| CI465  | Group Video Report        | [#13](https://github.com/summerysaturn/y1-university/issues/13) | 2021-01-15 | :x:                | :question:                                                                                           |
+| CI474  | Report, Storyboard, Scene | [#5](https://github.com/summerysaturn/y1-university/issues/5)   | 2021-01-21 | :x:                | :question:                                                                                           |
 
 ### A2 Progress Chart
 
-| Module | Deliverable                       | Issues     | Deadline   | Done? |
-| :----- | :-------------------------------- | :--------- | :--------: | :---: |
-| CI401  | Simple App                        | :question: | :question: | :x:   |
-| CI405  | Learning Journal Labs             | :question: | :question: | :x:   |
-| CI410  | Game Prototype                    | :question: | :question: | :x:   |
-| CI435  | Open Book Exam                    | :question: | :question: | :x:   |
-| CI465  | Portfolio, CV, Social Media, etc  | :question: | :question: | :x:   |
-| CI474  | Animated Scene, Reflective Report | :question: | :question: | :x:   |
+| Module | Deliverable                       | Issues     | Deadline   | Done? | Link to Assignment |
+| :----- | :-------------------------------- | :--------- | :--------: | :---: | :----------------- |
+| CI401  | Simple App                        | :question: | :question: | :x:   | :question:         |
+| CI405  | Learning Journal Labs             | :question: | :question: | :x:   | :question:         |
+| CI410  | Game Prototype                    | :question: | :question: | :x:   | :question:         |
+| CI435  | Open Book Exam                    | :question: | :question: | :x:   | :question:         |
+| CI465  | Portfolio, CV, Social Media, etc  | :question: | :question: | :x:   | :question:         |
+| CI474  | Animated Scene, Reflective Report | :question: | :question: | :x:   | :question:         |
 
 ![Usage Notes](.github/usage.png)
 
