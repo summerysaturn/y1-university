@@ -2,12 +2,14 @@
 
 # Year 1 content for Computer Science for Games :sparkles:
 
-* [CI401 Programming](#ci401-programming)
-* [CI405 Computing Technologies](#ci405-comp-tech)
-* [CI410 Game Design & Development](#ci410-game-design)
-* [CI435 Web Development](#ci435-web-dev)
-* [CI465 Digital & Games Industries](#ci465-dg-industries)
-* [CI474 3D Modelling & Animation](#ci474-3d-ma)
+| Module Code | Name & Link to Folder                      |
+| :---------- | :----------------------------------------- |
+| CI401       | [Programming](#ci401-programming)          |
+| CI405       | [Computing Tech](#ci405-comp-tech)         |
+| CI410       | [Game Design](#ci410-game-design)          |
+| CI435       | [Web Development](#ci435-web-dev)          |
+| CI465       | [Digital Industries](#ci465-dg-industries) |
+| CI474       | [3D Modelling](#ci474-3d-ma)               |
 
 ## Introductory Note
 
@@ -25,14 +27,14 @@ This repository contains the specifications for my course and is going to be use
 
 ### A1 Progress Chart
 
-| Module | Deliverable               | Issues                                                          | Deadline   | Done?              | Link to Assignment                                                                                   |
-| :----- | :------------------------ | :-------------------------------------------------------------- | :--------: | :----------------: | :--------------------------------------------------------------------------------------------------- |
-| CI401  | Open Book Exam            | :question:                                                      | :question: | :x:                | :question:                                                                                           |
-| CI405  | Multiple Choice Exam      | :question:                                                      | :question: | :x:                | :question:                                                                                           |
-| CI410  | 1,750 Word Report         | [#11](https://github.com/summerysaturn/y1-university/issues/11) | 2021-01-15 | :heavy_check_mark: | [Link](CI410-Introduction-to-Game-Design-and-Development/Assignment1-Design-Doc/Design-Document.pdf) |
-| CI435  | Website Zip               | [#6](https://github.com/summerysaturn/y1-university/issues/6)   | 2021-01-15 | :heavy_check_mark: | [Link](CI435-Introduction-to-Web-Development/project-a1)                                             |
-| CI465  | Group Video Report        | [#13](https://github.com/summerysaturn/y1-university/issues/13) | 2021-01-15 | :x:                | :question:                                                                                           |
-| CI474  | Report, Storyboard, Scene | [#5](https://github.com/summerysaturn/y1-university/issues/5)   | 2021-01-21 | :x:                | :question:                                                                                           |
+| Module | Deliverable               | Issues                                                          | Deadline   | Done?              | Link to Assignment                                                 |
+| :----- | :------------------------ | :-------------------------------------------------------------- | :--------: | :----------------: | :----------------------------------------------------------------- |
+| CI401  | Open Book Exam            | :question:                                                      | :question: | :x:                | :question:                                                         |
+| CI405  | Multiple Choice Exam      | :question:                                                      | :question: | :x:                | :question:                                                         |
+| CI410  | 1,750 Word Report         | [#11](https://github.com/summerysaturn/y1-university/issues/11) | 2021-01-15 | :heavy_check_mark: | [Link](410-Game-Design/Assignment1-Design-Doc/Design-Document.pdf) |
+| CI435  | Website Zip               | [#6](https://github.com/summerysaturn/y1-university/issues/6)   | 2021-01-15 | :heavy_check_mark: | [Link](435-Web-Development/project-a1)                             |
+| CI465  | Group Video Report        | [#13](https://github.com/summerysaturn/y1-university/issues/13) | 2021-01-15 | :x:                | :question:                                                         |
+| CI474  | Report, Storyboard, Scene | [#5](https://github.com/summerysaturn/y1-university/issues/5)   | 2021-01-21 | :x:                | :question:                                                         |
 
 ### A2 Progress Chart
 
@@ -59,7 +61,7 @@ This section features a static site. This segment is still under development, ev
 
 ## CI401 Programming
 
-### [Specification Link](supporting-docs/CI401-Specification.pdf)
+### [Specification Link](401-Programming/supporting-docs/CI401-Specification.pdf)
 
 ### CI401 Assignment 1
 
@@ -83,7 +85,7 @@ This section features a static site. This segment is still under development, ev
 
 ## CI405 Comp Tech
 
-### [Specification Link](supporting-docs/CI405-Specification.pdf)
+### [Specification Link](405-Game-Design/supporting-docs/CI405-Specification.pdf)
 
 ### CI405 Assignment 1
 
@@ -107,16 +109,16 @@ This section features a static site. This segment is still under development, ev
 
 ## CI410 Game Design
 
-### [Specification Link](supporting-docs/CI410-Specification.pdf)
+### [Specification Link](410-Game-Design/supporting-docs/CI410-Specification.pdf)
 
 ### CI410 Assignment 1
 
 | :package: Deliverables       | Game Design Document (1,750 words)                                                     |
 | :--------------------------- | :------------------------------------------------------------------------------------- |
-| :clipboard: Assignment Doc   | [Link Here](supporting-docs/CI410-A1-Brief.pdf)                                        |
+| :clipboard: Assignment Doc   | [Link Here](410-Game-Design/supporting-docs/CI410-A1-Brief.pdf)                        |
 | :books: Description          | Report that documents the design of an original 2D game. Should be around 1,750 words. |
 | :alarm_clock: Deadline       | 2020-01-15                                                                             |
-| :memo: GitHub Issue          | [#11](supporting-docs/CI410-A2-Brief.pdf) (Closed)                                     |
+| :memo: GitHub Issue          | [#11](410-Game-Design/supporting-docs/CI410-A2-Brief.pdf) (Closed)                     |
 | :heavy_check_mark: Complete? | :heavy_check_mark:                                                                     |
 
 ### CI410 Assignment 2
@@ -131,13 +133,13 @@ This section features a static site. This segment is still under development, ev
 
 ## CI435 Web Dev
 
-### [Specification Link](supporting-docs/CI435-Specification.pdf)
+### [Specification Link](435-Web-Development/supporting-docs/CI435-Specification.pdf)
 
 ### CI435 Assignment 1
 
 | :package: Deliverables       | URL and Source Files, Validated                                                                                                                                                                               |
 | :--------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| :clipboard: Assignment Doc   | [Link Here](supporting-docs/CI435-A1-Brief.pdf)                                                                                                                                                               |
+| :clipboard: Assignment Doc   | [Link Here](435-Web-Development/supporting-docs/CI435-A1-Brief.pdf)                                                                                                                                           |
 | :books: Description          | 2-3 page html document that includes; blog-style learning journal, contact form, independently produced page on a given topic (Studying during lockdown). The pages must be validated using a HTML validator. |
 | :alarm_clock: Deadline       | 2020-01-15                                                                                                                                                                                                    |
 | :memo: GitHub Issue          | [#6](https://github.com/summerysaturn/y1-university/issues/6)                                                                                                                                                 |
@@ -155,13 +157,13 @@ This section features a static site. This segment is still under development, ev
 
 ## CI465 D&G Industries
 
-### [Specification Link](supporting-docs/CI465-Specification.pdf)
+### [Specification Link](465-Digital-Industries/supporting-docs/CI465-Specification.pdf)
 
 ### CI465 Assignment 1
 
 | :package: Deliverables       | Group Report, Group Presentation, or Group Video                                                                                                                                        |
 | :--------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| :clipboard: Assignment Doc   | [Link here](supporting-docs/CI465-A1-Brief.pdf)                                                                                                                                         |
+| :clipboard: Assignment Doc   | [Link here](465-Digital-Industries/supporting-docs/CI465-A1-Brief.pdf)                                                                                                                  |
 | :books: Description          | 3,000 word report, 30 minute presentation, or 5-6 minute video production. Each include a statement of contribution to group effort. The project should identify (see breakdown below). |
 | :alarm_clock: Deadline       | 2020-01-15                                                                                                                                                                              |
 | :memo: GitHub Issue          | [#13](https://github.com/summerysaturn/y1-university/issues/13)                                                                                                                         |
@@ -208,13 +210,13 @@ Conclusion
 
 ## CI474 3D M&A
 
-### [Specification Link](supporting-docs/CI474-Specification.pdf)
+### [Specification Link](474-3D-Modelling/supporting-docs/CI474-Specification.pdf)
 
 ### CI474 Assignment 1
 
 | :package: Deliverables       | Storyboard, Concept Art, Report, Early 3D scene                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | :--------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| :clipboard: Assignment Doc   | [Link Here](supporting-docs/CI474-Portfolio-1-Brief.pdf)                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| :clipboard: Assignment Doc   | [Link Here](474-3D-Modelling/supporting-docs/CI474-Portfolio-1-Brief.pdf)                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | :books: Description          | Plan for a 3D scene, including a storyboard, concept art, and a reflective report of 1,000 words. Additionally, there should be some work put into a 3D scene, included in the submission. The storyboard should demonstrate the narrative theme, making reference to the planned production and postproduction processes. The concept art should aim to illustrate the look and feel of the final project. Finally, a report illustrating the stylistic influences and any reference materials used. |
 | :alarm_clock: Deadline       | 2020-01-21                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | :memo: GitHub Issue          | [#5](https://github.com/summerysaturn/y1-university/issues/5)                                                                                                                                                                                                                                                                                                                                                                                                                                         |
@@ -232,7 +234,7 @@ Conclusion
 
 | :package: Deliverables       | :warning: See assignment                                                                                                    |
 | :--------------------------- | :-------------------------------------------------------------------------------------------------------------------------- |
-| :clipboard: Assignment Doc   | [Link Here](supporting-docs/CI474-Portfolio-1-Brief.pdf)                                                                    |
+| :clipboard: Assignment Doc   | [Link Here](474-3D-Modelling/supporting-docs/CI474-Portfolio-1-Brief.pdf)                                                   |
 | :books: Description          | :warning: See assignment - Wording here sucks so I'm going to defer to the assignment. Read it through and come back later. |
 | :alarm_clock: Deadline       | 2021-05-21                                                                                                                  |
 | :memo: GitHub Issue          | None yet!                                                                                                                   |
