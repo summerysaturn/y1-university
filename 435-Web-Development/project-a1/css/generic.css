@@ -13,6 +13,8 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+  font-family: "Montserrat", sans-serif;
 }
 
 /*
@@ -284,15 +286,12 @@ form textarea {
 }
 
 .text-monospace {
-  font-family: monospace;
-  background-color: #eee;
-  padding: 0.25rem 0.4rem;
-  border-radius: 0.25rem;
+  font-family: "Fira Code", monospace;
 }
 
 .terminal-ul {
-  font-family: monospace;
-  background-color: #eee;
+  font-family: "Fira Code", monospace;
+  background-image: linear-gradient(to right, #ebd0cc, #f0ced3);
   padding: 0.6rem 1.2rem;
   border-radius: 0.25rem;
 }
