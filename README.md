@@ -27,10 +27,10 @@ This repository contains the specifications for my course and is going to be use
 
 ### A1 Progress Chart
 
+(Note: CI401 and CI405 have no deliverables this semester, due to restrictions on social distancing and exams. These will instead be taking place in semester 2.)
+
 | Module | Deliverable               | Issues                                                          | Deadline   | Done?              | Link to Assignment                                                 |
 | :----- | :------------------------ | :-------------------------------------------------------------- | :--------: | :----------------: | :----------------------------------------------------------------- |
-| CI401  | Nothing! :sparkles:       | N/A                                                             | N/A        | N/A                | N/A                                                                |
-| CI405  | Nothing! :sparkles:       | N/A                                                             | N/A        | N/A                | N/A                                                                |
 | CI410  | 1,750 Word Report         | [#11](https://github.com/summerysaturn/y1-university/issues/11) | 2021-01-15 | :heavy_check_mark: | [Link](410-Game-Design/Assignment1-Design-Doc/Design-Document.pdf) |
 | CI435  | Website Zip               | [#6](https://github.com/summerysaturn/y1-university/issues/6)   | 2021-01-15 | :heavy_check_mark: | [Link](435-Web-Development/project-a1)                             |
 | CI465  | Group Video Report        | [#13](https://github.com/summerysaturn/y1-university/issues/13) | 2021-01-15 | :x:                | :question:                                                         |
