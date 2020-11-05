@@ -29,8 +29,8 @@ This repository contains the specifications for my course and is going to be use
 
 | Module | Deliverable               | Issues                                                          | Deadline   | Done?              | Link to Assignment                                                 |
 | :----- | :------------------------ | :-------------------------------------------------------------- | :--------: | :----------------: | :----------------------------------------------------------------- |
-| CI401  | Nothing! :sparkles:       | N/A                                                             | N/A        | N/A                | N/A                                                            |
-| CI405  | Multiple Choice Exam      | :question:                                                      | :question: | :x:                | :question:                                                         |
+| CI401  | Nothing! :sparkles:       | N/A                                                             | N/A        | N/A                | N/A                                                                |
+| CI405  | Nothing! :sparkles:       | N/A                                                             | N/A        | N/A                | N/A                                                                |
 | CI410  | 1,750 Word Report         | [#11](https://github.com/summerysaturn/y1-university/issues/11) | 2021-01-15 | :heavy_check_mark: | [Link](410-Game-Design/Assignment1-Design-Doc/Design-Document.pdf) |
 | CI435  | Website Zip               | [#6](https://github.com/summerysaturn/y1-university/issues/6)   | 2021-01-15 | :heavy_check_mark: | [Link](435-Web-Development/project-a1)                             |
 | CI465  | Group Video Report        | [#13](https://github.com/summerysaturn/y1-university/issues/13) | 2021-01-15 | :x:                | :question:                                                         |
@@ -38,14 +38,14 @@ This repository contains the specifications for my course and is going to be use
 
 ### A2 Progress Chart
 
-| Module | Deliverable                       | Issues     | Deadline   | Done? | Link to Assignment |
-| :----- | :-------------------------------- | :--------- | :--------: | :---: | :----------------- |
-| CI401  | Simple App, Open Book Exam        | :question: | :question: | :x:   | :question:         |
-| CI405  | Learning Journal Labs             | :question: | :question: | :x:   | :question:         |
-| CI410  | Game Prototype                    | :question: | :question: | :x:   | :question:         |
-| CI435  | Open Book Exam                    | :question: | :question: | :x:   | :question:         |
-| CI465  | Portfolio, CV, Social Media, etc  | :question: | :question: | :x:   | :question:         |
-| CI474  | Animated Scene, Reflective Report | :question: | :question: | :x:   | :question:         |
+| Module | Deliverable                                 | Issues     | Deadline   | Done? | Link to Assignment |
+| :----- | :------------------------------------------ | :--------- | :--------: | :---: | :----------------- |
+| CI401  | Simple App, Open Book Exam                  | :question: | :question: | :x:   | :question:         |
+| CI405  | Learning Journal Labs, Multiple Choice Exam | :question: | :question: | :x:   | :question:         |
+| CI410  | Game Prototype                              | :question: | :question: | :x:   | :question:         |
+| CI435  | Open Book Exam                              | :question: | :question: | :x:   | :question:         |
+| CI465  | Portfolio, CV, Social Media, etc            | :question: | :question: | :x:   | :question:         |
+| CI474  | Animated Scene, Reflective Report           | :question: | :question: | :x:   | :question:         |
 
 ![Usage Notes](.github/usage.png)
 
