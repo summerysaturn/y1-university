@@ -1,16 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!--
-      https://www.w3schools.com/tags/tag_meta.asp
-    -->
     <title>CI435-01-Charlotte Ward</title>
     <meta charset="UTF-8" />
     <meta name="author" content="Charlotte Ward" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/generic.css" />
     <link rel="shortcut icon" href="image/favicon.ico" />
-
     <link
       href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&family=Montserrat:wght@400;800&display=swap"
       rel="stylesheet"
@@ -22,21 +18,17 @@
       <div class="sidebar-container">
         <img src="image/mask-2-colour.png" alt="Sidebar Logo" />
         <h3>Lottie's Page</h3>
-
         <nav id="navbar" class="nav">
           <div class="nav-box nav-active">
             <a href="#">Home</a>
           </div>
-
           <div class="nav-box">
             <a href="tutorial.html">Study Tips</a>
           </div>
           <div class="nav-box">
             <a href="contact.html">Contact</a>
           </div>
-
           <h3>Posts</h3>
-
           <div class="nav-box">
             <a href="#post1">Starting Week</a>
           </div>
@@ -44,7 +36,10 @@
             <a href="#post2">LaTeX Setup</a>
           </div>
           <div class="nav-box">
-            <a href="#post3">Ubuntu 20.10 and Linux 5.8</a>
+            <a href="#post3">Ubuntu 20.10 Release & Update</a>
+          </div>
+          <div class="nav-box">
+            <a href="#post4">Flexbox</a>
           </div>
         </nav>
       </div>
@@ -58,7 +53,6 @@
             <hr />
             <h5>Date written: 2020-10-10</h5>
           </header>
-
           <div>
             <p>
               This week was our introduction to the course, Computer Science for
@@ -91,7 +85,6 @@
             <hr />
             <h5>Date written: 2020-10-18</h5>
           </header>
-
           <p>
             The highlight of this week involved setting up LaTeX for my Game
             Design and Development essay. LaTeX is a set of additions to the TeX
@@ -110,11 +103,9 @@
             <span class="text-monospace">apt</span> is the best bet. This
             package allows you to utilise the core of TeX.
           </p>
-
           <ul class="terminal-ul">
             <li>sudo apt install texlive</li>
           </ul>
-
           <p>
             This installs the majority of what's needed to use LaTeX, inculding
             the
@@ -124,11 +115,9 @@
             bibliography. As my essay needs to have proper citations, I'll be
             using BibLaTeX to implement this functionality.
           </p>
-
           <ul class="terminal-ul">
             <li>sudo apt install biber</li>
           </ul>
-
           <p>
             This commant installs <span class="text-monospace">biber</span>,
             which is a processing backend for LaTeX that additionally provides
@@ -137,7 +126,6 @@
             generate and utilise bibliographies, and have LaTeX and BibLaTeX
             handle the document layout.
           </p>
-
           <p>
             LaTeX is useful for someone like me as it allows for me to
             effectively program what I want without worrying about layout.
@@ -147,20 +135,28 @@
             Additionally, BibLaTeX is one of my favourite things in the document
             preparation ecosystem.
           </p>
+          <h4>References</h4>
+          <ul class="bibliography">
+            <li>
+              <a
+                href="https://packages.ubuntu.com/focal/texlive-latex-recommended"
+              >
+                Ubuntu Packages - texlive-latex-recommended
+              </a>
+            </li>
+          </ul>
         </article>
 
         <article id="post3">
           <header>
-            <h1>Ubuntu 20.10 and Linux 5.8</h1>
+            <h1>Ubuntu 20.10 Release & Update</h1>
             <hr />
             <h5>Date written: 2020-10-27</h5>
           </header>
-
           <img
             src="image/df8s7908.jpg"
             alt="An image of my desktop running Linux"
           />
-
           <p>
             The 22nd of October marked a special day in the realm of Linux;
             Ubuntu finalised and launcher their 20.10 release, following on from
@@ -207,7 +203,6 @@
             easier, which makes it very enjoyable to use for me (on top of the
             benefits in software).
           </p>
-
           <h4>References</h4>
           <ul class="bibliography">
             <li>
@@ -238,7 +233,99 @@
             <hr />
             <h5>Date written: 2020-11-06</h5>
           </header>
-          <p>WIP</p>
+          <p>
+            Flexbox is a great modern web technology that can be very powerful
+            for responsive design and efficient page layout, without any of the
+            complexity of calculating the size of objects using javascript. It
+            can arrange boxes based on different directions, different scaling,
+            filling, aligning, ordering, wrapping, with many other applications.
+          </p>
+          <p>
+            As a demonstration, here's a simple flex-based chart showing the
+            different types of barbecue sauce:
+          </p>
+          <div class="flex-container flex-demo-pad">
+            <div class="flex flex-style">
+              <img src="image/bbq-tomato.svg" />
+              <p><strong>Tomato based</strong></p>
+            </div>
+            <div class="flex flex-style">
+              <img src="image/bbq-vinegar.svg" />
+              <p><strong>Vinegar based</strong></p>
+            </div>
+            <div class="flex flex-style">
+              <img src="image/bbq-mustard.svg" />
+              <p><strong>Mustard based</strong></p>
+            </div>
+          </div>
+          <p>
+            This chart is a flex container div, with divs inside of that
+            container that have the
+            <span class="text-monospace">flex-grow</span> property set to 1.
+            This makes it so that the boxes grow and shrink to have an even
+            amount of width between the three. Equally, you can add as many
+            boxes as you'd like, and it'd scale them proportionally. Using the
+            same code, just adding more elements, flexbox produces this:
+          </p>
+          <div class="flex-container flex-demo-pad">
+            <div class="flex flex-style"><p>1</p></div>
+            <div class="flex flex-style"><p>2</p></div>
+            <div class="flex flex-style"><p>3</p></div>
+            <div class="flex flex-style"><p>4</p></div>
+            <div class="flex flex-style"><p>5</p></div>
+          </div>
+          <p>
+            This can be utilised in lots of ways, with the
+            <span class="text-monospace">flex-grow</span> property allowing
+            elements to have a scaling ratio. In these examples, all the
+            elements have an equal ratio, however it's possible to have two
+            boxes with largely different scales.
+          </p>
+          <div class="flex-container flex-demo-pad">
+            <div class="flex flex-style flex-wide">
+              <p><strong>Wide</strong></p>
+            </div>
+            <div class="flex flex-style flex-thin">
+              <p><strong>Thin</strong></p>
+            </div>
+          </div>
+          <p>
+            One of the most popular applications for flexbox is in HTML forms,
+            as it can be very useful for having multiple inputs on one line. In
+            this example, there's a username and a password field on the same
+            line, separated by a small gap. This can all be done in flexbox very
+            easily:
+          </p>
+          <form class="flex-demo-pad">
+            <div class="flex-container">
+              <div class="flex">
+                <label for="f1">Username</label><br />
+                <input id="f1" type="username" />
+              </div>
+              <div class="flex">
+                <label for="f2">Password</label><br />
+                <input id="f2" type="password" />
+              </div>
+            </div>
+            <div class="flex-container flex-right">
+              <button class="flex-demo-button" disabled>Submit</button>
+            </div>
+          </form>
+          <p>
+            Overall, I consider flexbox an essential skill. I've learned a small
+            amount about it during this course, but it's utility has always been
+            clear to me. I particularly like how useful it is for aligning
+            cards, as those are notorious for being difficult to size and
+            position when creating a responsive webpage.
+          </p>
+          <h4>References</h4>
+          <ul class="bibliography">
+            <li>
+              <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">
+                CSS-TRICKS - A guide to flexbox
+              </a>
+            </li>
+          </ul>
         </article>
 
         <article>
@@ -246,7 +333,6 @@
             <h1>Page Design References</h1>
             <hr />
           </header>
-
           <ul class="bibliography">
             <li>
               <a href="https://www.w3schools.com/tags/tag_meta.asp">

@@ -38,6 +38,14 @@ a:hover {
   text-decoration: underline;
 }
 
+textarea {
+  box-sizing: border-box;
+}
+
+input {
+  box-sizing: border-box;
+}
+
 /*
 * Sidebar
 */
@@ -164,6 +172,57 @@ img {
 }
 
 /*
+* Flexbox
+*/
+
+.flex-demo-pad {
+  margin: 2rem 0;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex {
+  flex-grow: 1;
+  margin: 0 1rem;
+}
+
+.flex input {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.flex img {
+  width: 30%;
+  padding-top: 2rem;
+}
+
+.flex-style {
+  padding: 1rem;
+  border-radius: 0.75rem;
+  background-color: white;
+  filter: drop-shadow(0 0.5rem 0.75rem rgba(0, 0, 0, 0.15));
+  text-align: center;
+}
+
+.flex-wide {
+  flex-grow: 8;
+}
+
+.flex-thin {
+  flex-grow: 1;
+}
+
+.flex-right {
+  flex-direction: row-reverse;
+}
+
+.flex-demo-button {
+  margin: 0 1rem;
+}
+
+/*
 * Form
 */
 
@@ -182,7 +241,7 @@ form textarea {
 }
 
 .textbox {
-  width: 98%;
+  width: 100%;
   margin-bottom: 1rem;
 }
 
