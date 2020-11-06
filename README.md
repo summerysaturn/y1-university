@@ -23,8 +23,6 @@ This repository contains the specifications for my course and is going to be use
  :warning: :warning: :warning:
 </h3>
 
-![Progress Chart](.github/progress-chart.png)
-
 ## Contributing
 
 This repository follows [convetional commit guidelines](https://www.conventionalcommits.org/en/v1.0.0/). Additionally, custom types are added for various types of commit. These include:
@@ -41,6 +39,8 @@ Additionally, module codes have their own specific emoji to help identify what a
 - :globe_with_meridians: - CI435 Web Development
 - :mortar_board: - CI465 Digital Industries
 - :art: - CI474 3D Modelling
+
+![Progress Chart](.github/progress-chart.png)
 
 ### A1 Progress Chart
 
