@@ -4,12 +4,12 @@
 
 | Module Code | Name & Link to Folder                      |
 | :---------- | :----------------------------------------- |
-| CI401       | [Programming](#ci401-programming)          |
-| CI405       | [Computing Tech](#ci405-comp-tech)         |
-| CI410       | [Game Design](#ci410-game-design)          |
-| CI435       | [Web Development](#ci435-web-dev)          |
-| CI465       | [Digital Industries](#ci465-dg-industries) |
-| CI474       | [3D Modelling](#ci474-3d-ma)               |
+| CI401       | [Introduction to Programming](#ci401-programming)          |
+| CI405       | [Computing Technologies](#ci405-comp-tech)         |
+| CI410       | [Introduction to Game Design and Development](#ci410-game-design)          |
+| CI435       | [Introduction to Web Development](#ci435-web-dev)          |
+| CI465       | [Working in the Digital and Games Industries](#ci465-dg-industries) |
+| CI474       | [Introduction to 3D Modelling and Animation](#ci474-3d-ma)               |
 
 ## Introductory Note
 
@@ -24,6 +24,23 @@ This repository contains the specifications for my course and is going to be use
 </h3>
 
 ![Progress Chart](.github/progress-chart.png)
+
+## Contributing
+
+This repository follows [convetional commit guidelines](https://www.conventionalcommits.org/en/v1.0.0/). Additionally, custom types are added for various types of commit. These include:
+
+- lecture: :bookmark_tabs:
+- lab: :test_tube:
+- seminar: :ledger:
+
+Additionally, module codes have their own specific emoji to help identify what a commit is for:
+
+- :building_construction: - CI401 Intro to Programming
+- :computer: - CI405 Computing Technologies
+- :video_game: - CI410 Game Design & Development
+- :globe_with_meridians: - CI435 Web Development
+- :mortar_board: - CI465 Digital Industries
+- :art: - CI474 3D Modelling
 
 ### A1 Progress Chart
 
