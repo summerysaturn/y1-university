@@ -1,0 +1,124 @@
+\documentclass{scrartcl}
+
+% Preamble
+\usepackage[backend=biber,style=apa,sorting=none]{biblatex}
+\addbibresource{dd-v2.bib}
+\let\cite\textcite
+\let\citep\autocite
+\usepackage{graphicx}
+\graphicspath{{img/}}
+\usepackage{hyperref}
+
+% TODO list
+% See issue https://github.com/summerysaturn/y1-university/issues/11
+% [x] Working Title                 Title Page, Section 1.1
+% [?] Concept Statement             Title Page, Section 1.2
+% [?] Genre                         Title Page, Section 1.3
+% [ ] Target Audience               TODO Section 1.4
+% [x] Unique Selling Points (USPs)  TODO Section 1.5
+% [ ] Player Experience             TODO Section 2.1
+% [ ] Visual and Audio style        TODO Section 2.2
+% [ ] Narrative (optional)          TODO Section 2.3
+% [ ] Monetisation (optional)       TODO Section 2.4
+% [ ] Platform and Technology       TODO Section 2.5
+% [ ] Game rules                    TODO Section 3.1
+% [ ] Core loops                    TODO Section 3.2
+% [ ] Objectives and Progression    TODO Section 3.3
+
+\begin{document}
+\author{Charlotte Ward}
+\date{\today}
+\title{
+{\huge Working Title: Cybersky} \\
+{\small A modern reimagining of classic Shoot 'em Up gameplay, designed for handheld play, featuring roguelite mechanics.} \\
+{\small Genre: Roguelite, Shoot 'Em Up} \\
+{\small Version v2.0.0} % Semantic versioning please
+}
+\maketitle
+
+\tableofcontents
+
+\pagebreak
+
+\section{
+  High Level Design
+ }
+
+\subsection{Working Title}
+
+The working title for this project is \emph{Cybersky}, derived from the general Cyberpunk subgenre of Science Fiction. This name aims to convey a pessimistic, futuristic setting, mirrored in the proposed visual and audio style. This additionally reflects the gameplay concepts involved in Shoot 'em Up games, where the odds are stacked against the player in terms of numbers and technology (enemy complexity).
+
+\subsection{Concept Statement}
+
+\begin{quote}
+  \emph{A modern reimagining of classic Shoot 'em Up gameplay, designed for handheld play, featuring roguelite mechanics.}
+\end{quote}
+
+
+\subsection{Genre}
+
+Roguelite Shoot 'em Up
+
+TODO: Expand this
+
+\subsection{Target Audience}
+
+TODO: ESRB, Age, Gender, etc. Motivations and relevant interests.
+
+\subsection{Unique Selling Points}
+
+This game aims to reintroduce classic Shoot 'em Up gameplay onto the mobile gaming market. With the industry tending towards monetisation and advertisement, there's a sore need for games that are simple and replayable. \emph{Cybersky} can achieve this by cutting past the annoying and often offputting monetisation that exists in mobile gaming, skipping advertisements and instead relying on a short entry cost or pay-what-you-want scheme.
+
+To summarise:
+
+\begin{itemize}
+  \item Noninvasive Monetisation
+  \item Pay what you want scheme
+  \item Open source
+\end{itemize}
+
+Additionally, \emph{Cybersky} includes roguelite features, featuring short levels that make up part of a larger 'run' narrative. Each of these levels are chosen procedurally and have their own features, gimmicks and enemy/loot types. Players choose between two or three paths forward, being told the general archetype that each path fits into.
+
+Additionally, the player gets to string together temporary upgrades that improve with the tier of level they're in, which can combine together and 'synergise', having interesting effects on gameplay. This includes active components (weapons) and passive components (shields, hull, armour). These components can synergise to provide stacking bonuses and unique interactions, increasing the depth to choosing these components.
+
+While \emph{Cybersky} is permadeath for each 'run', there are permanent unlocks that can manipulate the way the game is played and add complexity depending on the amount the player has played the game.
+
+To summarise:
+
+\begin{itemize}
+  \item 'Roguelite' features
+  \item Revolves around 'runs'
+  \item Choose your own adventure style progression
+  \item Item synergy
+  \item Progressive upgrades
+  \item Pseudo-Permadeath
+  \item Permanent unlocks
+\end{itemize}
+
+\section{
+  Product Design
+ }
+
+\subsection{Player Experience}
+
+\subsection{Visual and Audio Style}
+
+\subsection{Narrative}
+
+\subsection{Monetisation}
+
+\subsection{Platform(s) and Technology}
+
+\section{
+  Game Mechanics
+ }
+
+\subsection{Game Rules}
+
+\subsection{Core Loops}
+
+\subsection{Objectives and Progression}
+
+\printbibliography
+
+\end{document}
