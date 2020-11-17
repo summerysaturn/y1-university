@@ -275,13 +275,13 @@ footer {
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
   .container {
-    max-width: 372px;
+    width: 372px;
     margin-right: auto;
     margin-left: auto;
   }
 
   .sidebar-container {
-    max-width: 280px;
+    width: 280px;
     margin-right: auto;
     margin-left: auto;
   }
@@ -300,7 +300,7 @@ footer {
   }
 
   .sidebar-container {
-    max-width: 280px;
+    width: 280px;
     margin-right: auto;
     margin-left: auto;
   }
@@ -326,7 +326,7 @@ footer {
   }
 
   .sidebar-container {
-    max-width: 192px;
+    width: 192px;
     margin-right: auto;
     margin-left: auto;
   }
@@ -352,7 +352,7 @@ footer {
   }
 
   .sidebar-container {
-    max-width: 248px;
+    width: 248px;
     margin-right: auto;
     margin-left: auto;
   }
@@ -378,7 +378,7 @@ footer {
   }
 
   .sidebar-container {
-    max-width: 248px;
+    width: 248px;
     margin-right: auto;
     margin-left: auto;
   }
