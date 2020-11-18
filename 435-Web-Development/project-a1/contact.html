@@ -45,96 +45,62 @@
             <hr />
           </header>
 
-          <p></p>
-
-          <div style="display: flex; justify-content: center">
-            <form id="f">
-              <label for="f1">Full name</label><br />
-              <input class="textbox" id="f1" type="text" /><br />
-
-              <label for="f2">Email</label><br />
-              <input class="textbox" id="f2" type="email" /><br />
-
-              <label for="f3">Comment</label><br />
-              <textarea class="textbox" id="f3" form="f"></textarea><br />
-
-              <div style="display: flex; justify-content: center">
-                <br />
-
-                <input type="submit" value="Submit" /><br />
-              </div>
-            </form>
-          </div>
-        </article>
-
-        <article>
-          <header>
-            <h1>Page Design References</h1>
-            <hr />
-          </header>
-          <p>
-            
+          <p class="text-muted">
+            This is a non-functional example form for a support ticket. If you
+            have any criticism or need to contact me, try the link below. If you
+            do add an issue here, please add the CI435 (Web Dev) label. Thanks!
           </p>
+
           <ul class="bibliography">
             <li>
-              <a href="https://www.w3schools.com/tags/tag_meta.asp">
-                W3Schools - Meta Tags
-              </a>
-            </li>
-            <li>
-              <a href="https://www.w3schools.com/css/css_rwd_grid.asp">
-                W3Schools - Grid View CSS
-              </a>
-            </li>
-            <li>
-              <a href="https://www.w3schools.com/css/css_rwd_mediaqueries.asp">
-                W3Schools - Media Queries
-              </a>
-            </li>
-            <li>
-              <a href="https://matthewjamestaylor.com/bottom-footer">
-                Matthew James Taylor - Footer CSS
-              </a>
-            </li>
-            <li>
-              <a href="https://www.w3schools.com/html/html_forms.asp">
-                W3Schools - Form HTML
-              </a>
-            </li>
-            <li>
               <a
-                href="https://developer.mozilla.org/en-US/docs/Learn/Forms/HTML5_input_types"
+                href="https://github.com/summerysaturn/y1-university/issues/new"
               >
-                Mozilla - Form HTML Reference
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://www.w3schools.com/csSref/css3_pr_justify-content.asp"
-              >
-                W3Schools - CSS Justify Content Property
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://css-tricks.com/snippets/css/truncate-string-with-ellipsis/"
-              >
-                CSS-Tricks - Truncate strings with ellipsis
-              </a>
-            </li>
-            <li>
-              <a href="https://developers.google.com/fonts/">
-                Google Fonts API Documentation
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing"
-              >
-                Mozilla Reference - box-sizing property
+                Create an Issue
               </a>
             </li>
           </ul>
+
+          <form class="flex-demo-pad">
+            <div class="flex-container">
+              <div class="flex" style="flex-grow: 2">
+                <label for="f1">Email</label><br />
+                <input id="f1" type="email" />
+              </div>
+              <div class="flex" style="flex-grow: 3">
+                <label for="f2">Password</label><br />
+                <input id="f2" type="password" />
+              </div>
+            </div>
+            <div class="flex-container">
+              <div class="flex" style="flex-grow: 4">
+                <label for="f1">Username</label><br />
+                <input id="f1" type="text" />
+              </div>
+              <div class="flex" style="flex-grow: 2">
+                <label for="f1">Region</label><br />
+                <select>
+                  <option>Select...</option>
+                  <option value="europe">Europe</option>
+                  <option value="us">US</option>
+                  <option value="asia">Asia</option>
+                </select>
+              </div>
+            </div>
+            <div class="flex-container">
+              <div class="flex">
+                <label for="f3">Comment</label><br />
+                <textarea id="f3" form="f"></textarea>
+              </div>
+            </div>
+            <div class="flex-container">
+              <div class="flex">
+                <label>Attachment</label>
+                <input type="file" />
+              </div>
+              <button class="flex-demo-button">Submit</button>
+            </div>
+          </form>
         </article>
       </main>
       <footer>
@@ -143,6 +109,10 @@
           <span class="text-muted">|</span>
           <a href="https://github.com/summerysaturn/y1-university">
             Site Source Code
+          </a>
+          <span class="text-muted">|</span>
+          <a href="https://github.com/summerysaturn/y1-university/issues/7">
+            GitHub Issue
           </a>
         </div>
       </footer>

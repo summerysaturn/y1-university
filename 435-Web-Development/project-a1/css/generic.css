@@ -46,6 +46,18 @@ input {
   box-sizing: border-box;
 }
 
+.text-muted {
+  color: grey;
+}
+
+.text-muted a {
+  text-decoration: underline;
+}
+
+.slight-cyan {
+  color: #187c7c;
+}
+
 /*
 * Sidebar
 */
@@ -149,6 +161,21 @@ img {
   content: "$ ";
 }
 
+.video-container {
+  width: 100%;
+  padding-top: 56.25%;
+  position: relative; /* If you want text inside of it */
+  margin-bottom: 2rem;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
 .bibliography {
   text-align: left;
   padding-left: 0.4rem;
@@ -195,31 +222,22 @@ img {
 
 .flex img {
   width: 30%;
-  padding-top: 2rem;
+  padding-bottom: 0.5rem;
 }
 
 .flex-style {
-  padding: 1rem;
+  padding: 0.5rem;
   border-radius: 0.75rem;
   background-color: white;
-  filter: drop-shadow(0 0.5rem 0.75rem rgba(0, 0, 0, 0.15));
   text-align: center;
-}
-
-.flex-wide {
-  flex-grow: 8;
-}
-
-.flex-thin {
-  flex-grow: 1;
-}
-
-.flex-right {
-  flex-direction: row-reverse;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #bbb;
 }
 
 .flex-demo-button {
   margin: 0 1rem;
+  height: 2rem;
 }
 
 /*
@@ -234,13 +252,14 @@ form label {
   width: 100%;
 }
 
+select {
+  width: 100%;
+}
+
 form textarea {
   resize: vertical;
   padding: 1%;
   height: 8rem;
-}
-
-.textbox {
   width: 100%;
   margin-bottom: 1rem;
 }
@@ -265,6 +284,44 @@ footer {
   bottom: 0;
   width: 100%;
   padding: 1rem 0 1rem 0;
+}
+
+/*
+ *   Footer Dropdown
+ */
+
+.dropdown input[type="checkbox"] {
+  display: none;
+}
+
+.dropdown label {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 100%;
+
+  cursor: pointer;
+}
+
+.dropdown div {
+  display: none;
+}
+
+#triangle-down {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 100px solid red;
+}
+
+/*
+.dropdown input[type="checkbox"]:checked ~ label {
+  background-color: #eee;
+}
+*/
+
+.dropdown input[type="checkbox"]:checked ~ div {
+  display: block;
 }
 
 /*

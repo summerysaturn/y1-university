@@ -246,16 +246,22 @@
           </p>
           <div class="flex-container flex-demo-pad">
             <div class="flex flex-style">
-              <img src="image/bbq-tomato.svg" />
-              <p><strong>Tomato based</strong></p>
+              <p>
+                <img src="image/bbq-tomato.svg" /><br />
+                <strong>Tomato based</strong>
+              </p>
             </div>
             <div class="flex flex-style">
-              <img src="image/bbq-vinegar.svg" />
-              <p><strong>Vinegar based</strong></p>
+              <p>
+                <img src="image/bbq-vinegar.svg" /><br />
+                <strong>Vinegar based</strong>
+              </p>
             </div>
             <div class="flex flex-style">
-              <img src="image/bbq-mustard.svg" />
-              <p><strong>Mustard based</strong></p>
+              <p>
+                <img src="image/bbq-mustard.svg" /><br />
+                <strong>Mustard based</strong>
+              </p>
             </div>
           </div>
           <p>
@@ -282,10 +288,10 @@
             boxes with largely different scales.
           </p>
           <div class="flex-container flex-demo-pad">
-            <div class="flex flex-style flex-wide">
+            <div class="flex flex-style" style="flex-grow: 7">
               <p><strong>Wide</strong></p>
             </div>
-            <div class="flex flex-style flex-thin">
+            <div class="flex flex-style" style="flex-grow: 1">
               <p><strong>Thin</strong></p>
             </div>
           </div>
@@ -307,7 +313,7 @@
                 <input id="f2" type="password" />
               </div>
             </div>
-            <div class="flex-container flex-right">
+            <div class="flex-container" style="flex-direction: row-reverse">
               <button class="flex-demo-button" disabled>Submit</button>
             </div>
           </form>
@@ -327,16 +333,98 @@
             </li>
           </ul>
         </article>
+
+        <!--
+        <article>
+          <header>
+            <h1>References</h1>
+            <hr />
+          </header>
+        </article>
+        -->
+
+        <article>
+          <header>
+            <h1>References</h1>
+            <hr />
+          </header>
+          <div class="lg-dropdown-content">
+            <ul class="bibliography">
+              <li>
+                <a href="https://www.w3schools.com/tags/tag_meta.asp">
+                  W3Schools - Meta Tags
+                </a>
+              </li>
+              <li>
+                <a href="https://www.w3schools.com/css/css_rwd_grid.asp">
+                  W3Schools - Grid View CSS
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.w3schools.com/css/css_rwd_mediaqueries.asp"
+                >
+                  W3Schools - Media Queries
+                </a>
+              </li>
+              <li>
+                <a href="https://matthewjamestaylor.com/bottom-footer">
+                  Matthew James Taylor - Footer CSS
+                </a>
+              </li>
+              <li>
+                <a href="https://www.w3schools.com/html/html_forms.asp">
+                  W3Schools - Form HTML
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://developer.mozilla.org/en-US/docs/Learn/Forms/HTML5_input_types"
+                >
+                  Mozilla - Form HTML Reference
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.w3schools.com/csSref/css3_pr_justify-content.asp"
+                >
+                  W3Schools - CSS Justify Content Property
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://css-tricks.com/snippets/css/truncate-string-with-ellipsis/"
+                >
+                  CSS-Tricks - Truncate strings with ellipsis
+                </a>
+              </li>
+              <li>
+                <a href="https://developers.google.com/fonts/">
+                  Google Fonts API Documentation
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing"
+                >
+                  Mozilla Reference - box-sizing property
+                </a>
+              </li>
+            </ul>
+          </div>
+        </article>
       </main>
 
       <footer>
-        <div class="container">
-          <a href="https://summerysaturn.github.io/"> My GitHub </a>
-          <span class="text-muted">|</span>
-          <a href="https://github.com/summerysaturn/y1-university">
-            Site Source Code
-          </a>
-        </div>
+        <a href="https://summerysaturn.github.io/"> My GitHub </a>
+        <span class="text-muted">|</span>
+        <a href="https://github.com/summerysaturn/y1-university">
+          Site Source Code
+        </a>
+        <span class="text-muted">|</span>
+        <a href="https://github.com/summerysaturn/y1-university/issues/7">
+          GitHub Issue
+        </a>
       </footer>
     </div>
   </body>
