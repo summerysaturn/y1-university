@@ -30,16 +30,25 @@
           </div>
           <h3>Posts</h3>
           <div class="nav-box">
-            <a href="#post1">Starting Week</a>
+            <a href="#post1">W1: Starting Week</a>
           </div>
           <div class="nav-box">
-            <a href="#post2">LaTeX Setup</a>
+            <a href="#post2">W2: LaTeX Setup</a>
           </div>
           <div class="nav-box">
-            <a href="#post3">Ubuntu 20.10 Release & Update</a>
+            <a href="#post3">W3: Ubuntu 20.10 Release & Update</a>
           </div>
           <div class="nav-box">
-            <a href="#post4">Flexbox</a>
+            <a href="#post4">W4: Flexbox</a>
+          </div>
+          <div class="nav-box">
+            <a href="#post5">W5: Flexbox</a>
+          </div>
+          <div class="nav-box">
+            <a href="#post6">W6: Flexbox</a>
+          </div>
+          <div class="nav-box">
+            <a href="#post7">W7: Flexbox</a>
           </div>
         </nav>
       </div>
@@ -49,187 +58,52 @@
       <main class="container">
         <article id="post1">
           <header>
-            <h1>Starting Week</h1>
+            <h1>W1: Semantic HTML</h1>
             <hr />
             <h5>Date written: 2020-10-10</h5>
           </header>
-          <div>
-            <p>
-              This week was our introduction to the course, Computer Science for
-              Games, with multiple modules being introduced with various
-              assignments. Of these, the Game Design & Development Course is
-              definitely the most interesting to me because of the application
-              of knowledge it requires:
-            </p>
-            <ul>
-              <li>Learning how games work</li>
-              <li>Learning the theory behind 'fun'</li>
-              <li>Implementing these ideas in a way that creates fun</li>
-            </ul>
-            <p>
-              Overall, I'm also very interested with how the course is going.
-              Additionally, I've been putting some time into learning Rust, a
-              low-level language similar to C or C++, with an amazing compiler
-              that enforces safe-practices. I think that having knowledge in a
-              more complex language, when compared with Javascript and Python,
-              where I'm more experienced, will be a big benefit going forward.
-              Having the knowledge of how to write safe and fast code is a big
-              positive in my view.
-            </p>
-          </div>
+          <p></p>
+          <h4>References</h4>
+          <ul class="bibliography">
+            <li>
+              <a href=""></a>
+            </li>
+          </ul>
         </article>
 
         <article id="post2">
           <header>
-            <h1>LaTeX Setup</h1>
+            <h1>W2:</h1>
             <hr />
             <h5>Date written: 2020-10-18</h5>
           </header>
-          <p>
-            The highlight of this week involved setting up LaTeX for my Game
-            Design and Development essay. LaTeX is a set of additions to the TeX
-            typesetting system, which allows you to compile documents out of
-            plaintext files. This can be especially useful for essays and
-            articles, as the compiler handles all of the layout and styling.
-            Much like HTML, LaTeX can be utilised to effectively structure
-            documents.
-          </p>
-          <p>
-            Setting up LaTeX on Linux, specifically a Debian distribution, is
-            fairly easy, as it just involves installing some packages. Finding
-            the right packages to do what you want to do is the tricky bit.
-            Starting out with installing
-            <span class="text-monospace">texlive</span> with
-            <span class="text-monospace">apt</span> is the best bet. This
-            package allows you to utilise the core of TeX.
-          </p>
-          <ul class="terminal-ul">
-            <li>sudo apt install texlive</li>
-          </ul>
-          <p>
-            This installs the majority of what's needed to use LaTeX, inculding
-            the
-            <span class="text-monospace">pdflatex</span> command. This is a
-            standard compiler for LaTeX. What's missing from this is the
-            BibLaTeX package, which is required for proper handling of the
-            bibliography. As my essay needs to have proper citations, I'll be
-            using BibLaTeX to implement this functionality.
-          </p>
-          <ul class="terminal-ul">
-            <li>sudo apt install biber</li>
-          </ul>
-          <p>
-            This commant installs <span class="text-monospace">biber</span>,
-            which is a processing backend for LaTeX that additionally provides
-            the BibLaTeX package for use with
-            <span class="text-monospace">pdflatex</span>. Using this, I can
-            generate and utilise bibliographies, and have LaTeX and BibLaTeX
-            handle the document layout.
-          </p>
-          <p>
-            LaTeX is useful for someone like me as it allows for me to
-            effectively program what I want without worrying about layout.
-            Whereas software like Word can create documents that look right,
-            getting them to look correct takes a lot of time and effort. Having
-            LaTeX handle it for me can speed up my workflow by a huge amount.
-            Additionally, BibLaTeX is one of my favourite things in the document
-            preparation ecosystem.
-          </p>
+          <p></p>
           <h4>References</h4>
           <ul class="bibliography">
             <li>
-              <a
-                href="https://packages.ubuntu.com/focal/texlive-latex-recommended"
-              >
-                Ubuntu Packages - texlive-latex-recommended
-              </a>
+              <a href=""> </a>
             </li>
           </ul>
         </article>
 
         <article id="post3">
           <header>
-            <h1>Ubuntu 20.10 Release & Update</h1>
+            <h1>W3:</h1>
             <hr />
             <h5>Date written: 2020-10-27</h5>
           </header>
-          <img
-            src="image/df8s7908.jpg"
-            alt="An image of my desktop running Linux"
-          />
-          <p>
-            The 22nd of October marked a special day in the realm of Linux;
-            Ubuntu finalised and launcher their 20.10 release, following on from
-            version 20.04. This is a short-term release, indicating that it'll
-            be supported for 9 months, unlike 20.04, which gets 5 years of
-            support as an LTS release. I prefer rolling releases with operating
-            systems, as I prefer to stay on the bleeding edge as much as
-            possible.
-          </p>
-          <p>
-            This launch involved numerous updates to the packages provided by
-            Ubuntu, including Gnome 3.38, bringing with it numerous bug fixes
-            and improvement, a few of which are very important to me.
-            Additionally, the Linux 5.8 kernel is included, bringing with it
-            better driver support, including native exFAT drivers and all the
-            improvements from kernels 5.5 to 5.7.
-          </p>
-          <p>
-            Since LTS builds of Ubuntu specialise on stability, there's a long
-            time period between a release of each build and the so-called
-            "feature freeze". This is because Canonical spend a long time making
-            sure that the packages are all stable and work together, and as such
-            have a deadline for packages to be submitted. Otherwise, they'd end
-            up optimising packages forever and never reaching a stable build.
-          </p>
-          <p>
-            A by-product of this is that packages end up many versions out of
-            date, including the kernel. This is significant as sometimes newer
-            devices may only function with a newer kernel. This is relevant
-            because of how STR (short term release) builds have a shorter window
-            which, while increasing instability somewhat, also means that the
-            package versions are much closer to bleeding-edge.
-          </p>
-          <p>
-            Some of the features I love the most come from Gnome 3.38, including
-            better support for multiple displays with differing refresh rates
-            (improving upon a prior issue where it'll sync to the lowest refresh
-            rate possible), and fixing an issue where the wallpaper appears
-            blurry due to an OpenGL issue.
-          </p>
-          <p>
-            Additionally, I spent some time customising a GTK theme and applying
-            it to my desktop. Using Linux makes desktop customisation much
-            easier, which makes it very enjoyable to use for me (on top of the
-            benefits in software).
-          </p>
+          <p></p>
           <h4>References</h4>
           <ul class="bibliography">
             <li>
-              <a
-                href="https://www.omgubuntu.co.uk/2020/05/ubuntu-20-10-release-features"
-              >
-                OMG! Ubuntu! - 20.10 release features
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://www.omgubuntu.co.uk/2020/01/its-not-your-eyes-its-a-bug-why-hq-desktop-backgrounds-look-blurry-on-ubuntu"
-              >
-                OMG! Ubuntu! - Why HQ Desktop Backgrounds Look Blurry on Ubuntu
-              </a>
-            </li>
-            <li>
-              <a href="https://ubuntuforums.org/showthread.php?t=2304030">
-                Ubuntu Forums - "Why are software packages in Ubuntu so OLD?"
-              </a>
+              <a href=""> </a>
             </li>
           </ul>
         </article>
 
         <article id="post4">
           <header>
-            <h1>Flexbox</h1>
+            <h1>W4: Flexbox</h1>
             <hr />
             <h5>Date written: 2020-11-06</h5>
           </header>
@@ -330,6 +204,21 @@
               <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">
                 CSS-TRICKS - A guide to flexbox
               </a>
+            </li>
+          </ul>
+        </article>
+
+        <article>
+          <header>
+            <h1>W5: JS Code Highlighting</h1>
+            <hr />
+            <h5>Date Written: 2020-11-05</h5>
+          </header>
+          <p></p>
+          <h4>References</h4>
+          <ul class="bibliography">
+            <li>
+              <a href=""> </a>
             </li>
           </ul>
         </article>
