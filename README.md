@@ -2,14 +2,14 @@
 
 # Year 1 content for Computer Science for Games :sparkles:
 
-| Module Code | Name & Link to Folder                      |
-| :---------- | :----------------------------------------- |
-| CI401       | [Introduction to Programming](#ci401-programming)          |
-| CI405       | [Computing Technologies](#ci405-comp-tech)         |
-| CI410       | [Introduction to Game Design and Development](#ci410-game-design)          |
-| CI435       | [Introduction to Web Development](#ci435-web-dev)          |
+| Module Code | Name & Link to Folder                                               |
+| :---------- | :------------------------------------------------------------------ |
+| CI401       | [Introduction to Programming](#ci401-programming)                   |
+| CI405       | [Computing Technologies](#ci405-comp-tech)                          |
+| CI410       | [Introduction to Game Design and Development](#ci410-game-design)   |
+| CI435       | [Introduction to Web Development](#ci435-web-dev)                   |
 | CI465       | [Working in the Digital and Games Industries](#ci465-dg-industries) |
-| CI474       | [Introduction to 3D Modelling and Animation](#ci474-3d-ma)               |
+| CI474       | [Introduction to 3D Modelling and Animation](#ci474-3d-ma)          |
 
 ## Introductory Note
 
@@ -46,12 +46,12 @@ Additionally, module codes have their own specific emoji to help identify what a
 
 (Note: CI401 and CI405 have no deliverables this semester, due to restrictions on social distancing and exams. These will instead be taking place in semester 2.)
 
-| Module | Deliverable               | Issues                                                          | Deadline   | Done?              | Link to Assignment                                                 |
-| :----- | :------------------------ | :-------------------------------------------------------------- | :--------: | :----------------: | :----------------------------------------------------------------- |
-| CI410  | 1,750 Word Report         | [#11](https://github.com/summerysaturn/y1-university/issues/11) | 2021-01-15 | :heavy_check_mark: | [Link](410-Game-Design/Assignment1-Design-Doc/Design-Document.pdf) |
-| CI435  | Website Zip               | [#6](https://github.com/summerysaturn/y1-university/issues/6)   | 2021-01-15 | :heavy_check_mark: | [Link](435-Web-Development/project-a1)                             |
-| CI465  | Group Video Report        | [#13](https://github.com/summerysaturn/y1-university/issues/13) | 2021-01-15 | :x:                | :question:                                                         |
-| CI474  | Report, Storyboard, Scene | [#5](https://github.com/summerysaturn/y1-university/issues/5)   | 2021-01-21 | :x:                | :question:                                                         |
+| Module | Deliverable               | Issues                                                          | Deadline   | Done? | Link to Work                                                       | Assignment Priority    |
+| :----- | :------------------------ | :-------------------------------------------------------------- | :--------: | :---: | :----------------------------------------------------------------- | :--------------------- |
+| CI410  | 1,750 Word Report         | [#11](https://github.com/summerysaturn/y1-university/issues/11) | 2021-01-15 | :x:   | [Link](410-Game-Design/Assignment1-Design-Doc/Design-Document.pdf) | :yellow_circle: Medium |
+| CI435  | Website Zip               | [#6](https://github.com/summerysaturn/y1-university/issues/6)   | 2021-01-15 | :x:   | [Link](435-Web-Development/project-a1)                             | :red_circle: High      |
+| CI465  | Group Video Report        | [#13](https://github.com/summerysaturn/y1-university/issues/13) | 2021-01-15 | :x:   | [Link](465-Digital-Industries/project-a1)                          | :green_circle: Low     |
+| CI474  | Report, Storyboard, Scene | [#5](https://github.com/summerysaturn/y1-university/issues/5)   | 2021-01-21 | :x:   | [Link](474-3D-Modelling/project-a1)                                | :red_circle: High      |
 
 ### A2 Progress Chart
 
@@ -80,7 +80,7 @@ This section features a static site. This segment is still under development, ev
 
 ### [Specification Link](401-Programming/supporting-docs/CI401-Specification.pdf)
 
-### CI401 Assignment 1
+### CI401 Assignment 1 (Moved to S2)
 
 | :package: Deliverables       | Open Book Examination (1.5 Hours)                                                                                                                                                                                                                |
 | :--------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -104,7 +104,7 @@ This section features a static site. This segment is still under development, ev
 
 ### [Specification Link](405-Game-Design/supporting-docs/CI405-Specification.pdf)
 
-### CI405 Assignment 1
+### CI405 Assignment 1 (Moved to S2)
 
 | :package: Deliverables       | Multiple Choice Exam (1 Hour)                                                                      |
 | :--------------------------- | :------------------------------------------------------------------------------------------------- |
@@ -135,8 +135,14 @@ This section features a static site. This segment is still under development, ev
 | :clipboard: Assignment Doc   | [Link Here](410-Game-Design/supporting-docs/CI410-A1-Brief.pdf)                        |
 | :books: Description          | Report that documents the design of an original 2D game. Should be around 1,750 words. |
 | :alarm_clock: Deadline       | 2021-01-15                                                                             |
-| :memo: GitHub Issue          | [#11](410-Game-Design/supporting-docs/CI410-A2-Brief.pdf) (Closed)                     |
-| :heavy_check_mark: Complete? | :heavy_check_mark:                                                                     |
+| :memo: GitHub Issue          | [#11](410-Game-Design/supporting-docs/CI410-A2-Brief.pdf) (Reopened)                   |
+| :heavy_check_mark: Complete? | :x:                                                                                    |
+
+#### CI410 Assignment 1 Breakdown
+
+This assignment is technically completed although there's a second essay that I'm working on that better fits the brief. See the issue in the table above for further context. At the moment this essay isn't complete, although it much more closely aligns to the brief than the first.
+
+:yellow_circle: Consider this low priority for now.
 
 ### CI410 Assignment 2
 
@@ -161,6 +167,22 @@ This section features a static site. This segment is still under development, ev
 | :alarm_clock: Deadline       | 2021-01-15                                                                                                                                                                                                    |
 | :memo: GitHub Issue          | [#6](https://github.com/summerysaturn/y1-university/issues/6)                                                                                                                                                 |
 | :heavy_check_mark: Complete? | :heavy_check_mark:                                                                                                                                                                                            |
+
+#### CI435 Assignment 1 Breakdown
+
+In sore need of further development. See issue for context; there's missing articles on this page even if the page itself is fully functional. Some avenues for progress include writing about:
+
+* [ ] Object-Oriented CSS
+* [ ] Page Layout using Flex
+* [ ] CSS Pseudo-Elements
+* [ ] SASS Preprocessing
+* [ ] Typescript Usage
+* [ ] jQuery (and alternatives)
+* [ ] Node
+* [ ] React
+* [ ] Electron
+
+:red_circle: This should be considered high priority (due to the high modularity of what's required).
 
 ### CI435 Assignment 2
 
@@ -200,20 +222,28 @@ First Heading
 
 Second Heading
 
-* [ ] Describe the broader market the company operates in
-* [ ] The key trends taking place in this market
-* [ ] Ethical issues related to the industry
+* [x] Describe the broader market the company operates in
+* [x] The key trends taking place in this market
+* [x] Ethical issues related to the industry
 
 Third Heading
 
-* [ ] The technologies underpinning the company's products / services
-* [ ] How these technologies are evolving
-* [ ] What the future for these technologies are
-* [ ] What technologies might replace them (if applicable)
+* [x] The technologies underpinning the company's products / services
+* [x] How these technologies are evolving
+* [x] What the future for these technologies are
+* [x] What technologies might replace them (if applicable)
 
 Conclusion
 
-* [ ] A conclusion on what the future might hold for the company
+* [x] A conclusion on what the future might hold for the company
+
+We are now done with filming, the future progress relies on editing (large task) and final upload. Contribution document.
+
+* [ ] Contribution Document
+* [ ] Editing
+* [ ] Posted
+
+:green_circle: This should be considered low priority as it's almost there.
 
 ### CI465 Assignment 2
 
@@ -241,11 +271,13 @@ Conclusion
 
 #### CI474 A1 Breakdown
 
-* Storyboard, illustrating an animation sequence and the flow between scenes.
-  * Written evidence alongside this showing intent.
-* Concept art demonstrating visual style and intent.
-* Basic 3D scene.
-* Reflective report outlining stylistic influences and visual references.
+* [x] Storyboard, illustrating an animation sequence and the flow between scenes.
+  * [ ] Written evidence alongside this showing intent.
+* [ ] Concept art demonstrating visual style and intent.
+* [ ] Basic 3D scene.
+* [ ] Reflective report outlining stylistic influences and visual references.
+
+:red_circle: This should be considered high priority as there's a larger amount of work to finish up for the deadline.
 
 ### CI474 Assignment 2
 
