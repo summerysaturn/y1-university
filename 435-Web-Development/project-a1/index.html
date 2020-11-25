@@ -30,26 +30,28 @@
           </div>
           <h3>Posts</h3>
           <div class="nav-box">
-            <a href="#post1">W1: Starting Week</a>
+            <a href="#post1">W1: Semantic HTML</a>
           </div>
           <div class="nav-box">
-            <a href="#post2">W2: LaTeX Setup</a>
+            <a href="#post2">W2: // TODO</a>
           </div>
           <div class="nav-box">
-            <a href="#post3">W3: Ubuntu 20.10 Release & Update</a>
+            <a href="#post3">W3: // TODO</a>
           </div>
           <div class="nav-box">
             <a href="#post4">W4: Flexbox</a>
           </div>
           <div class="nav-box">
-            <a href="#post5">W5: Flexbox</a>
+            <a href="#post5">W5: JS Code Highlighting</a>
+          </div>
+          <!--
+          <div class="nav-box">
+            <a href="#post6">W6: // TODO</a>
           </div>
           <div class="nav-box">
-            <a href="#post6">W6: Flexbox</a>
+            <a href="#post7">W7: // TODO</a>
           </div>
-          <div class="nav-box">
-            <a href="#post7">W7: Flexbox</a>
-          </div>
+          -->
         </nav>
       </div>
     </div>
@@ -62,11 +64,76 @@
             <hr />
             <h5>Date written: 2020-10-10</h5>
           </header>
-          <p></p>
+          <p>
+            Semantic HTML is a feature of modern webpages that allows for
+            elements to be defined semantically. This differs from standard
+            HTML, where logic and style are added using classes and IDs. For
+            example,
+          </p>
+          <ul class="terminal-ul">
+            <span class="html">div class="article"</span>
+          </ul>
+          <p>versus,</p>
+          <ul class="terminal-ul">
+            <span class="html">article</span>
+          </ul>
+          <p>
+            These differ in a few ways. For one, the
+            <span class="html text-monospace">div</span> element inherits
+            nothing outside of what's already included with the div element.
+            Additionally, it sets up the class
+            <span class="text-monospace">.article</span> for use with selection
+            with CSS or jQuery.
+          </p>
+          <p>
+            Alternately, the
+            <span class="html text-monospace">article</span> element inherits
+            from the standard div, and also from the standard article object. In
+            this case, there's nothing outside of
+            <span class="text-monospace">display: block;</span>, however in
+            other cases this is significant. Additionally, the CSS selector for
+            this element is <span class="text-monospace">article</span>, without
+            the dot or # that comes along with Classes or IDs.
+          </p>
+          <p>
+            There's a bunch of these elements which carry their own inherited
+            style and logic, but some of the lesser used ones include:
+          </p>
+          <ul class="terminal-ul">
+            <span class="html">article</span
+            >,
+            <span class="html">aside</span
+            >,
+            <span class="html">details</span
+            >,
+            <span class="html">figcaption</span
+            >,
+            <span class="html">figure</span
+            >,
+            <span class="html">footer</span
+            >,
+            <span class="html">header</span
+            >,
+            <span class="html">main</span
+            >,
+            <span class="html">mark</span
+            >,
+            <span class="html">nav</span
+            >,
+            <span class="html">section</span
+            >,
+            <span class="html">summary</span
+            >,
+            <span class="html">time</span>
+          </ul>
           <h4>References</h4>
           <ul class="bibliography">
             <li>
-              <a href=""></a>
+              <a
+                href="https://www.w3schools.com/html/html5_semantic_elements.asp"
+              >
+                w3schools.com - HTML Semantic Elements
+              </a>
             </li>
           </ul>
         </article>
@@ -208,7 +275,7 @@
           </ul>
         </article>
 
-        <article>
+        <article id="post5">
           <header>
             <h1>W5: JS Code Highlighting</h1>
             <hr />
