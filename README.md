@@ -55,14 +55,14 @@ Additionally, module codes have their own specific emoji to help identify what a
 
 ### A2 Progress Chart
 
-| Module | Deliverable                                 | Issues     | Deadline   | Done? | Link to Assignment |
-| :----- | :------------------------------------------ | :--------- | :--------: | :---: | :----------------- |
-| CI401  | Simple App, Open Book Exam                  | :question: | :question: | :x:   | :question:         |
-| CI405  | Learning Journal Labs, Multiple Choice Exam | :question: | :question: | :x:   | :question:         |
-| CI410  | Game Prototype                              | :question: | :question: | :x:   | :question:         |
-| CI435  | Open Book Exam                              | :question: | :question: | :x:   | :question:         |
-| CI465  | Portfolio, CV, Social Media, etc            | :question: | :question: | :x:   | :question:         |
-| CI474  | Animated Scene, Reflective Report           | :question: | :question: | :x:   | :question:         |
+| Module | Deliverable                                 | Issues     | Deadline   | Done? | Link to Assignment | Assignment Priority |
+| :----- | :------------------------------------------ | :--------- | :--------: | :---: | :----------------- | :------------------ |
+| CI401  | Simple App, Open Book Exam                  | :question: | :question: | :x:   | :question:         | :x: N/A             |
+| CI405  | Learning Journal Labs, Multiple Choice Exam | :question: | :question: | :x:   | :question:         | :x: N/A             |
+| CI410  | Game Prototype                              | :question: | :question: | :x:   | :question:         | :x: N/A             |
+| CI435  | Open Book Exam                              | :question: | :question: | :x:   | :question:         | :x: N/A             |
+| CI465  | Portfolio, CV, Social Media, etc            | :question: | :question: | :x:   | :question:         | :x: N/A             |
+| CI474  | Animated Scene, Reflective Report           | :question: | :question: | :x:   | :question:         | :x: N/A             |
 
 ![Usage Notes](.github/usage.png)
 
