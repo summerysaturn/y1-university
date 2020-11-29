@@ -11,7 +11,7 @@
 | CI465       | [Working in the Digital and Games Industries](#ci465-dg-industries) |
 | CI474       | [Introduction to 3D Modelling and Animation](#ci474-3d-ma)          |
 
-## Introductory Note
+![Introductory Note](.github/intro-note.png)
 
 <h3 align="center">
  :warning: :warning: :warning:
@@ -22,23 +22,6 @@ This repository contains the specifications for my course and is going to be use
 <h3 align="center">
  :warning: :warning: :warning:
 </h3>
-
-## Contributing
-
-This repository follows [convetional commit guidelines](https://www.conventionalcommits.org/en/v1.0.0/). Additionally, custom types are added for various types of commit. These include:
-
-- lecture: :bookmark_tabs:
-- lab: :test_tube:
-- seminar: :ledger:
-
-Additionally, module codes have their own specific emoji to help identify what a commit is for:
-
-- :building_construction: - CI401 Intro to Programming
-- :computer: - CI405 Computing Technologies
-- :video_game: - CI410 Game Design & Development
-- :globe_with_meridians: - CI435 Web Development
-- :mortar_board: - CI465 Digital Industries
-- :art: - CI474 3D Modelling
 
 ![Progress Chart](.github/progress-chart.png)
 
@@ -63,16 +46,6 @@ Additionally, module codes have their own specific emoji to help identify what a
 | CI435  | Open Book Exam                              | :question: | :question: | :x:   | :question:         | :x: N/A             |
 | CI465  | Portfolio, CV, Social Media, etc            | :question: | :question: | :x:   | :question:         | :x: N/A             |
 | CI474  | Animated Scene, Reflective Report           | :question: | :question: | :x:   | :question:         | :x: N/A             |
-
-![Usage Notes](.github/usage.png)
-
-### CI410
-
-This section features a LaTeX document that must be prepared using `texlive` (or equivalent). My method involves using `texlive` and `biber`, both available on Ubuntu and Pop!\_OS's default 20.10 repositories, which is what I use. The process for building this document by yourself may differ depending on your OS! This being said, there's a copy of the report available in the [CI410 Releases Tag](https://github.com/summerysaturn/y1-university/releases/tag/CI410), under the 'Assignment 1 Essay'.
-
-### CI435
-
-This section features a static site. This segment is still under development, even if the assignment is considered "done". This is because the only extra parts to add are extra posts. Once the deadline rolls around I'll push it to the gh-pages branch and add it as a release. In the meantime, this site is viewable at <http://ci435-01.kmjw10.brighton.domains/index.html>.
 
 ![Assignments](.github/assignments.png)
 
@@ -298,3 +271,30 @@ We are now done with filming, the future progress relies on editing (large task)
 * Character animated
 * Rendered sequence 30s or less
 * Reflective report (500-2000 words) outlining next major workflow stages
+
+![Contributing](.github/contributing.png)
+
+This repository follows [conventional commit guidelines](https://www.conventionalcommits.org/en/v1.0.0/). Additionally, custom types are added for various types of commit. These include:
+
+- lecture: :bookmark_tabs:
+- lab: :test_tube:
+- seminar: :ledger:
+
+Additionally, module codes have their own specific emoji to help identify what a commit is for:
+
+- :building_construction: - CI401 Intro to Programming
+- :computer: - CI405 Computing Technologies
+- :video_game: - CI410 Game Design & Development
+- :globe_with_meridians: - CI435 Web Development
+- :mortar_board: - CI465 Digital Industries
+- :art: - CI474 3D Modelling
+
+![Usage Notes](.github/usage.png)
+
+### CI410
+
+This section features a LaTeX document that must be prepared using `texlive` (or equivalent). My method involves using `texlive` and `biber`, both available on Ubuntu and Pop!\_OS's default 20.10 repositories, which is what I use. The process for building this document by yourself may differ depending on your OS! This being said, there's a copy of the report available in the [CI410 Releases Tag](https://github.com/summerysaturn/y1-university/releases/tag/CI410), under the 'Assignment 1 Essay'.
+
+### CI435
+
+This section features a static site. This segment is still under development, even if the assignment is considered "done". This is because the only extra parts to add are extra posts. Once the deadline rolls around I'll push it to the gh-pages branch and add it as a release. In the meantime, this site is viewable at <http://ci435-01.kmjw10.brighton.domains/index.html>.
