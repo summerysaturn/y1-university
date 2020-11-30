@@ -274,20 +274,23 @@ We are now done with filming, the future progress relies on editing (large task)
 
 ![Contributing](.github/contributing.png)
 
-This repository follows [conventional commit guidelines](https://www.conventionalcommits.org/en/v1.0.0/). Additionally, custom types are added for various types of commit. These include:
+This repository follows [conventional commit guidelines](https://www.conventionalcommits.org/en/v1.0.0/). To add on to this, custom types are added for various types of commit. Additionally, module codes have their own specific emoji to help identify what a commit is for. For example, a CI474 Lab would look like this:
 
-- lecture: :bookmark_tabs:
-- lab: :test_tube:
-- seminar: :ledger:
+```plaintext
+lab: :test_tube::art: finished the lab work for 2020-10-25
+```
 
-Additionally, module codes have their own specific emoji to help identify what a commit is for:
-
-- :building_construction: - CI401 Intro to Programming
-- :computer: - CI405 Computing Technologies
-- :video_game: - CI410 Game Design & Development
-- :globe_with_meridians: - CI435 Web Development
-- :mortar_board: - CI465 Digital Industries
-- :art: - CI474 3D Modelling
+| Icon                    | Shortcode                 | Description                     |
+| :---------------------- | :------------------------ | :------------------------------ |
+| :bookmark_tabs:         | `:bookmark_tabs:`         | Lecture                         |
+| :test_tube:             | `:test_tube:`             | Lab                             |
+| :ledger:                | `:ledger:`                | Seminar                         |
+| :building_construction: | `:building_construction:` | CI401 Intro to Programming      |
+| :computer:              | `:computer:`              | CI405 Computing Technologies    |
+| :video_game:            | `:video_game:`            | CI410 Game Design & Development |
+| :globe_with_meridians:  | `:globe_with_meridians:`  | CI435 Web Development           |
+| :mortar_board:          | `:mortar_board:`          | CI465 Digital Industries        |
+| :art:                   | `:art:`                   | CI474 3D Modelling              |
 
 ![Usage Notes](.github/usage.png)
 
