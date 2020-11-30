@@ -142,14 +142,6 @@ img {
   max-width: 100%;
 }
 
-.html::before {
-  content: "<";
-}
-
-.html::after {
-  content: ">";
-}
-
 .text-monospace {
   font-family: "Fira Code", monospace;
 }
