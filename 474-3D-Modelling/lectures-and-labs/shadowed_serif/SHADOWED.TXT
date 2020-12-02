@@ -1,0 +1,5 @@
+The Shadowed Serif Font font is a true type font for Windows.  It is an all caps display font in which the characters are all shadowed, creating a 3-D effect.  The font contains the complete alphabet, numbers and some punctuation.
+
+This font is (c) 1994 by J. Fordyce but may be freely distributed provided it is not altered, no fee is charged for it, and this text file is included with it.
+
+Feel free to send comments to j4dice@li.net
