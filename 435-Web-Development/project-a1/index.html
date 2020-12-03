@@ -89,21 +89,19 @@
           </ul>
           <p>
             These differ in a few ways. For one, the
-            <span class="html text-monospace">div</span> element inherits
-            nothing outside of what's already included with the div element.
-            Additionally, it sets up the class
-            <span class="text-monospace">.article</span> for use with selection
-            with CSS or jQuery.
+            <code>&lt;div&gt;</code> element inherits nothing outside of what's
+            already included with the div element. Additionally, it sets up the
+            class <code>.article</code> for use with selection with CSS or
+            jQuery.
           </p>
           <p>
             Alternately, the
-            <span class="html text-monospace">article</span> element inherits
-            from the standard div, and also from the standard article object. In
-            this case, there's nothing outside of
-            <span class="text-monospace">display: block;</span>, however in
-            other cases this is significant. Additionally, the CSS selector for
-            this element is <span class="text-monospace">article</span>, without
-            the dot or # that comes along with Classes or IDs.
+            <code>article</code> element inherits from the standard div, and
+            also from the standard article object. In this case, there's nothing
+            outside of <code>display: block;</code>, however in other cases this
+            is significant. Additionally, the CSS selector for this element is
+            <code>article</code>, without the <code>.</code> or
+            <code>#</code> that comes along with Classes and IDs respectively.
           </p>
           <p>
             There's a bunch of these elements which carry their own inherited
@@ -133,11 +131,76 @@
             <hr />
             <h5>Date written: 2020-10-17</h5>
           </header>
-          <p></p>
+          <p>
+            Object-Oriented CSS is a set of implicit conventions for CSS that
+            names values based on what they would normally be in an
+            object-oriented language. Traditional CSS has no restrictions for
+            class and ID names, allowing anything including the names of
+            semantic elements. For example, a <code>.nav</code> class is fully
+            allowed, even in spite of the existing
+            <code>&lt;nav&gt;</code> element.
+          </p>
+          <p>
+            A good example of this kind of convention is
+            <a href="http://oxygencss.com/">Oxygen</a>, a convention for CSS
+            designed around applying the OO method to naming elements in
+            stylesheets. This convention is fairly similar, with only 4 types of
+            objects included in the specification. These are:
+          </p>
+          <table class="table table-w2">
+            <tr>
+              <td>Object</td>
+              <td><code>.button</code><br /><code>.menu</code></td>
+              <td><code>.noun</code></td>
+            </tr>
+            <tr>
+              <td>Child-Object</td>
+              <td><code>.button-caret</code><br /><code>.menu-item</code></td>
+              <td><code>.noun-noun</code></td>
+            </tr>
+            <tr>
+              <td>Subclass</td>
+              <td>
+                <code>.primary-button</code><br /><code>.popup-menu</code>
+              </td>
+              <td><code>.adjective-noun</code></td>
+            </tr>
+            <tr>
+              <td>Modifier</td>
+              <td><code>.is-selected</code><br /><code>.scrollable</code></td>
+              <td>
+                <code>.prefix-adjective</code> or<br /><code>.adjective</code>
+              </td>
+            </tr>
+          </table>
+          <p>
+            Using this framework, it's possible to have a form of inheritance,
+            whereby child-objects assume the style of their parent objects. For
+            example:
+          </p>
+          <ul class="terminal-ul">
+            &lt;button class="btn btn-warning"&gt;&lt;/button&gt;
+          </ul>
+          <p>
+            Follows a similar process to <code>.btn-warning</code> being truly
+            inherited from <code>btn</code>. As both classes are in use on the
+            object, <code>btn-warning</code> can include modifications on the
+            core <code>btn</code> class to turn it into a warning button, much
+            like how inheritance works in other languages.
+          </p>
+          <p>
+            This convention can help to standardise object styles, as any
+            deviation from a standard object inherits from the main object much
+            like in a true OO language. Using this, modifying
+            <code>btn</code> will change all buttons, regardless of the child
+            type each button on the page uses.
+          </p>
           <h4>References</h4>
           <ul class="bibliography">
             <li>
-              <a href=""> </a>
+              <a href="http://oxygencss.com/">
+                Oxygen - An object-oriented methodology for stylesheets
+              </a>
             </li>
           </ul>
         </article>
