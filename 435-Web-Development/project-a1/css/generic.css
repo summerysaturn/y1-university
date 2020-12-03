@@ -142,7 +142,7 @@ img {
   max-width: 100%;
 }
 
-.text-monospace {
+code {
   font-family: "Fira Code", monospace;
 }
 
@@ -175,6 +175,15 @@ img {
   left: 0;
   bottom: 0;
   right: 0;
+}
+
+.table {
+  width: 100%;
+}
+
+.table td {
+  background-color: #f4f4f4;
+  border-radius: 0.25rem;
 }
 
 .bibliography {
