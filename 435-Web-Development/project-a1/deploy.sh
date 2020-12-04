@@ -1,1 +1,1 @@
-lftp -c "open -d --user summerysaturn@kmjw10.brighton.domains ftp://kmjw10.brighton.domains ; cls ; cd ci435-01.kmjw.brighton.domains ; mirror -R ."
+lftp -c "open -d --user kmjw10 sftp://kmjw10.brighton.domains ; cls ; cd ci435-01.kmjw10.brighton.domains ; mirror -R ."
