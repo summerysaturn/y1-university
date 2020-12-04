@@ -7,10 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/generic.css" />
     <link rel="shortcut icon" href="image/favicon.ico" />
+
+    <!-- Fira Code font from Google Fonts API -->
     <link
       href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&family=Montserrat:wght@400;800&display=swap"
       rel="stylesheet"
     />
+
+    <!-- style and js for prism.js -->
+    <link rel="stylesheet" href="css/prism.css" />
+    <script src="js/prism.js"></script>
   </head>
 
   <body>
@@ -36,7 +42,7 @@
             <a href="#post2">W2: Object-Oriented CSS</a>
           </div>
           <div class="nav-box">
-            <a href="#post3">W3: SASS Preprocessing</a>
+            <a href="#post3">W3: SASS/SCSS Preprocessing</a>
           </div>
           <div class="nav-box">
             <a href="#post4">W4: Flexbox</a>
@@ -80,13 +86,9 @@
             HTML, where logic and style are added using classes and IDs. For
             example,
           </p>
-          <ul class="terminal-ul">
-            &lt;div class="article"&gt;
-          </ul>
+          <pre><code class="lang-html">&lt;div class="article"&gt;</code></pre>
           <p>versus,</p>
-          <ul class="terminal-ul">
-            &lt;article&gt;
-          </ul>
+          <pre><code class="lang-html">&lt;article&gt;</code></pre>
           <p>
             These differ in a few ways. For one, the
             <code>&lt;div&gt;</code> element inherits nothing outside of what's
@@ -107,12 +109,7 @@
             There's a bunch of these elements which carry their own inherited
             style and logic, but some of the lesser used ones include:
           </p>
-          <ul class="terminal-ul">
-            &lt;article&gt;, &lt;aside&gt;, &lt;details&gt;, &lt;figcaption&gt;,
-            &lt;figure&gt; , &lt;footer&gt;, &lt;header&gt;, &lt;main&gt;,
-            &lt;mark&gt;, &lt;nav&gt;, &lt;section&gt;, &lt;summary&gt;,
-            &lt;time&gt;
-          </ul>
+          <pre><code class="lang-html">&lt;article&gt;, &lt;aside&gt;, &lt;details&gt;, &lt;figcaption&gt;, &lt;figure&gt; , &lt;footer&gt;, &lt;header&gt;, &lt;main&gt;, &lt;mark&gt;, &lt;nav&gt;, &lt;section&gt;, &lt;summary&gt;, &lt;time&gt;</code></pre>
           <h4>References</h4>
           <ul class="bibliography">
             <li>
@@ -178,9 +175,7 @@
             whereby child-objects assume the style of their parent objects. For
             example:
           </p>
-          <ul class="terminal-ul">
-            &lt;button class="btn btn-warning"&gt;&lt;/button&gt;
-          </ul>
+          <pre><code class="lang-html">&lt;button class="btn btn-warning"&gt;&lt;/button&gt;</code></pre>
           <p>
             Follows a similar process to <code>.btn-warning</code> being truly
             inherited from <code>btn</code>. As both classes are in use on the
@@ -207,15 +202,69 @@
 
         <article id="post3">
           <header>
-            <h1>W3: SASS Preprocessing</h1>
+            <h1>W3: SASS/SCSS Preprocessing</h1>
             <hr />
             <h5>Date written: 2020-10-24</h5>
           </header>
-          <p></p>
+          <p>
+            Sass (and SCSS) is a versatile and mature CSS extension language
+            that allows for the utilisation of more complex features, such as
+            variables and shorthands, as well as simplifying the stylesheet
+            development process. Sass is compiled into native CSS, and is
+            generally far less complex than standard CSS. For this reason, Sass
+            is used in modern web development because of it's raw power compared
+            to pure CSS and the reduction in complexity it affords.
+          </p>
+          <p>
+            One key element in what makes Sass useful is it's handling of
+            variables, which differs from CSS variables in a few key ways. This
+            includes how the variables can be modified and have scope, unlike
+            with CSS, and can additionally include more complex data like for
+            shadows and borders. For example:
+          </p>
+          <pre><code class="lang-scss">$base-color: #c6538c;
+$border-dark: rgba($base-color, 0.88);
+
+.alert {
+  border: 1px solid $border-dark;
+}</code></pre>
+          <p>Will be compiled into:</p>
+          <pre><code class="lang-scss">.alert {
+  border: 1px solid rgba(198, 83, 140, 0.88);
+}
+</code></pre>
+          <p>
+            This is particularly useful as it allows for variables to be used
+            for site-wide consistency. There's many more complex features that
+            Sass affords, which are fully documented
+            <a href="https://sass-lang.com/documentation">on their website.</a>
+            Worth mentioning is that valid SASS/SCSS must be compiled for use on
+            the web, adding a small extra step to deployment. This can be worked
+            into a workflow like with node or a standard shell script using the
+            command:
+          </p>
+          <pre><code class="lang-shell">sass input.scss output.css</code></pre>
+          <p>
+            This will build the SCSS file into CSS, ready for deployment.
+            There's an argument to be made that this extra step can be
+            detrimental, however I believe that the extended functionality can
+            be a huge advantage, especially so when integrated into the
+            development and deployment workflow.
+          </p>
           <h4>References</h4>
           <ul class="bibliography">
             <li>
-              <a href=""> </a>
+              <a href="https://sass-lang.com/">Sass - Homepage</a>
+            </li>
+            <li>
+              <a href="https://sass-lang.com/install"
+                >Sass - Install & Command Line Usage</a
+              >
+            </li>
+            <li>
+              <a href="https://sass-lang.com/documentation"
+                >Sass - Documentation</a
+              >
             </li>
           </ul>
         </article>
