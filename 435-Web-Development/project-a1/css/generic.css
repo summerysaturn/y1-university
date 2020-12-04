@@ -119,13 +119,11 @@ main {
 * Articles
 */
 
-article {
-  padding-bottom: 1rem;
-}
-
 header h1 {
   font-size: 2rem;
   text-align: left;
+  margin: 0;
+  padding: 3rem 0 2rem 0;
 }
 
 header hr {
