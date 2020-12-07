@@ -346,7 +346,7 @@ footer {
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
   .sidebar {
-    width: 192px;
+    width: 248px;
     position: fixed;
     height: 100vh;
     padding: 0 !important;
@@ -365,7 +365,7 @@ footer {
   }
 
   .wrapper {
-    margin-left: 192px;
+    margin-left: 248px;
   }
 }
 
