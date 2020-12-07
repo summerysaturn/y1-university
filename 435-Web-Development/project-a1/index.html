@@ -45,6 +45,19 @@
     <!-- style and js for prism.js -->
     <link rel="stylesheet" href="css/prism.css" />
     <script src="js/prism.js"></script>
+
+    <!-- lightweight scrollspy script -->
+    <!-- https://github.com/sidsbrmnn/scrollspy -->
+    <script src="https://unpkg.com/@sidsbrmnn/scrollspy@1.0.4/dist/scrollspy.min.js"></script>
+    <script>
+      window.onload = function () {
+        scrollSpy("#nav-scrollspy", {
+          sectionSelector: "article",
+          activeClass: "nav-active",
+          offset: 100,
+        });
+      };
+    </script>
   </head>
 
   <body>
@@ -55,49 +68,22 @@
         </div>
         <h3>Lottie's Page</h3>
         <nav id="navbar" class="nav">
-          <div class="nav-box nav-active">
-            <a href="#">Home</a>
+          <a class="nav-box nav-active" href="#">Home</a>
+          <div class="nav-indent" id="nav-scrollspy">
+            <a class="nav-box nav-active" href="#post1">W1: Semantic HTML</a>
+            <a class="nav-box" href="#post2">W2: Object-Oriented CSS</a>
+            <a class="nav-box" href="#post3">W3: SASS/SCSS Preprocessing</a>
+            <a class="nav-box" href="#post4">W4: Flexbox</a>
+            <a class="nav-box" href="#post5">W5: Page Layout using Flex</a>
+            <a class="nav-box" href="#post6">W6: Javascript & Typescript</a>
+            <a class="nav-box" href="#post7">W7: JS Code Highlighting</a>
+            <a class="nav-box" href="#post8">W8: jQuery</a>
+            <a class="nav-box" href="#post9">W9: NodeJS</a>
+            <a class="nav-box" href="#post10">W10: React</a>
+            <a class="nav-box" href="#post11">W11: Electron</a>
           </div>
-          <div class="nav-box">
-            <a href="tutorial.html">Study Tips</a>
-          </div>
-          <div class="nav-box">
-            <a href="contact.html">Contact</a>
-          </div>
-          <h3>Posts</h3>
-          <div class="nav-box">
-            <a href="#post1">W1: Semantic HTML</a>
-          </div>
-          <div class="nav-box">
-            <a href="#post2">W2: Object-Oriented CSS</a>
-          </div>
-          <div class="nav-box">
-            <a href="#post3">W3: SASS/SCSS Preprocessing</a>
-          </div>
-          <div class="nav-box">
-            <a href="#post4">W4: Flexbox</a>
-          </div>
-          <div class="nav-box">
-            <a href="#post5">W5: Page Layout using Flex</a>
-          </div>
-          <div class="nav-box">
-            <a href="#post6">W6: Javascript & Typescript</a>
-          </div>
-          <div class="nav-box">
-            <a href="#post7">W7: JS Code Highlighting</a>
-          </div>
-          <div class="nav-box">
-            <a href="#post8">W8: jQuery</a>
-          </div>
-          <div class="nav-box">
-            <a href="#post9">W9: NodeJS</a>
-          </div>
-          <div class="nav-box">
-            <a href="#post10">W10: React</a>
-          </div>
-          <div class="nav-box">
-            <a href="#post11">W11: Electron</a>
-          </div>
+          <a class="nav-box" href="tutorial.html">Study Tips</a>
+          <a class="nav-box" href="contact.html">Contact</a>
         </nav>
       </div>
     </div>

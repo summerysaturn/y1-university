@@ -91,6 +91,11 @@ nav a {
   background-color: #353b46;
 }
 
+.nav-indent {
+  padding-left: 2rem;
+  text-align: left;
+}
+
 .nav-active {
   background-image: linear-gradient(to right, #ca6351, #ca5b6d);
 }
