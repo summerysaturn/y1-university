@@ -313,6 +313,7 @@ footer {
 
   .sidebar {
     padding-bottom: 2rem !important;
+    width: 100vw;
   }
 }
 
@@ -332,6 +333,7 @@ footer {
 
   .sidebar {
     padding-bottom: 2rem !important;
+    width: 100vw;
   }
 }
 
@@ -342,6 +344,7 @@ footer {
     position: fixed;
     height: 100vh;
     padding: 0 !important;
+    overflow-y: auto;
   }
 
   .container {
@@ -351,7 +354,6 @@ footer {
   }
 
   .sidebar-container {
-    width: 192px;
     margin-right: auto;
     margin-left: auto;
   }
@@ -368,6 +370,7 @@ footer {
     position: fixed;
     height: 100vh;
     padding: 0 !important;
+    overflow-y: auto;
   }
 
   .container {
@@ -377,7 +380,6 @@ footer {
   }
 
   .sidebar-container {
-    width: 248px;
     margin-right: auto;
     margin-left: auto;
   }
@@ -394,6 +396,7 @@ footer {
     position: fixed;
     height: 100vh;
     padding: 0 !important;
+    overflow-y: auto;
   }
 
   .container {
@@ -403,7 +406,6 @@ footer {
   }
 
   .sidebar-container {
-    width: 248px;
     margin-right: auto;
     margin-left: auto;
   }
