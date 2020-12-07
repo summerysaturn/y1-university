@@ -4,7 +4,6 @@
     <!--
       https://www.w3schools.com/tags/tag_meta.asp
     -->
-    <title>CI435-01-Charlotte Ward</title>
     <meta charset="UTF-8" />
     <meta name="author" content="Charlotte Ward" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -92,25 +91,25 @@
             </li>
           </ul>
 
-          <form class="flex-demo-pad">
+          <form id="form" class="flex-demo-pad">
             <div class="flex-container">
               <div class="flex" style="flex-grow: 2">
                 <label for="f1">Email</label><br />
-                <input id="f1" type="email" />
+                <input id="f1" type="email" form="form" />
               </div>
               <div class="flex" style="flex-grow: 3">
                 <label for="f2">Password</label><br />
-                <input id="f2" type="password" />
+                <input id="f2" type="password" form="form" />
               </div>
             </div>
             <div class="flex-container">
               <div class="flex" style="flex-grow: 4">
-                <label for="f1">Username</label><br />
-                <input id="f1" type="text" />
+                <label for="f3">Username</label><br />
+                <input id="f3" type="text" form="form" />
               </div>
               <div class="flex" style="flex-grow: 2">
-                <label for="f1">Region</label><br />
-                <select>
+                <label for="f4">Region</label><br />
+                <select id="f4" form="form">
                   <option>Select...</option>
                   <option value="europe">Europe</option>
                   <option value="us">US</option>
@@ -120,14 +119,14 @@
             </div>
             <div class="flex-container">
               <div class="flex">
-                <label for="f3">Comment</label><br />
-                <textarea id="f3" form="f"></textarea>
+                <label for="f5">Comment</label><br />
+                <textarea id="f5" form="form"></textarea>
               </div>
             </div>
             <div class="flex-container">
               <div class="flex">
                 <label>Attachment</label>
-                <input type="file" />
+                <input type="file" form="form" />
               </div>
               <button class="flex-demo-button">Submit</button>
             </div>
