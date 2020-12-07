@@ -22,6 +22,7 @@ ul {
 a {
   color: #444;
   text-decoration: none;
+  font-weight: 600;
 }
 
 a:visited {
@@ -121,6 +122,13 @@ header h5 {
   color: #888;
 }
 
+article a {
+  background: linear-gradient(to right, #cf9050, #db84d7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+}
+
 img {
   max-width: 100%;
 }
@@ -149,7 +157,7 @@ code {
   width: 100%;
   padding-top: 56.25%;
   position: relative; /* If you want text inside of it */
-  margin-bottom: 2rem;
+  margin-bottom: 4px;
 }
 
 .video-container iframe {
@@ -158,6 +166,10 @@ code {
   left: 0;
   bottom: 0;
   right: 0;
+}
+
+.video-margin {
+  margin-bottom: 2rem;
 }
 
 .table {
@@ -184,7 +196,7 @@ code {
 }
 
 .bibliography li::before {
-  color: gray;
+  color: #cf9050;
   content: "\25B8";
 }
 
@@ -274,7 +286,7 @@ footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  padding: 1rem 0 1rem 0;
+  padding: 1.5rem 0 1.5rem 0;
 }
 
 /*
