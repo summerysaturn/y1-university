@@ -388,7 +388,11 @@ $border-dark: rgba($base-color, 0.88);
             <hr />
             <h5>Date Written: 2020-11-07</h5>
           </header>
-          <p></p>
+          <p>
+            It's possible to lay a site out using flexbox, as it allows for easy
+            control over site elements using consistent rules. Whereas
+            traditional HTML/CSS usage can result in
+          </p>
           <h4>References</h4>
           <ul class="bibliography">
             <li>
@@ -408,13 +412,74 @@ $border-dark: rgba($base-color, 0.88);
             valid JavaScript is also valid TypeScript. It transcompiles into
             pure JavaScript, affording the ease of working with static typing
             and additional functionality. The primary differences between
-            JavaScript and TypeScript come about in the implementation of strict
-            typing, allowing for
+            JavaScript and TypeScript come about in the implementation of strong
+            typing with the latter.
+          </p>
+          <p>
+            Strong typing involves defining what type a variable will use and
+            additionally prevents implicit type conversion, which is a large
+            part of why vanilla JavaScript is disliked. This strong typing looks
+            like this:
+          </p>
+          <pre><code class="lang-typescript">
+// JavaScript Approach
+let i = 64;
+
+// TypeScript Approach
+let i: int = 64;</code></pre>
+          <p>
+            This is an example of TypeScript's strong typing, enforcing a
+            variable type at assignment. On top of this, TypeScript allows for
+            custom types, using <code>type</code> and <code>interface</code>:
+          </p>
+          <pre><code class="lang-typescript">
+// types are objects that have a state based on values
+type DoorState = "open" | "closed";
+
+// interfaces are comprised of member objects
+interface User {
+  name: string;
+  id: number;
+}
+</code></pre>
+          <p>
+            These features can be essential for writing more complex systems, as
+            tranditional JavaScript can be quite clunky without any typing like
+            this. Additionally, TypeScript allows for static typing, which
+            changes the definition from using instantiation to having a static
+            value. While TypeScript can handle instantiation (i.e. instances
+            of), having the additional static capability can be greatly useful
+            in certain applications. An example of this would be:
+          </p>
+          <pre><code class="lang-typescript">
+class Person {
+  static species: string = "Human";
+}
+</code></pre>
+          <p>
+            Using this example, it's clear to show that each Person object will
+            always have the species of "Human". It's static in that it won't
+            change based on instantiation.
           </p>
           <h4>References</h4>
           <ul class="bibliography">
             <li>
-              <a href=""> </a>
+              <a href="https://www.typescriptlang.org/"
+                >TypeScript - Homepage</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html#defining-types"
+                >TypeScript Documentation - Types by Inference & Defining Types
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.typescriptlang.org/docs/handbook/classes.html#static-properties"
+              >
+                TypeScript Documentation - Static Properties
+              </a>
             </li>
           </ul>
         </article>
@@ -425,11 +490,87 @@ $border-dark: rgba($base-color, 0.88);
             <hr />
             <h5>Date Written: 2020-11-14</h5>
           </header>
-          <p></p>
+          <p>
+            This section is going to cover the code blocks used on this site.
+            I'm using the script <a href="https://prismjs.com/">Prism.js</a>, a
+            lightweight and modular syntax highlighter. On top of this, I'm
+            using a modified version of the Tomorrow Night theme. This script
+            looks for language classes within <code>&lt;code&gt;</code> blocks.
+            It then styles the elements inside the block based on a language
+            module. For example:
+          </p>
+          <pre><code class="lang-rust">
+use apres::MIDI;
+use std::path::Path;
+
+fn main() {
+  let file_name = "Target-File.mid";
+  let path = Path::new(".").join(file_name);
+  println!("reading from {:?}!", path);
+  read_file(path);
+}</code></pre>
+          <p>
+            Above is a code snippet in the language Rust, a low-level language
+            occupying a similar space to C or C++. The snippet has coloured text
+            lining up with the elements in the code. To display this, I use the
+            following syntax:
+          </p>
+          <pre><code class="lang-html">
+&lt;pre&gt;&lt;code class="lang-rust"&gt;
+fn main() {
+  println!("Hello World");
+}
+&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
+          <p>
+            The class <code>lang-rust</code> specifies what language is in the
+            code block, which controls the syntax highlighting and the language
+            readout in the top right.
+            <a href="https://prismjs.com/">Prism.js</a> also has extensions,
+            including one for the command line:
+          </p>
+          <pre
+            class="command-line lang-bash"
+            data-user="lyla"
+            data-host="localhost"
+          ><code class="lang-bash">sudo apt update</code></pre>
+          <p>
+            This extension adds some extra flavour to the code block, while
+            still correctly highlighting the command as shell (or, more
+            specifically, bash). This is written as:
+          </p>
+          <pre><code class="lang-html">
+&lt;pre
+  class="command-line lang-bash"
+  data-user="lyla"
+  data-host="localhost"
+&gt;
+  &lt;code class="lang-bash"&gt;
+    sudo apt update
+  &lt;/code&gt;
+&lt;/pre&gt;</code></pre>
+          <p>
+            This functionality can be very useful for a blog like this, as it
+            lets me put code snippets right into the webpage without needing to
+            embed an iframe to a GitHub Gist or manually format the script.
+            Additionally, I can revise elements in the code tags, updating
+            what's there or adding or removing elements very easily. Finally,
+            the style that this afford is very useful, as I can easily change
+            the overall theme that the highlighting uses.
+          </p>
+          <p>
+            This shows how useful FOSS web-scripting can be, as there's always
+            going to be a module somewhere out there that does what you want,
+            and adapting them and utilising them can be half the battle in web
+            development. This will be expanded upon greatly in the next few
+            segments.
+          </p>
           <h4>References</h4>
           <ul class="bibliography">
             <li>
-              <a href=""> </a>
+              <a href="https://prismjs.com/"
+                >Prism.js - Homepage & Documentation</a
+              >
             </li>
           </ul>
         </article>

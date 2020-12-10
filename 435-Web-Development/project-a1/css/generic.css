@@ -154,12 +154,10 @@ code {
   text-align: initial;
 }
 
-.terminal-ul li::marker {
-  content: "";
-}
-
-.terminal-ul li::before {
-  content: "$ ";
+mark {
+  display: inline-block;
+  color: inherit;
+  border: 1px solid #000;
 }
 
 .video-container {
@@ -335,7 +333,7 @@ footer {
   }
 
   .sidebar-container {
-    width: 340px;
+    width: 280px;
     margin-right: auto;
     margin-left: auto;
   }
@@ -349,7 +347,7 @@ footer {
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
   .sidebar {
-    width: 248px;
+    width: 264px;
     position: fixed;
     height: 100vh;
     padding: 0 !important;
@@ -357,7 +355,7 @@ footer {
   }
 
   .container {
-    width: 508px;
+    width: 440px;
     margin-right: auto;
     margin-left: auto;
   }
@@ -368,14 +366,14 @@ footer {
   }
 
   .wrapper {
-    margin-left: 248px;
+    margin-left: 264px;
   }
 }
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1199.98px) {
+@media (min-width: 992px) {
   .sidebar {
-    width: 248px;
+    width: 264px;
     position: fixed;
     height: 100vh;
     padding: 0 !important;
@@ -383,7 +381,7 @@ footer {
   }
 
   .container {
-    width: 672px;
+    width: 638px;
     margin-right: auto;
     margin-left: auto;
   }
@@ -394,32 +392,6 @@ footer {
   }
 
   .wrapper {
-    margin-left: 248px;
-  }
-}
-
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-  .sidebar {
-    width: 300px;
-    position: fixed;
-    height: 100vh;
-    padding: 0 !important;
-    overflow-y: auto;
-  }
-
-  .container {
-    width: 800px;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .sidebar-container {
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .wrapper {
-    margin-left: 300px;
+    margin-left: 264px;
   }
 }
