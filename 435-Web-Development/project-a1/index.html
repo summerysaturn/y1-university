@@ -667,10 +667,6 @@ $(button).on("click", function (event) { ... });
             including an automation script for the university network and for
             fetching repos from GitHub's REST API.
           </p>
-          <a
-            href="https://github.com/summerysaturn/summerysaturn.github.io/blob/5623c0644bf1debe75127964e9fa5b9e11de6ff0/src/index.js#L169-L177"
-            >Source code for summerysaturn.github.io</a
-          >
           <p>
             This function fetches all of the public repositories from my GitHub,
             then converts them to JSON data ready for other scripts to display
@@ -688,14 +684,13 @@ componentDidMount() {
 }
           </code></pre>
           <a
-            href="https://github.com/summerysaturn/lyla-dotfiles/blob/6dd7c7063de50ab0a84dbde2f69ab462f4f5994c/scripts/uob-firewall#L3-L13"
-            >Source code for lyla-dotfiles</a
+            href="https://github.com/summerysaturn/summerysaturn.github.io/blob/5623c0644bf1debe75127964e9fa5b9e11de6ff0/src/index.js#L169-L177"
+            >Source code for summerysaturn.github.io</a
           >
           <p>
             This Bash script assigns a GET request to the variable $get, ready
             for handling later on with a <code>grep</code>. This mimics a GET
-            request from a form, which is what's present at the firewall-auth
-            site.
+            request for loading a page, which assigns a SESSID cookie for the POST request in the script later on.
           </p>
           <pre><code class="lang-bash">
 get=$(
@@ -709,6 +704,10 @@ get=$(
   -H 'upgrade-insecure-requests: 1'
 )
           </code></pre>
+          <a
+            href="https://github.com/summerysaturn/lyla-dotfiles/blob/6dd7c7063de50ab0a84dbde2f69ab462f4f5994c/scripts/uob-firewall#L3-L13"
+            >Source code for lyla-dotfiles</a
+          >
           <p>
             Ajax allows for this functionality in JavaScript, without the
             requirement of a large library like React (as above). This allows
