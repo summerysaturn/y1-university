@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   overflow-x: hidden;
   margin: 0;
@@ -198,7 +202,7 @@ mark {
 }
 
 .bibliography li {
-  padding: 0.2rem 0 0.2rem 0;
+  padding: 0.2rem 0;
 }
 
 .bibliography li::marker {

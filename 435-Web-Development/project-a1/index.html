@@ -73,12 +73,11 @@
             <a class="nav-box" href="#post2">Object-Oriented CSS</a>
             <a class="nav-box" href="#post3">SASS/SCSS Preprocessing</a>
             <a class="nav-box" href="#post4">Flexbox</a>
-            <a class="nav-box" href="#post5">Page Layout using Flex</a>
-            <a class="nav-box" href="#post6">Javascript & TypeScript</a>
-            <a class="nav-box" href="#post7">JS Code Highlighting</a>
-            <a class="nav-box" href="#post8">jQuery</a>
-            <a class="nav-box" href="#post9">NodeJS</a>
-            <a class="nav-box" href="#post10">React</a>
+            <a class="nav-box" href="#post5">Javascript & TypeScript</a>
+            <a class="nav-box" href="#post6">JS Code Highlighting</a>
+            <a class="nav-box" href="#post7">jQuery</a>
+            <a class="nav-box" href="#post8">NodeJS</a>
+            <a class="nav-box" href="#post9">React</a>
             <a class="nav-box" href="#post11">TODO</a>
             <a class="nav-box" href="#post12">TODO</a>
             <a class="nav-box" href="#post13">TODO</a>
@@ -384,26 +383,7 @@ $border-dark: rgba($base-color, 0.88);
 
         <article id="post5">
           <header>
-            <h1>Week 5 | Page Layout using Flex</h1>
-            <hr />
-            <h5>Date Written: 2020-11-07</h5>
-          </header>
-          <p>
-            It's possible to lay a site out using flexbox, as it allows for easy
-            control over site elements using consistent rules. Whereas
-            traditional HTML/CSS usage can result in
-          </p>
-          <h4>References</h4>
-          <ul class="bibliography">
-            <li>
-              <a href=""> </a>
-            </li>
-          </ul>
-        </article>
-
-        <article id="post6">
-          <header>
-            <h1>Week 6 | JavaScript & TypeScript</h1>
+            <h1>Week 5 | JavaScript & TypeScript</h1>
             <hr />
             <h5>Date Written: 2020-11-05</h5>
           </header>
@@ -484,9 +464,9 @@ class Person {
           </ul>
         </article>
 
-        <article id="post7">
+        <article id="post6">
           <header>
-            <h1>Week 7 | JS Code Highlighting</h1>
+            <h1>Week 6 | JS Code Highlighting</h1>
             <hr />
             <h5>Date Written: 2020-11-14</h5>
           </header>
@@ -575,24 +555,230 @@ fn main() {
           </ul>
         </article>
 
-        <article id="post8">
+        <article id="post7">
           <header>
-            <h1>Week 8 | jQuery</h1>
+            <h1>Week 7 | jQuery</h1>
             <hr />
             <h5>Date Written: 2020-11-21</h5>
           </header>
-          <p></p>
+          <p>
+            Although modern web development has largely abandoned jQuery in
+            favour of pure JS and other frameworks like React or Vue, jQuery
+            still has a presence, being used in web development and bundled
+            alongside popular libraries like Bootstrap v4.5.x (No longer true
+            for ^5.0.0) <a href="#7-1">(1)</a>.
+          </p>
+          <p>
+            jQuery is a useful library for "DOM Traversal and Manipulation",
+            Event Handling, and Ajax <a href="#7-2">(2)</a>, each of which I'll
+            describe below:
+          </p>
+          <h3>DOM Traversal and Manipulation</h3>
+          <p>
+            jQuery's most commonly used feature involves the easy selection of
+            DOM elements much like with CSS. Each DOM element on a page has an
+            element type, and can have a class, multiple classes, or an ID.
+          </p>
+          <pre><code class="lang-html">&lt;header class="header layout-top" id="main-header"&gt;&lt;/header&gt;</code></pre>
+          <p>
+            This element above has a few features that can make it very easy to
+            manipulate in CSS. These include the <code>header</code> element,
+            the <code>.header</code> and <code>.layout-top</code> classes, and
+            the <code>#main-header</code> id. A CSS file that manipulates these
+            values will look like this:
+          </p>
+          <pre><code class="lang-css">
+/* Semantic Element */
+header {
+  ...
+}
+
+/* Classes */
+.header {
+  ...
+}
+.layout-top {
+  ...
+}
+
+/* ID */
+#main-header {
+  ...
+}
+          </code></pre>
+          <p>
+            The selector that doesn't have any punctuation refers to the
+            semantic element of <code>header</code>, while the dot refers to
+            classes, and the hashtag/pound sign refers to an ID. The usefulness
+            of jQuery is that this functionality is preserved, allowing for the
+            following:
+          </p>
+          <pre><code class="lang-javascript">
+// Change the value based on a semantic element
+$(header).html("Welcome to the site");
+
+// Perform a function for each Class
+$(.header).each(function () { ... });
+
+// Hide the element based on ID
+$(#main-header).hide();
+          </code></pre>
+          <p>
+            This simple syntax makes jQuery very appealing for developers, as
+            having knowledge in CSS Selectors makes it very easy to implement
+            jQuery in a practical way.
+          </p>
+          <h3>Event Handling</h3>
+          <p>
+            jQuery can also be used to handle events, extending the basic
+            JavaScript event functionality. While PureJS events rely on HTML to
+            implement the event functionality, jQuery can add events to elements
+            based on selectors in the script. For example, two alternate methods
+            to implementing a click event for a button:
+          </p>
+          <pre><code class="lang-html">
+&lt;button onclick="click()" /&gt;
+          </code></pre>
+          <pre><code class="lang-javascript">
+$(button).on("click", function (event) { ... });
+          </code></pre>
+          <p>
+            While these are both functionally similar, jQuery implements this
+            without requiring any in-HTML event handling. This can be very
+            useful for maintaining clean code. Additionally, the quantity of
+            events that jQuery can handle is much greater than that of pure
+            HTML/JS, as signified by
+            <a href="https://api.jquery.com/category/events/"
+              >their documentation on the issue</a
+            >.
+          </p>
+          <h3>Ajax</h3>
+          <p>
+            Arguably the most useful side of jQuery is Ajax, a wrapper for HTTP
+            Requests. HTTP requests allow for sites to interact with other
+            servers easily, using various request methods to communicate.
+            Usually HTTP requests are confined to forms, and allow for clients
+            and servers to interact. Ajax exposes this functionality in a
+            practical manner, allowing for developers to perform asynchronous
+            HTTP requests without the usage of forms.
+          </p>
+          <p>
+            I've implemented HTTP requests in my own projects commonly recently,
+            including an automation script for the university network and for
+            fetching repos from GitHub's REST API.
+          </p>
+          <a
+            href="https://github.com/summerysaturn/summerysaturn.github.io/blob/5623c0644bf1debe75127964e9fa5b9e11de6ff0/src/index.js#L169-L177"
+            >Source code for summerysaturn.github.io</a
+          >
+          <p>
+            This function fetches all of the public repositories from my GitHub,
+            then converts them to JSON data ready for other scripts to display
+            the data on the page.
+          </p>
+          <pre><code class="lang-javascript">
+componentDidMount() {
+  fetch("https://api.github.com/users/summerysaturn/repos")
+    .then((res) => res.json())
+    .then((data) => {
+      this.setState({
+        restData: data,
+      });
+    });
+}
+          </code></pre>
+          <a
+            href="https://github.com/summerysaturn/lyla-dotfiles/blob/6dd7c7063de50ab0a84dbde2f69ab462f4f5994c/scripts/uob-firewall#L3-L13"
+            >Source code for lyla-dotfiles</a
+          >
+          <p>
+            This Bash script assigns a GET request to the variable $get, ready
+            for handling later on with a <code>grep</code>. This mimics a GET
+            request from a form, which is what's present at the firewall-auth
+            site.
+          </p>
+          <pre><code class="lang-bash">
+get=$(
+  curl -s -o /dev/null -D
+  - 'https://firewall-auth.brighton.ac.uk:6082/php/uid.php?vsys=1&rule=2'
+  -A 'WorldWideweb (NEXT)'
+  -H 'accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+  -H 'accept-encoding: gzip, deflate, br'
+  -H 'accept-language: en-GB,en;q=0.5'
+  -H 'connection: keep-alive'
+  -H 'upgrade-insecure-requests: 1'
+)
+          </code></pre>
+          <p>
+            Ajax allows for this functionality in JavaScript, without the
+            requirement of a large library like React (as above). This allows
+            for the same functionality to exist in a webpage. For example, the
+            jQuery documentation has a few example requests, including this one
+            <a href="#7-6">(6)</a>:
+          </p>
+          <pre><code class="lang-javascript">
+$.ajax({
+  url: "script.php",
+  method: "POST",
+  data: { id : menuId },
+  dataType: "html"
+});
+          </code></pre>
+          <p>
+            jQuery isn't strictly necessary for HTTP requests, as it's only a
+            wrapper <a href="#7-7">(7)</a>, but the same is true for many of the
+            things jQuery implements.
+          </p>
           <h4>References</h4>
           <ul class="bibliography">
             <li>
-              <a href=""> </a>
+              <a
+                id="7-1"
+                href="https://getbootstrap.com/docs/4.5/getting-started/download/"
+              >
+                1: Bootstrap v4.5.x Download Page
+              </a>
+            </li>
+            <li>
+              <a id="7-2" href="https://jquery.com/">2: jQuery Homepage</a>
+            </li>
+            <li>
+              <a id="7-3" href="https://api.jquery.com/each/">
+                3: jQuery Documentation - each()
+              </a>
+            </li>
+            <li>
+              <a id="7-4" href="https://api.jquery.com/category/events/">
+                4: jQuery Documentation - Events
+              </a>
+            </li>
+            <li>
+              <a
+                id="7-5"
+                href="https://www.w3schools.com/tags/ref_httpmethods.asp"
+              >
+                5: w3schools.com - HTTP Request Methods
+              </a>
+            </li>
+            <li>
+              <a id="7-6" href="https://api.jquery.com/Jquery.ajax/">
+                6: jQuery Documentation - jQuery.ajax()
+              </a>
+            </li>
+            <li>
+              <a
+                id="7-7"
+                href="https://blog.garstasio.com/you-dont-need-jquery/ajax/"
+              >
+                7: You Don't Need jQuery! - Ajax Requests
+              </a>
             </li>
           </ul>
         </article>
 
-        <article id="post9">
+        <article id="post8">
           <header>
-            <h1>Week 9 | NodeJS</h1>
+            <h1>Week 8 | NodeJS</h1>
             <hr />
             <h5>Date Written: 2020-11-28</h5>
           </header>
@@ -605,9 +791,9 @@ fn main() {
           </ul>
         </article>
 
-        <article id="post10">
+        <article id="post9">
           <header>
-            <h1>Week 10 | React</h1>
+            <h1>Week 9 | React</h1>
             <hr />
             <h5>Date Written: 2020-12-05</h5>
           </header>
@@ -620,11 +806,26 @@ fn main() {
           </ul>
         </article>
 
-        <article id="post11">
+        <article id="post10">
           <header>
-            <h1>Week 11 | Electron</h1>
+            <h1>Week 10 | Electron</h1>
             <hr />
             <h5>Date Written: 2020-12-12</h5>
+          </header>
+          <p></p>
+          <h4>References</h4>
+          <ul class="bibliography">
+            <li>
+              <a href=""> </a>
+            </li>
+          </ul>
+        </article>
+
+        <article id="post11">
+          <header>
+            <h1>Week 11 | // TODO</h1>
+            <hr />
+            <h5>Date Written: 2020-12-19</h5>
           </header>
           <p></p>
           <h4>References</h4>
@@ -639,7 +840,7 @@ fn main() {
           <header>
             <h1>Week 12 | // TODO</h1>
             <hr />
-            <h5>Date Written: 2020-12-19</h5>
+            <h5>Date Written: 2020-12-26</h5>
           </header>
           <p></p>
           <h4>References</h4>
@@ -654,7 +855,7 @@ fn main() {
           <header>
             <h1>Week 13 | // TODO</h1>
             <hr />
-            <h5>Date Written: 2020-12-26</h5>
+            <h5>Date Written: 2021-01-2</h5>
           </header>
           <p></p>
           <h4>References</h4>
@@ -668,21 +869,6 @@ fn main() {
         <article id="post14">
           <header>
             <h1>Week 14 | // TODO</h1>
-            <hr />
-            <h5>Date Written: 2021-01-2</h5>
-          </header>
-          <p></p>
-          <h4>References</h4>
-          <ul class="bibliography">
-            <li>
-              <a href=""> </a>
-            </li>
-          </ul>
-        </article>
-
-        <article id="post15">
-          <header>
-            <h1>Week 15 | // TODO</h1>
             <hr />
             <h5>Date Written: 2021-01-09</h5>
           </header>
@@ -770,6 +956,13 @@ fn main() {
               <li>
                 <a href="https://metatags.io/"
                   >metatags.io - Meta Tags for Social Media</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.w3schools.com/howto/howto_css_smooth_scroll.asp#section2"
+                >
+                  w3schools.com - Smooth Scrolling</a
                 >
               </li>
             </ul>
