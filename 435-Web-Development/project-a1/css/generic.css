@@ -21,6 +21,8 @@ body {
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 
   font-family: "Montserrat", sans-serif;
+
+  font-size: 18px;
 }
 
 ul {
@@ -434,7 +436,7 @@ footer {
 }
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
+@media (min-width: 992px) and (max-width: 119.98px) {
   .sidebar {
     width: 264px;
     position: fixed;
@@ -445,6 +447,32 @@ footer {
 
   .container {
     width: 638px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .sidebar-container {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .wrapper {
+    margin-left: 264px;
+  }
+}
+
+/* Large devices (desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .sidebar {
+    width: 264px;
+    position: fixed;
+    height: 100vh;
+    padding: 0 !important;
+    overflow-y: auto;
+  }
+
+  .container {
+    width: 800px;
     margin-right: auto;
     margin-left: auto;
   }
