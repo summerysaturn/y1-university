@@ -210,6 +210,11 @@ mark {
   margin: 4px;
 }
 
+article h3 {
+  margin-top: 0;
+  position: relative;
+}
+
 .anchor-marker {
   position: absolute;
   font-size: 1.5rem;
@@ -230,7 +235,8 @@ mark {
   margin: 0;
 }
 
-.bibliography > :target:before {
+.bibliography > :target:before,
+article section:target:before {
   content: "";
   display: block;
   height: 100px;
