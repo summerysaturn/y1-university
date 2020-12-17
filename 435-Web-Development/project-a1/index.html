@@ -690,14 +690,15 @@ header {
           </p>
           <pre><code class="lang-javascript">
 // Change the value based on a semantic element
-$(header).html("Welcome to the site");
+$("header").html("Welcome to the site");
 
 // Perform a function for each Class
-$(.header).each(function () { ... });
+$(".header").each(function () { ... });
 
 // Hide the element based on ID
-$(#main-header).hide();
+$("#main-header").hide();
           </code></pre>
+          <a href="#7-3">(jQuery, n.d.)</a>
           <p>
             This simple syntax makes jQuery very appealing for developers, as
             having knowledge in CSS Selectors makes it very easy to implement
@@ -722,20 +723,19 @@ $(button).on("click", function (event) { ... });
             without requiring any in-HTML event handling. This can be very
             useful for maintaining clean code. Additionally, the quantity of
             events that jQuery can handle is much greater than that of pure
-            HTML/JS, as signified by
-            <a href="https://api.jquery.com/category/events/"
-              >their documentation on the issue</a
-            >.
+            HTML/JS, as signified by their documentation on the issue
+            <a href="#7-4">(jQuery, n.d.)</a>.
           </p>
           <h3>Ajax</h3>
           <p>
             Arguably the most useful side of jQuery is Ajax, a wrapper for HTTP
             Requests. HTTP requests allow for sites to interact with other
-            servers easily, using various request methods to communicate.
-            Usually HTTP requests are confined to forms, and allow for clients
-            and servers to interact. Ajax exposes this functionality in a
-            practical manner, allowing for developers to perform asynchronous
-            HTTP requests without the usage of forms.
+            servers easily, using various request methods to communicate
+            <a href="#7-5">(w3schools, n.d.)</a>. Usually HTTP requests are
+            confined to forms, and allow for clients and servers to interact.
+            Ajax exposes this functionality in a practical manner, allowing for
+            developers to perform asynchronous HTTP requests without the usage
+            of forms <a href="#7-6">(jQuery, n.d.)</a>.
           </p>
           <p>
             I've implemented HTTP requests in my own projects commonly recently,
@@ -789,7 +789,7 @@ get=$(
             requirement of a large library like React (as above). This allows
             for the same functionality to exist in a webpage. For example, the
             jQuery documentation has a few example requests, including this one
-            <a href="#7-6">(6)</a>:
+            <a href="#7-6">(jQuery, n.d.)</a>:
           </p>
           <pre><code class="lang-javascript">
 $.ajax({
@@ -801,8 +801,8 @@ $.ajax({
           </code></pre>
           <p>
             jQuery isn't strictly necessary for HTTP requests, as it's only a
-            wrapper <a href="#7-7">(7)</a>, but the same is true for many of the
-            things jQuery implements.
+            wrapper <a href="#7-7">(You Don't Need jQuery!, 2014)</a>, but the
+            same is true for many of the things jQuery implements.
           </p>
           <h4>Article References</h4>
           <div class="bibliography">
@@ -830,41 +830,55 @@ $.ajax({
             <div id="7-3">
               <a class="anchor-marker" href="#7-3">#</a>
               <p>
+                jQuery, (n.d.). jQuery Documentation - .each(). [online]
+                Available at:
                 <a href="https://api.jquery.com/each/">
                   https://api.jquery.com/each/
                 </a>
+                [Accessed 2020-12-17].
               </p>
             </div>
             <div id="7-4">
               <a class="anchor-marker" href="#7-4">#</a>
               <p>
+                jQuery, (n.d.). jQuery Documentation - Category: Events.
+                [online] Available at:
                 <a href="https://api.jquery.com/category/events/">
                   https://api.jquery.com/category/events/
                 </a>
+                [Accessed 2020-12-17]
               </p>
             </div>
             <div id="7-5">
               <a class="anchor-marker" href="#7-5">#</a>
               <p>
+                w3schools, (n.d.). HTTP Request Methods. [online] Available at:
                 <a href="https://www.w3schools.com/tags/ref_httpmethods.asp">
                   https://www.w3schools.com/tags/ref_httpmethods.asp
                 </a>
+                [Accessed 2020-12-17].
               </p>
             </div>
             <div id="7-6">
               <a class="anchor-marker" href="#7-6">#</a>
               <p>
+                jQuery, (n.d.). jQuery Documentation - jQuery.ajax(). [online]
+                Available at:
                 <a href="https://api.jquery.com/Jquery.ajax/">
                   https://api.jquery.com/Jquery.ajax/
                 </a>
+                [Accessed 2020-12-17].
               </p>
             </div>
             <div id="7-7">
               <a class="anchor-marker" href="#7-7">#</a>
               <p>
+                You Don't Need jQuery!, (2014). Ajax Requests. [online]
+                Available at:
                 <a href="https://blog.garstasio.com/you-dont-need-jquery/ajax/">
                   https://blog.garstasio.com/you-dont-need-jquery/ajax/
                 </a>
+                [Accessed 2020-12-17].
               </p>
             </div>
           </div>
