@@ -76,9 +76,9 @@
             <a class="nav-box" href="#post5">Javascript & TypeScript</a>
             <a class="nav-box" href="#post6">JS Code Highlighting</a>
             <a class="nav-box" href="#post7">jQuery</a>
-            <a class="nav-box" href="#post8">NodeJS</a>
+            <a class="nav-box" href="#post8">Node.js</a>
             <a class="nav-box" href="#post9">React</a>
-            <a class="nav-box" href="#post11">TODO</a>
+            <a class="nav-box" href="#post11">Electron</a>
             <a class="nav-box" href="#post12">TODO</a>
             <a class="nav-box" href="#post13">TODO</a>
             <a class="nav-box" href="#post14">TODO</a>
@@ -93,7 +93,10 @@
       <main class="container">
         <article id="post1">
           <header>
-            <h1>Week 1 | Semantic HTML</h1>
+            <h1>
+              <a class="anchor-marker" href="#post1">#</a>
+              Week 1 | Semantic HTML
+            </h1>
             <hr />
             <h5>Date written: 2020-10-10</h5>
           </header>
@@ -121,27 +124,35 @@
             is significant. Additionally, the CSS selector for this element is
             <code>article</code>, without the <code>.</code> or
             <code>#</code> that comes along with Classes and IDs respectively.
+            <a href="#1-1">(w3schools, n.d.)</a>
           </p>
           <p>
             There's a bunch of these elements which carry their own inherited
             style and logic, but some of the lesser used ones include:
           </p>
           <pre><code class="lang-html">&lt;article&gt;, &lt;aside&gt;, &lt;details&gt;, &lt;figcaption&gt;, &lt;figure&gt; , &lt;footer&gt;, &lt;header&gt;, &lt;main&gt;, &lt;mark&gt;, &lt;nav&gt;, &lt;section&gt;, &lt;summary&gt;, &lt;time&gt;</code></pre>
-          <h4>References</h4>
-          <ul class="bibliography">
-            <li>
-              <a
-                href="https://www.w3schools.com/html/html5_semantic_elements.asp"
-              >
-                w3schools.com - HTML Semantic Elements
-              </a>
-            </li>
-          </ul>
+          <h4>Article References</h4>
+          <div class="bibliography">
+            <div id="1-1">
+              <p>
+                <a class="anchor-marker" href="#1-1">#</a>
+                w3schools, (n.d.). HTML Semantic Elements. [online] Available at
+                <a
+                  href="https://www.w3schools.com/html/html5_semantic_elements.asp"
+                  >https://www.w3schools.com/html/html5_semantic_elements.asp</a
+                >
+                [Accessed 2020-12-17].
+              </p>
+            </div>
+          </div>
         </article>
 
         <article id="post2">
           <header>
-            <h1>Week 2 | Object-Oriented CSS</h1>
+            <h1>
+              <a class="anchor-marker" href="#post2">#</a>
+              Week 2 | Object-Oriented CSS
+            </h1>
             <hr />
             <h5>Date written: 2020-10-17</h5>
           </header>
@@ -155,11 +166,11 @@
             <code>&lt;nav&gt;</code> element.
           </p>
           <p>
-            A good example of this kind of convention is
-            <a href="http://oxygencss.com/">Oxygen</a>, a convention for CSS
-            designed around applying the OO method to naming elements in
-            stylesheets. This convention is fairly similar, with only 4 types of
-            objects included in the specification. These are:
+            A good example of this kind of convention is Oxygen, a convention
+            for CSS designed around applying the OO method to naming elements in
+            stylesheets <a href="#2-1">(Oxygen, n.d.)</a>. This convention is
+            fairly similar, with only 4 types of objects included in the
+            specification. These are:
           </p>
           <table class="table table-w2">
             <tr>
@@ -187,6 +198,7 @@
               </td>
             </tr>
           </table>
+          <p><a href="#2-1">(Oxygen, n.d.)</a></p>
           <p>
             Using this framework, it's possible to have a form of inheritance,
             whereby child-objects assume the style of their parent objects. For
@@ -207,19 +219,26 @@
             <code>btn</code> will change all buttons, regardless of the child
             type each button on the page uses.
           </p>
-          <h4>References</h4>
-          <ul class="bibliography">
-            <li>
-              <a href="http://oxygencss.com/">
-                Oxygen - An object-oriented methodology for stylesheets
-              </a>
-            </li>
-          </ul>
+          <h4>Article References</h4>
+          <div class="bibliography">
+            <div id="2-1">
+              <a class="anchor-marker" href="#2-1">#</a>
+              <p>
+                Oxygen, (n.d.). An object-oriented methodology for stylesheets.
+                [online] Available at:
+                <a href="http://oxygencss.com/">http://oxygencss.com/</a>
+                [Accessed 2020-12-17].
+              </p>
+            </div>
+          </div>
         </article>
 
         <article id="post3">
           <header>
-            <h1>Week 3 | SASS/SCSS Preprocessing</h1>
+            <h1>
+              <a class="anchor-marker" href="#post3">#</a>Week 3 | SASS/SCSS
+              Preprocessing
+            </h1>
             <hr />
             <h5>Date written: 2020-10-24</h5>
           </header>
@@ -254,11 +273,10 @@ $border-dark: rgba($base-color, 0.88);
             This is particularly useful as it allows for variables to be used
             for site-wide consistency. There's many more complex features that
             Sass affords, which are fully documented
-            <a href="https://sass-lang.com/documentation">on their website.</a>
-            Worth mentioning is that valid SASS/SCSS must be compiled for use on
-            the web, adding a small extra step to deployment. This can be worked
-            into a workflow like with node or a standard shell script using the
-            command:
+            <a href="#3-3">(Sass, 2020)</a>. Worth mentioning is that valid
+            SASS/SCSS must be compiled for use on the web, adding a small extra
+            step to deployment. This can be worked into a workflow like with
+            node or a standard shell script using the command:
           </p>
           <pre><code class="lang-shell">sass input.scss output.css</code></pre>
           <p>
@@ -268,27 +286,44 @@ $border-dark: rgba($base-color, 0.88);
             be a huge advantage, especially so when integrated into the
             development and deployment workflow.
           </p>
-          <h4>References</h4>
-          <ul class="bibliography">
-            <li>
-              <a href="https://sass-lang.com/">Sass - Homepage</a>
-            </li>
-            <li>
-              <a href="https://sass-lang.com/install"
-                >Sass - Install & Command Line Usage</a
-              >
-            </li>
-            <li>
-              <a href="https://sass-lang.com/documentation"
-                >Sass - Documentation</a
-              >
-            </li>
-          </ul>
+          <h4>Article References</h4>
+          <div class="bibliography">
+            <div id="3-1">
+              <a class="anchor-marker" href="#3-1">#</a>
+              <p>
+                Sass, (2020). CSS with superpowers. [online] Available at:
+                <a href="https://sass-lang.com/">https://sass-lang.com/</a>
+                [Accessed 2020-12-17].
+              </p>
+            </div>
+            <div id="3-2">
+              <a class="anchor-marker" href="#3-2">#</a>
+              <p>
+                Sass, (2020). Install Sass. [online] Available at:
+                <a href="https://sass-lang.com/install"
+                  >https://sass-lang.com/install</a
+                >
+                [Accessed 2020-12-17].
+              </p>
+            </div>
+            <div id="3-3">
+              <a class="anchor-marker" href="#3-3">#</a>
+              <p>
+                Sass, (2020). Documentation. [online] Available at:
+                <a href="https://sass-lang.com/documentation"
+                  >https://sass-lang.com/documentation</a
+                >
+                [Accessed 2020-12-17].
+              </p>
+            </div>
+          </div>
         </article>
 
         <article id="post4">
           <header>
-            <h1>Week 4 | Flexbox</h1>
+            <h1>
+              <a class="anchor-marker" href="#post4">#</a>Week 4 | Flexbox
+            </h1>
             <hr />
             <h5>Date written: 2020-10-31</h5>
           </header>
@@ -369,21 +404,33 @@ $border-dark: rgba($base-color, 0.88);
             amount about it during this course, but it's utility has always been
             clear to me. I particularly like how useful it is for aligning
             cards, as those are notorious for being difficult to size and
-            position when creating a responsive webpage.
+            position when creating a responsive webpage. All of my knowledge of
+            flex comes from a single source, a wonderful guide hosted by
+            <a href="#4-1">CSS-TRICKS (2020)</a>.
           </p>
-          <h4>References</h4>
-          <ul class="bibliography">
-            <li>
-              <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">
-                CSS-TRICKS - A guide to flexbox
-              </a>
-            </li>
-          </ul>
+          <h4>Article References</h4>
+          <div class="bibliography">
+            <div id="4-1">
+              <a class="anchor-marker" href="#4-1">#</a>
+              <p>
+                CSS-TRICKS, (2020). A Complete Guide to Flexbox. [online]
+                Available at:
+                <a
+                  href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/"
+                  >https://css-tricks.com/snippets/css/a-guide-to-flexbox/</a
+                >
+                [Accessed 2020-12-17].
+              </p>
+            </div>
+          </div>
         </article>
 
         <article id="post5">
           <header>
-            <h1>Week 5 | JavaScript & TypeScript</h1>
+            <h1>
+              <a class="anchor-marker" href="#post5">#</a>Week 5 | JavaScript &
+              TypeScript
+            </h1>
             <hr />
             <h5>Date Written: 2020-11-05</h5>
           </header>
@@ -393,7 +440,7 @@ $border-dark: rgba($base-color, 0.88);
             pure JavaScript, affording the ease of working with static typing
             and additional functionality. The primary differences between
             JavaScript and TypeScript come about in the implementation of strong
-            typing with the latter.
+            typing with the latter <a href="#5-1">(TypeScript, 2020)</a>.
           </p>
           <p>
             Strong typing involves defining what type a variable will use and
@@ -425,11 +472,14 @@ interface User {
           <p>
             These features can be essential for writing more complex systems, as
             tranditional JavaScript can be quite clunky without any typing like
-            this. Additionally, TypeScript allows for static typing, which
-            changes the definition from using instantiation to having a static
-            value. While TypeScript can handle instantiation (i.e. instances
-            of), having the additional static capability can be greatly useful
-            in certain applications. An example of this would be:
+            this <a href="#5-2">(rafpaf <i>et al.</i>, 2020)</a>.
+          </p>
+          <p>
+            Additionally, TypeScript allows for static typing, which changes the
+            definition from using instantiation to having a static value. While
+            TypeScript can handle instantiation (i.e. instances of), having the
+            additional static capability can be greatly useful in certain
+            applications. An example of this would be:
           </p>
           <pre><code class="lang-typescript">
 class Person {
@@ -439,45 +489,67 @@ class Person {
           <p>
             Using this example, it's clear to show that each Person object will
             always have the species of "Human". It's static in that it won't
-            change based on instantiation.
+            change based on instantiation
+            <a href="#5-3">(orta <i>et al.</i>, 2020)</a>.
           </p>
-          <h4>References</h4>
-          <ul class="bibliography">
-            <li>
-              <a href="https://www.typescriptlang.org/"
-                >TypeScript - Homepage</a
-              >
-            </li>
-            <li>
-              <a
-                href="https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html#defining-types"
-                >TypeScript Documentation - Types by Inference & Defining Types
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://www.typescriptlang.org/docs/handbook/classes.html#static-properties"
-              >
-                TypeScript Documentation - Static Properties
-              </a>
-            </li>
-          </ul>
+          <h4>Article References</h4>
+          <div class="bibliography">
+            <div id="5-1">
+              <a class="anchor-marker" href="#5-1">#</a>
+              <p>
+                TypeScript, (n.d.). Typed JavaScript at Any Scale. [online]
+                Available at:
+                <a href="https://www.typescriptlang.org/"
+                  >https://www.typescriptlang.org/</a
+                >
+                [Accessed 2020-12-17].
+              </p>
+            </div>
+            <div id="5-2">
+              <a class="anchor-marker" href="#5-2">#</a>
+              <p>
+                rafpaf, zvakanaka, pragya91, orta, Ycmelon, davidbernegger,
+                (2020). TypeScript for JavaScript Programmers. [online]
+                Available at:
+                <a
+                  href="https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html#defining-types"
+                  >https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html#defining-types</a
+                >
+                [Accessed 2020-12-17].
+              </p>
+            </div>
+            <div id="5-3">
+              <a class="anchor-marker" href="#5-3">#</a>
+              <p>
+                orta, masonlouchart, chengwah1, (2020). Classes. [online]
+                Available at:
+                <a
+                  href="https://www.typescriptlang.org/docs/handbook/classes.html#static-properties"
+                  >https://www.typescriptlang.org/docs/handbook/classes.html#static-properties</a
+                >
+                [Accessed 2020-12-17].
+              </p>
+            </div>
+          </div>
         </article>
 
         <article id="post6">
           <header>
-            <h1>Week 6 | JS Code Highlighting</h1>
+            <h1>
+              <a class="anchor-marker" href="#post6">#</a>Week 6 | JS Code
+              Highlighting
+            </h1>
             <hr />
             <h5>Date Written: 2020-11-14</h5>
           </header>
           <p>
             This section is going to cover the code blocks used on this site.
-            I'm using the script <a href="https://prismjs.com/">Prism.js</a>, a
-            lightweight and modular syntax highlighter. On top of this, I'm
-            using a modified version of the Tomorrow Night theme. This script
-            looks for language classes within <code>&lt;code&gt;</code> blocks.
-            It then styles the elements inside the block based on a language
-            module. For example:
+            I'm using the script Prism.js, a lightweight and modular syntax
+            highlighter. On top of this, I'm using a modified version of the
+            Tomorrow Night theme. This script looks for language classes within
+            <code>&lt;code&gt;</code> blocks. It then styles the elements inside
+            the block based on a language module
+            <a href="#6-1">(Golmote <i>et al.</i>, n.d.)</a>. For example:
           </p>
           <pre><code class="lang-rust">
 use apres::MIDI;
@@ -505,13 +577,12 @@ fn main() {
           <p>
             The class <code>lang-rust</code> specifies what language is in the
             code block, which controls the syntax highlighting and the language
-            readout in the top right.
-            <a href="https://prismjs.com/">Prism.js</a> also has extensions,
-            including one for the command line:
+            readout in the top right. Prism also has extensions, including one
+            for the command line:
           </p>
           <pre
             class="command-line lang-bash"
-            data-user="lyla"
+            data-user="erin"
             data-host="localhost"
           ><code class="lang-bash">sudo apt update</code></pre>
           <p>
@@ -522,7 +593,7 @@ fn main() {
           <pre><code class="lang-html">
 &lt;pre
   class="command-line lang-bash"
-  data-user="lyla"
+  data-user="erin"
   data-host="localhost"
 &gt;
   &lt;code class="lang-bash"&gt;
@@ -545,19 +616,22 @@ fn main() {
             development. This will be expanded upon greatly in the next few
             segments.
           </p>
-          <h4>References</h4>
-          <ul class="bibliography">
-            <li>
-              <a href="https://prismjs.com/"
-                >Prism.js - Homepage & Documentation</a
-              >
-            </li>
-          </ul>
+          <h4>Article References</h4>
+          <div class="bibliography">
+            <div id="6-1">
+              <a class="anchor-marker" href="#6-1">#</a>
+              <p>
+                Golmote <i>et al.</i>, (n.d.). Prism.js. [online] Available at:
+                <a href="https://prismjs.com/">https://prismjs.com/</a>
+                [Accessed 2020-12-17].
+              </p>
+            </div>
+          </div>
         </article>
 
         <article id="post7">
           <header>
-            <h1>Week 7 | jQuery</h1>
+            <h1><a class="anchor-marker" href="#post7">#</a>Week 7 | jQuery</h1>
             <hr />
             <h5>Date Written: 2020-11-21</h5>
           </header>
@@ -566,12 +640,13 @@ fn main() {
             favour of pure JS and other frameworks like React or Vue, jQuery
             still has a presence, being used in web development and bundled
             alongside popular libraries like Bootstrap v4.5.x (No longer true
-            for ^5.0.0) <a href="#7-1">(1)</a>.
+            for ^5.0.0) <a href="#7-1">(XhmikosR <i>et al.</i>, 2020)</a>.
           </p>
           <p>
             jQuery is a useful library for "DOM Traversal and Manipulation",
-            Event Handling, and Ajax <a href="#7-2">(2)</a>, each of which I'll
-            describe below:
+            Event Handling, and Ajax
+            <a href="#7-2">(dmethvin <i>et al.</i>, 2020)</a>, each of which
+            I'll describe below:
           </p>
           <h3>DOM Traversal and Manipulation</h3>
           <p>
@@ -690,7 +765,8 @@ componentDidMount() {
           <p>
             This Bash script assigns a GET request to the variable $get, ready
             for handling later on with a <code>grep</code>. This mimics a GET
-            request for loading a page, which assigns a SESSID cookie for the POST request in the script later on.
+            request for loading a page, which assigns a SESSID cookie for the
+            POST request in the script later on.
           </p>
           <pre><code class="lang-bash">
 get=$(
@@ -728,156 +804,225 @@ $.ajax({
             wrapper <a href="#7-7">(7)</a>, but the same is true for many of the
             things jQuery implements.
           </p>
-          <h4>References</h4>
-          <ul class="bibliography">
-            <li>
-              <a
-                id="7-1"
-                href="https://getbootstrap.com/docs/4.5/getting-started/download/"
-              >
-                1: Bootstrap v4.5.x Download Page
-              </a>
-            </li>
-            <li>
-              <a id="7-2" href="https://jquery.com/">2: jQuery Homepage</a>
-            </li>
-            <li>
-              <a id="7-3" href="https://api.jquery.com/each/">
-                3: jQuery Documentation - each()
-              </a>
-            </li>
-            <li>
-              <a id="7-4" href="https://api.jquery.com/category/events/">
-                4: jQuery Documentation - Events
-              </a>
-            </li>
-            <li>
-              <a
-                id="7-5"
-                href="https://www.w3schools.com/tags/ref_httpmethods.asp"
-              >
-                5: w3schools.com - HTTP Request Methods
-              </a>
-            </li>
-            <li>
-              <a id="7-6" href="https://api.jquery.com/Jquery.ajax/">
-                6: jQuery Documentation - jQuery.ajax()
-              </a>
-            </li>
-            <li>
-              <a
-                id="7-7"
-                href="https://blog.garstasio.com/you-dont-need-jquery/ajax/"
-              >
-                7: You Don't Need jQuery! - Ajax Requests
-              </a>
-            </li>
-          </ul>
+          <h4>Article References</h4>
+          <div class="bibliography">
+            <div id="7-1">
+              <a class="anchor-marker" href="#7-1">#</a>
+              <p>
+                XhmikosR <i>et al.</i>, (2020). Download - Bootstrap v4.5.
+                [online] Available at:
+                <a
+                  href="https://getbootstrap.com/docs/4.5/getting-started/download/"
+                >
+                  https://getbootstrap.com/docs/4.5/getting-started/download/
+                </a>
+                [Accessed 2020-12-17].
+              </p>
+            </div>
+            <div id="7-2">
+              <a class="anchor-marker" href="#7-2">#</a>
+              <p>
+                dmethvin <i>et al.</i>, (2020). jQuery. [online] Available at:
+                <a href="https://jquery.com/">https://jquery.com/</a> [Accessed
+                2020-12-17].
+              </p>
+            </div>
+            <div id="7-3">
+              <a class="anchor-marker" href="#7-3">#</a>
+              <p>
+                <a href="https://api.jquery.com/each/">
+                  https://api.jquery.com/each/
+                </a>
+              </p>
+            </div>
+            <div id="7-4">
+              <a class="anchor-marker" href="#7-4">#</a>
+              <p>
+                <a href="https://api.jquery.com/category/events/">
+                  https://api.jquery.com/category/events/
+                </a>
+              </p>
+            </div>
+            <div id="7-5">
+              <a class="anchor-marker" href="#7-5">#</a>
+              <p>
+                <a href="https://www.w3schools.com/tags/ref_httpmethods.asp">
+                  https://www.w3schools.com/tags/ref_httpmethods.asp
+                </a>
+              </p>
+            </div>
+            <div id="7-6">
+              <a class="anchor-marker" href="#7-6">#</a>
+              <p>
+                <a href="https://api.jquery.com/Jquery.ajax/">
+                  https://api.jquery.com/Jquery.ajax/
+                </a>
+              </p>
+            </div>
+            <div id="7-7">
+              <a class="anchor-marker" href="#7-7">#</a>
+              <p>
+                <a href="https://blog.garstasio.com/you-dont-need-jquery/ajax/">
+                  https://blog.garstasio.com/you-dont-need-jquery/ajax/
+                </a>
+              </p>
+            </div>
+          </div>
         </article>
 
         <article id="post8">
           <header>
-            <h1>Week 8 | NodeJS</h1>
+            <h1>
+              <a class="anchor-marker" href="#post8">#</a> Week 8 | Node.js
+            </h1>
             <hr />
             <h5>Date Written: 2020-11-28</h5>
           </header>
-          <p></p>
-          <h4>References</h4>
-          <ul class="bibliography">
-            <li>
-              <a href=""> </a>
-            </li>
-          </ul>
+          <div class="center">
+            <a href="https://nodejs.org/en/">
+              <img
+                src="https://nodejs.org/static/images/logos/nodejs-new-pantone-black.svg"
+                style="width: 30%"
+                alt="The Node.js Logo"
+              />
+            </a>
+          </div>
+          <p>
+            Node.js is an asynchronous JavaScript runtime that can be used to
+            build applications hosted on the web
+            <a href="#8-1">(XhmikosR <i>et al.</i>, 2020))</a>. What this means
+            is that it's an environment that can execute JavaScript much like a
+            web browser, without any of the web frontend that comes with a
+            regular browser <a href="#8-2">(2)</a>. The asynchronous part refers
+            to how many connections can be handled concurrently without holding
+            up a thread.
+          </p>
+          <pre
+            class="command-line lang-bash"
+            data-user="erin"
+            data-host="localhost"
+          >
+            <code class="lang-bash">
+            node
+            </code>
+          </pre>
+          <pre><code class="lang-plain">
+Welcome to Node.js v14.15.0.
+Type ".help" for more information.
+></code></pre>
+          <h4>Article References</h4>
+          <div class="bibliography">
+            <div id="8-1">
+              <a class="anchor-marker" href="#8-1">#</a>
+              <p>
+                XhmikosR <i>et al.</i>, (2020). About Node.js®. [online]
+                Available at:
+                <a href="https://nodejs.org/en/about/" id="8-1"
+                  >https://nodejs.org/en/about/</a
+                >
+                [Accessed 2020-12-17].
+              </p>
+            </div>
+
+            <div id="8-2">
+              <a class="anchor-marker" href="#8-2">#</a>
+              <p>
+                Gibb, Robert, (2020). What is Runtime? [online] Available at:
+                <a href="https://blog.stackpath.com/runtime/" id="8-2"
+                  >https://blog.stackpath.com/runtime/</a
+                >
+                [Accessed 2020-12-17].
+              </p>
+            </div>
+          </div>
         </article>
 
         <article id="post9">
           <header>
-            <h1>Week 9 | React</h1>
+            <h1><a class="anchor-marker" href="#post9">#</a> Week 9 | React</h1>
             <hr />
             <h5>Date Written: 2020-12-05</h5>
           </header>
           <p></p>
-          <h4>References</h4>
-          <ul class="bibliography">
-            <li>
-              <a href=""> </a>
-            </li>
-          </ul>
+          <h4>Article References</h4>
+          <div class="bibliography">
+            <a href=""> </a>
+          </div>
         </article>
 
         <article id="post10">
           <header>
-            <h1>Week 10 | Electron</h1>
+            <h1>
+              <a class="anchor-marker" href="#post10">#</a> Week 10 | Electron
+            </h1>
             <hr />
             <h5>Date Written: 2020-12-12</h5>
           </header>
           <p></p>
-          <h4>References</h4>
-          <ul class="bibliography">
-            <li>
-              <a href=""> </a>
-            </li>
-          </ul>
+          <h4>Article References</h4>
+          <div class="bibliography">
+            <a href=""> </a>
+          </div>
         </article>
 
         <article id="post11">
           <header>
-            <h1>Week 11 | // TODO</h1>
+            <h1>
+              <a class="anchor-marker" href="#post11">#</a> Week 11 | // TODO
+            </h1>
             <hr />
             <h5>Date Written: 2020-12-19</h5>
           </header>
           <p></p>
-          <h4>References</h4>
-          <ul class="bibliography">
-            <li>
-              <a href=""> </a>
-            </li>
-          </ul>
+          <h4>Article References</h4>
+          <div class="bibliography">
+            <a href=""> </a>
+          </div>
         </article>
 
         <article id="post12">
           <header>
-            <h1>Week 12 | // TODO</h1>
+            <h1>
+              <a class="anchor-marker" href="#post12">#</a> Week 12 | // TODO
+            </h1>
             <hr />
             <h5>Date Written: 2020-12-26</h5>
           </header>
           <p></p>
-          <h4>References</h4>
-          <ul class="bibliography">
-            <li>
-              <a href=""> </a>
-            </li>
-          </ul>
+          <h4>Article References</h4>
+          <div class="bibliography">
+            <a href=""> </a>
+          </div>
         </article>
 
         <article id="post13">
           <header>
-            <h1>Week 13 | // TODO</h1>
+            <h1>
+              <a class="anchor-marker" href="#post3">#</a> Week 13 | // TODO
+            </h1>
             <hr />
             <h5>Date Written: 2021-01-2</h5>
           </header>
           <p></p>
-          <h4>References</h4>
-          <ul class="bibliography">
-            <li>
-              <a href=""> </a>
-            </li>
-          </ul>
+          <h4>Article References</h4>
+          <div class="bibliography">
+            <a href=""> </a>
+          </div>
         </article>
 
         <article id="post14">
           <header>
-            <h1>Week 14 | // TODO</h1>
+            <h1>
+              <a class="anchor-marker" href="#post14">#</a> Week 14 | // TODO
+            </h1>
             <hr />
             <h5>Date Written: 2021-01-09</h5>
           </header>
           <p></p>
-          <h4>References</h4>
-          <ul class="bibliography">
-            <li>
-              <a href=""> </a>
-            </li>
-          </ul>
+          <h4>Article References</h4>
+          <div class="bibliography">
+            <a href=""> </a>
+          </div>
         </article>
 
         <!--
@@ -886,85 +1031,183 @@ $.ajax({
 
         -->
 
-        <article>
+        <article id="references">
           <header>
-            <h1>Site References</h1>
+            <h1>
+              <a class="anchor-marker" href="#references">#</a> Site References
+            </h1>
+            <hr />
           </header>
           <div class="lg-dropdown-content">
-            <ul class="bibliography">
-              <li>
-                <a href="https://www.w3schools.com/tags/tag_meta.asp">
-                  W3Schools - Meta Tags
-                </a>
-              </li>
-              <li>
-                <a href="https://www.w3schools.com/css/css_rwd_grid.asp">
-                  W3Schools - Grid View CSS
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://www.w3schools.com/css/css_rwd_mediaqueries.asp"
-                >
-                  W3Schools - Media Queries
-                </a>
-              </li>
-              <li>
-                <a href="https://matthewjamestaylor.com/bottom-footer">
-                  Matthew James Taylor - Footer CSS
-                </a>
-              </li>
-              <li>
-                <a href="https://www.w3schools.com/html/html_forms.asp">
-                  W3Schools - Form HTML
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://developer.mozilla.org/en-US/docs/Learn/Forms/HTML5_input_types"
-                >
-                  Mozilla - Form HTML Reference
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://www.w3schools.com/csSref/css3_pr_justify-content.asp"
-                >
-                  W3Schools - CSS Justify Content Property
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://css-tricks.com/snippets/css/truncate-string-with-ellipsis/"
-                >
-                  CSS-Tricks - Truncate strings with ellipsis
-                </a>
-              </li>
-              <li>
-                <a href="https://developers.google.com/fonts/">
-                  Google Fonts API Documentation
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing"
-                >
-                  Mozilla Reference - box-sizing property
-                </a>
-              </li>
-              <li>
-                <a href="https://metatags.io/"
-                  >metatags.io - Meta Tags for Social Media</a
-                >
-              </li>
-              <li>
-                <a
-                  href="https://www.w3schools.com/howto/howto_css_smooth_scroll.asp#section2"
-                >
-                  w3schools.com - Smooth Scrolling</a
-                >
-              </li>
-            </ul>
+            <div class="bibliography">
+              <div id="b-1">
+                <a class="anchor-marker" href="#b-1">#</a>
+                <p>
+                  w3schools, (n.d.). HTML &lt;meta&gt; Tag. [online] Available
+                  at:
+                  <a href="https://www.w3schools.com/tags/tag_meta.asp"
+                    >https://www.w3schools.com/tags/tag_meta.asp</a
+                  >
+                  [Accessed 2020-12-17].
+                </p>
+              </div>
+              <div id="b-2">
+                <a class="anchor-marker" href="#b-2">#</a>
+                <p>
+                  w3schools, (n.d.). Responsive Web Design - Grid-View. [online]
+                  Available at:
+                  <a href="https://www.w3schools.com/css/css_rwd_grid.asp"
+                    >W3Schools - Grid View CSS</a
+                  >
+                  [Accessed 2020-12-17].
+                </p>
+              </div>
+              <div id="b-3">
+                <a class="anchor-marker" href="#b-3">#</a>
+                <p>
+                  w3schools, (n.d.). Responsive Web Design - Media Queries.
+                  [online] Available at:
+                  <a
+                    href="https://www.w3schools.com/css/css_rwd_mediaqueries.asp"
+                    >https://www.w3schools.com/css/css_rwd_mediaqueries.asp</a
+                  >
+                  [Accessed 2020-12-17].
+                </p>
+              </div>
+              <div id="b-4">
+                <a class="anchor-marker" href="#b-4">#</a>
+                <p>
+                  Taylor, M.J., (2007). How to keep footers at the bottom of the
+                  page. [online] Accessed at:
+                  <a href="https://matthewjamestaylor.com/bottom-footer"
+                    >https://matthewjamestaylor.com/bottom-footer</a
+                  >
+                  [Accessed 2020-12-17].
+                </p>
+              </div>
+              <div id="b-5">
+                <a class="anchor-marker" href="#b-5">#</a>
+                <p>
+                  w3schools, (n.d.). HTML Forms. [online] Available at:
+                  <a href="https://www.w3schools.com/html/html_forms.asp"
+                    >https://www.w3schools.com/html/html_forms.asp</a
+                  >
+                  [Accessed 2020-12-17].
+                </p>
+              </div>
+              <div id="b-6">
+                <a class="anchor-marker" href="#b-6">#</a>
+                <p>
+                  peterbe, hamishwillee, (2020). The HTML5 input types. [online]
+                  Available at:
+                  <a
+                    href="https://developer.mozilla.org/en-US/docs/Learn/Forms/HTML5_input_types"
+                    >https://developer.mozilla.org/en-US/docs/Learn/Forms/HTML5_input_type</a
+                  >
+                  [Accessed 2020-12-17].
+                </p>
+              </div>
+              <div id="b-7">
+                <a class="anchor-marker" href="#b-7">#</a>
+                <p>
+                  w3schools, (n.d.). CSS justify-content Property. [online]
+                  Available at:
+                  <a
+                    href="https://www.w3schools.com/csSref/css3_pr_justify-content.asp"
+                    >https://www.w3schools.com/csSref/css3_pr_justify-content.asp</a
+                  >
+                  [Accessed 2020-12-17].
+                </p>
+              </div>
+              <div id="b-8">
+                <a class="anchor-marker" href="#b-8">#</a>
+                <p>
+                  Coyier, Christ, (2018). Truncate String with Ellipsis.
+                  [online] Available at:
+                  <a
+                    href="https://css-tricks.com/snippets/css/truncate-string-with-ellipsis/"
+                    >CSS-Tricks - Truncate strings with ellipsis</a
+                  >
+                  [Accessed 2020-12-17].
+                </p>
+              </div>
+
+              <div id="b-9">
+                <a class="anchor-marker" href="#b-9">#</a>
+                <p>
+                  Google, (n.d.). Google Fonts Documentation. [online] Available
+                  at:
+                  <a href="https://developers.google.com/fonts/"
+                    >https://developers.google.com/fonts/</a
+                  >
+                  [Accessed 2020-12-17].
+                </p>
+              </div>
+              <div id="b-10">
+                <a class="anchor-marker" href="#b-10">#</a>
+                <p>
+                  peterbe, (2020). Mozilla MDN web docs: box-sizing. [online]
+                  Available at:
+                  <a
+                    href="https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing"
+                    >https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing</a
+                  >
+                  [Accessed 2020-12-17].
+                </p>
+              </div>
+              <div id="b-11">
+                <a class="anchor-marker" href="#b-11">#</a>
+                <p>
+                  metatags.io, (2020). Meta Tags. [online] Available at:
+                  <a href="https://metatags.io/">https://metatags.io/</a>
+                  [Accessed 2020-12-17].
+                </p>
+              </div>
+              <div id="b-12">
+                <a class="anchor-marker" href="#b-12">#</a>
+                <p>
+                  w3schools, (n.d.). How TO - Smooth Scroll. [online] Available
+                  at:
+                  <a
+                    href="https://www.w3schools.com/howto/howto_css_smooth_scroll.asp#section2"
+                    >https://www.w3schools.com/howto/howto_css_smooth_scroll.asp#section2</a
+                  >
+                  [Accessed 2020-12-17].
+                </p>
+              </div>
+              <div id="b-13">
+                <a class="anchor-marker" href="#b-13">#</a>
+                <p>
+                  Node.js, (2020). Logo Downloads. [online] Available at:
+                  <a href="https://nodejs.org/en/about/resources/"
+                    >https://nodejs.org/en/about/resources/</a
+                  >
+                  [Accessed 2020-12-17].
+                </p>
+              </div>
+              <div id="b-14">
+                <a class="anchor-marker" href="#b-14">#</a>
+                <p>
+                  mononym <i>et al.</i>, (2012). Outline radius? (Answer).
+                  [online] Available at:
+                  <a href="https://stackoverflow.com/a/11426967"
+                    >https://stackoverflow.com/a/11426967</a
+                  >
+                  [Accessed 2020-12-17]
+                </p>
+              </div>
+              <div id="b-15">
+                <a class="anchor-marker" href="#b-15">#</a>
+                <p>
+                  theredforest, (2017). CSS Auto hide elements after 5 seconds
+                  (Answer). [online] Available at:
+                  <a href="https://stackoverflow.com/a/43397509"
+                    >https://stackoverflow.com/a/43397509</a
+                  >
+                  [Accessed 2020-12-17].
+                </p>
+              </div>
+            </div>
           </div>
         </article>
       </main>

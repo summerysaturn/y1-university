@@ -1,3 +1,11 @@
+/*
+* Global
+*/
+
+* {
+  box-sizing: border-box;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -14,10 +22,6 @@ body {
 
   font-family: "Montserrat", sans-serif;
 }
-
-/*
-* Global
-*/
 
 ul {
   padding-left: 1.5rem;
@@ -117,11 +121,15 @@ main {
 * Articles
 */
 
+header {
+  position: relative;
+}
+
 header h1 {
   font-size: 2rem;
   text-align: left;
   margin: 0;
-  padding: 3rem 0 2rem 0;
+  padding: 2rem 0 1rem 0;
 }
 
 header hr {
@@ -156,6 +164,12 @@ code {
   padding: 0.6rem 1.2rem;
   border-radius: 0.25rem;
   text-align: initial;
+}
+
+.center {
+  margin: auto;
+  text-align: center;
+  padding: 10px;
 }
 
 mark {
@@ -196,26 +210,65 @@ mark {
   margin: 4px;
 }
 
+.anchor-marker {
+  position: absolute;
+  font-size: 1.5rem;
+  left: -1.5rem;
+  opacity: 0.5;
+}
+
 .bibliography {
   text-align: left;
-  padding-left: 0.4rem;
 }
 
-.bibliography li {
-  padding: 0.2rem 0;
+.bibliography div {
+  margin: 1rem 0;
+  position: relative;
 }
 
-.bibliography li::marker {
+.bibliography p {
+  margin: 0;
+}
+
+.bibliography > :target:before {
   content: "";
+  display: block;
+  height: 100px;
+  margin: -100px 0 0;
 }
 
-.bibliography li::before {
-  color: #cf9050;
-  content: "\25B8";
+.bibliography > :target > p {
+  position: relative;
 }
 
-.bibliography h4 {
-  margin-bottom: 0.4rem;
+.bibliography > :target > p:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -8px;
+  bottom: -8px;
+  left: -32px;
+  right: -8px;
+  border-radius: 16px;
+  border: 2px dashed #ff6f00;
+  -webkit-animation: fadeOut 5s forwards;
+  animation: fadeOut 5s forwards;
+  z-index: -1;
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.1;
+  }
 }
 
 /*

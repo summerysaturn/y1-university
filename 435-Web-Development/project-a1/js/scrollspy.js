@@ -276,10 +276,6 @@
               activeClasses.forEach((activeClass) =>
                 menuItem.classList.add(activeClass)
               );
-              let top = this.getRelativeTop(menuItem);
-              document
-                .getElementById("sidebar")
-                .scrollTo({ top: top, behaviour: "smooth" });
             }
           }
 
