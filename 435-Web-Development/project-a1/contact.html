@@ -71,25 +71,19 @@
       <main class="container">
         <article>
           <header id="post1">
-            <h1>Contact Me</h1>
+            <h1><a class="anchor-marker" href="#post1">#</a> Contact Me</h1>
             <hr />
           </header>
 
-          <p class="text-muted">
+          <p>
             This is a non-functional example form for a support ticket. If you
             have any criticism or need to contact me, try the link below. If you
             do add an issue here, please add the CI435 (Web Dev) label. Thanks!
           </p>
 
-          <ul class="bibliography">
-            <li>
-              <a
-                href="https://github.com/summerysaturn/y1-university/issues/new"
-              >
-                Create an Issue
-              </a>
-            </li>
-          </ul>
+          <a href="https://github.com/summerysaturn/y1-university/issues/new">
+            Create an Issue
+          </a>
 
           <form id="form" class="flex-demo-pad">
             <div class="flex-container">
@@ -128,7 +122,12 @@
                 <label>Attachment</label>
                 <input type="file" form="form" />
               </div>
-              <button class="flex-demo-button">Submit</button>
+              <button
+                class="flex-demo-button"
+                onclick="window.alert('Form Submitted! [dummy text]');"
+              >
+                Submit
+              </button>
             </div>
           </form>
         </article>
