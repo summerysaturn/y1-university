@@ -231,6 +231,11 @@ article h3 {
 .bibliography div {
   margin: 1rem 0;
   position: relative;
+  pointer-events: none;
+}
+
+.bibliography div > * {
+  pointer-events: all;
 }
 
 .bibliography p {
@@ -243,6 +248,7 @@ article section:target:before {
   display: block;
   height: 100px;
   margin: -100px 0 0;
+  pointer-events: none;
 }
 
 .bibliography > :target > p {
@@ -258,7 +264,7 @@ article section:target:before {
   left: -32px;
   right: -8px;
   border-radius: 16px;
-  border: 2px dashed #ff6f00;
+  border: 2px dashed #e7835b;
   -webkit-animation: fadeOut 5s forwards;
   animation: fadeOut 5s forwards;
   z-index: -1;
@@ -353,7 +359,7 @@ form textarea {
 }
 
 main {
-  padding-bottom: 6rem;
+  padding: 0 1rem 6rem 1rem;
 }
 
 footer {
