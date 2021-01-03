@@ -903,14 +903,22 @@ $.ajax({
             </a>
           </div>
           <p>
-            Node.js is an asynchronous JavaScript runtime that can be used to
+            Node.js is an non-blocking JavaScript runtime that can be used to
             build applications hosted on the web
             <a href="#8-1">(XhmikosR <i>et al.</i>, 2020)</a>. What this means
             is that it's an environment that can execute JavaScript much like a
             web browser, without any of the web frontend that comes with a
-            regular browser <a href="#8-2">(2)</a>. The asynchronous part refers
-            to how many connections can be handled concurrently without holding
-            up a thread.
+            regular browser <a href="#8-2">(Gibb, Robery, 2020)</a>. The
+            non-blocking part refers to how many connections can be handled
+            concurrently without holding up a thread
+            <a href="#8-2">(Capan, n.d.)</a>.
+          </p>
+          <p>
+            The primary utility of Node.js is on the server as a backend, as it
+            is primarily useful in how it handles connections concurrently. This
+            being said, I've found particular use for Node.js using package
+            managers like NPM and Yarn, as it can help to build applications
+            using frameworks like React.js and Electron.
           </p>
           <pre
             class="command-line lang-bash"
@@ -925,7 +933,11 @@ $.ajax({
 Welcome to Node.js v14.15.0.
 Type ".help" for more information.
 ></code></pre>
-          <p>This article is unfinished!</p>
+          <p>
+            In the command line, Node.js can be utilised to execute JavaScript
+            easily as a scripting language, which is what NPM and Yarn both run
+            on <a href="#8-4">(Node.js, 2011)</a>. These package managers fetch for packages from the NPM // TODO
+          </p>
           <h4>Article References</h4>
           <div class="bibliography">
             <div id="8-1">
@@ -948,6 +960,31 @@ Type ".help" for more information.
                   >https://blog.stackpath.com/runtime/</a
                 >
                 [Accessed 2020-12-17].
+              </p>
+            </div>
+
+            <div id="8-3">
+              <a class="anchor-marker" href="#8-3">#</a>
+              <p>
+                Capan, Tomislav, (n.d.). Why The Hell Would I Use Node.js? A
+                Case-by-Case Tutorial. [online] Available at:
+                <a
+                  href="https://www.toptal.com/nodejs/why-the-hell-would-i-use-node-js"
+                  id="8-3"
+                  >https://www.toptal.com/nodejs/why-the-hell-would-i-use-node-js</a
+                >
+                [Accessed 2021-01-03].
+              </p>
+            </div>
+            <div id="8-4">
+              <a class="anchor-marker" href="#8-4">#</a>
+              <p>
+                Node.js. (2011). What is npm? [online] Available at:
+                <a
+                  href="https://nodejs.org/en/knowledge/getting-started/npm/what-is-npm/"
+                  >https://nodejs.org/en/knowledge/getting-started/npm/what-is-npm/</a
+                >
+                [Accessed 2021-01-03].
               </p>
             </div>
           </div>
