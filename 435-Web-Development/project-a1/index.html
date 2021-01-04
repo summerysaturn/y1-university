@@ -761,7 +761,7 @@ componentDidMount() {
           </code></pre>
           <a
             href="https://github.com/summerysaturn/summerysaturn.github.io/blob/5623c0644bf1debe75127964e9fa5b9e11de6ff0/src/index.js#L169-L177"
-            >Source code for summerysaturn.github.io</a
+            >Modified source code from my project, summerysaturn.github.io</a
           >
           <p>
             This Bash script assigns a GET request to the variable $get, ready
@@ -783,7 +783,7 @@ get=$(
           </code></pre>
           <a
             href="https://github.com/summerysaturn/lyla-dotfiles/blob/6dd7c7063de50ab0a84dbde2f69ab462f4f5994c/scripts/uob-firewall#L3-L13"
-            >Source code for lyla-dotfiles</a
+            >Modified source code from my project, lyla-dotfiles</a
           >
           <p>
             Ajax allows for this functionality in JavaScript, without the
@@ -936,7 +936,50 @@ Type ".help" for more information.
           <p>
             In the command line, Node.js can be utilised to execute JavaScript
             easily as a scripting language, which is what NPM and Yarn both run
-            on <a href="#8-4">(Node.js, 2011)</a>. These package managers fetch for packages from the NPM // TODO
+            on <a href="#8-4">(Node.js, 2011)</a>. These package managers fetch
+            packages from the NPM Registry
+            <a href="#8-5">(w3schools, n.d.)</a> and install them either
+            globally or in the local directory. This can be used to set up
+            dependencies in a JavaScript project, allowing for easier sharing
+            and version management when compared with traditional solutions.
+          </p>
+          <p>
+            Each local directory that utilises Node.js has a
+            <code>package.json</code> file which includes details about the
+            package, along with the dependencies, license, repository, author,
+            etc. This information is very useful to include in the root of a
+            repository.
+          </p>
+          <pre><code class="lang-json">{
+  "name": "countdown-applet",
+  "version": "1.0.0",
+  "description": "A minimal Electron countdown app",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "GitHub",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^8.5.2",
+    "electron-reload": "^1.5.0"
+  },
+  "dependencies": {}
+}</code></pre>
+          <p>
+            <a
+              href="https://github.com/summerysaturn/countdown-applet/blob/master/package.json"
+              >Modified source code from my project, countdown-applet</a
+            >.
+          </p>
+          <p>
+            My primary utilisation of Node.js comes from the utilisation of a
+            few frameworks, including Electron, TypeScript, Sass, Webpack,
+            Bootstrap, and a few others.
+            <a href="https://www.electronforge.io/">Electron-Forge</a> is a
+            preset project that has all the dependencies needed to produce
+            Electron apps using Node. Electron itself is described in
+            <a href="#post11">Week 11's Article</a>.
           </p>
           <h4>Article References</h4>
           <div class="bibliography">
@@ -987,6 +1030,16 @@ Type ".help" for more information.
                 [Accessed 2021-01-03].
               </p>
             </div>
+            <div id="8-5">
+              <a class="anchor-marker" href="#8-5">#</a>
+              <p>
+                w3schools. (n.d.). What is npm? [online] Available at:
+                <a href="https://www.w3schools.com/whatis/whatis_npm.asp"
+                  >https://www.w3schools.com/whatis/whatis_npm.asp</a
+                >
+                [Accessed 2021-01-04].
+              </p>
+            </div>
           </div>
         </article>
 
@@ -996,10 +1049,122 @@ Type ".help" for more information.
             <hr />
             <h5>Date Written: 2020-12-05</h5>
           </header>
-          <p>Coming soon!</p>
+
+          <div class="center center-dark">
+            <a href="https://reactjs.org/">
+              <img
+                src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K"
+                style="width: 20%"
+                alt="The ReactJS Logo"
+              />
+            </a>
+          </div>
+          <p>
+            ReactJS is a JavaScript library designed around component-based UI
+            <a href="#9-1">(Facebook, 2021)</a>. It's unique in that it has a
+            specific method of rendering elements, differing greatly from
+            traditional web design. This is difficult to learn, however it
+            affords ReactJS a lot of versatility and performance.
+          </p>
+          <p>
+            A major part of this element style relate to Component Props and
+            Component State. The diagram below illustrates this:
+          </p>
+          <div class="center">
+            <img
+              src="image/react-props-blog-image-design-2.jpg"
+              alt="ReactJS Component State Diagram"
+              style="width: 70%"
+            />
+          </div>
+          <a href="#9-2">(Holla, n.d.)</a>
+          <p>
+            Props are passed down from parent elements, whereas State is
+            self-referential for each component. This data flow outlines how
+            components affect each other, and how parent elements have priority
+            over child elements. Additionally, state can be used to affect how a
+            component renders, by re-rendering whenever state changes
+            <a href="#9-2">(Holla, n.d.)</a>.
+          </p>
+          <div class="center">
+            <img
+              src="image/1584004450554_Props-Post-Design.jpg"
+              alt="ReactJS Component Lifecycle Diagram"
+              style="width: 70%"
+            />
+          </div>
+          <a href="#9-3">(Holla, n.d.)</a>
+          <p>
+            Additionally, each component has a large amount of callbacks
+            relating to it's own lifecycle, allowing for lots of granularity
+            over what a component should do at each point in the lifecycle. This
+            can have many practical implications
+            <a href="#9-3">(Holla, n.d.)</a>.
+          </p>
+          <pre><code class="lang-js">
+class ClassComponentExample extends React.Component {
+   constructor(props){
+       super(props);
+       console.log('Constructor State')
+       this.state = {
+           messageB1:"Default Message B - 1",
+           messageB2:"Default Message B - 2",
+       }
+   }
+   render() {
+       console.log('Render State')
+       return &lt;div&gt;&lt;h1&gt;{this.props.message}&lt;/h1&gt;
+           &lt;h1&gt;{this.state.messageB1}&lt;/h1&gt;
+           &lt;h1&gt;{this.state.messageB2}&lt;/h1&gt;
+           &lt;button onclick="{this.b1OnClick}"&gt;B1 Button&lt;/button&gt;
+           &lt;button onclick="{this.b2OnClick}"&gt;B2 Button&lt;/button&gt;
+       &lt;/div&gt;
+   }
+}
+          </code></pre>
+          <a href="#9-3">Modified source code from Holla (n.d.)</a>
+          <p>
+            ReactJS is far too complex to sum up in this blog, but this should
+            be a decent starting point. ReactJS is something I've used in a
+            couple of projects already, and it's a useful skill for the
+            industry, as it runs a fair amount of the modern web. Facebook
+            itself is written on React, explaining why Facebook is cited for
+            this article.
+          </p>
           <h4>Article References</h4>
           <div class="bibliography">
-            <a href=""> </a>
+            <div id="9-1">
+              <a class="anchor-marker" href="#9-1">#</a>
+              <p>
+                Facebook. (2021). React? [online] Available at:
+                <a href="https://reactjs.org/">https://reactjs.org/</a>
+                [Accessed 2021-01-04].
+              </p>
+            </div>
+            <div id="9-2">
+              <a class="anchor-marker" href="#9-2">#</a>
+              <p>
+                Holla, Suhas, (n.d.). Chapter 5 – ReactJS Component State
+                [online] Available at:
+                <a
+                  href="https://www.techdiagonal.com/reactjs_courses/beginner/reactjs-component-state/"
+                  >https://www.techdiagonal.com/reactjs_courses/beginner/reactjs-component-state/</a
+                >
+                [Accessed 2021-01-04].
+              </p>
+            </div>
+            <div id="9-3">
+              <a class="anchor-marker" href="#9-3">#</a>
+              <p>
+                Holla, Suhas, (n.d.). Chapter 6 – React Component Lifecycle with
+                Example [online] Available at:
+                <a
+                  href="https://www.techdiagonal.com/reactjs_courses/beginner/chapter-6-react-component-lifecycle-with-example/"
+                  >https://www.techdiagonal.com/reactjs_courses/beginner/chapter-6-react-component-lifecycle-with-example/</a
+                >
+                [Accessed 2021-01-04].
+              </p>
+            </div>
           </div>
         </article>
 
@@ -1011,10 +1176,42 @@ Type ".help" for more information.
             <hr />
             <h5>Date Written: 2020-12-12</h5>
           </header>
-          <p>Coming soon!</p>
+          <p>
+            With the internet getting larger and larger, technologies aiming to
+            cut down on extraneous data usage are essential. The speed at which
+            a page loads is largely dictated by the optimisation put into the
+            webpage design. Webpack aims to solve an issue where many files are
+            sent when a page is loaded due to dependencies, instead packaging
+            all the dependencies for a page into a smaller payload.
+          </p>
+          <p>
+            Webpack functions by identifying the usage of modules and
+            dependencies in your JavaScript, CSS, Sass, etc., and packages them
+            all into a minified file that they call a Static Asset. These assets
+            are delineated by type, including JavaScript, CSS, and images.
+          </p>
+          <div class="center">
+            <img
+              src="image/webpack-diagram.png"
+              alt="A diagram of how webpack works"
+            />
+          </div>
+          <p>
+            <a href="#10-1">(Webpack, n.d.)</a>
+          </p>
+          <p>
+            I'm using this in my modern Node/Electron projects, as Electron Forge includes Webpack as an option natively. The ease of webpack comes from how you can drop it into an existing Node project, set it up, then forget about it; it's effectively free optimisation, provided that no issues come up. 
+          </p>
           <h4>Article References</h4>
           <div class="bibliography">
-            <a href=""> </a>
+            <div id="10-1">
+              <a class="anchor-marker" href="#10-1">#</a>
+              <p>
+                Webpack, (n.d.). bundle your assets [online] Available at:
+                <a href="https://webpack.js.org/">https://webpack.js.org/</a>
+                [Accessed 2021-01-04].
+              </p>
+            </div>
           </div>
         </article>
 
