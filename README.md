@@ -31,10 +31,10 @@ This repository contains the specifications for my course and is going to be use
 
 | Module | Deliverable               | Issues                                                          | Deadline   | Done?              | Link to Work                                                       | Assignment Priority    |
 | :----- | :------------------------ | :-------------------------------------------------------------- | :--------: | :----------------: | :----------------------------------------------------------------- | :--------------------- |
-| CI410  | 1,750 Word Report         | [#11](https://github.com/summerysaturn/y1-university/issues/11) | 2021-01-15 | :x:                | [Link](410-Game-Design/Assignment1-Design-Doc/Design-Document.pdf) | :yellow_circle: Medium |
-| CI435  | Website Zip               | [#6](https://github.com/summerysaturn/y1-university/issues/6)   | 2021-01-15 | :heavy_check_mark: | [Link](435-Web-Development/project-a1)                             | :x: N/A                |
-| CI465  | Group Video Report        | [#13](https://github.com/summerysaturn/y1-university/issues/13) | 2021-01-15 | :x:                | [Link](465-Digital-Industries/project-a1)                          | :green_circle: Low     |
-| CI474  | Report, Storyboard, Scene | [#5](https://github.com/summerysaturn/y1-university/issues/5)   | 2021-01-21 | :x:                | [Link](474-3D-Modelling/project-a1)                                | :red_circle: High      |
+| CI410  | 1,750 Word Report         | [#11](https://github.com/summerysaturn/y1-university/issues/11) | 2021-01-29 | :x:                | [Link](410-Game-Design/Assignment1-Design-Doc/Design-Document.pdf) | :red_circle: High      |
+| CI435  | Website Zip               | [#6](https://github.com/summerysaturn/y1-university/issues/6)   | 2021-01-29 | :heavy_check_mark: | [Link](435-Web-Development/project-a1)                             | :white_check_mark:     |
+| CI465  | Group Video Report        | [#13](https://github.com/summerysaturn/y1-university/issues/13) | 2021-01-29 | :x:                | [Link](465-Digital-Industries/project-a1)                          | :yellow_circle: Medium |
+| CI474  | Report, Storyboard, Scene | [#5](https://github.com/summerysaturn/y1-university/issues/5)   | 2021-02-04 | :x:                | [Link](474-3D-Modelling/project-a1)                                | :green_circle: Low     |
 
 ### A2 Progress Chart
 
@@ -290,4 +290,4 @@ This section features a LaTeX document that must be prepared using `texlive` (or
 
 ### CI435
 
-This section features a static site. This segment is still under development, even if the assignment is considered "done". This is because the only extra parts to add are extra posts. Once the deadline rolls around I'll push it to the gh-pages branch and add it as a release. In the meantime, this site is viewable at <http://ci435-01.kmjw10.brighton.domains/index.html>.
+This section features a static site. This site is viewable at <http://ci435-01.kmjw10.brighton.domains/index.html>. An additional copy may be hosted on GitHub Pages in the future.
