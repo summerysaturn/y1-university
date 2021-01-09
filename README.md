@@ -29,12 +29,12 @@ This repository contains the specifications for my course and is going to be use
 
 (Note: CI401 and CI405 have no deliverables this semester, due to restrictions on social distancing and exams. These will instead be taking place in semester 2.)
 
-| Module | Deliverable               | Issues                                                          | Deadline   | Done? | Link to Work                                                       | Assignment Priority    |
-| :----- | :------------------------ | :-------------------------------------------------------------- | :--------: | :---: | :----------------------------------------------------------------- | :--------------------- |
-| CI410  | 1,750 Word Report         | [#11](https://github.com/summerysaturn/y1-university/issues/11) | 2021-01-15 | :x:   | [Link](410-Game-Design/Assignment1-Design-Doc/Design-Document.pdf) | :yellow_circle: Medium |
-| CI435  | Website Zip               | [#6](https://github.com/summerysaturn/y1-university/issues/6)   | 2021-01-15 | :x:   | [Link](435-Web-Development/project-a1)                             | :red_circle: High      |
-| CI465  | Group Video Report        | [#13](https://github.com/summerysaturn/y1-university/issues/13) | 2021-01-15 | :x:   | [Link](465-Digital-Industries/project-a1)                          | :green_circle: Low     |
-| CI474  | Report, Storyboard, Scene | [#5](https://github.com/summerysaturn/y1-university/issues/5)   | 2021-01-21 | :x:   | [Link](474-3D-Modelling/project-a1)                                | :red_circle: High      |
+| Module | Deliverable               | Issues                                                          | Deadline   | Done?              | Link to Work                                                       | Assignment Priority    |
+| :----- | :------------------------ | :-------------------------------------------------------------- | :--------: | :----------------: | :----------------------------------------------------------------- | :--------------------- |
+| CI410  | 1,750 Word Report         | [#11](https://github.com/summerysaturn/y1-university/issues/11) | 2021-01-15 | :x:                | [Link](410-Game-Design/Assignment1-Design-Doc/Design-Document.pdf) | :yellow_circle: Medium |
+| CI435  | Website Zip               | [#6](https://github.com/summerysaturn/y1-university/issues/6)   | 2021-01-15 | :heavy_check_mark: | [Link](435-Web-Development/project-a1)                             | :x: N/A                |
+| CI465  | Group Video Report        | [#13](https://github.com/summerysaturn/y1-university/issues/13) | 2021-01-15 | :x:                | [Link](465-Digital-Industries/project-a1)                          | :green_circle: Low     |
+| CI474  | Report, Storyboard, Scene | [#5](https://github.com/summerysaturn/y1-university/issues/5)   | 2021-01-21 | :x:                | [Link](474-3D-Modelling/project-a1)                                | :red_circle: High      |
 
 ### A2 Progress Chart
 
@@ -141,21 +141,11 @@ This assignment is technically completed although there's a second essay that I'
 | :memo: GitHub Issue          | [#6](https://github.com/summerysaturn/y1-university/issues/6)                                                                                                                                                 |
 | :heavy_check_mark: Complete? | :heavy_check_mark:                                                                                                                                                                                            |
 
-#### CI435 Assignment 1 Breakdown
+- [x] Source Files
+- [x] Validation Files
+- [x] URL
 
-In sore need of further development. See issue for context; there's missing articles on this page even if the page itself is fully functional. Some avenues for progress include writing about:
-
-* [ ] Object-Oriented CSS
-* [ ] Page Layout using Flex
-* [ ] CSS Pseudo-Elements
-* [ ] SASS Preprocessing
-* [ ] Typescript Usage
-* [ ] jQuery (and alternatives)
-* [ ] Node
-* [ ] React
-* [ ] Electron
-
-:red_circle: This should be considered high priority (due to the high modularity of what's required).
+This assignment is completed and as such is archived here.
 
 ### CI435 Assignment 2
 
