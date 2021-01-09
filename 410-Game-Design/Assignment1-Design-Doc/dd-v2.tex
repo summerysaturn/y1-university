@@ -11,19 +11,19 @@
 
 % TODO list
 % See issue https://github.com/summerysaturn/y1-university/issues/11
-% [x] Working Title                 Title Page, Section 1.1
-% [?] Concept Statement             Title Page, Section 1.2
-% [?] Genre                         Title Page, Section 1.3
-% [?] Target Audience               TODO Section 1.4
-% [x] Unique Selling Points (USPs)  TODO Section 1.5
-% [ ] Player Experience             TODO Section 2.1
-% [ ] Visual and Audio style        TODO Section 2.2
-% [ ] Narrative (optional)          TODO Section 2.3
-% [ ] Monetisation (optional)       TODO Section 2.4
-% [ ] Platform and Technology       TODO Section 2.5
-% [ ] Game rules                    TODO Section 3.1
-% [ ] Core loops                    TODO Section 3.2
-% [ ] Objectives and Progression    TODO Section 3.3
+% [x] Working Title                 Done, Section 1.1
+% [x] Concept Statement             Done, Section 1.2
+% [x] Genre                         TODO, Section 1.3
+% [x] Target Audience               TODO, Section 1.4
+% [x] Unique Selling Points (USPs)  Done, Section 1.5
+% [ ] Player Experience             TODO, Section 2.1
+% [ ] Visual and Audio style        TODO, Section 2.2
+% [ ] Narrative (optional)          TODO, Section 2.3
+% [ ] Monetisation (optional)       TODO, Section 2.4
+% [ ] Platform and Technology       TODO, Section 2.5
+% [ ] Game rules                    TODO, Section 3.1
+% [ ] Core loops                    TODO, Section 3.2
+% [ ] Objectives and Progression    TODO, Section 3.3
 
 \begin{document}
 \author{Charlotte Ward}
@@ -32,7 +32,7 @@
 {\huge Working Title: Cybersky} \\
 {\small A modern reimagining of classic Shoot 'em Up gameplay, designed for handheld play, featuring roguelite mechanics.} \\
 {\small Genre: Roguelite, Shoot 'Em Up} \\
-{\small Version 2.0.0} % Semantic versioning please
+{\small Version 2.0.0}
 }
 \maketitle
 
@@ -58,21 +58,57 @@ This statement quickly and easily sums up the core mechanical alignment of the g
 
 \subsection{Genre}
 
+The genre of this game is described as a:
+
 \begin{quote}
   \emph{Roguelite Shoot 'em Up}
 \end{quote}
 
-\paragraph{Shoot 'em Up:}
+This description can be broken into two parts:
 
-TODO: Shoot 'em Up
+\subsubsection{Shoot 'em Up:}
 
-\paragraph{Roguelite:}
+The following subsection primarily follows an article by \cite{BrianW2020-01}.
 
-TODO: Roguelite
+Shoot 'em Up games have been a staple of video games since their beginning in the 1970s with the title \emph{'Galaxian'}. This game is a fixed shooter type game, integrating features from \emph{'Space Invaders'} and taking inspiration from titles such as \emph{'Spacewar!'} and \emph{'Asteroids'}. \emph{'Galaxian'} is described as a 'fixed shooter', a precursor to the Shoot 'em Up genre, where the player is fixed at the bottom of the screen and fires forward. Additionally, this game implements a wave of enemies very similar to \emph{'Space Invaders'}.
+
+This game is a clear inspiration for the Shoot 'em Up genre, appearing very visually similar to later games such as \emph{'Ikaruga'}, a 2001 title that's often regarded as the epitome of 'Shmup'design. \emph{Ikaruga} was very popular, quickly becoming the gold standard of the genre. In more recent years, \emph{'Enter the Gungeon'} has revitalised the Shmup genre, breathing life back into the subgenre.
+
+Additionally, Shoot 'em Up games share ground with Twin-Stick Shooters, a specific subgenre that relates to a movement and combat system where one control stick controls movement, and another control stick affects firing direction. A few notable examples of this include \emph{'Geometry Wars: Retro Evolved2'}, and more loosely \emph{'Enter the Gungeon'} again. This style of control system works well with Shmups, as it allows for a lot of precision in terms of movement and control, effectively utilising analogue sticks when compared with directional pads (D-Pad) and buttons.
+
+The gameplay of a Shoot 'em Up is designed around a large quantity of projectiles, involving player movement in the style to a Twin-Stick Shooter, or similar to a fixed shooter like \emph{Galaxian}. This is a large inspiration for \emph{Cybersky}, a game designed around adapting this genre for Roguelite progression (see next subsection) and adapting it for mobile gaming. Additionally, \emph{Cybersky} is specifically more focussed on the fixed-shooter style of design.
+
+To summarise:
+
+\begin{itemize}
+  \item High quantity of projectiles / enemies
+  \item Twin-Stick Shooter or Fixed Shooter movement
+\end{itemize}
+
+\subsubsection{Roguelite:}
+
+The following subsection primarily follows an article by \cite{BrianW2020-02}.
+
+The genre of Roguelikes derive from the overall structure of the game \emph{'Rogue'}, a 1980 release, being the first implementation of a ruleset which came to define the genre. These rules can be outlined as:
+
+\begin{itemize}
+  \item Permadeath
+  \item Procedural generation
+  \item Difficult enemies
+  \item Loot based progression
+\end{itemize}
+
+Roguelike games implement these rules across many different genres, illustrating their versatility as a set of rules. A \emph{Roguelite} in particular is a subset of this genre, implementing some or all of these rules in a less strict or 'hardcore' way. This is particularly useful in describing \emph{Cybersky}, as the game should appeal to a more casual audience due to the target platform; Accessibility is the key to the mobile market, regardless of the genre staples that \emph{Cybersky} is influenced by.
+
+A few examples of Roguelike games include \emph{'Darkest Dungeon'} and \emph{'The Binding of Isaac'}. A more loose example of a Roguelite would be \emph{'FTL: Faster Than Light'}. These examples are good inspirations as they feature procedural generation and progression, and implement permadeath and loot-based progression.
 
 \subsection{Target Audience}
 
-TODO: ESRB, Age, Gender, etc. Motivations and relevant interests.
+With \emph{Ikaruga} being described as a "shooter-fan's shooter" by \cite{Rodriguez2018}, and the resulting success in the industry \citep{BrianW2020-01}, it's clear that \emph{Ikaruga} has become a bit of a cult classic, with few games reaching the same heights since. \emph{Cybersky} aims to appeal to the same fans that \emph{Ikaruga} has, and more generally Shmup fans as a whole.
+
+As well as this, \emph{Cybersky} is aimed at the general mobile market, meaning that it should follow the archetypical conventions of a mobile game: accessibility in terms of gameplay and design, simplicity, cognitive flow, short session length, all of which relate to the psychology and design trends in mobile gaming at the moment \citep{Northington2018}.
+
+While uncommon in the mobile industry, the ESRB rating that \emph{Cybersky} would best fit is 'Everyone 10+', as the game features mild violence, relating to the style of violence featured in a zoomed-out fixed-shooter game. Additionally, this rating allows for some mild language and stronger themes, allowing some freedom in terms of narrative design later on.
 
 \subsection{Unique Selling Points}
 
@@ -110,13 +146,45 @@ To summarise:
 
 \subsection{Player Experience}
 
+Who is the player?
+
+What is the setting?
+
+What is the fantasy the game grants the player?
+
+What emotions do you want the player to feel?
+
+What keeps the player engaged for the duration of their play?
+
 \subsection{Visual and Audio Style}
+
+What is the “look and feel” of the game?
+
+How does this support the desired player’s experience?
+
+What concept art or reference art can you show to give the feel of the game?
 
 \subsection{Narrative}
 
+Briefly describe the game world and any narrative in player-relevant terms (as presented to the player)
+
 \subsection{Monetisation}
 
+How will the game make money?
+
+Premium purchase?
+
+F2P?
+
+How do you justify this within the design?
+
 \subsection{Platform(s) and Technology}
+
+Tablet or phone?
+
+2D, 2.5D, or 3D?
+
+Do you use hardware-specific mobile features such as touch screen, location sensing, web connectivity, motion sensing, Bluetooth, WiFi?
 
 \section{
   Game Mechanics
@@ -124,9 +192,25 @@ To summarise:
 
 \subsection{Game Rules}
 
+What are the rules that define the game world and the gameplay?
+
 \subsection{Core Loops}
 
+How do game objects and the player’s actions form loops?
+
+Why is this engaging? How does this support the player’s goals?
+
+What emergent results do you expect/hope to see?
+
+If F2P, where are the monetisation points?
+
 \subsection{Objectives and Progression}
+
+How does the player move through the game, literally and figuratively, from tutorial to end?
+
+What are their short-term and long-term goals and rewards (explicit or implicit)?
+
+How do these support the game concept, style, and player-fantasy?
 
 \printbibliography
 
