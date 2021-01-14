@@ -1,6 +1,5 @@
 \documentclass{scrartcl}
 
-% Preamble
 \usepackage[backend=biber,style=apa,sorting=none]{biblatex}
 \addbibresource{dd-v2.bib}
 \let\cite\textcite
@@ -17,12 +16,12 @@
 % [x] Target Audience               Done, Section 1.4
 % [x] Unique Selling Points (USPs)  Done, Section 1.5
 % [x] Player Experience             Done, Section 2.1
-% [x] Visual and Audio style        WIP, Section 2.2
-% [x] Narrative (optional)          TODO, Section 2.3
-% [ ] Platform and Technology       TODO, Section 2.4
-% [ ] Game rules                    TODO, Section 3.1
-% [ ] Core loops                    TODO, Section 3.2
-% [ ] Objectives and Progression    TODO, Section 3.3
+% [x] Visual and Audio style        Done, Section 2.2
+% [x] Narrative (optional)          Done, Section 2.3
+% [x] Platform and Technology       Done, Section 2.4
+% [x] Game rules                    Done, Section 3.1
+% [x] Core loops                    Done, Section 3.2
+% [x] Control Schemes               Done, Section 3.3
 
 \begin{document}
 \author{Charlotte Ward}
@@ -45,7 +44,7 @@
 
 \subsection{Working Title}
 
-The working title for this project is \emph{Cybersky}, derived from the general Cyberpunk subgenre of Science Fiction. This name aims to convey a pessimistic, futuristic setting, mirrored in the proposed visual and audio style. This additionally reflects the gameplay concepts involved in Shoot 'em Up games, where the odds are stacked against the player in terms of numbers and technology (enemy complexity).
+The working title for this project is \emph{Cybersky}, derived from the general Cyberpunk subgenre of Science Fiction. This name aims to convey a pessimistic, futuristic setting, mirrored in the proposed visual and audio style.
 
 \subsection{Concept Statement}
 
@@ -60,7 +59,7 @@ This statement quickly and easily sums up the core mechanical alignment of the g
 The genre of this game is described as a:
 
 \begin{quote}
-  \emph{Roguelite Shoot 'em Up}
+  \emph{Roguelite Shoot 'em Up (Shmup)}
 \end{quote}
 
 This description can be broken into two parts:
@@ -69,19 +68,17 @@ This description can be broken into two parts:
 
 The following subsection primarily follows an article by \cite{BrianW2020-01}.
 
-Shoot \'em Up games have been a staple of video games since their beginning in the 1970s with the title \emph{'Galaxian'}. This game is a fixed shooter type game, integrating features from \emph{'Space Invaders'} and taking inspiration from titles such as \emph{'Spacewar!'} and \emph{'Asteroids'}. \emph{'Galaxian'} is described as a \'fixed shooter\', a precursor to the Shoot \'em Up genre, where the player is fixed at the bottom of the screen and fires forward. Additionally, this game implements a wave of enemies very similar to \emph{'Space Invaders'}.
+Recent Shoot 'em Up games are an influence for \emph{Cybersky}, including \emph{'Ikaruga'}, a 2001 title that's often regarded as the epitome of \'Shmup\' design. \emph{Ikaruga} was very popular within the community of Shmups and Bullet Hells, quickly becoming the gold standard of the genre. In more recent years, \emph{'Enter the Gungeon'} has revitalised the Shmup genre, breathing some life back into the fandom.
 
-This game is a clear inspiration for the Shoot \'em Up genre, appearing very visually similar to later games such as \emph{'Ikaruga'}, a 2001 title that's often regarded as the epitome of \'Shmup\' design. \emph{Ikaruga} was very popular, quickly becoming the gold standard of the genre. In more recent years, \emph{'Enter the Gungeon'} has revitalised the Shmup genre, breathing life back into the subgenre.
+Additionally, Shoot \'em Up games share ground with Twin-Stick Shooters, a specific subgenre that relates to a movement and combat system where one control stick controls movement, and another control stick affects firing direction. A notable example is \emph{'Geometry Wars: Retro Evolved 2'}.
 
-Additionally, Shoot \'em Up games share ground with Twin-Stick Shooters, a specific subgenre that relates to a movement and combat system where one control stick controls movement, and another control stick affects firing direction. A few notable examples of this include \emph{'Geometry Wars: Retro Evolved2'}, and more loosely \emph{'Enter the Gungeon'} again. This style of control system works well with Shmups, as it allows for a lot of precision in terms of movement and control, effectively utilising analogue sticks when compared with directional pads (D-Pad) and buttons.
-
-The gameplay of a Shoot \'em Up is designed around a large quantity of projectiles, involving player movement in the style to a Twin-Stick Shooter, or similar to a fixed shooter like \emph{Galaxian}. This is a large inspiration for \emph{Cybersky}, a game designed around adapting this genre for Roguelite progression (see next subsection) and adapting it for mobile gaming. Additionally, \emph{Cybersky} is specifically more focussed on the fixed-shooter style of design.
+The gameplay of a Shoot \'em Up is designed around a large quantity of projectiles, involving player movement in the style to a Twin-Stick Shooter, or similar to a fixed shooter like \emph{Galaxian}. This is a large inspiration for \emph{Cybersky}, a game designed around adapting this genre for Roguelite progression (see next subsection) and adapting it for mobile gaming.
 
 To summarise:
 
 \begin{itemize}
-  \item High quantity of projectiles / enemies
-  \item Twin-Stick Shooter or Fixed Shooter movement
+  \item High quantity of projectiles \& enemies.
+  \item Twin-Stick Shooter or Fixed Shooter movement.
 \end{itemize}
 
 \subsubsection{Roguelite:}
@@ -107,11 +104,35 @@ With \emph{Ikaruga} being described as a "shooter-fan's shooter" by \cite{Rodrig
 
 As well as this, \emph{Cybersky} is aimed at the general mobile market, meaning that it should follow the archetypical conventions of a mobile game: accessibility in terms of gameplay and design, simplicity, cognitive flow, short session length, all of which relate to the psychology and design trends in mobile gaming at the moment \citep{Northington2018}.
 
-While uncommon in the mobile industry, the ESRB rating that \emph{Cybersky} would best fit is 'Everyone 10+', as the game features mild violence, relating to the style of violence featured in a zoomed-out fixed-shooter game. Additionally, this rating allows for some mild language and stronger themes, allowing some freedom in terms of narrative design later on.
+\subsubsection{Casual Persona}
+
+This section is dedicated to the persona of a casual mobile gamer:
+
+\begin{itemize}
+  \item Name: Cynthia Enriquez
+  \item Age: 27
+  \item Gender: Female
+  \item Job: Digital Marketing
+\end{itemize}
+
+Cynthia works full time as a digital marketing employee for a small company. She spends a lot of her time commuting by train to the small office and has little time to play games on a console or computer. She's looking for something easy to pick up and put down as her train journey has lots of stops. \emph{Cybersky} aims to fill this gap by being easily accessible for casual players, having short gameplay loops to help fill time in this kind of fractured manner.
+
+\subsubsection{Fan Persona}
+
+This section is dedicated to the persona of a fan of shmups:
+
+\begin{itemize}
+  \item Name: Jaylen Farrow
+  \item Age: 22
+  \item Gender: Male
+  \item Job: Student
+\end{itemize}
+
+Jaylen is a student in university, spending a fair amount of time doing coursework and attending lectures. He uses a pomodoro timer to get work done effectively during the day, but needs a way to quickly unwind. He also is an enthusiast in the Bullet Hell genre and has been for many years, seeking out new games in the genre to deep-dive into and enjoy. \emph{Cybersky} aims to appeal to Jaylen by subscribing to the genre conventions, and has long-term progression alongside the short gameplay loop to allow for him to enjoy the game in this multifaceted way.
 
 \subsection{Unique Selling Points}
 
-This game aims to reintroduce classic Shoot 'em Up gameplay onto the mobile gaming market. With the industry tending towards monetisation and advertisement, there's a sore need for games that are simple and replayable. \emph{Cybersky} can achieve this by cutting past the annoying and often offputting monetisation that exists in mobile gaming, skipping advertisements and instead relying on a short entry cost or pay-what-you-want scheme.
+This game aims to reintroduce classic Shoot 'em Up gameplay onto the mobile gaming market. With the industry tending towards monetisation and advertisement, there's a sore need for games that are simple and replayable. \emph{Cybersky} can achieve this by cutting past the annoying and often offputting monetisation that exists in mobile gaming, skipping advertisements and instead relying on a pay-what-you-want scheme.
 
 To summarise:
 
@@ -122,8 +143,6 @@ To summarise:
 \end{itemize}
 
 Additionally, \emph{Cybersky} includes roguelite features, featuring short levels that make up part of a larger 'run' narrative. Each of these levels are chosen procedurally and have their own features, gimmicks and enemy/loot types. Players choose between two or three paths forward, being told the general archetype that each path fits into.
-
-Additionally, the player gets to string together temporary upgrades that improve with the tier of level they're in, which can combine together and 'synergise', having interesting effects on gameplay. This includes active components (weapons) and passive components (shields, hull, armour). These components can synergise to provide stacking bonuses and unique interactions, increasing the depth to choosing these components.
 
 While \emph{Cybersky} is permadeath for each 'run', there are permanent unlocks that can manipulate the way the game is played and add complexity depending on the amount the player has played the game.
 
@@ -145,17 +164,7 @@ To summarise:
 
 \subsection{Player Experience}
 
-\begin{quote}
-  Who is the player?
-\end{quote}
-
-Without delving too far into narrative, the player controls a small starship well equipped to switch loadout and add field upgrades very easily. This means that the player can easily pick up gameplay-altering items mid run, allowing for self-determined playstyle and loot gathering, subscribing to the Roguelike/Roguelite definition of the game.
-
-\begin{quote}
-  What is the setting?
-\end{quote}
-
-The game takes place in a Sci-Fi universe, affording large variety in in-game settings without requiring much justification. Some high-level examples of this would include:
+The player controls a small starship well equipped to switch loadout and add field upgrades very easily. This means that the player can easily pick up gameplay-altering items mid run, allowing for self-determined playstyle and loot gathering, subscribing to the Roguelike/Roguelite definition of the game. The game takes place in a Sci-Fi universe, affording large variety in in-game settings without requiring much justification. Some high-level examples of this would include:
 
 \begin{itemize}
   \item Space levels
@@ -164,10 +173,6 @@ The game takes place in a Sci-Fi universe, affording large variety in in-game se
 \end{itemize}
 
 These settings follow archetypes of Sci-Fi, taking inspiration from genre-influences that have been around for decades. To add clarity, Superstructures may be underground tunnels, space stations, any large structures, owing inspiration to things like the Borg from \emph{Star Trek} or the Death Star from \emph{Star Wars}.
-
-\begin{quote}
-  What is the fantasy the game grants the player?
-\end{quote}
 
 \emph{Cybersky} grants the player the fantasy of being alone against a formidable army, building up an arsenal slowly and eventually being able to push back against a planet overrun by malicious robots. This revolves around the narrative, but includes ludonarrative features such as difficulty progression in-run, permanent (i.e. non-permadeath) progression, player development through short term and long term unlocks and customisation. These ludonarrative features link with the narrative itself, building a world around the gameplay.
 
@@ -227,21 +232,21 @@ The story of the game revolves around the rogue element getting in contact with 
 
 \subsection{Game Rules}
 
-What are the rules that define the game world and the gameplay?
+Summarising what's touched upon in this document already, \emph{Cybersky} is a fixed-shooter with one dimensional or two dimensional movement, where the player shoots forward at all times. The player must acquire items to improve their abilities, and face against various enemy types, which appear at the top or sides of the screen. Bosses are high level enemies at the end of levels, which have specific abilities, phases and movesets, in which the player should learn to overcome a specific boss style to overcome it.
 
 \subsection{Core Loops}
 
-How do game objects and the player’s actions form loops?
+The core loop for \emph{Cybersky} revolves around 'stages', where difficulty steadily increases upon completion of each stage. Each stage has a gameplay or narrative focussed goal, such as "defeat the boss at the end of the level" or "find the key to \[narrative element\]'. On top of this, each time the player dies, their 'run' is reset, putting them back to the beginning of the stage progression. Stages follow an anthology style of storytelling, allowing for a random order of stories to keep each 'run' engaging.
 
-Why is this engaging? How does this support the player’s goals?
+To add to this, each run also progresses in difficulty, in such a way that the player doesn't get overwhelmed or find it too easy. This requires some form of balance system, whereby the player gains or loses points or unlocks to get more powerful or less powerful over time.
 
-What emergent results do you expect/hope to see?
+The permadeath nature of each run is engaging as it means that the player is disincentivised for failing a stage; they lose out on story progress, and it may be a while before they can see the story through to it's completion. Some features may be needed to keep a failed story relevant, such as a failed story queue, so that the player can catch up again without losing track. Additionally, this long-term progression should be engaging as it helps to raise the bar for skill requirement over time, keeping the game challenging.
 
 \subsection{Control Schemes}
 
 \subsubsection{Touch}
 
-The game is designed for use on a mobile phone screen primarily,
+The game is designed for use on a mobile phone screen primarily, utilising the bottom of the screen for positioning. See Figure 2 for a wireframe.
 
 \begin{figure}[!ht]
   \centering
@@ -262,9 +267,9 @@ This method of control affects the experience in multiple ways:
 
 This allows for a high skill ceiling and a low skill floor, which fits with the target audiences of the game.
 
-\subsubsection{Controller}
+\subsubsection{Controller, Keyboard and Mouse}
 
-\subsubsection{Keyboard and Mouse}
+This fixed-shooter style gameplay translates well to controller layout and Keyboard \& Mouse. With a controller, it's possible to control both the one-dimensional fixed-shooter style movement with the left stick, and, should it be implemented, the two dimensional movement outlined above. Keyboard \& Mouse are a little more complicated, as one of the things that keyboards are less useful for is precise positioning. Because of this, it might be useful to implement some kind of mouse control, mirroring that of the touch input.
 
 \printbibliography
 
