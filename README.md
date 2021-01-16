@@ -31,10 +31,10 @@ This repository contains the specifications for my course and is going to be use
 
 | Module | Deliverable               | Issues                                                          | Deadline   | Done?              | Link to Work                                                       | Assignment Priority    |
 | :----- | :------------------------ | :-------------------------------------------------------------- | :--------: | :----------------: | :----------------------------------------------------------------- | :--------------------- |
-| CI410  | 1,750 Word Report         | [#11](https://github.com/summerysaturn/y1-university/issues/11) | 2021-01-29 | :x:                | [Link](410-Game-Design/Assignment1-Design-Doc/Design-Document.pdf) | :red_circle: High      |
+| CI410  | 1,750 Word Report         | [#11](https://github.com/summerysaturn/y1-university/issues/11) | 2021-01-29 | :heavy_check_mark:                | [Link](410-Game-Design/Assignment1-Design-Doc/Design-Document.pdf) | :white_check_mark:      |
 | CI435  | Website Zip               | [#6](https://github.com/summerysaturn/y1-university/issues/6)   | 2021-01-29 | :heavy_check_mark: | [Link](435-Web-Development/project-a1)                             | :white_check_mark:     |
-| CI465  | Group Video Report        | [#13](https://github.com/summerysaturn/y1-university/issues/13) | 2021-01-29 | :x:                | [Link](465-Digital-Industries/project-a1)                          | :yellow_circle: Medium |
-| CI474  | Report, Storyboard, Scene | [#5](https://github.com/summerysaturn/y1-university/issues/5)   | 2021-02-04 | :x:                | [Link](474-3D-Modelling/project-a1)                                | :green_circle: Low     |
+| CI465  | Group Video Report        | [#13](https://github.com/summerysaturn/y1-university/issues/13) | 2021-01-29 | :x:                | [Link](465-Digital-Industries/project-a1)                          | :green_circle: Low |
+| CI474  | Report, Storyboard, Scene | [#5](https://github.com/summerysaturn/y1-university/issues/5)   | 2021-02-04 | :x:                | [Link](474-3D-Modelling/project-a1)                                | :red_circle: High     |
 
 ### A2 Progress Chart
 
@@ -108,14 +108,10 @@ This repository contains the specifications for my course and is going to be use
 | :clipboard: Assignment Doc   | [Link Here](410-Game-Design/supporting-docs/CI410-A1-Brief.pdf)                        |
 | :books: Description          | Report that documents the design of an original 2D game. Should be around 1,750 words. |
 | :alarm_clock: Deadline       | 2021-01-15                                                                             |
-| :memo: GitHub Issue          | [#11](410-Game-Design/supporting-docs/CI410-A2-Brief.pdf) (Reopened)                   |
-| :heavy_check_mark: Complete? | :x:                                                                                    |
+| :memo: GitHub Issue          | [#11](410-Game-Design/supporting-docs/CI410-A2-Brief.pdf)                              |
+| :heavy_check_mark: Complete? | :heavy_check_mark:                                                                     |
 
-#### CI410 Assignment 1 Breakdown
-
-This assignment is technically completed although there's a second essay that I'm working on that better fits the brief. See the issue in the table above for further context. At the moment this essay isn't complete, although it much more closely aligns to the brief than the first.
-
-:yellow_circle: Consider this low priority for now.
+This assignment is completed and as such is archived here.
 
 ### CI410 Assignment 2
 
@@ -202,11 +198,11 @@ Conclusion
 
 We are now done with filming, the future progress relies on editing (large task) and final upload. Contribution document.
 
-* [ ] Contribution Document
+* [x] Contribution Document
 * [ ] Editing
 * [ ] Posted
 
-:green_circle: This should be considered low priority as it's almost there.
+:green_circle: This should be considered low priority as it's out of my hands at the moment. Final posting should be considered before long.
 
 ### CI465 Assignment 2
 
