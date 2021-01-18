@@ -31,21 +31,21 @@ This repository contains the specifications for my course and is going to be use
 
 | Module | Deliverable               | Issues                                                          | Deadline   | Done?              | Link to Work                                                       | Assignment Priority    |
 | :----- | :------------------------ | :-------------------------------------------------------------- | :--------: | :----------------: | :----------------------------------------------------------------- | :--------------------- |
-| CI410  | 1,750 Word Report         | [#11](https://github.com/summerysaturn/y1-university/issues/11) | 2021-01-29 | :heavy_check_mark:                | [Link](410-Game-Design/Assignment1-Design-Doc/Design-Document.pdf) | :white_check_mark:      |
-| CI435  | Website Zip               | [#6](https://github.com/summerysaturn/y1-university/issues/6)   | 2021-01-29 | :heavy_check_mark: | [Link](435-Web-Development/project-a1)                             | :white_check_mark:     |
-| CI465  | Group Video Report        | [#13](https://github.com/summerysaturn/y1-university/issues/13) | 2021-01-29 | :x:                | [Link](465-Digital-Industries/project-a1)                          | :green_circle: Low |
-| CI474  | Report, Storyboard, Scene | [#5](https://github.com/summerysaturn/y1-university/issues/5)   | 2021-02-04 | :x:                | [Link](474-3D-Modelling/project-a1)                                | :red_circle: High     |
+| [CI410](#ci410-assignment-1)  | 1,750 Word Report         | [#11](https://github.com/summerysaturn/y1-university/issues/11) | 2021-01-29 | :heavy_check_mark:                | [Link](410-Game-Design/Assignment1-Design-Doc/Design-Document.pdf) | :white_check_mark:      |
+| [CI435](#ci435-assignment-1)  | Website Zip               | [#6](https://github.com/summerysaturn/y1-university/issues/6)   | 2021-01-29 | :heavy_check_mark: | [Link](435-Web-Development/project-a1)                             | :white_check_mark:     |
+| [CI465](#ci465-assignment-1)  | Group Video Report        | [#13](https://github.com/summerysaturn/y1-university/issues/13) | 2021-01-29 | :x:                | [Link](465-Digital-Industries/project-a1)                          | :green_circle: Low |
+| [CI474](#ci474-assignment-1)  | Report, Storyboard, Scene | [#5](https://github.com/summerysaturn/y1-university/issues/5)   | 2021-02-04 | :x:                | [Link](474-3D-Modelling/project-a1)                                | :red_circle: High     |
 
 ### A2 Progress Chart
 
 | Module | Deliverable                                 | Issues     | Deadline   | Done? | Link to Assignment | Assignment Priority |
 | :----- | :------------------------------------------ | :--------- | :--------: | :---: | :----------------- | :------------------ |
-| CI401  | Simple App, Open Book Exam                  | :question: | :question: | :x:   | :question:         | :x: N/A             |
-| CI405  | Learning Journal Labs, Multiple Choice Exam | :question: | :question: | :x:   | :question:         | :x: N/A             |
-| CI410  | Game Prototype                              | :question: | :question: | :x:   | :question:         | :x: N/A             |
-| CI435  | Open Book Exam                              | :question: | :question: | :x:   | :question:         | :x: N/A             |
-| CI465  | Portfolio, CV, Social Media, etc            | :question: | :question: | :x:   | :question:         | :x: N/A             |
-| CI474  | Animated Scene, Reflective Report           | :question: | :question: | :x:   | :question:         | :x: N/A             |
+| [CI401](#ci401-assignment-1)  | Simple App, Open Book Exam                  | :question: | :question: | :x:   | :question:         | :x: N/A             |
+| [CI405](#ci405-assignment-1)  | Learning Journal Labs, Multiple Choice Exam | :question: | :question: | :x:   | :question:         | :x: N/A             |
+| [CI410](#ci410-assignment-1)  | Game Prototype                              | :question: | :question: | :x:   | :question:         | :x: N/A             |
+| [CI435](#ci435-assignment-1)  | Open Book Exam                              | :question: | :question: | :x:   | :question:         | :x: N/A             |
+| [CI465](#ci465-assignment-1)  | Portfolio, CV, Social Media, etc            | :question: | :question: | :x:   | :question:         | :x: N/A             |
+| [CI474](#ci474-assignment-1)  | Animated Scene, Reflective Report           | :question: | :question: | :x:   | :question:         | :x: N/A             |
 
 ![Assignments](.github/assignments.png)
 
@@ -53,7 +53,7 @@ This repository contains the specifications for my course and is going to be use
 
 ### [Specification Link](401-Programming/supporting-docs/CI401-Specification.pdf)
 
-### CI401 Assignment 1 (Moved to S2)
+### CI401 Assignment 1
 
 | :package: Deliverables       | Open Book Examination (1.5 Hours)                                                                                                                                                                                                                |
 | :--------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -77,7 +77,7 @@ This repository contains the specifications for my course and is going to be use
 
 ### [Specification Link](405-Game-Design/supporting-docs/CI405-Specification.pdf)
 
-### CI405 Assignment 1 (Moved to S2)
+### CI405 Assignment 1
 
 | :package: Deliverables       | Multiple Choice Exam (1 Hour)                                                                      |
 | :--------------------------- | :------------------------------------------------------------------------------------------------- |
