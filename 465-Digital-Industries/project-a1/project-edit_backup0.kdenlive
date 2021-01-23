@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
-<mlt LC_NUMERIC="C" producer="main_bin" version="6.23.0" root="/home/lily/summerysaturn/y1-university/465-Digital-Industries/project-a1">
+<mlt LC_NUMERIC="C" producer="main_bin" version="6.23.0" root="/home/lyla/summerysaturn/y1-university/465-Digital-Industries/project-a1">
  <profile frame_rate_num="25" sample_aspect_num="1" display_aspect_den="9" colorspace="709" progressive="1" description="HD 1080p 25 fps" display_aspect_num="16" frame_rate_den="1" width="1920" height="1080" sample_aspect_den="1"/>
  <producer id="producer0" in="00:00:00.000" out="00:00:28.640">
   <property name="length">717</property>
   <property name="eof">pause</property>
-  <property name="resource">/media/lily/tb-hdd-02/Capture0005.mov</property>
+  <property name="resource">/media/lyla/tb-hdd-02/Capture0005.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">0</property>
@@ -65,7 +65,7 @@
  <producer id="producer1" in="00:00:00.000" out="00:00:31.400">
   <property name="length">786</property>
   <property name="eof">pause</property>
-  <property name="resource">/media/lily/tb-hdd-02/Capture0008.mov</property>
+  <property name="resource">/media/lyla/tb-hdd-02/Capture0008.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">0</property>
@@ -126,7 +126,7 @@
  <producer id="producer2" in="00:00:00.000" out="00:00:33.920">
   <property name="length">849</property>
   <property name="eof">pause</property>
-  <property name="resource">/media/lily/tb-hdd-02/Capture0009.mov</property>
+  <property name="resource">/media/lyla/tb-hdd-02/Capture0009.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">0</property>
@@ -187,7 +187,7 @@
  <producer id="producer3" in="00:00:00.000" out="00:01:12.720">
   <property name="length">1819</property>
   <property name="eof">pause</property>
-  <property name="resource">/media/lily/tb-hdd-02/Capture0011.mov</property>
+  <property name="resource">/media/lyla/tb-hdd-02/Capture0011.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">0</property>
@@ -248,7 +248,7 @@
  <producer id="producer4" in="00:00:00.000" out="00:01:30.960">
   <property name="length">2275</property>
   <property name="eof">pause</property>
-  <property name="resource">/media/lily/tb-hdd-02/Capture0014.mov</property>
+  <property name="resource">/media/lyla/tb-hdd-02/Capture0014.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">0</property>
@@ -309,7 +309,7 @@
  <producer id="producer5" in="00:00:00.000" out="00:01:48.960">
   <property name="length">2725</property>
   <property name="eof">pause</property>
-  <property name="resource">/media/lily/tb-hdd-02/Capture0015.mov</property>
+  <property name="resource">/media/lyla/tb-hdd-02/Capture0015.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">0</property>
@@ -370,7 +370,7 @@
  <producer id="producer6" in="00:00:00.000" out="00:01:56.600">
   <property name="length">2916</property>
   <property name="eof">pause</property>
-  <property name="resource">/home/lily/Music/Funny Thing.opus</property>
+  <property name="resource">/home/lyla/Music/Funny Thing.opus</property>
   <property name="meta.media.nb_streams">1</property>
   <property name="meta.media.0.stream.type">audio</property>
   <property name="meta.media.0.codec.sample_fmt">fltp</property>
@@ -397,11 +397,7 @@
  <producer id="producer7" in="00:00:00.000" out="00:15:59.880">
   <property name="length">23998</property>
   <property name="eof">pause</property>
-  <property name="resource">/media/lily/tb-hdd-02/Capture0017.mov</property>
-  <property name="audio_index">2</property>
-  <property name="video_index">1</property>
-  <property name="mute_on_pause">0</property>
-  <property name="mlt_service">avformat-novalidate</property>
+  <property name="resource">/media/lyla/tb-hdd-02/Capture0017.mov</property>
   <property name="meta.media.nb_streams">3</property>
   <property name="meta.media.1.stream.type">video</property>
   <property name="meta.media.1.stream.frame_rate">25</property>
@@ -438,6 +434,10 @@
   <property name="meta.media.sample_aspect_num">1</property>
   <property name="meta.media.sample_aspect_den">1</property>
   <property name="aspect_ratio">1</property>
+  <property name="audio_index">2</property>
+  <property name="video_index">1</property>
+  <property name="mute_on_pause">0</property>
+  <property name="mlt_service">avformat-novalidate</property>
   <property name="kdenlive:clipname"/>
   <property name="kdenlive:folderid">-1</property>
   <property name="meta.media.frame_rate_num">25</property>
@@ -458,11 +458,7 @@
  <producer id="producer8" in="00:00:00.000" out="00:01:46.400">
   <property name="length">2661</property>
   <property name="eof">pause</property>
-  <property name="resource">/media/lily/tb-hdd-02/Capture0018.mov</property>
-  <property name="audio_index">2</property>
-  <property name="video_index">1</property>
-  <property name="mute_on_pause">0</property>
-  <property name="mlt_service">avformat-novalidate</property>
+  <property name="resource">/media/lyla/tb-hdd-02/Capture0018.mov</property>
   <property name="meta.media.nb_streams">3</property>
   <property name="meta.media.1.stream.type">video</property>
   <property name="meta.media.1.stream.frame_rate">25</property>
@@ -499,6 +495,10 @@
   <property name="meta.media.sample_aspect_num">1</property>
   <property name="meta.media.sample_aspect_den">1</property>
   <property name="aspect_ratio">1</property>
+  <property name="audio_index">2</property>
+  <property name="video_index">1</property>
+  <property name="mute_on_pause">0</property>
+  <property name="mlt_service">avformat-novalidate</property>
   <property name="kdenlive:clipname"/>
   <property name="kdenlive:folderid">-1</property>
   <property name="meta.media.frame_rate_num">25</property>
@@ -519,11 +519,7 @@
  <producer id="producer9" in="00:00:00.000" out="00:01:43.680">
   <property name="length">2593</property>
   <property name="eof">pause</property>
-  <property name="resource">/media/lily/tb-hdd-02/Capture0019.mov</property>
-  <property name="audio_index">2</property>
-  <property name="video_index">1</property>
-  <property name="mute_on_pause">0</property>
-  <property name="mlt_service">avformat-novalidate</property>
+  <property name="resource">/media/lyla/tb-hdd-02/Capture0019.mov</property>
   <property name="meta.media.nb_streams">3</property>
   <property name="meta.media.1.stream.type">video</property>
   <property name="meta.media.1.stream.frame_rate">25</property>
@@ -560,6 +556,10 @@
   <property name="meta.media.sample_aspect_num">1</property>
   <property name="meta.media.sample_aspect_den">1</property>
   <property name="aspect_ratio">1</property>
+  <property name="audio_index">2</property>
+  <property name="video_index">1</property>
+  <property name="mute_on_pause">0</property>
+  <property name="mlt_service">avformat-novalidate</property>
   <property name="kdenlive:clipname"/>
   <property name="kdenlive:folderid">-1</property>
   <property name="meta.media.frame_rate_num">25</property>
@@ -580,11 +580,7 @@
  <producer id="producer10" in="00:00:00.000" out="00:00:55.120">
   <property name="length">1379</property>
   <property name="eof">pause</property>
-  <property name="resource">/media/lily/tb-hdd-02/Capture0020.mov</property>
-  <property name="audio_index">2</property>
-  <property name="video_index">1</property>
-  <property name="mute_on_pause">0</property>
-  <property name="mlt_service">avformat-novalidate</property>
+  <property name="resource">/media/lyla/tb-hdd-02/Capture0020.mov</property>
   <property name="meta.media.nb_streams">3</property>
   <property name="meta.media.1.stream.type">video</property>
   <property name="meta.media.1.stream.frame_rate">25</property>
@@ -621,6 +617,10 @@
   <property name="meta.media.sample_aspect_num">1</property>
   <property name="meta.media.sample_aspect_den">1</property>
   <property name="aspect_ratio">1</property>
+  <property name="audio_index">2</property>
+  <property name="video_index">1</property>
+  <property name="mute_on_pause">0</property>
+  <property name="mlt_service">avformat-novalidate</property>
   <property name="kdenlive:clipname"/>
   <property name="kdenlive:folderid">-1</property>
   <property name="meta.media.frame_rate_num">25</property>
@@ -641,11 +641,7 @@
  <producer id="producer11" in="00:00:00.000" out="00:00:14.080">
   <property name="length">353</property>
   <property name="eof">pause</property>
-  <property name="resource">/media/lily/tb-hdd-02/Capture0021.mov</property>
-  <property name="audio_index">2</property>
-  <property name="video_index">1</property>
-  <property name="mute_on_pause">0</property>
-  <property name="mlt_service">avformat-novalidate</property>
+  <property name="resource">/media/lyla/tb-hdd-02/Capture0021.mov</property>
   <property name="meta.media.nb_streams">3</property>
   <property name="meta.media.1.stream.type">video</property>
   <property name="meta.media.1.stream.frame_rate">25</property>
@@ -682,6 +678,10 @@
   <property name="meta.media.sample_aspect_num">1</property>
   <property name="meta.media.sample_aspect_den">1</property>
   <property name="aspect_ratio">1</property>
+  <property name="audio_index">2</property>
+  <property name="video_index">1</property>
+  <property name="mute_on_pause">0</property>
+  <property name="mlt_service">avformat-novalidate</property>
   <property name="kdenlive:clipname"/>
   <property name="kdenlive:folderid">-1</property>
   <property name="meta.media.frame_rate_num">25</property>
@@ -702,11 +702,7 @@
  <producer id="producer12" in="00:00:00.000" out="00:01:33.120">
   <property name="length">2329</property>
   <property name="eof">pause</property>
-  <property name="resource">/media/lily/tb-hdd-02/Capture0022.mov</property>
-  <property name="audio_index">2</property>
-  <property name="video_index">1</property>
-  <property name="mute_on_pause">0</property>
-  <property name="mlt_service">avformat-novalidate</property>
+  <property name="resource">/media/lyla/tb-hdd-02/Capture0022.mov</property>
   <property name="meta.media.nb_streams">3</property>
   <property name="meta.media.1.stream.type">video</property>
   <property name="meta.media.1.stream.frame_rate">25</property>
@@ -743,6 +739,10 @@
   <property name="meta.media.sample_aspect_num">1</property>
   <property name="meta.media.sample_aspect_den">1</property>
   <property name="aspect_ratio">1</property>
+  <property name="audio_index">2</property>
+  <property name="video_index">1</property>
+  <property name="mute_on_pause">0</property>
+  <property name="mlt_service">avformat-novalidate</property>
   <property name="kdenlive:clipname"/>
   <property name="kdenlive:folderid">-1</property>
   <property name="meta.media.frame_rate_num">25</property>
@@ -763,11 +763,7 @@
  <producer id="producer13" in="00:00:00.000" out="00:01:06.320">
   <property name="length">1659</property>
   <property name="eof">pause</property>
-  <property name="resource">/media/lily/tb-hdd-02/Capture0023.mov</property>
-  <property name="audio_index">2</property>
-  <property name="video_index">1</property>
-  <property name="mute_on_pause">0</property>
-  <property name="mlt_service">avformat-novalidate</property>
+  <property name="resource">/media/lyla/tb-hdd-02/Capture0023.mov</property>
   <property name="meta.media.nb_streams">3</property>
   <property name="meta.media.1.stream.type">video</property>
   <property name="meta.media.1.stream.frame_rate">25</property>
@@ -804,6 +800,10 @@
   <property name="meta.media.sample_aspect_num">1</property>
   <property name="meta.media.sample_aspect_den">1</property>
   <property name="aspect_ratio">1</property>
+  <property name="audio_index">2</property>
+  <property name="video_index">1</property>
+  <property name="mute_on_pause">0</property>
+  <property name="mlt_service">avformat-novalidate</property>
   <property name="kdenlive:clipname"/>
   <property name="kdenlive:folderid">-1</property>
   <property name="meta.media.frame_rate_num">25</property>
@@ -824,11 +824,7 @@
  <producer id="producer14" in="00:00:00.000" out="00:04:17.760">
   <property name="length">6445</property>
   <property name="eof">pause</property>
-  <property name="resource">/media/lily/tb-hdd-02/Capture0024.mov</property>
-  <property name="audio_index">2</property>
-  <property name="video_index">1</property>
-  <property name="mute_on_pause">0</property>
-  <property name="mlt_service">avformat-novalidate</property>
+  <property name="resource">/media/lyla/tb-hdd-02/Capture0024.mov</property>
   <property name="meta.media.nb_streams">3</property>
   <property name="meta.media.1.stream.type">video</property>
   <property name="meta.media.1.stream.frame_rate">25</property>
@@ -865,6 +861,10 @@
   <property name="meta.media.sample_aspect_num">1</property>
   <property name="meta.media.sample_aspect_den">1</property>
   <property name="aspect_ratio">1</property>
+  <property name="audio_index">2</property>
+  <property name="video_index">1</property>
+  <property name="mute_on_pause">0</property>
+  <property name="mlt_service">avformat-novalidate</property>
   <property name="kdenlive:clipname"/>
   <property name="kdenlive:folderid">-1</property>
   <property name="meta.media.frame_rate_num">25</property>
@@ -885,11 +885,7 @@
  <producer id="producer15" in="00:00:00.000" out="00:02:36.200">
   <property name="length">3906</property>
   <property name="eof">pause</property>
-  <property name="resource">/media/lily/tb-hdd-02/Capture0025.mov</property>
-  <property name="audio_index">2</property>
-  <property name="video_index">1</property>
-  <property name="mute_on_pause">0</property>
-  <property name="mlt_service">avformat-novalidate</property>
+  <property name="resource">/media/lyla/tb-hdd-02/Capture0025.mov</property>
   <property name="meta.media.nb_streams">3</property>
   <property name="meta.media.1.stream.type">video</property>
   <property name="meta.media.1.stream.frame_rate">25</property>
@@ -926,6 +922,10 @@
   <property name="meta.media.sample_aspect_num">1</property>
   <property name="meta.media.sample_aspect_den">1</property>
   <property name="aspect_ratio">1</property>
+  <property name="audio_index">2</property>
+  <property name="video_index">1</property>
+  <property name="mute_on_pause">0</property>
+  <property name="mlt_service">avformat-novalidate</property>
   <property name="kdenlive:clipname"/>
   <property name="kdenlive:folderid">-1</property>
   <property name="meta.media.frame_rate_num">25</property>
@@ -946,11 +946,7 @@
  <producer id="producer16" in="00:00:00.000" out="00:00:44.880">
   <property name="length">1123</property>
   <property name="eof">pause</property>
-  <property name="resource">/media/lily/tb-hdd-02/Capture0026.mov</property>
-  <property name="audio_index">2</property>
-  <property name="video_index">1</property>
-  <property name="mute_on_pause">0</property>
-  <property name="mlt_service">avformat-novalidate</property>
+  <property name="resource">/media/lyla/tb-hdd-02/Capture0026.mov</property>
   <property name="meta.media.nb_streams">3</property>
   <property name="meta.media.1.stream.type">video</property>
   <property name="meta.media.1.stream.frame_rate">25</property>
@@ -987,6 +983,10 @@
   <property name="meta.media.sample_aspect_num">1</property>
   <property name="meta.media.sample_aspect_den">1</property>
   <property name="aspect_ratio">1</property>
+  <property name="audio_index">2</property>
+  <property name="video_index">1</property>
+  <property name="mute_on_pause">0</property>
+  <property name="mlt_service">avformat-novalidate</property>
   <property name="kdenlive:clipname"/>
   <property name="kdenlive:folderid">-1</property>
   <property name="meta.media.frame_rate_num">25</property>
@@ -1007,11 +1007,7 @@
  <producer id="producer17" in="00:00:00.000" out="00:05:54.400">
   <property name="length">8861</property>
   <property name="eof">pause</property>
-  <property name="resource">/media/lily/tb-hdd-02/Capture0027.mov</property>
-  <property name="audio_index">2</property>
-  <property name="video_index">1</property>
-  <property name="mute_on_pause">0</property>
-  <property name="mlt_service">avformat-novalidate</property>
+  <property name="resource">/media/lyla/tb-hdd-02/Capture0027.mov</property>
   <property name="meta.media.nb_streams">3</property>
   <property name="meta.media.1.stream.type">video</property>
   <property name="meta.media.1.stream.frame_rate">25</property>
@@ -1048,6 +1044,10 @@
   <property name="meta.media.sample_aspect_num">1</property>
   <property name="meta.media.sample_aspect_den">1</property>
   <property name="aspect_ratio">1</property>
+  <property name="audio_index">2</property>
+  <property name="video_index">1</property>
+  <property name="mute_on_pause">0</property>
+  <property name="mlt_service">avformat-novalidate</property>
   <property name="kdenlive:clipname"/>
   <property name="kdenlive:folderid">-1</property>
   <property name="meta.media.frame_rate_num">25</property>
@@ -1068,11 +1068,7 @@
  <producer id="producer18" in="00:00:00.000" out="00:05:54.400">
   <property name="length">8861</property>
   <property name="eof">pause</property>
-  <property name="resource">/media/lily/tb-hdd-02/Capture0027.mov</property>
-  <property name="audio_index">2</property>
-  <property name="video_index">1</property>
-  <property name="mute_on_pause">0</property>
-  <property name="mlt_service">avformat-novalidate</property>
+  <property name="resource">/media/lyla/tb-hdd-02/Capture0027.mov</property>
   <property name="meta.media.nb_streams">3</property>
   <property name="meta.media.1.stream.type">video</property>
   <property name="meta.media.1.stream.frame_rate">25</property>
@@ -1109,6 +1105,10 @@
   <property name="meta.media.sample_aspect_num">1</property>
   <property name="meta.media.sample_aspect_den">1</property>
   <property name="aspect_ratio">1</property>
+  <property name="audio_index">2</property>
+  <property name="video_index">1</property>
+  <property name="mute_on_pause">0</property>
+  <property name="mlt_service">avformat-novalidate</property>
   <property name="kdenlive:clipname"/>
   <property name="kdenlive:folderid">-1</property>
   <property name="meta.media.frame_rate_num">25</property>
@@ -1129,11 +1129,7 @@
  <producer id="producer19" in="00:00:00.000" out="00:00:52.400">
   <property name="length">1311</property>
   <property name="eof">pause</property>
-  <property name="resource">/media/lily/tb-hdd-02/Capture0028.mov</property>
-  <property name="audio_index">2</property>
-  <property name="video_index">1</property>
-  <property name="mute_on_pause">0</property>
-  <property name="mlt_service">avformat-novalidate</property>
+  <property name="resource">/media/lyla/tb-hdd-02/Capture0028.mov</property>
   <property name="meta.media.nb_streams">3</property>
   <property name="meta.media.1.stream.type">video</property>
   <property name="meta.media.1.stream.frame_rate">25</property>
@@ -1170,6 +1166,10 @@
   <property name="meta.media.sample_aspect_num">1</property>
   <property name="meta.media.sample_aspect_den">1</property>
   <property name="aspect_ratio">1</property>
+  <property name="audio_index">2</property>
+  <property name="video_index">1</property>
+  <property name="mute_on_pause">0</property>
+  <property name="mlt_service">avformat-novalidate</property>
   <property name="kdenlive:clipname"/>
   <property name="kdenlive:folderid">-1</property>
   <property name="meta.media.frame_rate_num">25</property>
@@ -1190,11 +1190,7 @@
  <producer id="producer20" in="00:00:00.000" out="00:01:39.760">
   <property name="length">2495</property>
   <property name="eof">pause</property>
-  <property name="resource">/media/lily/tb-hdd-02/Capture0029.mov</property>
-  <property name="audio_index">2</property>
-  <property name="video_index">1</property>
-  <property name="mute_on_pause">0</property>
-  <property name="mlt_service">avformat-novalidate</property>
+  <property name="resource">/media/lyla/tb-hdd-02/Capture0029.mov</property>
   <property name="meta.media.nb_streams">3</property>
   <property name="meta.media.1.stream.type">video</property>
   <property name="meta.media.1.stream.frame_rate">25</property>
@@ -1231,6 +1227,10 @@
   <property name="meta.media.sample_aspect_num">1</property>
   <property name="meta.media.sample_aspect_den">1</property>
   <property name="aspect_ratio">1</property>
+  <property name="audio_index">2</property>
+  <property name="video_index">1</property>
+  <property name="mute_on_pause">0</property>
+  <property name="mlt_service">avformat-novalidate</property>
   <property name="kdenlive:clipname"/>
   <property name="kdenlive:folderid">-1</property>
   <property name="meta.media.frame_rate_num">25</property>
@@ -1248,128 +1248,6 @@
   <property name="global_feed">1</property>
   <property name="kdenlive:audio_max">12</property>
  </producer>
- <producer id="producer21" in="00:00:00.000" out="00:00:37.280">
-  <property name="length">933</property>
-  <property name="eof">pause</property>
-  <property name="resource">/media/lily/tb-hdd-02/Capture0030.mov</property>
-  <property name="meta.media.nb_streams">3</property>
-  <property name="meta.media.1.stream.type">video</property>
-  <property name="meta.media.1.stream.frame_rate">25</property>
-  <property name="meta.media.1.stream.sample_aspect_ratio">1</property>
-  <property name="meta.media.1.codec.width">1920</property>
-  <property name="meta.media.1.codec.height">1080</property>
-  <property name="meta.media.1.codec.rotate">0</property>
-  <property name="meta.media.1.codec.frame_rate">2500</property>
-  <property name="meta.media.1.codec.pix_fmt">yuv422p10le</property>
-  <property name="meta.media.1.codec.sample_aspect_ratio">0</property>
-  <property name="meta.media.1.codec.colorspace">709</property>
-  <property name="meta.media.1.codec.name">prores</property>
-  <property name="meta.media.1.codec.long_name">ProRes (iCodec Pro)</property>
-  <property name="meta.media.1.codec.bit_rate">183483202</property>
-  <property name="meta.attr.1.stream.creation_time.markup">2020-05-01T01:23:25.000000Z</property>
-  <property name="meta.attr.1.stream.language.markup">eng</property>
-  <property name="meta.attr.1.stream.handler_name.markup">Apple Video Media Handler</property>
-  <property name="meta.attr.1.stream.encoder.markup">Apple ProRes 422 HQ</property>
-  <property name="meta.attr.1.stream.timecode.markup">04:26:09:11</property>
-  <property name="meta.media.2.stream.type">audio</property>
-  <property name="meta.media.2.codec.sample_fmt">s32</property>
-  <property name="meta.media.2.codec.sample_rate">48000</property>
-  <property name="meta.media.2.codec.channels">16</property>
-  <property name="meta.media.2.codec.name">pcm_s24le</property>
-  <property name="meta.media.2.codec.long_name">PCM signed 24-bit little-endian</property>
-  <property name="meta.media.2.codec.bit_rate">18432000</property>
-  <property name="meta.attr.2.stream.creation_time.markup">2020-05-01T01:23:25.000000Z</property>
-  <property name="meta.attr.2.stream.language.markup">eng</property>
-  <property name="meta.attr.2.stream.handler_name.markup">Apple Sound Media Handler</property>
-  <property name="meta.attr.2.stream.timecode.markup">04:26:09:11</property>
-  <property name="meta.attr.creation_time.markup">2020-05-01T01:23:25.000000Z</property>
-  <property name="meta.attr.timecode.markup">04:26:09:11</property>
-  <property name="seekable">1</property>
-  <property name="meta.media.sample_aspect_num">1</property>
-  <property name="meta.media.sample_aspect_den">1</property>
-  <property name="aspect_ratio">1</property>
-  <property name="audio_index">2</property>
-  <property name="video_index">1</property>
-  <property name="mute_on_pause">0</property>
-  <property name="mlt_service">avformat-novalidate</property>
-  <property name="kdenlive:clipname"/>
-  <property name="kdenlive:folderid">-1</property>
-  <property name="meta.media.frame_rate_num">25</property>
-  <property name="meta.media.frame_rate_den">1</property>
-  <property name="meta.media.colorspace">709</property>
-  <property name="meta.media.color_trc">2</property>
-  <property name="meta.media.width">1920</property>
-  <property name="meta.media.height">1080</property>
-  <property name="meta.media.color_range">mpeg</property>
-  <property name="kdenlive:id">23</property>
-  <property name="kdenlive:file_size">942290809</property>
-  <property name="kdenlive:file_hash">4b403bf1c62d38a2a8243bd074571a57</property>
-  <property name="meta.media.top_field_first">0</property>
-  <property name="meta.media.progressive">1</property>
-  <property name="global_feed">1</property>
-  <property name="kdenlive:audio_max">15</property>
- </producer>
- <producer id="producer22" in="00:00:00.000" out="00:13:53.920">
-  <property name="length">20849</property>
-  <property name="eof">pause</property>
-  <property name="resource">/media/lily/tb-hdd-02/Capture0031.mov</property>
-  <property name="meta.media.nb_streams">3</property>
-  <property name="meta.media.1.stream.type">video</property>
-  <property name="meta.media.1.stream.frame_rate">25</property>
-  <property name="meta.media.1.stream.sample_aspect_ratio">1</property>
-  <property name="meta.media.1.codec.width">1920</property>
-  <property name="meta.media.1.codec.height">1080</property>
-  <property name="meta.media.1.codec.rotate">0</property>
-  <property name="meta.media.1.codec.frame_rate">2500</property>
-  <property name="meta.media.1.codec.pix_fmt">yuv422p10le</property>
-  <property name="meta.media.1.codec.sample_aspect_ratio">0</property>
-  <property name="meta.media.1.codec.colorspace">709</property>
-  <property name="meta.media.1.codec.name">prores</property>
-  <property name="meta.media.1.codec.long_name">ProRes (iCodec Pro)</property>
-  <property name="meta.media.1.codec.bit_rate">183483325</property>
-  <property name="meta.attr.1.stream.creation_time.markup">2020-05-01T01:24:12.000000Z</property>
-  <property name="meta.attr.1.stream.language.markup">eng</property>
-  <property name="meta.attr.1.stream.handler_name.markup">Apple Video Media Handler</property>
-  <property name="meta.attr.1.stream.encoder.markup">Apple ProRes 422 HQ</property>
-  <property name="meta.attr.1.stream.timecode.markup">04:26:56:02</property>
-  <property name="meta.media.2.stream.type">audio</property>
-  <property name="meta.media.2.codec.sample_fmt">s32</property>
-  <property name="meta.media.2.codec.sample_rate">48000</property>
-  <property name="meta.media.2.codec.channels">16</property>
-  <property name="meta.media.2.codec.name">pcm_s24le</property>
-  <property name="meta.media.2.codec.long_name">PCM signed 24-bit little-endian</property>
-  <property name="meta.media.2.codec.bit_rate">18432000</property>
-  <property name="meta.attr.2.stream.creation_time.markup">2020-05-01T01:24:12.000000Z</property>
-  <property name="meta.attr.2.stream.language.markup">eng</property>
-  <property name="meta.attr.2.stream.handler_name.markup">Apple Sound Media Handler</property>
-  <property name="meta.attr.2.stream.timecode.markup">04:26:56:02</property>
-  <property name="meta.attr.creation_time.markup">2020-05-01T01:24:12.000000Z</property>
-  <property name="meta.attr.timecode.markup">04:26:56:02</property>
-  <property name="seekable">1</property>
-  <property name="meta.media.sample_aspect_num">1</property>
-  <property name="meta.media.sample_aspect_den">1</property>
-  <property name="aspect_ratio">1</property>
-  <property name="audio_index">2</property>
-  <property name="video_index">1</property>
-  <property name="mute_on_pause">0</property>
-  <property name="mlt_service">avformat-novalidate</property>
-  <property name="kdenlive:clipname"/>
-  <property name="kdenlive:folderid">-1</property>
-  <property name="meta.media.frame_rate_num">25</property>
-  <property name="meta.media.frame_rate_den">1</property>
-  <property name="meta.media.colorspace">709</property>
-  <property name="meta.media.color_trc">2</property>
-  <property name="meta.media.width">1920</property>
-  <property name="meta.media.height">1080</property>
-  <property name="meta.media.color_range">mpeg</property>
-  <property name="kdenlive:id">24</property>
-  <property name="kdenlive:file_size">21052542561</property>
-  <property name="kdenlive:file_hash">4bf7e3cfa2759e457e8606bec07087de</property>
-  <property name="meta.media.top_field_first">0</property>
-  <property name="meta.media.progressive">1</property>
-  <property name="global_feed">1</property>
-  <property name="kdenlive:audio_max">1</property>
- </producer>
  <playlist id="main_bin">
   <property name="kdenlive:docproperties.activeTrack">2</property>
   <property name="kdenlive:docproperties.audioChannels">2</property>
@@ -1386,222 +1264,12 @@
     {
         "children": [
             {
-                "data": "1:3809",
+                "data": "2:61902",
                 "leaf": "clip",
                 "type": "Leaf"
             },
             {
-                "data": "2:3809",
-                "leaf": "clip",
-                "type": "Leaf"
-            }
-        ],
-        "type": "AVSplit"
-    },
-    {
-        "children": [
-            {
-                "data": "1:4174",
-                "leaf": "clip",
-                "type": "Leaf"
-            },
-            {
-                "data": "2:4174",
-                "leaf": "clip",
-                "type": "Leaf"
-            }
-        ],
-        "type": "AVSplit"
-    },
-    {
-        "children": [
-            {
-                "data": "2:9467",
-                "leaf": "clip",
-                "type": "Leaf"
-            },
-            {
-                "data": "1:9467",
-                "leaf": "clip",
-                "type": "Leaf"
-            }
-        ],
-        "type": "AVSplit"
-    },
-    {
-        "children": [
-            {
-                "data": "1:367",
-                "leaf": "clip",
-                "type": "Leaf"
-            },
-            {
-                "data": "2:367",
-                "leaf": "clip",
-                "type": "Leaf"
-            }
-        ],
-        "type": "AVSplit"
-    },
-    {
-        "children": [
-            {
-                "data": "2:5415",
-                "leaf": "clip",
-                "type": "Leaf"
-            },
-            {
-                "data": "1:5415",
-                "leaf": "clip",
-                "type": "Leaf"
-            }
-        ],
-        "type": "AVSplit"
-    },
-    {
-        "children": [
-            {
-                "data": "2:6119",
-                "leaf": "clip",
-                "type": "Leaf"
-            },
-            {
-                "data": "1:6119",
-                "leaf": "clip",
-                "type": "Leaf"
-            }
-        ],
-        "type": "AVSplit"
-    },
-    {
-        "children": [
-            {
-                "data": "2:6395",
-                "leaf": "clip",
-                "type": "Leaf"
-            },
-            {
-                "data": "1:6395",
-                "leaf": "clip",
-                "type": "Leaf"
-            }
-        ],
-        "type": "AVSplit"
-    },
-    {
-        "children": [
-            {
-                "data": "2:4670",
-                "leaf": "clip",
-                "type": "Leaf"
-            },
-            {
-                "data": "1:4670",
-                "leaf": "clip",
-                "type": "Leaf"
-            }
-        ],
-        "type": "AVSplit"
-    },
-    {
-        "children": [
-            {
-                "data": "1:4472",
-                "leaf": "clip",
-                "type": "Leaf"
-            },
-            {
-                "data": "2:4472",
-                "leaf": "clip",
-                "type": "Leaf"
-            }
-        ],
-        "type": "AVSplit"
-    },
-    {
-        "children": [
-            {
-                "data": "2:56539",
-                "leaf": "clip",
-                "type": "Leaf"
-            },
-            {
-                "data": "1:56539",
-                "leaf": "clip",
-                "type": "Leaf"
-            }
-        ],
-        "type": "AVSplit"
-    },
-    {
-        "children": [
-            {
-                "data": "1:4314",
-                "leaf": "clip",
-                "type": "Leaf"
-            },
-            {
-                "data": "2:4314",
-                "leaf": "clip",
-                "type": "Leaf"
-            }
-        ],
-        "type": "AVSplit"
-    },
-    {
-        "children": [
-            {
-                "data": "0:573",
-                "leaf": "clip",
-                "type": "Leaf"
-            },
-            {
-                "data": "3:730",
-                "leaf": "clip",
-                "type": "Leaf"
-            }
-        ],
-        "type": "Normal"
-    },
-    {
-        "children": [
-            {
-                "data": "1:4135",
-                "leaf": "clip",
-                "type": "Leaf"
-            },
-            {
-                "data": "2:4135",
-                "leaf": "clip",
-                "type": "Leaf"
-            }
-        ],
-        "type": "AVSplit"
-    },
-    {
-        "children": [
-            {
-                "data": "1:62582",
-                "leaf": "clip",
-                "type": "Leaf"
-            },
-            {
-                "data": "2:62582",
-                "leaf": "clip",
-                "type": "Leaf"
-            }
-        ],
-        "type": "AVSplit"
-    },
-    {
-        "children": [
-            {
-                "data": "1:62975",
-                "leaf": "clip",
-                "type": "Leaf"
-            },
-            {
-                "data": "2:62975",
+                "data": "1:61902",
                 "leaf": "clip",
                 "type": "Leaf"
             }
@@ -1626,42 +1294,12 @@
     {
         "children": [
             {
-                "data": "2:6247",
-                "leaf": "clip",
-                "type": "Leaf"
-            },
-            {
-                "data": "1:6247",
-                "leaf": "clip",
-                "type": "Leaf"
-            }
-        ],
-        "type": "AVSplit"
-    },
-    {
-        "children": [
-            {
                 "data": "2:60249",
                 "leaf": "clip",
                 "type": "Leaf"
             },
             {
                 "data": "1:60249",
-                "leaf": "clip",
-                "type": "Leaf"
-            }
-        ],
-        "type": "AVSplit"
-    },
-    {
-        "children": [
-            {
-                "data": "2:57959",
-                "leaf": "clip",
-                "type": "Leaf"
-            },
-            {
-                "data": "1:57959",
                 "leaf": "clip",
                 "type": "Leaf"
             }
@@ -1686,42 +1324,12 @@
     {
         "children": [
             {
-                "data": "2:56787",
-                "leaf": "clip",
-                "type": "Leaf"
-            },
-            {
-                "data": "1:56787",
-                "leaf": "clip",
-                "type": "Leaf"
-            }
-        ],
-        "type": "AVSplit"
-    },
-    {
-        "children": [
-            {
                 "data": "2:59622",
                 "leaf": "clip",
                 "type": "Leaf"
             },
             {
                 "data": "1:59622",
-                "leaf": "clip",
-                "type": "Leaf"
-            }
-        ],
-        "type": "AVSplit"
-    },
-    {
-        "children": [
-            {
-                "data": "2:58755",
-                "leaf": "clip",
-                "type": "Leaf"
-            },
-            {
-                "data": "1:58755",
                 "leaf": "clip",
                 "type": "Leaf"
             }
@@ -1746,42 +1354,12 @@
     {
         "children": [
             {
-                "data": "1:62357",
-                "leaf": "clip",
-                "type": "Leaf"
-            },
-            {
-                "data": "2:62357",
-                "leaf": "clip",
-                "type": "Leaf"
-            }
-        ],
-        "type": "AVSplit"
-    },
-    {
-        "children": [
-            {
                 "data": "2:61449",
                 "leaf": "clip",
                 "type": "Leaf"
             },
             {
                 "data": "1:61449",
-                "leaf": "clip",
-                "type": "Leaf"
-            }
-        ],
-        "type": "AVSplit"
-    },
-    {
-        "children": [
-            {
-                "data": "2:4811",
-                "leaf": "clip",
-                "type": "Leaf"
-            },
-            {
-                "data": "1:4811",
                 "leaf": "clip",
                 "type": "Leaf"
             }
@@ -1806,21 +1384,6 @@
     {
         "children": [
             {
-                "data": "2:0",
-                "leaf": "clip",
-                "type": "Leaf"
-            },
-            {
-                "data": "1:0",
-                "leaf": "clip",
-                "type": "Leaf"
-            }
-        ],
-        "type": "AVSplit"
-    },
-    {
-        "children": [
-            {
                 "data": "2:57491",
                 "leaf": "clip",
                 "type": "Leaf"
@@ -1836,12 +1399,12 @@
     {
         "children": [
             {
-                "data": "1:471",
+                "data": "2:57410",
                 "leaf": "clip",
                 "type": "Leaf"
             },
             {
-                "data": "2:471",
+                "data": "1:57410",
                 "leaf": "clip",
                 "type": "Leaf"
             }
@@ -1851,12 +1414,432 @@
     {
         "children": [
             {
-                "data": "2:57410",
+                "data": "2:20075",
                 "leaf": "clip",
                 "type": "Leaf"
             },
             {
-                "data": "1:57410",
+                "data": "1:20075",
+                "leaf": "clip",
+                "type": "Leaf"
+            }
+        ],
+        "type": "AVSplit"
+    },
+    {
+        "children": [
+            {
+                "data": "2:56283",
+                "leaf": "clip",
+                "type": "Leaf"
+            },
+            {
+                "data": "1:56283",
+                "leaf": "clip",
+                "type": "Leaf"
+            }
+        ],
+        "type": "AVSplit"
+    },
+    {
+        "children": [
+            {
+                "data": "2:57863",
+                "leaf": "clip",
+                "type": "Leaf"
+            },
+            {
+                "data": "1:57863",
+                "leaf": "clip",
+                "type": "Leaf"
+            }
+        ],
+        "type": "AVSplit"
+    },
+    {
+        "children": [
+            {
+                "data": "1:3392",
+                "leaf": "clip",
+                "type": "Leaf"
+            },
+            {
+                "data": "2:3392",
+                "leaf": "clip",
+                "type": "Leaf"
+            }
+        ],
+        "type": "AVSplit"
+    },
+    {
+        "children": [
+            {
+                "data": "2:62443",
+                "leaf": "clip",
+                "type": "Leaf"
+            },
+            {
+                "data": "1:62443",
+                "leaf": "clip",
+                "type": "Leaf"
+            }
+        ],
+        "type": "AVSplit"
+    },
+    {
+        "children": [
+            {
+                "data": "1:2644",
+                "leaf": "clip",
+                "type": "Leaf"
+            },
+            {
+                "data": "2:2644",
+                "leaf": "clip",
+                "type": "Leaf"
+            }
+        ],
+        "type": "AVSplit"
+    },
+    {
+        "children": [
+            {
+                "data": "1:62582",
+                "leaf": "clip",
+                "type": "Leaf"
+            },
+            {
+                "data": "2:62582",
+                "leaf": "clip",
+                "type": "Leaf"
+            }
+        ],
+        "type": "AVSplit"
+    },
+    {
+        "children": [
+            {
+                "data": "1:4135",
+                "leaf": "clip",
+                "type": "Leaf"
+            },
+            {
+                "data": "2:4135",
+                "leaf": "clip",
+                "type": "Leaf"
+            }
+        ],
+        "type": "AVSplit"
+    },
+    {
+        "children": [
+            {
+                "data": "0:573",
+                "leaf": "clip",
+                "type": "Leaf"
+            },
+            {
+                "data": "3:730",
+                "leaf": "clip",
+                "type": "Leaf"
+            }
+        ],
+        "type": "Normal"
+    },
+    {
+        "children": [
+            {
+                "data": "1:4314",
+                "leaf": "clip",
+                "type": "Leaf"
+            },
+            {
+                "data": "2:4314",
+                "leaf": "clip",
+                "type": "Leaf"
+            }
+        ],
+        "type": "AVSplit"
+    },
+    {
+        "children": [
+            {
+                "data": "2:56539",
+                "leaf": "clip",
+                "type": "Leaf"
+            },
+            {
+                "data": "1:56539",
+                "leaf": "clip",
+                "type": "Leaf"
+            }
+        ],
+        "type": "AVSplit"
+    },
+    {
+        "children": [
+            {
+                "data": "1:4472",
+                "leaf": "clip",
+                "type": "Leaf"
+            },
+            {
+                "data": "2:4472",
+                "leaf": "clip",
+                "type": "Leaf"
+            }
+        ],
+        "type": "AVSplit"
+    },
+    {
+        "children": [
+            {
+                "data": "2:4670",
+                "leaf": "clip",
+                "type": "Leaf"
+            },
+            {
+                "data": "1:4670",
+                "leaf": "clip",
+                "type": "Leaf"
+            }
+        ],
+        "type": "AVSplit"
+    },
+    {
+        "children": [
+            {
+                "data": "2:6395",
+                "leaf": "clip",
+                "type": "Leaf"
+            },
+            {
+                "data": "1:6395",
+                "leaf": "clip",
+                "type": "Leaf"
+            }
+        ],
+        "type": "AVSplit"
+    },
+    {
+        "children": [
+            {
+                "data": "2:6119",
+                "leaf": "clip",
+                "type": "Leaf"
+            },
+            {
+                "data": "1:6119",
+                "leaf": "clip",
+                "type": "Leaf"
+            }
+        ],
+        "type": "AVSplit"
+    },
+    {
+        "children": [
+            {
+                "data": "2:5415",
+                "leaf": "clip",
+                "type": "Leaf"
+            },
+            {
+                "data": "1:5415",
+                "leaf": "clip",
+                "type": "Leaf"
+            }
+        ],
+        "type": "AVSplit"
+    },
+    {
+        "children": [
+            {
+                "data": "1:367",
+                "leaf": "clip",
+                "type": "Leaf"
+            },
+            {
+                "data": "2:367",
+                "leaf": "clip",
+                "type": "Leaf"
+            }
+        ],
+        "type": "AVSplit"
+    },
+    {
+        "children": [
+            {
+                "data": "1:4174",
+                "leaf": "clip",
+                "type": "Leaf"
+            },
+            {
+                "data": "2:4174",
+                "leaf": "clip",
+                "type": "Leaf"
+            }
+        ],
+        "type": "AVSplit"
+    },
+    {
+        "children": [
+            {
+                "data": "1:3809",
+                "leaf": "clip",
+                "type": "Leaf"
+            },
+            {
+                "data": "2:3809",
+                "leaf": "clip",
+                "type": "Leaf"
+            }
+        ],
+        "type": "AVSplit"
+    },
+    {
+        "children": [
+            {
+                "data": "2:6567",
+                "leaf": "clip",
+                "type": "Leaf"
+            },
+            {
+                "data": "1:6567",
+                "leaf": "clip",
+                "type": "Leaf"
+            }
+        ],
+        "type": "AVSplit"
+    },
+    {
+        "children": [
+            {
+                "data": "1:62975",
+                "leaf": "clip",
+                "type": "Leaf"
+            },
+            {
+                "data": "2:62975",
+                "leaf": "clip",
+                "type": "Leaf"
+            }
+        ],
+        "type": "AVSplit"
+    },
+    {
+        "children": [
+            {
+                "data": "2:6247",
+                "leaf": "clip",
+                "type": "Leaf"
+            },
+            {
+                "data": "1:6247",
+                "leaf": "clip",
+                "type": "Leaf"
+            }
+        ],
+        "type": "AVSplit"
+    },
+    {
+        "children": [
+            {
+                "data": "2:57959",
+                "leaf": "clip",
+                "type": "Leaf"
+            },
+            {
+                "data": "1:57959",
+                "leaf": "clip",
+                "type": "Leaf"
+            }
+        ],
+        "type": "AVSplit"
+    },
+    {
+        "children": [
+            {
+                "data": "2:56787",
+                "leaf": "clip",
+                "type": "Leaf"
+            },
+            {
+                "data": "1:56787",
+                "leaf": "clip",
+                "type": "Leaf"
+            }
+        ],
+        "type": "AVSplit"
+    },
+    {
+        "children": [
+            {
+                "data": "2:58755",
+                "leaf": "clip",
+                "type": "Leaf"
+            },
+            {
+                "data": "1:58755",
+                "leaf": "clip",
+                "type": "Leaf"
+            }
+        ],
+        "type": "AVSplit"
+    },
+    {
+        "children": [
+            {
+                "data": "1:62357",
+                "leaf": "clip",
+                "type": "Leaf"
+            },
+            {
+                "data": "2:62357",
+                "leaf": "clip",
+                "type": "Leaf"
+            }
+        ],
+        "type": "AVSplit"
+    },
+    {
+        "children": [
+            {
+                "data": "2:4811",
+                "leaf": "clip",
+                "type": "Leaf"
+            },
+            {
+                "data": "1:4811",
+                "leaf": "clip",
+                "type": "Leaf"
+            }
+        ],
+        "type": "AVSplit"
+    },
+    {
+        "children": [
+            {
+                "data": "2:0",
+                "leaf": "clip",
+                "type": "Leaf"
+            },
+            {
+                "data": "1:0",
+                "leaf": "clip",
+                "type": "Leaf"
+            }
+        ],
+        "type": "AVSplit"
+    },
+    {
+        "children": [
+            {
+                "data": "1:471",
+                "leaf": "clip",
+                "type": "Leaf"
+            },
+            {
+                "data": "2:471",
                 "leaf": "clip",
                 "type": "Leaf"
             }
@@ -1896,42 +1879,12 @@
     {
         "children": [
             {
-                "data": "2:56283",
-                "leaf": "clip",
-                "type": "Leaf"
-            },
-            {
-                "data": "1:56283",
-                "leaf": "clip",
-                "type": "Leaf"
-            }
-        ],
-        "type": "AVSplit"
-    },
-    {
-        "children": [
-            {
                 "data": "2:57329",
                 "leaf": "clip",
                 "type": "Leaf"
             },
             {
                 "data": "1:57329",
-                "leaf": "clip",
-                "type": "Leaf"
-            }
-        ],
-        "type": "AVSplit"
-    },
-    {
-        "children": [
-            {
-                "data": "2:57863",
-                "leaf": "clip",
-                "type": "Leaf"
-            },
-            {
-                "data": "1:57863",
                 "leaf": "clip",
                 "type": "Leaf"
             }
@@ -1952,86 +1905,11 @@
             }
         ],
         "type": "AVSplit"
-    },
-    {
-        "children": [
-            {
-                "data": "1:3392",
-                "leaf": "clip",
-                "type": "Leaf"
-            },
-            {
-                "data": "2:3392",
-                "leaf": "clip",
-                "type": "Leaf"
-            }
-        ],
-        "type": "AVSplit"
-    },
-    {
-        "children": [
-            {
-                "data": "2:6567",
-                "leaf": "clip",
-                "type": "Leaf"
-            },
-            {
-                "data": "1:6567",
-                "leaf": "clip",
-                "type": "Leaf"
-            }
-        ],
-        "type": "AVSplit"
-    },
-    {
-        "children": [
-            {
-                "data": "2:61902",
-                "leaf": "clip",
-                "type": "Leaf"
-            },
-            {
-                "data": "1:61902",
-                "leaf": "clip",
-                "type": "Leaf"
-            }
-        ],
-        "type": "AVSplit"
-    },
-    {
-        "children": [
-            {
-                "data": "2:62443",
-                "leaf": "clip",
-                "type": "Leaf"
-            },
-            {
-                "data": "1:62443",
-                "leaf": "clip",
-                "type": "Leaf"
-            }
-        ],
-        "type": "AVSplit"
-    },
-    {
-        "children": [
-            {
-                "data": "1:2644",
-                "leaf": "clip",
-                "type": "Leaf"
-            },
-            {
-                "data": "2:2644",
-                "leaf": "clip",
-                "type": "Leaf"
-            }
-        ],
-        "type": "AVSplit"
     }
 ]
 </property>
-  <property name="kdenlive:docproperties.kdenliveversion">20.12.1</property>
-  <property name="kdenlive:docproperties.position">9774</property>
+  <property name="kdenlive:docproperties.kdenliveversion">20.12.0</property>
+  <property name="kdenlive:docproperties.position">3643</property>
   <property name="kdenlive:docproperties.previewextension"/>
   <property name="kdenlive:docproperties.previewparameters"/>
   <property name="kdenlive:docproperties.profile">atsc_1080p_25</property>
@@ -2040,14 +1918,14 @@
   <property name="kdenlive:docproperties.proxyimagesize">800</property>
   <property name="kdenlive:docproperties.proxyminsize">1000</property>
   <property name="kdenlive:docproperties.proxyparams"/>
-  <property name="kdenlive:docproperties.scrollPos">0</property>
+  <property name="kdenlive:docproperties.scrollPos">78</property>
   <property name="kdenlive:docproperties.seekOffset">30000</property>
   <property name="kdenlive:docproperties.version">1</property>
   <property name="kdenlive:docproperties.verticalzoom">1</property>
   <property name="kdenlive:docproperties.videoTarget">2</property>
   <property name="kdenlive:docproperties.zonein">0</property>
   <property name="kdenlive:docproperties.zoneout">1</property>
-  <property name="kdenlive:docproperties.zoom">14</property>
+  <property name="kdenlive:docproperties.zoom">12</property>
   <property name="kdenlive:expandedFolders"/>
   <property name="kdenlive:documentnotes"/>
   <property name="xml_retain">1</property>
@@ -2072,8 +1950,6 @@
   <entry producer="producer18" in="00:00:00.000" out="00:05:54.400"/>
   <entry producer="producer19" in="00:00:00.000" out="00:00:52.400"/>
   <entry producer="producer20" in="00:00:00.000" out="00:01:39.760"/>
-  <entry producer="producer21" in="00:00:00.000" out="00:00:37.280"/>
-  <entry producer="producer22" in="00:00:00.000" out="00:13:53.920"/>
  </playlist>
  <producer id="black_track" in="00:00:00.000" out="01:02:03.760">
   <property name="length">2147483647</property>
@@ -2084,14 +1960,10 @@
   <property name="mlt_image_format">rgb24a</property>
   <property name="set.test_audio">0</property>
  </producer>
- <producer id="producer23" in="00:00:00.000" out="00:01:56.600">
+ <producer id="producer21" in="00:00:00.000" out="00:01:56.600">
   <property name="length">2916</property>
   <property name="eof">pause</property>
-  <property name="resource">/home/lily/Music/Funny Thing.opus</property>
-  <property name="audio_index">0</property>
-  <property name="video_index">-1</property>
-  <property name="mute_on_pause">0</property>
-  <property name="mlt_service">avformat-novalidate</property>
+  <property name="resource">/home/lyla/Music/Funny Thing.opus</property>
   <property name="meta.media.nb_streams">1</property>
   <property name="meta.media.0.stream.type">audio</property>
   <property name="meta.media.0.codec.sample_fmt">fltp</property>
@@ -2103,6 +1975,10 @@
   <property name="meta.attr.0.stream.language.markup">eng</property>
   <property name="meta.attr.0.stream.encoder.markup">Lavf58.45.100</property>
   <property name="seekable">1</property>
+  <property name="audio_index">0</property>
+  <property name="video_index">-1</property>
+  <property name="mute_on_pause">0</property>
+  <property name="mlt_service">avformat-novalidate</property>
   <property name="kdenlive:clipname"/>
   <property name="kdenlive:folderid">-1</property>
   <property name="kdenlive:id">8</property>
@@ -2116,7 +1992,7 @@
  <playlist id="playlist0">
   <property name="kdenlive:audio_track">1</property>
   <blank length="00:00:22.920"/>
-  <entry producer="producer23" in="00:00:03.000" out="00:01:25.800">
+  <entry producer="producer21" in="00:00:03.000" out="00:01:25.800">
    <property name="kdenlive:id">8</property>
    <property name="kdenlive:activeeffect">1</property>
    <filter id="filter0" in="00:00:03.000" out="00:00:14.080">
@@ -2168,10 +2044,10 @@
    <property name="disable">1</property>
   </filter>
  </tractor>
- <producer id="producer24" in="00:00:00.000" out="00:00:31.400">
+ <producer id="producer22" in="00:00:00.000" out="00:00:31.400">
   <property name="length">786</property>
   <property name="eof">pause</property>
-  <property name="resource">/media/lily/tb-hdd-02/Capture0008.mov</property>
+  <property name="resource">/media/lyla/tb-hdd-02/Capture0008.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">0</property>
@@ -2231,10 +2107,10 @@
   <property name="set.test_audio">0</property>
   <property name="set.test_image">1</property>
  </producer>
- <producer id="producer25" in="00:00:00.000" out="00:04:17.760">
+ <producer id="producer23" in="00:00:00.000" out="00:04:17.760">
   <property name="length">6445</property>
   <property name="eof">pause</property>
-  <property name="resource">/media/lily/tb-hdd-02/Capture0024.mov</property>
+  <property name="resource">/media/lyla/tb-hdd-02/Capture0024.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">0</property>
@@ -2294,10 +2170,10 @@
   <property name="set.test_audio">0</property>
   <property name="set.test_image">1</property>
  </producer>
- <producer id="producer26" in="00:00:00.000" out="00:02:36.200">
+ <producer id="producer24" in="00:00:00.000" out="00:02:36.200">
   <property name="length">3906</property>
   <property name="eof">pause</property>
-  <property name="resource">/media/lily/tb-hdd-02/Capture0025.mov</property>
+  <property name="resource">/media/lyla/tb-hdd-02/Capture0025.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">0</property>
@@ -2357,10 +2233,10 @@
   <property name="set.test_audio">0</property>
   <property name="set.test_image">1</property>
  </producer>
- <producer id="producer27" in="00:00:00.000" out="00:00:44.880">
+ <producer id="producer25" in="00:00:00.000" out="00:00:44.880">
   <property name="length">1123</property>
   <property name="eof">pause</property>
-  <property name="resource">/media/lily/tb-hdd-02/Capture0026.mov</property>
+  <property name="resource">/media/lyla/tb-hdd-02/Capture0026.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">0</property>
@@ -2420,10 +2296,10 @@
   <property name="set.test_audio">0</property>
   <property name="set.test_image">1</property>
  </producer>
- <producer id="producer28" in="00:00:00.000" out="00:05:54.400">
+ <producer id="producer26" in="00:00:00.000" out="00:05:54.400">
   <property name="length">8861</property>
   <property name="eof">pause</property>
-  <property name="resource">/media/lily/tb-hdd-02/Capture0027.mov</property>
+  <property name="resource">/media/lyla/tb-hdd-02/Capture0027.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">0</property>
@@ -2483,10 +2359,10 @@
   <property name="set.test_audio">0</property>
   <property name="set.test_image">1</property>
  </producer>
- <producer id="producer29" in="00:00:00.000" out="00:01:39.760">
+ <producer id="producer27" in="00:00:00.000" out="00:01:39.760">
   <property name="length">2495</property>
   <property name="eof">pause</property>
-  <property name="resource">/media/lily/tb-hdd-02/Capture0029.mov</property>
+  <property name="resource">/media/lyla/tb-hdd-02/Capture0029.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">0</property>
@@ -2546,73 +2422,10 @@
   <property name="set.test_audio">0</property>
   <property name="set.test_image">1</property>
  </producer>
- <producer id="producer30" in="00:00:00.000" out="00:13:53.920">
-  <property name="length">20849</property>
-  <property name="eof">pause</property>
-  <property name="resource">/media/lily/tb-hdd-02/Capture0031.mov</property>
-  <property name="audio_index">2</property>
-  <property name="video_index">1</property>
-  <property name="mute_on_pause">0</property>
-  <property name="mlt_service">avformat-novalidate</property>
-  <property name="seekable">1</property>
-  <property name="aspect_ratio">1</property>
-  <property name="kdenlive:clipname"/>
-  <property name="kdenlive:folderid">-1</property>
-  <property name="kdenlive:id">24</property>
-  <property name="kdenlive:file_size">21052542561</property>
-  <property name="kdenlive:file_hash">4bf7e3cfa2759e457e8606bec07087de</property>
-  <property name="global_feed">1</property>
-  <property name="xml">was here</property>
-  <property name="meta.media.nb_streams">3</property>
-  <property name="meta.media.1.stream.type">video</property>
-  <property name="meta.media.1.stream.frame_rate">25</property>
-  <property name="meta.media.1.stream.sample_aspect_ratio">1</property>
-  <property name="meta.media.1.codec.width">1920</property>
-  <property name="meta.media.1.codec.height">1080</property>
-  <property name="meta.media.1.codec.rotate">0</property>
-  <property name="meta.media.1.codec.frame_rate">2500</property>
-  <property name="meta.media.1.codec.pix_fmt">yuv422p10le</property>
-  <property name="meta.media.1.codec.sample_aspect_ratio">0</property>
-  <property name="meta.media.1.codec.colorspace">709</property>
-  <property name="meta.media.1.codec.name">prores</property>
-  <property name="meta.media.1.codec.long_name">ProRes (iCodec Pro)</property>
-  <property name="meta.media.1.codec.bit_rate">183483325</property>
-  <property name="meta.attr.1.stream.creation_time.markup">2020-05-01T01:24:12.000000Z</property>
-  <property name="meta.attr.1.stream.language.markup">eng</property>
-  <property name="meta.attr.1.stream.handler_name.markup">Apple Video Media Handler</property>
-  <property name="meta.attr.1.stream.encoder.markup">Apple ProRes 422 HQ</property>
-  <property name="meta.attr.1.stream.timecode.markup">04:26:56:02</property>
-  <property name="meta.media.2.stream.type">audio</property>
-  <property name="meta.media.2.codec.sample_fmt">s32</property>
-  <property name="meta.media.2.codec.sample_rate">48000</property>
-  <property name="meta.media.2.codec.channels">16</property>
-  <property name="meta.media.2.codec.name">pcm_s24le</property>
-  <property name="meta.media.2.codec.long_name">PCM signed 24-bit little-endian</property>
-  <property name="meta.media.2.codec.bit_rate">18432000</property>
-  <property name="meta.attr.2.stream.creation_time.markup">2020-05-01T01:24:12.000000Z</property>
-  <property name="meta.attr.2.stream.language.markup">eng</property>
-  <property name="meta.attr.2.stream.handler_name.markup">Apple Sound Media Handler</property>
-  <property name="meta.attr.2.stream.timecode.markup">04:26:56:02</property>
-  <property name="meta.attr.creation_time.markup">2020-05-01T01:24:12.000000Z</property>
-  <property name="meta.attr.timecode.markup">04:26:56:02</property>
-  <property name="meta.media.sample_aspect_num">1</property>
-  <property name="meta.media.sample_aspect_den">1</property>
-  <property name="meta.media.frame_rate_num">25</property>
-  <property name="meta.media.frame_rate_den">1</property>
-  <property name="meta.media.colorspace">709</property>
-  <property name="meta.media.color_trc">2</property>
-  <property name="meta.media.width">1920</property>
-  <property name="meta.media.height">1080</property>
-  <property name="meta.media.color_range">mpeg</property>
-  <property name="meta.media.top_field_first">0</property>
-  <property name="meta.media.progressive">1</property>
-  <property name="set.test_audio">0</property>
-  <property name="set.test_image">1</property>
- </producer>
- <producer id="producer31" in="00:00:00.000" out="00:15:59.880">
+ <producer id="producer28" in="00:00:00.000" out="00:15:59.880">
   <property name="length">23998</property>
   <property name="eof">pause</property>
-  <property name="resource">/media/lily/tb-hdd-02/Capture0017.mov</property>
+  <property name="resource">/media/lyla/tb-hdd-02/Capture0017.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">0</property>
@@ -2672,10 +2485,10 @@
   <property name="set.test_audio">0</property>
   <property name="set.test_image">1</property>
  </producer>
- <producer id="producer32" in="00:00:00.000" out="00:01:43.680">
+ <producer id="producer29" in="00:00:00.000" out="00:01:43.680">
   <property name="length">2593</property>
   <property name="eof">pause</property>
-  <property name="resource">/media/lily/tb-hdd-02/Capture0019.mov</property>
+  <property name="resource">/media/lyla/tb-hdd-02/Capture0019.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">0</property>
@@ -2735,10 +2548,10 @@
   <property name="set.test_audio">0</property>
   <property name="set.test_image">1</property>
  </producer>
- <producer id="producer33" in="00:00:00.000" out="00:01:33.120">
+ <producer id="producer30" in="00:00:00.000" out="00:01:33.120">
   <property name="length">2329</property>
   <property name="eof">pause</property>
-  <property name="resource">/media/lily/tb-hdd-02/Capture0022.mov</property>
+  <property name="resource">/media/lyla/tb-hdd-02/Capture0022.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">0</property>
@@ -2800,136 +2613,137 @@
  </producer>
  <playlist id="playlist2">
   <property name="kdenlive:audio_track">1</property>
-  <entry producer="producer24" in="00:00:06.320" out="00:00:20.960">
+  <entry producer="producer22" in="00:00:06.320" out="00:00:20.960">
    <property name="kdenlive:id">3</property>
   </entry>
-  <entry producer="producer24" in="00:00:21.000" out="00:00:25.120">
+  <entry producer="producer22" in="00:00:21.000" out="00:00:25.120">
    <property name="kdenlive:id">3</property>
   </entry>
-  <entry producer="producer24" in="00:00:25.160" out="00:00:31.400">
+  <entry producer="producer22" in="00:00:25.160" out="00:00:31.400">
    <property name="kdenlive:id">3</property>
+   <property name="kdenlive:activeeffect">0</property>
   </entry>
   <blank length="00:01:20.640"/>
-  <entry producer="producer25" in="00:01:27.880" out="00:01:36.680">
+  <entry producer="producer23" in="00:01:27.880" out="00:01:36.680">
    <property name="kdenlive:id">16</property>
   </entry>
-  <entry producer="producer25" in="00:01:50.000" out="00:02:04.360">
+  <entry producer="producer23" in="00:01:50.000" out="00:02:04.360">
    <property name="kdenlive:id">16</property>
   </entry>
-  <entry producer="producer25" in="00:03:07.520" out="00:03:14.160">
+  <entry producer="producer23" in="00:03:07.520" out="00:03:14.160">
    <property name="kdenlive:id">16</property>
   </entry>
-  <entry producer="producer25" in="00:03:35.640" out="00:03:41.720">
+  <entry producer="producer23" in="00:03:35.640" out="00:03:41.720">
    <property name="kdenlive:id">16</property>
   </entry>
-  <entry producer="producer26" in="00:00:00.000" out="00:00:10.520">
+  <entry producer="producer24" in="00:00:00.000" out="00:00:10.520">
    <property name="kdenlive:id">17</property>
   </entry>
-  <entry producer="producer26" in="00:02:04.920" out="00:02:17.920">
+  <entry producer="producer24" in="00:02:04.920" out="00:02:17.920">
    <property name="kdenlive:id">17</property>
   </entry>
-  <entry producer="producer27" in="00:00:20.400" out="00:00:21.920">
+  <entry producer="producer25" in="00:00:20.400" out="00:00:21.920">
    <property name="kdenlive:id">18</property>
   </entry>
-  <entry producer="producer28" in="00:00:44.280" out="00:00:49.840">
+  <entry producer="producer26" in="00:00:44.280" out="00:00:49.840">
    <property name="kdenlive:id">19</property>
   </entry>
-  <entry producer="producer28" in="00:01:12.720" out="00:01:19.000">
+  <entry producer="producer26" in="00:01:12.720" out="00:01:19.000">
    <property name="kdenlive:id">19</property>
   </entry>
-  <entry producer="producer28" in="00:01:33.160" out="00:01:41.040">
+  <entry producer="producer26" in="00:01:33.160" out="00:01:41.040">
    <property name="kdenlive:id">19</property>
   </entry>
-  <entry producer="producer28" in="00:01:49.120" out="00:01:54.720">
+  <entry producer="producer26" in="00:01:49.120" out="00:01:54.720">
    <property name="kdenlive:id">19</property>
   </entry>
-  <entry producer="producer28" in="00:02:08.560" out="00:02:32.680">
+  <entry producer="producer26" in="00:02:08.560" out="00:02:32.680">
    <property name="kdenlive:id">19</property>
   </entry>
-  <entry producer="producer28" in="00:02:45.440" out="00:03:13.560">
+  <entry producer="producer26" in="00:02:45.440" out="00:03:13.560">
    <property name="kdenlive:id">19</property>
   </entry>
-  <entry producer="producer28" in="00:04:11.040" out="00:04:16.120">
+  <entry producer="producer26" in="00:04:11.040" out="00:04:16.120">
    <property name="kdenlive:id">19</property>
   </entry>
-  <entry producer="producer28" in="00:04:32.320" out="00:04:38.200">
+  <entry producer="producer26" in="00:04:32.320" out="00:04:38.200">
    <property name="kdenlive:id">19</property>
   </entry>
-  <entry producer="producer28" in="00:05:26.120" out="00:05:32.960">
+  <entry producer="producer26" in="00:05:26.120" out="00:05:32.960">
    <property name="kdenlive:id">19</property>
   </entry>
-  <entry producer="producer29" in="00:00:31.800" out="00:00:42.960">
+  <entry producer="producer27" in="00:00:31.800" out="00:00:42.960">
    <property name="kdenlive:id">22</property>
   </entry>
-  <blank length="00:01:44.800"/>
-  <entry producer="producer30" in="00:01:37.080" out="00:13:53.920">
-   <property name="kdenlive:id">24</property>
+  <blank length="00:08:49.120"/>
+  <entry producer="producer27" in="00:00:43.000" out="00:01:39.760">
+   <property name="kdenlive:id">22</property>
   </entry>
-  <blank length="00:18:55.760"/>
-  <entry producer="producer31" in="00:01:42.840" out="00:01:53.040">
+  <blank length="00:23:11.520"/>
+  <entry producer="producer28" in="00:01:42.840" out="00:01:53.040">
    <property name="kdenlive:id">9</property>
   </entry>
-  <entry producer="producer31" in="00:02:47.320" out="00:02:57.200">
+  <entry producer="producer28" in="00:02:47.320" out="00:02:57.200">
    <property name="kdenlive:id">9</property>
   </entry>
-  <entry producer="producer31" in="00:04:12.840" out="00:04:34.480">
+  <entry producer="producer28" in="00:04:12.840" out="00:04:34.480">
    <property name="kdenlive:id">9</property>
   </entry>
-  <entry producer="producer31" in="00:05:16.400" out="00:05:19.600">
+  <entry producer="producer28" in="00:05:16.400" out="00:05:19.600">
    <property name="kdenlive:id">9</property>
   </entry>
-  <entry producer="producer31" in="00:05:47.360" out="00:05:50.560">
+  <entry producer="producer28" in="00:05:47.360" out="00:05:50.560">
    <property name="kdenlive:id">9</property>
   </entry>
-  <entry producer="producer31" in="00:05:59.960" out="00:06:14.800">
+  <entry producer="producer28" in="00:05:59.960" out="00:06:14.800">
    <property name="kdenlive:id">9</property>
   </entry>
-  <entry producer="producer31" in="00:06:25.600" out="00:06:29.400">
+  <entry producer="producer28" in="00:06:25.600" out="00:06:29.400">
    <property name="kdenlive:id">9</property>
   </entry>
-  <entry producer="producer31" in="00:07:18.560" out="00:07:36.320">
+  <entry producer="producer28" in="00:07:18.560" out="00:07:36.320">
    <property name="kdenlive:id">9</property>
   </entry>
-  <entry producer="producer31" in="00:08:13.480" out="00:08:27.480">
+  <entry producer="producer28" in="00:08:13.480" out="00:08:27.480">
    <property name="kdenlive:id">9</property>
   </entry>
-  <entry producer="producer31" in="00:08:46.800" out="00:08:51.160">
+  <entry producer="producer28" in="00:08:46.800" out="00:08:51.160">
    <property name="kdenlive:id">9</property>
   </entry>
-  <entry producer="producer31" in="00:09:02.840" out="00:09:09.320">
+  <entry producer="producer28" in="00:09:02.840" out="00:09:09.320">
    <property name="kdenlive:id">9</property>
   </entry>
-  <entry producer="producer31" in="00:10:11.040" out="00:10:34.760">
+  <entry producer="producer28" in="00:10:11.040" out="00:10:34.760">
    <property name="kdenlive:id">9</property>
   </entry>
-  <entry producer="producer31" in="00:12:52.960" out="00:13:18.000">
+  <entry producer="producer28" in="00:12:52.960" out="00:13:18.000">
    <property name="kdenlive:id">9</property>
   </entry>
-  <entry producer="producer31" in="00:13:25.160" out="00:13:47.200">
+  <entry producer="producer28" in="00:13:25.160" out="00:13:47.200">
    <property name="kdenlive:id">9</property>
   </entry>
-  <entry producer="producer31" in="00:14:16.400" out="00:14:26.400">
+  <entry producer="producer28" in="00:14:16.400" out="00:14:26.400">
    <property name="kdenlive:id">9</property>
   </entry>
-  <entry producer="producer31" in="00:14:35.320" out="00:14:51.160">
+  <entry producer="producer28" in="00:14:35.320" out="00:14:51.160">
    <property name="kdenlive:id">9</property>
   </entry>
-  <entry producer="producer31" in="00:14:51.200" out="00:15:09.280">
+  <entry producer="producer28" in="00:14:51.200" out="00:15:09.280">
    <property name="kdenlive:id">9</property>
   </entry>
-  <entry producer="producer31" in="00:15:27.000" out="00:15:45.160">
+  <entry producer="producer28" in="00:15:27.000" out="00:15:45.160">
    <property name="kdenlive:id">9</property>
   </entry>
-  <entry producer="producer32" in="00:01:02.520" out="00:01:05.920">
+  <entry producer="producer29" in="00:01:02.520" out="00:01:05.920">
    <property name="kdenlive:id">11</property>
   </entry>
-  <entry producer="producer32" in="00:01:05.960" out="00:01:11.480">
+  <entry producer="producer29" in="00:01:05.960" out="00:01:11.480">
    <property name="kdenlive:id">11</property>
   </entry>
-  <entry producer="producer32" in="00:01:23.880" out="00:01:39.560">
+  <entry producer="producer29" in="00:01:23.880" out="00:01:39.560">
    <property name="kdenlive:id">11</property>
   </entry>
-  <entry producer="producer33" in="00:00:23.720" out="00:00:28.440">
+  <entry producer="producer30" in="00:00:23.720" out="00:00:28.440">
    <property name="kdenlive:id">14</property>
   </entry>
  </playlist>
@@ -2950,7 +2764,6 @@
    <property name="kdenlive:mixcut">13</property>
    <property name="start">-1</property>
    <property name="accepts_blanks">1</property>
-   <property name="kdenlive_id">mix</property>
   </transition>
   <filter id="filter5">
    <property name="window">75</property>
@@ -2972,10 +2785,10 @@
    <property name="disable">1</property>
   </filter>
  </tractor>
- <producer id="producer34" in="00:00:00.000" out="00:00:31.400">
+ <producer id="producer31" in="00:00:00.000" out="00:00:31.400">
   <property name="length">786</property>
   <property name="eof">pause</property>
-  <property name="resource">/media/lily/tb-hdd-02/Capture0008.mov</property>
+  <property name="resource">/media/lyla/tb-hdd-02/Capture0008.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">0</property>
@@ -3035,10 +2848,10 @@
   <property name="set.test_audio">1</property>
   <property name="set.test_image">0</property>
  </producer>
- <producer id="producer35" in="00:00:00.000" out="00:04:17.760">
+ <producer id="producer32" in="00:00:00.000" out="00:04:17.760">
   <property name="length">6445</property>
   <property name="eof">pause</property>
-  <property name="resource">/media/lily/tb-hdd-02/Capture0024.mov</property>
+  <property name="resource">/media/lyla/tb-hdd-02/Capture0024.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">0</property>
@@ -3098,10 +2911,10 @@
   <property name="set.test_audio">1</property>
   <property name="set.test_image">0</property>
  </producer>
- <producer id="producer36" in="00:00:00.000" out="00:02:36.200">
+ <producer id="producer33" in="00:00:00.000" out="00:02:36.200">
   <property name="length">3906</property>
   <property name="eof">pause</property>
-  <property name="resource">/media/lily/tb-hdd-02/Capture0025.mov</property>
+  <property name="resource">/media/lyla/tb-hdd-02/Capture0025.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">0</property>
@@ -3161,10 +2974,10 @@
   <property name="set.test_audio">1</property>
   <property name="set.test_image">0</property>
  </producer>
- <producer id="producer37" in="00:00:00.000" out="00:00:44.880">
+ <producer id="producer34" in="00:00:00.000" out="00:00:44.880">
   <property name="length">1123</property>
   <property name="eof">pause</property>
-  <property name="resource">/media/lily/tb-hdd-02/Capture0026.mov</property>
+  <property name="resource">/media/lyla/tb-hdd-02/Capture0026.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">0</property>
@@ -3224,10 +3037,10 @@
   <property name="set.test_audio">1</property>
   <property name="set.test_image">0</property>
  </producer>
- <producer id="producer38" in="00:00:00.000" out="00:05:54.400">
+ <producer id="producer35" in="00:00:00.000" out="00:05:54.400">
   <property name="length">8861</property>
   <property name="eof">pause</property>
-  <property name="resource">/media/lily/tb-hdd-02/Capture0027.mov</property>
+  <property name="resource">/media/lyla/tb-hdd-02/Capture0027.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">0</property>
@@ -3287,10 +3100,10 @@
   <property name="set.test_audio">1</property>
   <property name="set.test_image">0</property>
  </producer>
- <producer id="producer39" in="00:00:00.000" out="00:01:39.760">
+ <producer id="producer36" in="00:00:00.000" out="00:01:39.760">
   <property name="length">2495</property>
   <property name="eof">pause</property>
-  <property name="resource">/media/lily/tb-hdd-02/Capture0029.mov</property>
+  <property name="resource">/media/lyla/tb-hdd-02/Capture0029.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">0</property>
@@ -3350,73 +3163,10 @@
   <property name="set.test_audio">1</property>
   <property name="set.test_image">0</property>
  </producer>
- <producer id="producer40" in="00:00:00.000" out="00:13:53.920">
-  <property name="length">20849</property>
-  <property name="eof">pause</property>
-  <property name="resource">/media/lily/tb-hdd-02/Capture0031.mov</property>
-  <property name="audio_index">2</property>
-  <property name="video_index">1</property>
-  <property name="mute_on_pause">0</property>
-  <property name="mlt_service">avformat-novalidate</property>
-  <property name="seekable">1</property>
-  <property name="aspect_ratio">1</property>
-  <property name="kdenlive:clipname"/>
-  <property name="kdenlive:folderid">-1</property>
-  <property name="kdenlive:id">24</property>
-  <property name="kdenlive:file_size">21052542561</property>
-  <property name="kdenlive:file_hash">4bf7e3cfa2759e457e8606bec07087de</property>
-  <property name="global_feed">1</property>
-  <property name="xml">was here</property>
-  <property name="meta.media.nb_streams">3</property>
-  <property name="meta.media.1.stream.type">video</property>
-  <property name="meta.media.1.stream.frame_rate">25</property>
-  <property name="meta.media.1.stream.sample_aspect_ratio">1</property>
-  <property name="meta.media.1.codec.width">1920</property>
-  <property name="meta.media.1.codec.height">1080</property>
-  <property name="meta.media.1.codec.rotate">0</property>
-  <property name="meta.media.1.codec.frame_rate">2500</property>
-  <property name="meta.media.1.codec.pix_fmt">yuv422p10le</property>
-  <property name="meta.media.1.codec.sample_aspect_ratio">0</property>
-  <property name="meta.media.1.codec.colorspace">709</property>
-  <property name="meta.media.1.codec.name">prores</property>
-  <property name="meta.media.1.codec.long_name">ProRes (iCodec Pro)</property>
-  <property name="meta.media.1.codec.bit_rate">183483325</property>
-  <property name="meta.attr.1.stream.creation_time.markup">2020-05-01T01:24:12.000000Z</property>
-  <property name="meta.attr.1.stream.language.markup">eng</property>
-  <property name="meta.attr.1.stream.handler_name.markup">Apple Video Media Handler</property>
-  <property name="meta.attr.1.stream.encoder.markup">Apple ProRes 422 HQ</property>
-  <property name="meta.attr.1.stream.timecode.markup">04:26:56:02</property>
-  <property name="meta.media.2.stream.type">audio</property>
-  <property name="meta.media.2.codec.sample_fmt">s32</property>
-  <property name="meta.media.2.codec.sample_rate">48000</property>
-  <property name="meta.media.2.codec.channels">16</property>
-  <property name="meta.media.2.codec.name">pcm_s24le</property>
-  <property name="meta.media.2.codec.long_name">PCM signed 24-bit little-endian</property>
-  <property name="meta.media.2.codec.bit_rate">18432000</property>
-  <property name="meta.attr.2.stream.creation_time.markup">2020-05-01T01:24:12.000000Z</property>
-  <property name="meta.attr.2.stream.language.markup">eng</property>
-  <property name="meta.attr.2.stream.handler_name.markup">Apple Sound Media Handler</property>
-  <property name="meta.attr.2.stream.timecode.markup">04:26:56:02</property>
-  <property name="meta.attr.creation_time.markup">2020-05-01T01:24:12.000000Z</property>
-  <property name="meta.attr.timecode.markup">04:26:56:02</property>
-  <property name="meta.media.sample_aspect_num">1</property>
-  <property name="meta.media.sample_aspect_den">1</property>
-  <property name="meta.media.frame_rate_num">25</property>
-  <property name="meta.media.frame_rate_den">1</property>
-  <property name="meta.media.colorspace">709</property>
-  <property name="meta.media.color_trc">2</property>
-  <property name="meta.media.width">1920</property>
-  <property name="meta.media.height">1080</property>
-  <property name="meta.media.color_range">mpeg</property>
-  <property name="meta.media.top_field_first">0</property>
-  <property name="meta.media.progressive">1</property>
-  <property name="set.test_audio">1</property>
-  <property name="set.test_image">0</property>
- </producer>
- <producer id="producer41" in="00:00:00.000" out="00:15:59.880">
+ <producer id="producer37" in="00:00:00.000" out="00:15:59.880">
   <property name="length">23998</property>
   <property name="eof">pause</property>
-  <property name="resource">/media/lily/tb-hdd-02/Capture0017.mov</property>
+  <property name="resource">/media/lyla/tb-hdd-02/Capture0017.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">0</property>
@@ -3476,10 +3226,10 @@
   <property name="set.test_audio">1</property>
   <property name="set.test_image">0</property>
  </producer>
- <producer id="producer42" in="00:00:00.000" out="00:01:43.680">
+ <producer id="producer38" in="00:00:00.000" out="00:01:43.680">
   <property name="length">2593</property>
   <property name="eof">pause</property>
-  <property name="resource">/media/lily/tb-hdd-02/Capture0019.mov</property>
+  <property name="resource">/media/lyla/tb-hdd-02/Capture0019.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">0</property>
@@ -3539,10 +3289,10 @@
   <property name="set.test_audio">1</property>
   <property name="set.test_image">0</property>
  </producer>
- <producer id="producer43" in="00:00:00.000" out="00:01:33.120">
+ <producer id="producer39" in="00:00:00.000" out="00:01:33.120">
   <property name="length">2329</property>
   <property name="eof">pause</property>
-  <property name="resource">/media/lily/tb-hdd-02/Capture0022.mov</property>
+  <property name="resource">/media/lyla/tb-hdd-02/Capture0022.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">0</property>
@@ -3603,136 +3353,136 @@
   <property name="set.test_image">0</property>
  </producer>
  <playlist id="playlist4">
-  <entry producer="producer34" in="00:00:06.320" out="00:00:20.960">
+  <entry producer="producer31" in="00:00:06.320" out="00:00:20.960">
    <property name="kdenlive:id">3</property>
   </entry>
-  <entry producer="producer34" in="00:00:21.000" out="00:00:25.120">
+  <entry producer="producer31" in="00:00:21.000" out="00:00:25.120">
    <property name="kdenlive:id">3</property>
   </entry>
-  <entry producer="producer34" in="00:00:25.160" out="00:00:31.400">
+  <entry producer="producer31" in="00:00:25.160" out="00:00:31.400">
    <property name="kdenlive:id">3</property>
   </entry>
   <blank length="00:01:20.640"/>
-  <entry producer="producer35" in="00:01:27.880" out="00:01:36.680">
+  <entry producer="producer32" in="00:01:27.880" out="00:01:36.680">
    <property name="kdenlive:id">16</property>
   </entry>
-  <entry producer="producer35" in="00:01:50.000" out="00:02:04.360">
+  <entry producer="producer32" in="00:01:50.000" out="00:02:04.360">
    <property name="kdenlive:id">16</property>
   </entry>
-  <entry producer="producer35" in="00:03:07.520" out="00:03:14.160">
+  <entry producer="producer32" in="00:03:07.520" out="00:03:14.160">
    <property name="kdenlive:id">16</property>
   </entry>
-  <entry producer="producer35" in="00:03:35.640" out="00:03:41.720">
+  <entry producer="producer32" in="00:03:35.640" out="00:03:41.720">
    <property name="kdenlive:id">16</property>
   </entry>
-  <entry producer="producer36" in="00:00:00.000" out="00:00:10.520">
+  <entry producer="producer33" in="00:00:00.000" out="00:00:10.520">
    <property name="kdenlive:id">17</property>
   </entry>
-  <entry producer="producer36" in="00:02:04.920" out="00:02:17.920">
+  <entry producer="producer33" in="00:02:04.920" out="00:02:17.920">
    <property name="kdenlive:id">17</property>
   </entry>
-  <entry producer="producer37" in="00:00:20.400" out="00:00:21.920">
+  <entry producer="producer34" in="00:00:20.400" out="00:00:21.920">
    <property name="kdenlive:id">18</property>
   </entry>
-  <entry producer="producer38" in="00:00:44.280" out="00:00:49.840">
+  <entry producer="producer35" in="00:00:44.280" out="00:00:49.840">
    <property name="kdenlive:id">19</property>
   </entry>
-  <entry producer="producer38" in="00:01:12.720" out="00:01:19.000">
+  <entry producer="producer35" in="00:01:12.720" out="00:01:19.000">
    <property name="kdenlive:id">19</property>
   </entry>
-  <entry producer="producer38" in="00:01:33.160" out="00:01:41.040">
+  <entry producer="producer35" in="00:01:33.160" out="00:01:41.040">
    <property name="kdenlive:id">19</property>
   </entry>
-  <entry producer="producer38" in="00:01:49.120" out="00:01:54.720">
+  <entry producer="producer35" in="00:01:49.120" out="00:01:54.720">
    <property name="kdenlive:id">19</property>
   </entry>
-  <entry producer="producer38" in="00:02:08.560" out="00:02:32.680">
+  <entry producer="producer35" in="00:02:08.560" out="00:02:32.680">
    <property name="kdenlive:id">19</property>
   </entry>
-  <entry producer="producer38" in="00:02:45.440" out="00:03:13.560">
+  <entry producer="producer35" in="00:02:45.440" out="00:03:13.560">
    <property name="kdenlive:id">19</property>
   </entry>
-  <entry producer="producer38" in="00:04:11.040" out="00:04:16.120">
+  <entry producer="producer35" in="00:04:11.040" out="00:04:16.120">
    <property name="kdenlive:id">19</property>
   </entry>
-  <entry producer="producer38" in="00:04:32.320" out="00:04:38.200">
+  <entry producer="producer35" in="00:04:32.320" out="00:04:38.200">
    <property name="kdenlive:id">19</property>
   </entry>
-  <entry producer="producer38" in="00:05:26.120" out="00:05:32.960">
+  <entry producer="producer35" in="00:05:26.120" out="00:05:32.960">
    <property name="kdenlive:id">19</property>
   </entry>
-  <entry producer="producer39" in="00:00:31.800" out="00:00:42.960">
+  <entry producer="producer36" in="00:00:31.800" out="00:00:42.960">
    <property name="kdenlive:id">22</property>
   </entry>
-  <blank length="00:01:44.800"/>
-  <entry producer="producer40" in="00:01:37.080" out="00:13:53.920">
-   <property name="kdenlive:id">24</property>
+  <blank length="00:08:49.120"/>
+  <entry producer="producer36" in="00:00:43.000" out="00:01:39.760">
+   <property name="kdenlive:id">22</property>
   </entry>
-  <blank length="00:18:55.760"/>
-  <entry producer="producer41" in="00:01:42.840" out="00:01:53.040">
+  <blank length="00:23:11.520"/>
+  <entry producer="producer37" in="00:01:42.840" out="00:01:53.040">
    <property name="kdenlive:id">9</property>
   </entry>
-  <entry producer="producer41" in="00:02:47.320" out="00:02:57.200">
+  <entry producer="producer37" in="00:02:47.320" out="00:02:57.200">
    <property name="kdenlive:id">9</property>
   </entry>
-  <entry producer="producer41" in="00:04:12.840" out="00:04:34.480">
+  <entry producer="producer37" in="00:04:12.840" out="00:04:34.480">
    <property name="kdenlive:id">9</property>
   </entry>
-  <entry producer="producer41" in="00:05:16.400" out="00:05:19.600">
+  <entry producer="producer37" in="00:05:16.400" out="00:05:19.600">
    <property name="kdenlive:id">9</property>
   </entry>
-  <entry producer="producer41" in="00:05:47.360" out="00:05:50.560">
+  <entry producer="producer37" in="00:05:47.360" out="00:05:50.560">
    <property name="kdenlive:id">9</property>
   </entry>
-  <entry producer="producer41" in="00:05:59.960" out="00:06:14.800">
+  <entry producer="producer37" in="00:05:59.960" out="00:06:14.800">
    <property name="kdenlive:id">9</property>
   </entry>
-  <entry producer="producer41" in="00:06:25.600" out="00:06:29.400">
+  <entry producer="producer37" in="00:06:25.600" out="00:06:29.400">
    <property name="kdenlive:id">9</property>
   </entry>
-  <entry producer="producer41" in="00:07:18.560" out="00:07:36.320">
+  <entry producer="producer37" in="00:07:18.560" out="00:07:36.320">
    <property name="kdenlive:id">9</property>
   </entry>
-  <entry producer="producer41" in="00:08:13.480" out="00:08:27.480">
+  <entry producer="producer37" in="00:08:13.480" out="00:08:27.480">
    <property name="kdenlive:id">9</property>
   </entry>
-  <entry producer="producer41" in="00:08:46.800" out="00:08:51.160">
+  <entry producer="producer37" in="00:08:46.800" out="00:08:51.160">
    <property name="kdenlive:id">9</property>
   </entry>
-  <entry producer="producer41" in="00:09:02.840" out="00:09:09.320">
+  <entry producer="producer37" in="00:09:02.840" out="00:09:09.320">
    <property name="kdenlive:id">9</property>
   </entry>
-  <entry producer="producer41" in="00:10:11.040" out="00:10:34.760">
+  <entry producer="producer37" in="00:10:11.040" out="00:10:34.760">
    <property name="kdenlive:id">9</property>
   </entry>
-  <entry producer="producer41" in="00:12:52.960" out="00:13:18.000">
+  <entry producer="producer37" in="00:12:52.960" out="00:13:18.000">
    <property name="kdenlive:id">9</property>
   </entry>
-  <entry producer="producer41" in="00:13:25.160" out="00:13:47.200">
+  <entry producer="producer37" in="00:13:25.160" out="00:13:47.200">
    <property name="kdenlive:id">9</property>
   </entry>
-  <entry producer="producer41" in="00:14:16.400" out="00:14:26.400">
+  <entry producer="producer37" in="00:14:16.400" out="00:14:26.400">
    <property name="kdenlive:id">9</property>
   </entry>
-  <entry producer="producer41" in="00:14:35.320" out="00:14:51.160">
+  <entry producer="producer37" in="00:14:35.320" out="00:14:51.160">
    <property name="kdenlive:id">9</property>
   </entry>
-  <entry producer="producer41" in="00:14:51.200" out="00:15:09.280">
+  <entry producer="producer37" in="00:14:51.200" out="00:15:09.280">
    <property name="kdenlive:id">9</property>
   </entry>
-  <entry producer="producer41" in="00:15:27.000" out="00:15:45.160">
+  <entry producer="producer37" in="00:15:27.000" out="00:15:45.160">
    <property name="kdenlive:id">9</property>
   </entry>
-  <entry producer="producer42" in="00:01:02.520" out="00:01:05.920">
+  <entry producer="producer38" in="00:01:02.520" out="00:01:05.920">
    <property name="kdenlive:id">11</property>
   </entry>
-  <entry producer="producer42" in="00:01:05.960" out="00:01:11.480">
+  <entry producer="producer38" in="00:01:05.960" out="00:01:11.480">
    <property name="kdenlive:id">11</property>
   </entry>
-  <entry producer="producer42" in="00:01:23.880" out="00:01:39.560">
+  <entry producer="producer38" in="00:01:23.880" out="00:01:39.560">
    <property name="kdenlive:id">11</property>
   </entry>
-  <entry producer="producer43" in="00:00:23.720" out="00:00:28.440">
+  <entry producer="producer39" in="00:00:23.720" out="00:00:28.440">
    <property name="kdenlive:id">14</property>
   </entry>
  </playlist>
@@ -3746,10 +3496,10 @@
   <track hide="audio" producer="playlist4"/>
   <track producer="playlist5"/>
  </tractor>
- <producer id="producer44" in="00:00:00.000" out="00:01:48.960">
+ <producer id="producer40" in="00:00:00.000" out="00:01:48.960">
   <property name="length">2725</property>
   <property name="eof">pause</property>
-  <property name="resource">/media/lily/tb-hdd-02/Capture0015.mov</property>
+  <property name="resource">/media/lyla/tb-hdd-02/Capture0015.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">0</property>
@@ -3812,7 +3562,7 @@
  </producer>
  <playlist id="playlist6">
   <blank length="00:00:29.200"/>
-  <entry producer="producer44" in="00:00:31.520" out="00:01:48.040">
+  <entry producer="producer40" in="00:00:31.520" out="00:01:48.040">
    <property name="kdenlive:id">7</property>
   </entry>
  </playlist>
@@ -3839,7 +3589,6 @@
    <property name="kdenlive_id">mix</property>
    <property name="internal_added">237</property>
    <property name="always_active">1</property>
-   <property name="accepts_blanks">1</property>
    <property name="sum">1</property>
   </transition>
   <transition id="transition2">
@@ -3849,7 +3598,6 @@
    <property name="kdenlive_id">mix</property>
    <property name="internal_added">237</property>
    <property name="always_active">1</property>
-   <property name="accepts_blanks">1</property>
    <property name="sum">1</property>
   </transition>
   <transition id="transition3">
