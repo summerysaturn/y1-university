@@ -25,27 +25,29 @@ This repository contains the specifications for my course and is going to be use
 
 ![Progress Chart](.github/progress-chart.png)
 
+## Progress Charts
+
 ### A1 Progress Chart
 
 (Note: CI401 and CI405 have no deliverables this semester, due to restrictions on social distancing and exams. These will instead be taking place in semester 2.)
 
-| Module | Deliverable               | Issues                                                          | Deadline   | Done?              | Link to Work                                                       | Assignment Priority    |
-| :----- | :------------------------ | :-------------------------------------------------------------- | :--------: | :----------------: | :----------------------------------------------------------------- | :--------------------- |
-| [CI410](#ci410-assignment-1)  | 1,750 Word Report         | [#11](https://github.com/summerysaturn/y1-university/issues/11) | 2021-01-29 | :heavy_check_mark:                | [Link](410-Game-Design/Assignment1-Design-Doc/Design-Document.pdf) | :white_check_mark:      |
-| [CI435](#ci435-assignment-1)  | Website Zip               | [#6](https://github.com/summerysaturn/y1-university/issues/6)   | 2021-01-29 | :heavy_check_mark: | [Link](435-Web-Development/project-a1)                             | :white_check_mark:     |
-| [CI465](#ci465-assignment-1)  | Group Video Report        | [#13](https://github.com/summerysaturn/y1-university/issues/13) | 2021-01-29 | :x:                | [Link](465-Digital-Industries/project-a1)                          | :green_circle: Low |
-| [CI474](#ci474-assignment-1)  | Report, Storyboard, Scene | [#5](https://github.com/summerysaturn/y1-university/issues/5)   | 2021-02-04 | :x:                | [Link](474-3D-Modelling/project-a1)                                | :red_circle: High     |
+| Module                       | Deliverable               | Issues                                                          | Deadline   | Done?              | Link to Work                                           | Assignment Priority |
+| :--------------------------- | :------------------------ | :-------------------------------------------------------------- | :--------: | :----------------: | :----------------------------------------------------- | :------------------ |
+| [CI410](#ci410-assignment-1) | 1,750 Word Report         | [#11](https://github.com/summerysaturn/y1-university/issues/11) | 2021-01-29 | :heavy_check_mark: | [Link](410-Game-Design/project-a1/Design-Document.pdf) | :white_check_mark:  |
+| [CI435](#ci435-assignment-1) | Website Zip               | [#6](https://github.com/summerysaturn/y1-university/issues/6)   | 2021-01-29 | :heavy_check_mark: | [Link](435-Web-Development/project-a1)                 | :white_check_mark:  |
+| [CI465](#ci465-assignment-1) | Group Video Report        | [#13](https://github.com/summerysaturn/y1-university/issues/13) | 2021-01-29 | :x:                | [Link](465-Digital-Industries/project-a1)              | :green_circle: Low  |
+| [CI474](#ci474-assignment-1) | Report, Storyboard, Scene | [#5](https://github.com/summerysaturn/y1-university/issues/5)   | 2021-02-04 | :x:                | [Link](474-3D-Modelling/project-a1)                    | :red_circle: High   |
 
 ### A2 Progress Chart
 
-| Module | Deliverable                                 | Issues     | Deadline   | Done? | Link to Assignment | Assignment Priority |
-| :----- | :------------------------------------------ | :--------- | :--------: | :---: | :----------------- | :------------------ |
-| [CI401](#ci401-assignment-1)  | Simple App, Open Book Exam                  | :question: | :question: | :x:   | :question:         | :x: N/A             |
-| [CI405](#ci405-assignment-1)  | Learning Journal Labs, Multiple Choice Exam | :question: | :question: | :x:   | :question:         | :x: N/A             |
-| [CI410](#ci410-assignment-1)  | Game Prototype                              | :question: | :question: | :x:   | :question:         | :x: N/A             |
-| [CI435](#ci435-assignment-1)  | Open Book Exam                              | :question: | :question: | :x:   | :question:         | :x: N/A             |
-| [CI465](#ci465-assignment-1)  | Portfolio, CV, Social Media, etc            | :question: | :question: | :x:   | :question:         | :x: N/A             |
-| [CI474](#ci474-assignment-1)  | Animated Scene, Reflective Report           | :question: | :question: | :x:   | :question:         | :x: N/A             |
+| Module                       | Deliverable                                 | Issues                  | Deadline        | Done? | Link to Work            | Assignment Priority |
+| :--------------------------- | :------------------------------------------ | :---------------------- | :-------------: | :---: | :---------------------- | :------------------ |
+| [CI401](#ci401-assignment-1) | Simple App, Open Book Exam                  | :question:              | :question:      | :x:   | :question:              | :x: N/A             |
+| [CI405](#ci405-assignment-1) | Learning Journal Labs, Multiple Choice Exam | :question:              | :question:      | :x:   | :question:              | :x: N/A             |
+| [CI410](#ci410-assignment-1) | Game Prototype, Report, Footage             | :pen_fountain: To Start | 2021-05-07, 3pm | :x:   | :pen_fountain: To Start | :x: N/A             |
+| [CI435](#ci435-assignment-1) | Open Book Exam                              | :question:              | :question:      | :x:   | :question:              | :x: N/A             |
+| [CI465](#ci465-assignment-1) | Portfolio, CV, Social Media, etc            | :pen_fountain: To Start | 2021-22-05, 3pm | :x:   | :pen_fountain: To Start | :x: N/A             |
+| [CI474](#ci474-assignment-1) | Animated Scene, Reflective Report           | :question:              | :question:      | :x:   | :question:              | :x: N/A             |
 
 ![Assignments](.github/assignments.png)
 
@@ -101,47 +103,20 @@ This repository contains the specifications for my course and is going to be use
 
 ### [Specification Link](410-Game-Design/supporting-docs/CI410-Specification.pdf)
 
-### CI410 Assignment 1
-
-| :package: Deliverables       | Game Design Document (1,750 words)                                                     |
-| :--------------------------- | :------------------------------------------------------------------------------------- |
-| :clipboard: Assignment Doc   | [Link Here](410-Game-Design/supporting-docs/CI410-A1-Brief.pdf)                        |
-| :books: Description          | Report that documents the design of an original 2D game. Should be around 1,750 words. |
-| :alarm_clock: Deadline       | 2021-01-15                                                                             |
-| :memo: GitHub Issue          | [#11](410-Game-Design/supporting-docs/CI410-A2-Brief.pdf)                              |
-| :heavy_check_mark: Complete? | :heavy_check_mark:                                                                     |
-
-This assignment is completed and as such is archived here.
-
 ### CI410 Assignment 2
 
-| :package: Deliverables       | Game Prototype, Source Code, Reflective report (1,750 words)                                                                                                                  |
-| :--------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| :clipboard: Assignment Doc   | None yet!                                                                                                                                                                     |
-| :books: Description          | Based on the prototype document, a working prototype of a game. Including both the source code and the prototype itself, alongside a reflective report of around 1,750 words. |
-| :alarm_clock: Deadline       | :question:                                                                                                                                                                    |
-| :memo: GitHub Issue          | None yet!                                                                                                                                                                     |
-| :heavy_check_mark: Complete? | :x:                                                                                                                                                                           |
+| :package: Deliverables            | Game Prototype, Source Code, Reflective report (1,750 words)                                                                                                                  |
+| :-------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| :clipboard: Assignment Doc        | [Link Here](410-Game-Design/supporting-docs/CI410-A2-brief.pdf)                                                                                                               |
+| :books: Description               | Based on the prototype document, a working prototype of a game. Including both the source code and the prototype itself, alongside a reflective report of around 1,750 words. |
+| :alarm_clock: Deadline            | 2021-05-07, 3pm                                                                                                                                                               |
+| :memo: GitHub Issue               | :pen_fountain: To Start                                                                                                                                                       |
+| :heavy_check_mark: Complete?      | :x:                                                                                                                                                                           |
+| :vertical_traffic_light: Priority | :green_heart: Low - Only just started project                                                                                                                                 |
 
 ## CI435 Web Dev
 
 ### [Specification Link](435-Web-Development/supporting-docs/CI435-Specification.pdf)
-
-### CI435 Assignment 1
-
-| :package: Deliverables       | URL and Source Files, Validated                                                                                                                                                                               |
-| :--------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| :clipboard: Assignment Doc   | [Link Here](435-Web-Development/supporting-docs/CI435-A1-Brief.pdf)                                                                                                                                           |
-| :books: Description          | 2-3 page html document that includes; blog-style learning journal, contact form, independently produced page on a given topic (Studying during lockdown). The pages must be validated using a HTML validator. |
-| :alarm_clock: Deadline       | 2021-01-15                                                                                                                                                                                                    |
-| :memo: GitHub Issue          | [#6](https://github.com/summerysaturn/y1-university/issues/6)                                                                                                                                                 |
-| :heavy_check_mark: Complete? | :heavy_check_mark:                                                                                                                                                                                            |
-
-- [x] Source Files
-- [x] Validation Files
-- [x] URL
-
-This assignment is completed and as such is archived here.
 
 ### CI435 Assignment 2
 
@@ -206,13 +181,14 @@ We are now done with filming, the future progress relies on editing (large task)
 
 ### CI465 Assignment 2
 
-| :package: Deliverables       | Social Media Presence, Convetional CV, Portfolio.                                                                                                                                                                     |
-| :--------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| :clipboard: Assignment Doc   | None yet!                                                                                                                                                                                                             |
-| :books: Description          | The portfolio work will be produced during lab workshops and in independent study. This involves a URL and source files/assets for the portfolio. This can either be a 15 minute presentation or a 1,500 word report. |
-| :alarm_clock: Deadline       | :question:                                                                                                                                                                                                            |
-| :memo: GitHub Issue          | None yet!                                                                                                                                                                                                             |
-| :heavy_check_mark: Complete? | :x:                                                                                                                                                                                                                   |
+| :package: Deliverables            | Social Media Presence, Convetional CV, Portfolio.                                                                                                                                                                     |
+| :-------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| :clipboard: Assignment Doc        | [Link to Doc](465-Digital-Industries/supporting-docs/CI465_A2-Brief.pdf)                                                                                                                                              |
+| :books: Description               | The portfolio work will be produced during lab workshops and in independent study. This involves a URL and source files/assets for the portfolio. This can either be a 15 minute presentation or a 1,500 word report. |
+| :alarm_clock: Deadline            | 2021-22-05, 3pm                                                                                                                                                                                                       |
+| :memo: GitHub Issue               | None yet!                                                                                                                                                                                                             |
+| :heavy_check_mark: Complete?      | :x:                                                                                                                                                                                                                   |
+| :vertical_traffic_light: Priority | :green_heart: Low - Only just started project                                                                                                                                                                         |
 
 ## CI474 3D M&A
 
@@ -245,7 +221,7 @@ We are now done with filming, the future progress relies on editing (large task)
 | :clipboard: Assignment Doc   | [Link Here](474-3D-Modelling/supporting-docs/CI474-Portfolio-1-Brief.pdf)                                                   |
 | :books: Description          | :warning: See assignment - Wording here sucks so I'm going to defer to the assignment. Read it through and come back later. |
 | :alarm_clock: Deadline       | 2021-05-21                                                                                                                  |
-| :memo: GitHub Issue          | None yet!                                                                                                                   |
+| :memo: GitHub Issue          | :pen_fountain: To Start                                                                                                     |
 | :heavy_check_mark: Complete? | :x:                                                                                                                         |
 
 #### CI474 A2 Breakdown
@@ -287,3 +263,33 @@ This section features a LaTeX document that must be prepared using `texlive` (or
 ### CI435
 
 This section features a static site. This site is viewable at <http://ci435-01.kmjw10.brighton.domains/index.html>. An additional copy may be hosted on GitHub Pages in the future.
+
+## Archived Assignment Cards
+
+### CI410 Assignment 1
+
+| :package: Deliverables       | Game Design Document (1,750 words)                                                     |
+| :--------------------------- | :------------------------------------------------------------------------------------- |
+| :clipboard: Assignment Doc   | [Link Here](410-Game-Design/supporting-docs/CI410-A1-Brief.pdf)                        |
+| :books: Description          | Report that documents the design of an original 2D game. Should be around 1,750 words. |
+| :alarm_clock: Deadline       | 2021-01-15                                                                             |
+| :memo: GitHub Issue          | [#11](410-Game-Design/supporting-docs/CI410-A2-Brief.pdf)                              |
+| :heavy_check_mark: Complete? | :heavy_check_mark:                                                                     |
+
+This assignment is completed and as such is archived here.
+
+### CI435 Assignment 1
+
+| :package: Deliverables       | URL and Source Files, Validated                                                                                                                                                                               |
+| :--------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| :clipboard: Assignment Doc   | [Link Here](435-Web-Development/supporting-docs/CI435-A1-Brief.pdf)                                                                                                                                           |
+| :books: Description          | 2-3 page html document that includes; blog-style learning journal, contact form, independently produced page on a given topic (Studying during lockdown). The pages must be validated using a HTML validator. |
+| :alarm_clock: Deadline       | 2021-01-15                                                                                                                                                                                                    |
+| :memo: GitHub Issue          | [#6](https://github.com/summerysaturn/y1-university/issues/6)                                                                                                                                                 |
+| :heavy_check_mark: Complete? | :heavy_check_mark:                                                                                                                                                                                            |
+
+- [x] Source Files
+- [x] Validation Files
+- [x] URL
+
+This assignment is completed and as such is archived here.
