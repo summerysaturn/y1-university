@@ -44,9 +44,9 @@ This repository contains the specifications for my course and is going to be use
 | :--------------------------- | :------------------------------------------ | :---------------------- | :-------------: | :---: | :---------------------- | :------------------ |
 | [CI401](#ci401-assignment-1) | Simple App, Open Book Exam                  | :question:              | :question:      | :x:   | :question:              | :x: N/A             |
 | [CI405](#ci405-assignment-1) | Learning Journal Labs, Multiple Choice Exam | :question:              | :question:      | :x:   | :question:              | :x: N/A             |
-| [CI410](#ci410-assignment-1) | Game Prototype, Report, Footage             | :pen_fountain: To Start | 2021-05-07, 3pm | :x:   | :pen_fountain: To Start | :x: N/A             |
+| [CI410](#ci410-assignment-1) | Game Prototype, Report, Footage             | :fountain_pen: To Start | 2021-05-07, 3pm | :x:   | :fountain_pen: To Start | :x: N/A             |
 | [CI435](#ci435-assignment-1) | Open Book Exam                              | :question:              | :question:      | :x:   | :question:              | :x: N/A             |
-| [CI465](#ci465-assignment-1) | Portfolio, CV, Social Media, etc            | :pen_fountain: To Start | 2021-22-05, 3pm | :x:   | :pen_fountain: To Start | :x: N/A             |
+| [CI465](#ci465-assignment-1) | Portfolio, CV, Social Media, etc            | :fountain_pen: To Start | 2021-22-05, 3pm | :x:   | :fountain_pen: To Start | :x: N/A             |
 | [CI474](#ci474-assignment-1) | Animated Scene, Reflective Report           | :question:              | :question:      | :x:   | :question:              | :x: N/A             |
 
 ![Assignments](.github/assignments.png)
