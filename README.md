@@ -23,7 +23,7 @@ This repository contains the specifications for my course and is going to be use
 | :--------------------------- | :----------------------------------------------------------------------- | :--------- | :--------------------------- |
 | :video_game: CI410           | [#11](https://github.com/summerysaturn/y1-university/issues/11) (closed) | 2021-01-29 | :white_check_mark: Submitted |
 | :globe_with_meridians: CI435 | [#6](https://github.com/summerysaturn/y1-university/issues/6)   (closed) | 2021-01-29 | :white_check_mark: Submitted |
-| :mortar_board: CI465         | [#13](https://github.com/summerysaturn/y1-university/issues/13)          | 2021-01-29 | :question: Unclear           |
+| :mortar_board: CI465         | [#13](https://github.com/summerysaturn/y1-university/issues/13)          | 2021-01-29 | :green_heart: Low            |
 | :art: CI474                  | [#15](https://github.com/summerysaturn/y1-university/issues/15)          | 2021-02-04 | :question: Unclear           |
 
 ### A2 Progress Chart
