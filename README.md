@@ -30,7 +30,7 @@ This repository contains the specifications for my course and is going to be use
 
 | Module                        | Issues                                                          | Deadline        | Assignment Priority |
 | :---------------------------- | :-------------------------------------------------------------- | :-------------- | :------------------ |
-| :building_construction: CI401 | n/a                                                             | n/a             | :question: Unclear  |
+| :building_construction: CI401 | [#19](https://github.com/summerysaturn/y1-university/issues/19) | n/a             | :question: Unclear  |
 | :computer: CI405              | n/a                                                             | n/a             | :question: Unclear  |
 | :video_game: CI410            | [#16](https://github.com/summerysaturn/y1-university/issues/16) | 2021-05-07, 3pm | :question: Unclear  |
 | :globe_with_meridians: CI435  | n/a                                                             | n/a             | :question: Unclear  |
