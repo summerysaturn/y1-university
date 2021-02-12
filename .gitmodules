@@ -1,0 +1,6 @@
+[submodule "project-a2-repo"]
+	path = project-a2-repo
+	url = https://github.com/summerysaturn/y1-410A2-UnityProject
+[submodule "410-game-design/project-a2-repo"]
+	path = 410-game-design/project-a2-repo
+	url = https://github.com/summerysaturn/y1-410A2-UnityProject
