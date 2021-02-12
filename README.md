@@ -28,14 +28,14 @@ This repository contains the specifications for my course and is going to be use
 
 ### A2 Progress Chart
 
-| Module                        | Issues                                                          | Deadline           | Assignment Priority |
-| :---------------------------- | :-------------------------------------------------------------- | :----------------- | :------------------ |
-| :building_construction: CI401 | [#19](https://github.com/summerysaturn/y1-university/issues/19) | 2021-04-30, 3pm    | :question: Unclear  |
-| :computer: CI405              | [#20](https://github.com/summerysaturn/y1-university/issues/20) | 2021-05-22, 3pm    | :question: Unclear  |
-| :video_game: CI410            | [#16](https://github.com/summerysaturn/y1-university/issues/16) | 2021-05-07, 3pm    | :question: Unclear  |
-| :globe_with_meridians: CI435  | [#21](https://github.com/summerysaturn/y1-university/issues/21) | :question: Unclear | :green_heart: Low   |
-| :mortar_board: CI465          | [#17](https://github.com/summerysaturn/y1-university/issues/17) | 2021-05-22, 3pm    | :question: Unclear  |
-| :art: CI474                   | n/a                                                             | n/a                | :question: Unclear  |
+| Module                        | Issues                                                          | Deadline           | Assignment Priority   | Completion Order    |
+| :---------------------------- | :-------------------------------------------------------------- | :----------------- | :-------------------- | :------------------ |
+| :building_construction: CI401 | [#19](https://github.com/summerysaturn/y1-university/issues/19) | 2021-04-30, 3pm    | :yellow_heart: Medium | :one: First         |
+| :computer: CI405              | [#20](https://github.com/summerysaturn/y1-university/issues/20) | 2021-05-22, 3pm    | :green_heart: Low     | :two: Second        |
+| :video_game: CI410            | [#16](https://github.com/summerysaturn/y1-university/issues/16) | 2021-05-07, 3pm    | :green_heart: Low     | :three: Third       |
+| :globe_with_meridians: CI435  | [#21](https://github.com/summerysaturn/y1-university/issues/21) | :question: Unclear | :green_heart: Low     | :recycle: Recurring |
+| :mortar_board: CI465          | [#17](https://github.com/summerysaturn/y1-university/issues/17) | 2021-05-22, 3pm    | :green_heart: Low     | :four: Fourth       |
+| :art: CI474                   | n/a                                                             | n/a                | :question: Unclear    | :question: Unclear  |
 
 ## ![Contributing](.github/contributing.png)
 
