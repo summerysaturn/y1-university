@@ -4,3 +4,6 @@
 [submodule "410-game-design/project-a2-repo"]
 	path = 410-game-design/project-a2-repo
 	url = https://github.com/summerysaturn/y1-410A2-UnityProject
+[submodule "410-Game-Design/project-a2/game-prototype"]
+	path = 410-Game-Design/project-a2/game-prototype
+	url = https://github.com/summerysaturn/y1-410A2-UnityProject
