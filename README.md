@@ -22,20 +22,20 @@ This repository contains the specifications for my course and is going to be use
 | Module                       | Issues                                                                   | Deadline   | Assignment Priority          |
 | :--------------------------- | :----------------------------------------------------------------------- | :--------- | :--------------------------- |
 | :video_game: CI410           | [#11](https://github.com/summerysaturn/y1-university/issues/11) (closed) | 2021-01-29 | :white_check_mark: Submitted |
-| :globe_with_meridians: CI435 | [#6](https://github.com/summerysaturn/y1-university/issues/6)   (closed) | 2021-01-29 | :white_check_mark: Submitted |
-| :mortar_board: CI465         | [#13](https://github.com/summerysaturn/y1-university/issues/13)          | 2021-01-29 | :green_heart: Low            |
+| :globe_with_meridians: CI435 | [#6](https://github.com/summerysaturn/y1-university/issues/6) (closed)   | 2021-01-29 | :white_check_mark: Submitted |
+| :mortar_board: CI465         | [#13](https://github.com/summerysaturn/y1-university/issues/13) (closed) | 2021-01-29 | :white_check_mark: Submitted |
 | :art: CI474                  | [#15](https://github.com/summerysaturn/y1-university/issues/15)          | 2021-02-04 | :question: Unclear           |
 
 ### A2 Progress Chart
 
-| Module                        | Issues                                                          | Deadline        | Assignment Priority |
-| :---------------------------- | :-------------------------------------------------------------- | :-------------- | :------------------ |
-| :building_construction: CI401 | [#19](https://github.com/summerysaturn/y1-university/issues/19) | n/a             | :question: Unclear  |
-| :computer: CI405              | n/a                                                             | n/a             | :question: Unclear  |
-| :video_game: CI410            | [#16](https://github.com/summerysaturn/y1-university/issues/16) | 2021-05-07, 3pm | :question: Unclear  |
-| :globe_with_meridians: CI435  | n/a                                                             | n/a             | :question: Unclear  |
-| :mortar_board: CI465          | [#17](https://github.com/summerysaturn/y1-university/issues/17) | 2021-05-22, 3pm | :question: Unclear  |
-| :art: CI474                   | n/a                                                             | n/a             | :question: Unclear  |
+| Module                        | Issues                                                          | Deadline           | Assignment Priority |
+| :---------------------------- | :-------------------------------------------------------------- | :----------------- | :------------------ |
+| :building_construction: CI401 | [#19](https://github.com/summerysaturn/y1-university/issues/19) | 2021-04-30, 3pm    | :question: Unclear  |
+| :computer: CI405              | [#20](https://github.com/summerysaturn/y1-university/issues/20) | 2021-05-22, 3pm    | :question: Unclear  |
+| :video_game: CI410            | [#16](https://github.com/summerysaturn/y1-university/issues/16) | 2021-05-07, 3pm    | :question: Unclear  |
+| :globe_with_meridians: CI435  | [#21](https://github.com/summerysaturn/y1-university/issues/21) | :question: Unclear | :green_heart: Low   |
+| :mortar_board: CI465          | [#17](https://github.com/summerysaturn/y1-university/issues/17) | 2021-05-22, 3pm    | :question: Unclear  |
+| :art: CI474                   | n/a                                                             | n/a                | :question: Unclear  |
 
 ## ![Contributing](.github/contributing.png)
 
