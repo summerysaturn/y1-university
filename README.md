@@ -37,6 +37,17 @@ This repository contains the specifications for my course and is going to be use
 | :mortar_board: CI465          | [#17](https://github.com/summerysaturn/y1-university/issues/17) | 2021-05-22, 3pm    | :green_heart: Low     | :three: Third         |
 | :art: CI474                   | n/a                                                             | 2021-05-20, 3pm    | :question: Unclear    | :question: Unclear    |
 
+### Marks
+
+| Module                        | A1 Grade         | A2 Grade |
+| :---------------------------- | :--------------- | :------- |
+| :building_construction: CI401 | :a: 100.00 / 100 |          |
+| :computer: CI405              | :a: 83.00 / 100  |          |
+| :video_game: CI410            | :a: 82.00 / 100  |          |
+| :globe_with_meridians: CI435  | :a: 72.00 / 100  |          |
+| :mortar_board: CI465          | :a: 77.00 / 100  |          |
+| :art: CI474                   |                  |          |
+
 ## ![Contributing](.github/contributing.png)
 
 This repository follows [conventional commit guidelines](https://www.conventionalcommits.org/en/v1.0.0/). To add on to this, custom types are added for various types of commit. Additionally, module codes have their own specific emoji to help identify what a commit is for. For example, a CI474 Lab would look like this:
