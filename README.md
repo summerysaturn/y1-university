@@ -34,7 +34,7 @@ This course is comprised of 6 modules for the first year, all exploring differen
 | :video_game: CI410           | [#11](https://github.com/summerysaturn/y1-university/issues/11) (closed) | 2021-01-29 | :white_check_mark: Submitted |
 | :globe_with_meridians: CI435 | [#6](https://github.com/summerysaturn/y1-university/issues/6) (closed)   | 2021-01-29 | :white_check_mark: Submitted |
 | :mortar_board: CI465         | [#13](https://github.com/summerysaturn/y1-university/issues/13) (closed) | 2021-01-29 | :white_check_mark: Submitted |
-| :art: CI474                  | [#15](https://github.com/summerysaturn/y1-university/issues/15)          | 2021-02-04 | :heart: High                 |
+| :art: CI474                  | [#15](https://github.com/summerysaturn/y1-university/issues/15)          | 2021-02-04 | :purple_heart: Deferred      |
 
 ### A2 Progress Chart
 
