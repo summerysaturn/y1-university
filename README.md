@@ -16,14 +16,14 @@ This repository contains the specifications for my course and is going to be use
 
 This course is comprised of 6 modules for the first year, all exploring different topics around computer science and game design/development. This repository abbreviates these using their module shortcode, or their number, and an emoji. All of the modules are in the CI4XX family, relating to the course level (Level 4) and the course type. For context, year 2 is CI5XX, and year 3 is CI6XX. Because of this, CI401 can be shortened to 01 (like in the issue tracker for assignments).
 
-| Key                           | Module Name                     |
-| :---------------------------- | :------------------------------ |
-| :building_construction: CI401 | CI401 Intro to Programming      |
-| :computer: CI405              | CI405 Computing Technologies    |
-| :video_game: CI410            | CI410 Game Design & Development |
-| :globe_with_meridians: CI435  | CI435 Web Development           |
-| :mortar_board: CI465          | CI465 Digital Industries        |
-| :art: CI474                   | CI474 3D Modelling              |
+| Key                           | Module Name               |
+| :---------------------------- | :------------------------ |
+| :building_construction: CI401 | Intro to Programming      |
+| :computer: CI405              | Computing Technologies    |
+| :video_game: CI410            | Game Design & Development |
+| :globe_with_meridians: CI435  | Web Development           |
+| :mortar_board: CI465          | Digital Industries        |
+| :art: CI474                   | 3D Modelling              |
 
 ## ![Progress Chart](.github/progress-chart.png)
 
