@@ -1,13 +1,22 @@
+/**
+ * A simple implementation of a bank object, which contains a list of bank
+ * accounts.
+ */
 
-// Bank class - simple implementation of a bank, with a list of bank accounts, an
+// Bank class - simple implementation of a bank, with a list of bank accounts,
+// an
 // a current account that we are logged in to.
 
-// This class contains one method ('login') which you need to complete as part of
-// the lab exercise to make the basic ATM work. Tutors can help you get this part
+// This class contains one method ('login') which you need to complete as part
+// of
+// the lab exercise to make the basic ATM work. Tutors can help you get this
+// part
 // working in lab sessions.
 
-// If you choose the ATM for your project, you should make other modifications to
-// the system yourself, based on similar examples we will cover in lectures and labs.
+// If you choose the ATM for your project, you should make other modifications
+// to
+// the system yourself, based on similar examples we will cover in lectures and
+// labs.
 public class Bank {
   // Instance variables containing the bank information
   int maxAccounts = 10; // maximum number of accounts the bank can hold

@@ -1,17 +1,20 @@
+/*
+  The View component in the Model/View/Controller framework in this application
+ */
+
 // The View class creates and manages the GUI for the application.
 // It doesn't know anything about the ATM itself, it just displays
 // the current state of the Model, (title, output1 and output2),
-// and handles user input from the buttonsand handles user input
+// and handles user input from the buttons and handles user input
 
 // We import lots of JavaFX libraries (we may not use them all, but it
-// saves us having to thinkabout them if we add new code)
+// saves us having to think about them if we add new code)
 import javafx.event.ActionEvent;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.layout.*;
 import javafx.scene.text.*;
 import javafx.stage.Stage;
-import javafx.util.*;
 
 class View {
   int H = 420; // Height of window pixels
@@ -73,7 +76,7 @@ class View {
     // Button labels - empty strings are for blank spaces
     // The number of button per row should match what is set in
     // the css file
-    String labels[][] = { { "7", "8", "9", "", "Dep", "" }, { "4", "5", "6", "", "W/D", "" },
+    String[][] labels = { { "7", "8", "9", "", "Dep", "" }, { "4", "5", "6", "", "W/D", "" },
         { "1", "2", "3", "", "Bal", "Fin" }, { "CLR", "0", "", "", "", "Ent" } };
 
     // loop through the array, making a Button object for each label

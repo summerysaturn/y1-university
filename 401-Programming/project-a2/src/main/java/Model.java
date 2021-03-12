@@ -1,7 +1,12 @@
+/**
+ * The Model component in the Model/View/Controller framework in this
+ * application
+ */
 
 // The model represents all the actual content and functionality of the app
 // For the ATM, it keeps track of the information shown in the display
-// (the title and two message boxes), and the interaction with the bank, executes
+// (the title and two message boxes), and the interaction with the bank,
+// executes
 // commands provided by the controller and tells the view to update when
 // something changes
 public class Model {

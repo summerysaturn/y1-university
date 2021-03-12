@@ -1,3 +1,7 @@
+/**
+ * The object type of a bank account
+ */
+
 // BankAccount class
 // This class has instance variables for the account number, password and
 // balance, and methods to withdraw, deposit, check balance etc.

@@ -9,7 +9,7 @@ import javafx.stage.Stage;
 // seminars. Tutors may not help directly with this but will talk you through examples and
 // answer questions.
 public class Main extends Application {
-  public static void main(String args[]) {
+  public static void main(String[] args) {
     // The main method only gets used when launching from the command line
     // launch initialises the system and then calls start
     // In BlueJ, BlueJ calls start itself
