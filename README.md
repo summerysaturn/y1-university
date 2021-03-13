@@ -49,14 +49,25 @@ This course is comprised of 6 modules for the first year, all exploring differen
 
 ### Marks
 
-| Module                        | A1 Grade         | A2 Grade |
-| :---------------------------- | :--------------- | :------- |
-| :building_construction: CI401 | :a: 100.00 / 100 |          |
-| :computer: CI405              | :a: 83.00 / 100  |          |
-| :video_game: CI410            | :a: 82.00 / 100  |          |
-| :globe_with_meridians: CI435  | :a: 72.00 / 100  |          |
-| :mortar_board: CI465          | :a: 77.00 / 100  |          |
-| :art: CI474                   |                  |          |
+Values above 40% are considered a **pass mark** and are therefore bottom priority.
+
+| Module                        | A1 Grade         | A2 Grade | Overall Percent                     |
+| :---------------------------- | :--------------- | :------- | :---------------------------------- |
+| :building_construction: CI401 | :a: 100.00 / 100 |          | :white_check_mark: 50%              |
+| :computer: CI405              | :a: 83.00 / 100  |          | :negative_squared_cross_mark: 33.2% |
+| :video_game: CI410            | :a: 82.00 / 100  |          | :white_check_mark: 41%              |
+| :globe_with_meridians: CI435  | :a: 72.00 / 100  |          | :negative_squared_cross_mark: 36%   |
+| :mortar_board: CI465          | :a: 77.00 / 100  |          | :negative_squared_cross_mark: 38.5  |
+| :art: CI474                   |                  |          | :negative_squared_cross_mark: 0%    |
+
+Formula for total Percent: `((gradeS1 \* (s1Percent / 50)) / 200 \* 100) + ((gradeS2 \* (s2Percent / 50)) / 200 \* 100)`
+
+CI401 is 50%/50%
+CI405 is 40%/60%
+CI410 is 50%/50%
+CI435 is 50%/50%
+CI465 is 50%/50%
+CI474 is 30%/70%
 
 ## ![Contributing](.github/contributing.png)
 
