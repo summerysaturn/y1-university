@@ -34,18 +34,18 @@ This course is comprised of 6 modules for the first year, all exploring differen
 | :video_game: CI410           | [#11](https://github.com/summerysaturn/y1-university/issues/11) (closed) | 2021-01-29 | :white_check_mark: Submitted |
 | :globe_with_meridians: CI435 | [#6](https://github.com/summerysaturn/y1-university/issues/6) (closed)   | 2021-01-29 | :white_check_mark: Submitted |
 | :mortar_board: CI465         | [#13](https://github.com/summerysaturn/y1-university/issues/13) (closed) | 2021-01-29 | :white_check_mark: Submitted |
-| :art: CI474                  | [#15](https://github.com/summerysaturn/y1-university/issues/15)          | 2021-02-04 | :purple_heart: Deferred      |
 
 ### A2 Progress Chart
 
-| Module                        | Issues                                                          | Deadline           | Assignment Priority   | Completion Order      |
-| :---------------------------- | :-------------------------------------------------------------- | :----------------- | :-------------------- | :-------------------- |
-| :building_construction: CI401 | [#19](https://github.com/summerysaturn/y1-university/issues/19) | 2021-04-30, 3pm    | :green_heart: Low     | :two: Second          |
-| :computer: CI405              | [#20](https://github.com/summerysaturn/y1-university/issues/20) | 2021-05-22, 3pm    | :green_heart: Low     | :recycle: Weekly Task |
-| :video_game: CI410            | [#16](https://github.com/summerysaturn/y1-university/issues/16) | 2021-05-07, 3pm    | :yellow_heart: Medium | :one: First           |
-| :globe_with_meridians: CI435  | [#21](https://github.com/summerysaturn/y1-university/issues/21) | :question: Unclear | :green_heart: Low     | :recycle: Weekly Task |
-| :mortar_board: CI465          | [#17](https://github.com/summerysaturn/y1-university/issues/17) | 2021-05-22, 3pm    | :green_heart: Low     | :three: Third         |
-| :art: CI474                   | n/a                                                             | 2021-05-20, 3pm    | :question: Unclear    | :question: Unclear    |
+| Module                        | Issues                                                          | Deadline           | Assignment Priority   | Note                             |
+| :---------------------------- | :-------------------------------------------------------------- | :----------------- | :-------------------- | :------------------------------- |
+| :building_construction: CI401 | [#19](https://github.com/summerysaturn/y1-university/issues/19) | 2021-04-30, 3pm    | :green_heart: Low     |                                  |
+| :computer: CI405              | [#20](https://github.com/summerysaturn/y1-university/issues/20) | 2021-05-22, 3pm    | :heart: High          | :recycle: Weekly Task            |
+| :video_game: CI410            | [#16](https://github.com/summerysaturn/y1-university/issues/16) | 2021-05-07, 3pm    | :green_heart: Low     |                                  |
+| :globe_with_meridians: CI435  | [#21](https://github.com/summerysaturn/y1-university/issues/21) | :question: Unclear | :heart: High          | :recycle: Weekly Task            |
+| :mortar_board: CI465          | [#17](https://github.com/summerysaturn/y1-university/issues/17) | 2021-05-22, 3pm    | :green_heart: Low     |                                  |
+| :art: CI474 A2                | [#22](https://github.com/summerysaturn/y1-university/issues/22) | 2021-05-20, 3pm    | :yellow_heart: Medium | Requires more work in A1         |
+| :art: CI474 A1                | [#22](https://github.com/summerysaturn/y1-university/issues/22) | :question: Unclear | :yellow_heart: Medium | Deferred but prerequisite for A2 |
 
 ### Marks
 
@@ -53,21 +53,23 @@ Values above 40% are considered a **pass mark** and are therefore bottom priorit
 
 | Module                        | A1 Grade         | A2 Grade | Overall Percent                     |
 | :---------------------------- | :--------------- | :------- | :---------------------------------- |
-| :building_construction: CI401 | :a: 100.00 / 100 |          | :white_check_mark: 50%              |
-| :computer: CI405              | :a: 83.00 / 100  |          | :negative_squared_cross_mark: 33.2% |
-| :video_game: CI410            | :a: 82.00 / 100  |          | :white_check_mark: 41%              |
-| :globe_with_meridians: CI435  | :a: 72.00 / 100  |          | :negative_squared_cross_mark: 36%   |
-| :mortar_board: CI465          | :a: 77.00 / 100  |          | :negative_squared_cross_mark: 38.5  |
-| :art: CI474                   |                  |          | :negative_squared_cross_mark: 0%    |
+| :building_construction: CI401 | :a: 100.00 / 100 | :x:      | :white_check_mark: 50%              |
+| :computer: CI405              | :a: 83.00 / 100  | :x:      | :negative_squared_cross_mark: 33.2% |
+| :video_game: CI410            | :a: 82.00 / 100  | :x:      | :white_check_mark: 41%              |
+| :globe_with_meridians: CI435  | :a: 72.00 / 100  | :x:      | :negative_squared_cross_mark: 36%   |
+| :mortar_board: CI465          | :a: 77.00 / 100  | :x:      | :negative_squared_cross_mark: 38.5  |
+| :art: CI474                   | :x:              | :x:      | :negative_squared_cross_mark: 0%    |
 
 Formula for total Percent: `((gradeS1 \* (s1Percent / 50)) / 200 \* 100) + ((gradeS2 \* (s2Percent / 50)) / 200 \* 100)`
 
+```plaintext
 CI401 is 50%/50%
 CI405 is 40%/60%
 CI410 is 50%/50%
 CI435 is 50%/50%
 CI465 is 50%/50%
 CI474 is 30%/70%
+```
 
 ## ![Contributing](.github/contributing.png)
 
