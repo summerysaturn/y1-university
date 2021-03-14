@@ -1,6 +1,14 @@
 img {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 60%;
+  width: 50%;
+}
+
+brief {
+  font-family: "Fira Code";
+}
+
+brief::before {
+  content: "(brief)";
+  font-family: "Fira Code";
+  margin-right: 2rem;
 }
