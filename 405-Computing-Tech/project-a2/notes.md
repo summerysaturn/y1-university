@@ -18,6 +18,8 @@ Charlotte Ward | CI405 Assignment 2 | Year 1 CSG
   * [Week 5 Questions](#week-5-questions)
   * [Week 5 Lab Work](#week-5-lab-work)
 
+TODO: replace questions documentation with a more in-depth analysis
+
 ## Week 1 Questions
 
 | Question 1: Define the four main components of a computer. |
@@ -32,10 +34,14 @@ Other components can be added in to optimise this, but the core concept of a com
 
 Fixed program computers have a set operation and control flow, whereas stored program computers can be modified before, during and after execution. Fixed program computers can be very simple and cheap, whereas stored program computers are more complex but more versatile. Most modern computers are stored program computers, whereas IOT devices and chipsets are often stored program computers.
 
+https://www.britannica.com/technology/stored-program-concept
+
 | Question 3: What is Gordon Bell’s law about the near future of computer class? |
 | :----------------------------------------------------------------------------- |
 
-Gordon Bell's law determines the scale and ubiquity of computer systems, explaining how computers are getting smaller and more prolific in society. He describes that Mainframe computers were initially the most important,
+Gordon Bell's law determines the scale and ubiquity of computer systems, explaining how computers are getting smaller and more prolific in society. He describes that Mainframe computers were initially the most important, though with time computers are getting smaller and more ubiquitous, to the point that modern computers may look more like swarms of sensors and microcomputers. He states that there is a new class of computer every decade, derived from cheaper components and transistors. This class can then overtake existing classes as it evolves.
+
+http://gordonbell.azurewebsites.net/CACM%20Bell's%20Law%20Vol%2051.%202008-January.pdf
 
 ## Week 1 Lab Work
 
@@ -111,11 +117,25 @@ Starting the sudo dnf upgrade
 | Question 1: Explain Moore’s law. Is Moore’s law a Physics law? |
 | :------------------------------------------------------------- |
 
+Moore's law specifies that transistor quantity in CPUs will double every two years, as a result of improvements in transistor technology and manufacturing techniques.
+
+It is not a physics law like Newton's laws or similar, instead it is a projection based on observations of CPU transistor quantities prior to 1965.
+
+https://www.investopedia.com/terms/m/mooreslaw.asp
+
 | Question 2: Modern CPUs are measured in nano-metre scale (e.g. 14 nm CPU). What does this number mean? Is this the size of each individual transistor? |
 | :----------------------------------------------------------------------------------------------------------------------------------------------------- |
 
+The nano-meter scale relates to the physical size of each transistor, though more accurately it relates to the physical process that the manufacturer uses to design and manufacture the CPU; a 14nm CPU will be a die cut from a larger wafer, with many copies of the die circuit etched into it from photolithography. The size of the process relates to the smallest possible transistor using the technique, though it doesn't necessarily relate to the size of each transistor on the die; it's easier to think of it as the resolution of the process.
+
+https://www.howtogeek.com/394267/what-do-7nm-and-10nm-mean-and-why-do-they-matter/
+
 | Question 3: Describe the quantum tunneling problem in the transistor design. |
 | :--------------------------------------------------------------------------- |
+
+As dies are shrinking more and more, the sizes are getting small enough for quantum phenomena to start acting upon the electrons utilised by the semiconductors in the die. One major problem with this is Quantum Tunneling, whereby a wavefunction (i.e. an electron, which exhibits) can tunnel through a barrier. This is possible due to the quantum uncertainty principle, which states that it's impossible to measure both position and momentum to a certain degree of accuracy; this limit causes waves to have a low probability of tunneling through an obstacle, depending on the size of the barrier. With decreasing process sizes, this is becoming more and more of an issue.
+
+https://spectrum.ieee.org/semiconductors/devices/the-tunneling-transistor
 
 ## Week 2 Lab Work
 
@@ -173,14 +193,46 @@ Moving and removing files
 | Question 1: What is RowHammer? What are the potential solutions? |
 | :--------------------------------------------------------------- |
 
-| Question 2: Comparing the three levels of cache. |
-| :----------------------------------------------- |
+Relating to physical design of modern DRAM modules, RowHammer is a hardware-level exploit whereby protected bytes on a module can be rewritten by quickly and repeatedly activating rows of memory, like to write, can cause adjacent cells to have random bit flips, which can result in the contents of memory being altered and then executed.
+
+https://www.techopedia.com/definition/31413/rowhammer
+
+| Question 2: Compare the three levels of cache. |
+| :--------------------------------------------- |
+
+As memory gets closer to the CPU, it increases in speed as well. Hard drives are exceptionally slow compared to the CPU itself, so it needs intermediary storage. RAM is faster, however it's still not fast enough for the CPU to properly utilise (even if it has high throughput: latency is an issue). To solve this, CPUs utilise various levels of cache, which decrease in size as they get faster.
+
+At the lowest level, CPUs utilise registers to store small amounts of super-fast data, which can be directly operated upon as part of their Fetch-Decode-Execute cycle. These registers are tiny, usually having less than a kilobyte of size. To supplement this, L1 cache, or Level 1, can quickly interact with the registers, swapping out data as needed. L1 cache is in the neighbourhood of 32 kilobytes, which is considerably more than the registers.
+
+On top of this, L2 cache is above L1, with much larger size, greater than half a megabyte in today's industry. These modules are slightly slower, but help to step the speed up as data approaches the CPU itself. Finally, there's L3 cache, which sits directly between L2 cache and the RAM, with much larger sizes up to about 32 megabytes. This cache is slowest, though it's still considerably faster than RAM. Again, this helps to step up data as it's needed.
+
+Multi-Core CPUs complicate this issue, as each CPU needs it's own cache, fed from the L3 cache, which is usually global. L2 tends to be split off into each core. Additionally, some CPUs may utilise L0 cache or other types of L1 cache, although the same principles apply; data must be sped up gradually as it's needed by the CPU, which manages this data operation itself.
+
+https://www.techspot.com/article/2066-cpu-l1-l2-l3-cache/
 
 | Question 3: Explain the differences between RAID 1, 5 and 10. |
 | :------------------------------------------------------------ |
 
+This question relates to various methods for backing up data using RAID:
+
+RAID 1 involves mirroring one drive onto another drive, effectively duplicating the contents of one to the other every write. This is a transparent way to back up data, as each drive can read and write simultaneously. Additionally, it protects the data on the array from a single drive failure, as both drives would need to fail for the data to be lost.
+
+RAID 5 involves spanning the data across multiple drives using stripes, whereby all the drives have a single visible partition on it. This is slightly more opaque than RAID 1, as the data must be split up using a RAID controller or similar and distributed to each drive. This can speed up reads and writes though, as you get the combined throughput of each drive.
+
+Additionally, RAID 5 has so-called 'parity blocks', whereby the stripes distributed across the other drives are run through a checksum, resulting in a unique block which can be used to recover data should a single drive on the array be lost; the data on the missing drive can be reconstructed using the other drives and with the parity data, by reversing the checksum. This can protect many drives from single drive failures, without having to clone one to one. The downside of RAID 5 is that the whole array can be lost should multiple drives fail in quick succession.
+
+RAID 10 is a fusion of RAID 0, where drives are striped and blocks are spanned across the stripes, and RAID 1, where drives are mirrored one to one. This means that the throughput is doubled like with RAID 0, but affords two drive failures (although not on the same side of the span). This is inefficient compared to RAID 1 and RAID 5, as it's less fast than RAID 5 and less resistant to failure than RAID 1, however it's a good option for one to one mirorring with improved throughput.
+
+https://www.prepressure.com/library/technology/raid
+
 | Question 4: Describe the concept of processing in memory. |
 | :-------------------------------------------------------- |
+
+With processing becoming more easy on smaller and cheaper components, storage in memory revolves around the memory module itself optimising it's own storage to better serve the system accessing the memory itself. This can be seen in Solid State Hard Drives, where a small SSD cache (usually around 32GB) is paired with a larger hard disk drive, and an onboard processor stores data that is accessed more often on the SSD cache due to increased speed and decreased latency.
+
+This concept is used today in products like Intel Optane, whereby a high-speed SSD and processor is used to supplement another drive.
+
+https://www.techopedia.com/definition/29395/processing-in-memory-pim
 
 ## Week 3 Lab Work
 
@@ -250,38 +302,52 @@ Showing the first 20 lines using head -20
 | Question 1: Explain the difference between a digital sensor and an analog sensor. |
 | :-------------------------------------------------------------------------------- |
 
+TODO: w4q1
+
 | Question 2: Describe the responsibilities of the “Cloud processing unit” (the top layer of IoT). |
 | :----------------------------------------------------------------------------------------------- |
+
+TODO: w4q2
 
 | Question 3: Explain the difference between a microcontroller (e.g. Arduino) and an embedded board (e.g. Raspberry Pi). |
 | :--------------------------------------------------------------------------------------------------------------------- |
 
+TODO: w4q3
+
 ## Week 4 Lab Work
 
-![](img/lab4-001.png)
-![](img/lab4-002.png)
-![](img/lab4-003.png)
-![](img/lab4-004.png)
-![](img/lab4-005.png)
-![](img/lab4-006.png)
+![Installing OpenJDK 11](img/lab4-001.png)
+![Using vim to edit HelloWorld.java](img/lab4-002.png)
+![Showing that HelloWorld.java exists using cat (batcat)](img/lab4-003.png)
+![Compiling HelloWorld.java into a class and then running it using Java](img/lab4-004.png)
+![Editing the file to use the arguments as shown in the example](img/lab4-005.png)
+![Compiling it and running it using no arguments and two arguments](img/lab4-006.png)
 
 ## Week 5 Questions
 
 | Question 1: Describe the challenges facing mobile computing technology. |
 | :---------------------------------------------------------------------- |
 
+TODO: w5q1
+
 | Question 2: What is context awareness? Give one example of a context awareness mobile app. |
 | :----------------------------------------------------------------------------------------- |
+
+TODO: w5q2
 
 | Question 3: What are the challenges for doing Augmented Reality on a mobile device? |
 | :---------------------------------------------------------------------------------- |
 
+TODO: w5q3
+
 ## Week 5 Lab Work
 
-![](img/lab5-001.png)
-![](img/lab5-002.png)
-![](img/lab5-003.png)
-![](img/lab5-004.png)
-![](img/lab5-005.png)
-![](img/lab5-006.png)
-![](img/lab5-007.png)
+TODO: Document further week 5
+
+![Editing a simple shell script that performs the pwd and ls commands](img/lab5-001.png)
+![Editing a simple shell script that asks the user's name then says Hello to them](img/lab5-002.png)
+![Here it is being run](img/lab5-003.png)
+![Simple shell script showing loop capability](img/lab5-004.png)
+![Simple shell script showing loop capability being executed](img/lab5-005.png)
+![Simple shell script demonstrating while loops and getting an input to break or continue the loop](img/lab5-006.png)
+![Here it is being executed](img/lab5-007.png)

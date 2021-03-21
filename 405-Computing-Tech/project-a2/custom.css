@@ -3,6 +3,10 @@ img {
   width: 50%;
 }
 
+ul {
+  margin-left: 1rem;
+}
+
 brief {
   font-family: "Fira Code";
 }

@@ -7,7 +7,13 @@
 <li><a href="#ci405-a2-notebook">CI405 A2 notebook</a>
 <ul>
 <li><a href="#week-1-questions">Week 1 Questions</a></li>
-<li><a href="#week-1-lab-work">Week 1 Lab Work</a></li>
+<li><a href="#week-1-lab-work">Week 1 Lab Work</a>
+<ul>
+<li><a href="#step-0">Step 0:</a></li>
+<li><a href="#step-1-creating-a-vm-and-allocating-resources">Step 1: Creating a VM and allocating resources</a></li>
+<li><a href="#step-2-install-the-operating-system-using-the-iso">Step 2: Install the operating system using the ISO</a></li>
+<li><a href="#step-3-create-a-user-account-and-apply-updates">Step 3: Create a user account and apply updates</a></li>
+</ul></li>
 <li><a href="#week-2-questions">Week 2 Questions</a></li>
 <li><a href="#week-2-lab-work">Week 2 Lab Work</a></li>
 <li><a href="#week-3-questions">Week 3 Questions</a></li>
@@ -18,6 +24,7 @@
 <li><a href="#week-5-lab-work">Week 5 Lab Work</a></li>
 </ul></li>
 </ul>
+<p>TODO: replace questions documentation with a more in-depth analysis</p>
 <h2 id="week-1-questions">Week 1 Questions</h2>
 <table>
 <thead>
@@ -57,7 +64,20 @@
 </table>
 <p>Gordon Bell’s law determines the scale and ubiquity of computer systems, explaining how computers are getting smaller and more prolific in society. He describes that Mainframe computers were initially the most important,</p>
 <h2 id="week-1-lab-work">Week 1 Lab Work</h2>
-<p><img src="img/lab1-001.png" alt="VirtualBox Main View" /> <img src="img/lab1-002.png" alt="Setting up the Operating System with a name and type" /> <img src="img/lab1-003.png" alt="Setting memory to 4096MB" /> <img src="img/lab1-004.png" alt="Setting the disk type to VMDK for Compatibility" /> <img src="img/lab1-005.png" alt="Setting the VMDK disk to 16GB" /> <img src="img/lab1-006.png" alt="The new home screen for VirtualBox" /> <img src="img/lab1-007.png" alt="Setting a boot disk for Fedora" /> <img src="img/lab1-008.png" alt="Selecting the ISO from my Downloads folder" /> <img src="img/lab1-009.png" alt="Here it is properly set up as a Live CD" /> <img src="img/lab1-010.png" alt="On boot it asks for a start-up disk, set that to Fedora" /> <img src="img/lab1-011.png" alt="Freshly launched" /> <img src="img/lab1-012.png" alt="Here’s the live disk bootloader" /> <img src="img/lab1-013.png" alt="Linux boot screen" /> <img src="img/lab1-014.png" alt="Fedora uses a fairly stock Gnome Linux installer - Install to Disk" /> <img src="img/lab1-015.png" alt="Set the keyboard language to English US" /> <img src="img/lab1-016.png" alt="Set the hard disk to the VBOX Hard Drive" /> <img src="img/lab1-017.png" alt="Everything seems ok, ready to begin" /> <img src="img/lab1-018.png" alt="All installed on disk" /> <img src="img/lab1-019.png" alt="Now to reboot" /> <img src="img/lab1-020.png" alt="Almost ready to reboot" /> <img src="img/lab1-021.png" alt="Disconnect the Live CD" /> <img src="img/lab1-022.png" alt="Select the correct bootloader in… looks like systemd-boot?" /> <img src="img/lab1-023.png" alt="Booting nice and quickly" /> <img src="img/lab1-024.png" alt="All okay! Fedora setup looks a lot like Ubuntu" /> <img src="img/lab1-025.png" alt="Turn off tracking and such" /> <img src="img/lab1-026.png" alt="Set up the user name" /> <img src="img/lab1-027.png" alt="Set up the user password" /> <img src="img/lab1-028.png" alt="All set!" /> <img src="img/lab1-029.png" alt="Fedora has a nice stock Gnome experience" /></p>
+<pre class="plaintext"><code>Task: instructions to install Fedora on Virtual Box
+
+Step 0: Download Fedora from https://getfedora.org/en/workstation/ &amp; install VirtualBox (apt)
+Step 1: Creating a VM and allocating resources
+Step 2: Install the operating system using the ISO
+Step 3: Create a user account and apply updates</code></pre>
+<h3 id="step-0">Step 0:</h3>
+<p>I already have VirtualBox installed on my operating system as it’s useful for trying out other Linux distributions and emulating various operating systems. I downloaded the Fedora ISO from the website easily and have it ready in my Downloads folder.</p>
+<h3 id="step-1-creating-a-vm-and-allocating-resources">Step 1: Creating a VM and allocating resources</h3>
+<p><img src="img/lab1-001.png" alt="VirtualBox Main View" /> <img src="img/lab1-002.png" alt="Setting up the Operating System with a name and type" /> <img src="img/lab1-003.png" alt="Setting memory to 4096MB" /> <img src="img/lab1-004.png" alt="Setting the disk type to VMDK for Compatibility" /> <img src="img/lab1-005.png" alt="Setting the VMDK disk to 16GB" /> <img src="img/lab1-006.png" alt="The new home screen for VirtualBox" /> <img src="img/lab1-007.png" alt="Setting a boot disk for Fedora" /> <img src="img/lab1-008.png" alt="Selecting the ISO from my Downloads folder" /> <img src="img/lab1-009.png" alt="Here it is properly set up as a Live CD" /> <img src="img/lab1-010.png" alt="On boot it asks for a start-up disk, set that to Fedora" /></p>
+<h3 id="step-2-install-the-operating-system-using-the-iso">Step 2: Install the operating system using the ISO</h3>
+<p><img src="img/lab1-011.png" alt="Freshly launched" /> <img src="img/lab1-012.png" alt="Here’s the live disk bootloader" /> <img src="img/lab1-013.png" alt="Linux boot screen" /> <img src="img/lab1-014.png" alt="Fedora uses a fairly stock Gnome Linux installer - Install to Disk" /> <img src="img/lab1-015.png" alt="Set the keyboard language to English US" /> <img src="img/lab1-016.png" alt="Set the hard disk to the VBOX Hard Drive" /> <img src="img/lab1-017.png" alt="Everything seems ok, ready to begin" /> <img src="img/lab1-018.png" alt="All installed on disk" /> <img src="img/lab1-019.png" alt="Now to reboot" /> <img src="img/lab1-020.png" alt="Almost ready to reboot" /> <img src="img/lab1-021.png" alt="Disconnect the Live CD" /></p>
+<h3 id="step-3-create-a-user-account-and-apply-updates">Step 3: Create a user account and apply updates</h3>
+<p>Select the correct bootloader in… looks like systemd-boot? <img src="img/lab1-022.png" alt="Select the correct bootloader in… looks like systemd-boot?" /> Booting nice and quickly <img src="img/lab1-023.png" alt="Booting nice and quickly" /> All okay! Fedora setup looks a lot like Ubuntu <img src="img/lab1-024.png" alt="All okay! Fedora setup looks a lot like Ubuntu" /> Turn off tracking and such <img src="img/lab1-025.png" alt="Turn off tracking and such" /> Set up the user name <img src="img/lab1-026.png" alt="Set up the user name" /> Set up the user password <img src="img/lab1-027.png" alt="Set up the user password" /> Now to apply updates <img src="img/lab1-028.png" alt="Now to apply updates" /> Fedora has a nice stock Gnome experience <img src="img/lab1-029.png" alt="Fedora has a nice stock Gnome experience" /> Lovely old bash <img src="img/lab1-030.png" alt="Lovely old bash" /> Starting the sudo dnf upgrade <img src="img/lab1-031.png" alt="Starting the sudo dnf upgrade" /> 1.1GiB is a lot of data, 800+ packages. Wow. <img src="img/lab1-032.png" alt="1.1GiB is a lot of data, 800+ packages. Wow." /> 9 minutes of execution time. wow. <img src="img/lab1-033.png" alt="9 minutes of execution time. wow." /></p>
 <h2 id="week-2-questions">Week 2 Questions</h2>
 <table>
 <thead>
@@ -68,6 +88,7 @@
 <tbody>
 </tbody>
 </table>
+<p>TODO: w2q1</p>
 <table>
 <colgroup>
 <col style="width: 100%" />
@@ -80,6 +101,7 @@
 <tbody>
 </tbody>
 </table>
+<p>TODO: w2q2</p>
 <table>
 <colgroup>
 <col style="width: 100%" />
@@ -92,6 +114,7 @@
 <tbody>
 </tbody>
 </table>
+<p>TODO: w2q3</p>
 <h2 id="week-2-lab-work">Week 2 Lab Work</h2>
 <pre class="plaintext"><code>Task: Performing the following Linux commands, using one of the environments we set up in Week 1.
 
@@ -122,7 +145,7 @@ $ cp ~/tomorrow .
 $ ls
 $ mv tomorrow files.txt
 $ rm files.txt</code></pre>
-<p><img src="img/lab2-001.png" alt="Date, Cat and basic redirection operators" /> <img src="img/lab2-002.png" alt="Calendar and Who commands" /> <img src="img/lab2-003.png" alt="ls, ls -l commands" /> <img src="img/lab2-004.png" alt="ls with redirection operators" /> <img src="img/lab2-005.png" alt="cat with wildcard operator" /> <img src="img/lab2-006.png" alt="cat with wildcard operator (cont.)" /> <img src="img/lab2-007.png" alt="pwd, cd, directory handling" /> <img src="img/lab2-008.png" alt="Moving and removing files" /></p>
+<p>Date, Cat and basic redirection operators <img src="img/lab2-001.png" alt="Date, Cat and basic redirection operators" /> Calendar and Who commands <img src="img/lab2-002.png" alt="Calendar and Who commands" /> ls, ls -l commands <img src="img/lab2-003.png" alt="ls, ls -l commands" /> ls with redirection operators <img src="img/lab2-004.png" alt="ls with redirection operators" /> cat with wildcard operator <img src="img/lab2-005.png" alt="cat with wildcard operator" /> cat with wildcard operator (cont.) <img src="img/lab2-006.png" alt="cat with wildcard operator (cont.)" /> pwd, cd, directory handling <img src="img/lab2-007.png" alt="pwd, cd, directory handling" /> Moving and removing files <img src="img/lab2-008.png" alt="Moving and removing files" /></p>
 <h2 id="week-3-questions">Week 3 Questions</h2>
 <table>
 <thead>
@@ -133,6 +156,7 @@ $ rm files.txt</code></pre>
 <tbody>
 </tbody>
 </table>
+<p>TODO: w3q1</p>
 <table>
 <thead>
 <tr class="header">
@@ -142,6 +166,7 @@ $ rm files.txt</code></pre>
 <tbody>
 </tbody>
 </table>
+<p>TODO: w3q2</p>
 <table>
 <thead>
 <tr class="header">
@@ -151,6 +176,7 @@ $ rm files.txt</code></pre>
 <tbody>
 </tbody>
 </table>
+<p>TODO: w3q3</p>
 <table>
 <thead>
 <tr class="header">
@@ -160,6 +186,7 @@ $ rm files.txt</code></pre>
 <tbody>
 </tbody>
 </table>
+<p>TODO: w3q4</p>
 <h2 id="week-3-lab-work">Week 3 Lab Work</h2>
 <pre class="plaintext"><code>Task: Performing the following Linux commands, using one of the environments we set up in Week 1.
 
@@ -188,7 +215,7 @@ $ vi
 
 $ wget https://gutenberg.org/files/1661/1661-0.txt
 $ head -20 1661-0.txt</code></pre>
-<p><img src="img/lab3-01.png" alt="Basic background processes" /> <img src="img/lab3-02.png" alt="Ctrl+Z Operator &amp; bg" /> <img src="img/lab3-03.png" alt="Jobs &amp; killing based on job list" /> <img src="img/lab3-04.png" alt="ps command &amp; killing based on pid" /> <img src="img/lab3-05.png" alt="vi editing" /> <img src="img/lab3-06.png" alt="Writing the vi editor to out (viFile.txt)" /> <img src="img/lab3-07.png" alt="Writes ok…" /> <img src="img/lab3-08.png" alt="Force quit" /> <img src="img/lab3-09.png" alt="Quit ok…" /> <img src="img/lab3-10.png" alt="cat the file" /> <img src="img/lab3-10.png" alt="more the file" /> <img src="img/lab3-12.png" alt="wget from the directory provided" /> <img src="img/lab3-14.png" alt="Showing the file using less" /> <img src="img/lab3-15.png" alt="Showing the first 20 lines using head -20" /> <img src="img/lab3-16.png" alt="Showing the first 20 lines using head -20" /></p>
+<p>Basic background processes <img src="img/lab3-01.png" alt="Basic background processes" /> Ctrl+Z Operator &amp; bg <img src="img/lab3-02.png" alt="Ctrl+Z Operator &amp; bg" /> Jobs &amp; killing based on job list <img src="img/lab3-03.png" alt="Jobs &amp; killing based on job list" /> ps command &amp; killing based on pid <img src="img/lab3-04.png" alt="ps command &amp; killing based on pid" /> vi editing <img src="img/lab3-05.png" alt="vi editing" /> Writing the vi editor to out (viFile.txt) <img src="img/lab3-06.png" alt="Writing the vi editor to out (viFile.txt)" /> Writes ok… <img src="img/lab3-07.png" alt="Writes ok…" /> Force quit <img src="img/lab3-08.png" alt="Force quit" /> Quit ok… <img src="img/lab3-09.png" alt="Quit ok…" /> cat the file <img src="img/lab3-10.png" alt="cat the file" /> more the file <img src="img/lab3-10.png" alt="more the file" /> wget from the directory provided <img src="img/lab3-12.png" alt="wget from the directory provided" /> Showing the file using less <img src="img/lab3-14.png" alt="Showing the file using less" /> Showing the first 20 lines using head -20 <img src="img/lab3-15.png" alt="Showing the first 20 lines using head -20" /> Showing the first 20 lines using head -20 <img src="img/lab3-16.png" alt="Showing the first 20 lines using head -20" /></p>
 <h2 id="week-4-questions">Week 4 Questions</h2>
 <table>
 <colgroup>
@@ -202,6 +229,7 @@ $ head -20 1661-0.txt</code></pre>
 <tbody>
 </tbody>
 </table>
+<p>TODO: w4q1</p>
 <table>
 <colgroup>
 <col style="width: 100%" />
@@ -214,6 +242,7 @@ $ head -20 1661-0.txt</code></pre>
 <tbody>
 </tbody>
 </table>
+<p>TODO: w4q2</p>
 <table>
 <colgroup>
 <col style="width: 100%" />
@@ -226,8 +255,9 @@ $ head -20 1661-0.txt</code></pre>
 <tbody>
 </tbody>
 </table>
+<p>TODO: w4q3</p>
 <h2 id="week-4-lab-work">Week 4 Lab Work</h2>
-<p><img src="img/lab4-001.png" /> <img src="img/lab4-002.png" /> <img src="img/lab4-003.png" /> <img src="img/lab4-004.png" /> <img src="img/lab4-005.png" /> <img src="img/lab4-006.png" /></p>
+<p><img src="img/lab4-001.png" alt="Installing OpenJDK 11" /> <img src="img/lab4-002.png" alt="Using vim to edit HelloWorld.java" /> <img src="img/lab4-003.png" alt="Showing that HelloWorld.java exists using cat (batcat)" /> <img src="img/lab4-004.png" alt="Compiling HelloWorld.java into a class and then running it using Java" /> <img src="img/lab4-005.png" alt="Editing the file to use the arguments as shown in the example" /> <img src="img/lab4-006.png" alt="Compiling it and running it using no arguments and two arguments" /></p>
 <h2 id="week-5-questions">Week 5 Questions</h2>
 <table>
 <thead>
@@ -238,6 +268,7 @@ $ head -20 1661-0.txt</code></pre>
 <tbody>
 </tbody>
 </table>
+<p>TODO: w5q1</p>
 <table>
 <colgroup>
 <col style="width: 100%" />
@@ -250,6 +281,7 @@ $ head -20 1661-0.txt</code></pre>
 <tbody>
 </tbody>
 </table>
+<p>TODO: w5q2</p>
 <table>
 <colgroup>
 <col style="width: 100%" />
@@ -262,6 +294,8 @@ $ head -20 1661-0.txt</code></pre>
 <tbody>
 </tbody>
 </table>
+<p>TODO: w5q3</p>
 <h2 id="week-5-lab-work">Week 5 Lab Work</h2>
-<p><img src="img/lab5-001.png" /> <img src="img/lab5-002.png" /> <img src="img/lab5-003.png" /> <img src="img/lab5-004.png" /> <img src="img/lab5-005.png" /> <img src="img/lab5-006.png" /> <img src="img/lab5-007.png" /></p>
+<p>TODO: Document further week 5</p>
+<p><img src="img/lab5-001.png" alt="Editing a simple shell script that performs the pwd and ls commands" /> <img src="img/lab5-002.png" alt="Editing a simple shell script that asks the user’s name then says Hello to them" /> <img src="img/lab5-003.png" alt="Here it is being run" /> <img src="img/lab5-004.png" alt="Simple shell script showing loop capability" /> <img src="img/lab5-005.png" alt="Simple shell script showing loop capability being executed" /> <img src="img/lab5-006.png" alt="Simple shell script demonstrating while loops and getting an input to break or continue the loop" /> <img src="img/lab5-007.png" alt="Here it is being executed" /></p>
 </div>
