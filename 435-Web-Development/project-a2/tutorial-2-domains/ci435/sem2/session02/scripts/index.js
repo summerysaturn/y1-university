@@ -1,31 +1,37 @@
-function main() {
-  var a = 5;
-  domainLog(a);
-  var b = 3;
-  domainLog(a * b);
-  domainLog(a + (b % 3));
+function main(val) {
+  switch (val) {
+    case 1:
+      var a = 5;
+      domainLog(`out-${val}`, `a = ${a}`);
+      var b = 3;
+      domainLog(`out-${val}`, `b = ${b}`);
+      domainLog(`out-${val}`, `a * b = ${a * b}`);
+      break;
 
-  var s1 = "Hello";
-  var s2 = "Charlotte";
+    case 2:
+      var s1 = "Hello";
+      var s2 = "Charlotte";
 
-  domainLog(s1 + s2);
-  domainLog(s1 + " " + s2);
+      domainLog(`out-${val}`, "(s1 + s2):");
+      domainLog(`out-${val}`, s1 + s2);
 
-  domainLog(a + " squared is " + a * a);
-  domainLog("\n");
+      domainLog(`out-${val}`, '(s1 + " " + s2):');
+      domainLog(`out-${val}`, s1 + " " + s2);
+
+      break;
+
+    case 3:
+      var a = 5;
+      domainLog(`out-${val}`, '(a + " squared is " + a * a):');
+      domainLog(`out-${val}`, a + " squared is " + a * a);
+      break;
+
+    default:
+      break;
+  }
 }
 
-/* outputs
- * 5                   index.js:3:11
- * 15                  index.js:5:11
- * 5                   index.js:6:11
- * HelloCharlotte      index.js:11:11
- * Hello Charlotte     index.js:12:11
- * 5 squared is 25     index.js:14:11
- */
-
-function domainLog(string) {
+function domainLog(destination, string) {
   console.log(string);
-  document.getElementById("outbox").innerHTML +=
-    "<code>" + string + "</code>\n";
+  document.getElementById(destination).innerHTML += string + `\n`;
 }
