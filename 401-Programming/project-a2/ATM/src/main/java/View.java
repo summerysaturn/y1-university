@@ -1,7 +1,3 @@
-/*
-  The View component in the Model/View/Controller framework in this application
- */
-
 // The View class creates and manages the GUI for the application.
 // It doesn't know anything about the ATM itself, it just displays
 // the current state of the Model, (title, output1 and output2),
@@ -18,7 +14,10 @@ import javafx.scene.layout.*;
 import javafx.scene.text.*;
 import javafx.stage.Stage;
 
-class View {
+/**
+ * The View component in the Model/View/Controller framework in this application
+ */
+public class View {
   int H = 420; // Height of window pixels
   int W = 500; // Width of window pixels
 

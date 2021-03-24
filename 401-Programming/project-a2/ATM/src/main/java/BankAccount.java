@@ -15,8 +15,6 @@
 
 public class BankAccount {
 
-  // TODO: implement password hashes
-
   public int accNumber = 0;
   public int accPasswd = 0;
   public int balance = 0;
