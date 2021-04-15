@@ -5,7 +5,7 @@ Charlotte Ward | CI405 Assignment 2 | Year 1 CSG
 * [CI405 A2 notebook](#ci405-a2-notebook)
   * [Week 1 Questions](#week-1-questions)
   * [Week 1 Lab Work](#week-1-lab-work)
-    * [Step 0:](#step-0)
+    * [Step 0: Downloads](#step-0-downloads)
     * [Step 1: Creating a VM and allocating resources](#step-1-creating-a-vm-and-allocating-resources)
     * [Step 2: Install the operating system using the ISO](#step-2-install-the-operating-system-using-the-iso)
     * [Step 3: Create a user account and apply updates](#step-3-create-a-user-account-and-apply-updates)
@@ -17,8 +17,8 @@ Charlotte Ward | CI405 Assignment 2 | Year 1 CSG
   * [Week 4 Lab Work](#week-4-lab-work)
   * [Week 5 Questions](#week-5-questions)
   * [Week 5 Lab Work](#week-5-lab-work)
-
-TODO: replace questions documentation with a more in-depth analysis
+  * [Week 7 Questions](#week-7-questions)
+  * [Week 7 Lab Work](#week-7-lab-work)
 
 ## Week 1 Questions
 
@@ -34,14 +34,14 @@ Other components can be added in to optimise this, but the core concept of a com
 
 Fixed program computers have a set operation and control flow, whereas stored program computers can be modified before, during and after execution. Fixed program computers can be very simple and cheap, whereas stored program computers are more complex but more versatile. Most modern computers are stored program computers, whereas IOT devices and chipsets are often stored program computers.
 
-https://www.britannica.com/technology/stored-program-concept
+<https://www.britannica.com/technology/stored-program-concept>
 
 | Question 3: What is Gordon Bell’s law about the near future of computer class? |
 | :----------------------------------------------------------------------------- |
 
 Gordon Bell's law determines the scale and ubiquity of computer systems, explaining how computers are getting smaller and more prolific in society. He describes that Mainframe computers were initially the most important, though with time computers are getting smaller and more ubiquitous, to the point that modern computers may look more like swarms of sensors and microcomputers. He states that there is a new class of computer every decade, derived from cheaper components and transistors. This class can then overtake existing classes as it evolves.
 
-http://gordonbell.azurewebsites.net/CACM%20Bell's%20Law%20Vol%2051.%202008-January.pdf
+<http://gordonbell.azurewebsites.net/CACM%20Bell>'s%20Law%20Vol%2051.%202008-January.pdf
 
 ## Week 1 Lab Work
 
@@ -54,35 +54,56 @@ Step 2: Install the operating system using the ISO
 Step 3: Create a user account and apply updates
 ```
 
-### Step 0:
+### Step 0: Downloads
 
 I already have VirtualBox installed on my operating system as it's useful for trying out other Linux distributions and emulating various operating systems. I downloaded the Fedora ISO from the website easily and have it ready in my Downloads folder.
 
 ### Step 1: Creating a VM and allocating resources
 
+VirtualBox Main View
 ![VirtualBox Main View](img/lab1-001.png)
+Setting up the Operating System with a name and type
 ![Setting up the Operating System with a name and type](img/lab1-002.png)
+Setting memory to 4096MB
 ![Setting memory to 4096MB](img/lab1-003.png)
+Setting the disk type to VMDK for Compatibility
 ![Setting the disk type to VMDK for Compatibility](img/lab1-004.png)
+Setting the VMDK disk to 16GB
 ![Setting the VMDK disk to 16GB](img/lab1-005.png)
+The new home screen for VirtualBox
 ![The new home screen for VirtualBox](img/lab1-006.png)
+Setting a boot disk for Fedora
 ![Setting a boot disk for Fedora](img/lab1-007.png)
+Selecting the ISO from my Downloads folder
 ![Selecting the ISO from my Downloads folder](img/lab1-008.png)
+Here it is properly set up as a Live CD
 ![Here it is properly set up as a Live CD](img/lab1-009.png)
+On boot it asks for a start-up disk, set that to Fedora
 ![On boot it asks for a start-up disk, set that to Fedora](img/lab1-010.png)
 
 ### Step 2: Install the operating system using the ISO
 
+Freshly launched
 ![Freshly launched](img/lab1-011.png)
+Here's the live disk bootloader
 ![Here's the live disk bootloader](img/lab1-012.png)
+Linux boot screen
 ![Linux boot screen](img/lab1-013.png)
+Fedora uses a fairly stock Gnome Linux installer - Install to Disk
 ![Fedora uses a fairly stock Gnome Linux installer - Install to Disk](img/lab1-014.png)
+Set the keyboard language to English US
 ![Set the keyboard language to English US](img/lab1-015.png)
+Set the hard disk to the VBOX Hard Drive
 ![Set the hard disk to the VBOX Hard Drive](img/lab1-016.png)
+Everything seems ok, ready to begin
 ![Everything seems ok, ready to begin](img/lab1-017.png)
+All installed on disk
 ![All installed on disk](img/lab1-018.png)
+Now to reboot
 ![Now to reboot](img/lab1-019.png)
+Almost ready to reboot
 ![Almost ready to reboot](img/lab1-020.png)
+Disconnect the Live CD
 ![Disconnect the Live CD](img/lab1-021.png)
 
 ### Step 3: Create a user account and apply updates
@@ -121,21 +142,21 @@ Moore's law specifies that transistor quantity in CPUs will double every two yea
 
 It is not a physics law like Newton's laws or similar, instead it is a projection based on observations of CPU transistor quantities prior to 1965.
 
-https://www.investopedia.com/terms/m/mooreslaw.asp
+<https://www.investopedia.com/terms/m/mooreslaw.asp>
 
 | Question 2: Modern CPUs are measured in nano-metre scale (e.g. 14 nm CPU). What does this number mean? Is this the size of each individual transistor? |
 | :----------------------------------------------------------------------------------------------------------------------------------------------------- |
 
 The nano-meter scale relates to the physical size of each transistor, though more accurately it relates to the physical process that the manufacturer uses to design and manufacture the CPU; a 14nm CPU will be a die cut from a larger wafer, with many copies of the die circuit etched into it from photolithography. The size of the process relates to the smallest possible transistor using the technique, though it doesn't necessarily relate to the size of each transistor on the die; it's easier to think of it as the resolution of the process.
 
-https://www.howtogeek.com/394267/what-do-7nm-and-10nm-mean-and-why-do-they-matter/
+<https://www.howtogeek.com/394267/what-do-7nm-and-10nm-mean-and-why-do-they-matter/>
 
 | Question 3: Describe the quantum tunneling problem in the transistor design. |
 | :--------------------------------------------------------------------------- |
 
 As dies are shrinking more and more, the sizes are getting small enough for quantum phenomena to start acting upon the electrons utilised by the semiconductors in the die. One major problem with this is Quantum Tunneling, whereby a wavefunction (i.e. an electron, which exhibits) can tunnel through a barrier. This is possible due to the quantum uncertainty principle, which states that it's impossible to measure both position and momentum to a certain degree of accuracy; this limit causes waves to have a low probability of tunneling through an obstacle, depending on the size of the barrier. With decreasing process sizes, this is becoming more and more of an issue.
 
-https://spectrum.ieee.org/semiconductors/devices/the-tunneling-transistor
+<https://spectrum.ieee.org/semiconductors/devices/the-tunneling-transistor>
 
 ## Week 2 Lab Work
 
@@ -195,7 +216,7 @@ Moving and removing files
 
 Relating to physical design of modern DRAM modules, RowHammer is a hardware-level exploit whereby protected bytes on a module can be rewritten by quickly and repeatedly activating rows of memory, like to write, can cause adjacent cells to have random bit flips, which can result in the contents of memory being altered and then executed.
 
-https://www.techopedia.com/definition/31413/rowhammer
+<https://www.techopedia.com/definition/31413/rowhammer>
 
 | Question 2: Compare the three levels of cache. |
 | :--------------------------------------------- |
@@ -208,7 +229,7 @@ On top of this, L2 cache is above L1, with much larger size, greater than half a
 
 Multi-Core CPUs complicate this issue, as each CPU needs it's own cache, fed from the L3 cache, which is usually global. L2 tends to be split off into each core. Additionally, some CPUs may utilise L0 cache or other types of L1 cache, although the same principles apply; data must be sped up gradually as it's needed by the CPU, which manages this data operation itself.
 
-https://www.techspot.com/article/2066-cpu-l1-l2-l3-cache/
+<https://www.techspot.com/article/2066-cpu-l1-l2-l3-cache/>
 
 | Question 3: Explain the differences between RAID 1, 5 and 10. |
 | :------------------------------------------------------------ |
@@ -223,7 +244,7 @@ Additionally, RAID 5 has so-called 'parity blocks', whereby the stripes distribu
 
 RAID 10 is a fusion of RAID 0, where drives are striped and blocks are spanned across the stripes, and RAID 1, where drives are mirrored one to one. This means that the throughput is doubled like with RAID 0, but affords two drive failures (although not on the same side of the span). This is inefficient compared to RAID 1 and RAID 5, as it's less fast than RAID 5 and less resistant to failure than RAID 1, however it's a good option for one to one mirorring with improved throughput.
 
-https://www.prepressure.com/library/technology/raid
+<https://www.prepressure.com/library/technology/raid>
 
 | Question 4: Describe the concept of processing in memory. |
 | :-------------------------------------------------------- |
@@ -232,7 +253,7 @@ With processing becoming more easy on smaller and cheaper components, storage in
 
 This concept is used today in products like Intel Optane, whereby a high-speed SSD and processor is used to supplement another drive.
 
-https://www.techopedia.com/definition/29395/processing-in-memory-pim
+<https://www.techopedia.com/definition/29395/processing-in-memory-pim>
 
 ## Week 3 Lab Work
 
@@ -302,25 +323,31 @@ Showing the first 20 lines using head -20
 | Question 1: Explain the difference between a digital sensor and an analog sensor. |
 | :-------------------------------------------------------------------------------- |
 
-TODO: w4q1
+Digital sensors produce a digital signal rather than an analogue signal, which could require extra processing on top to interpret for a computer; digital sensors are easier to use with computers.
 
 | Question 2: Describe the responsibilities of the “Cloud processing unit” (the top layer of IoT). |
 | :----------------------------------------------------------------------------------------------- |
 
-TODO: w4q2
+With regards to IoT, the cloud processing unit is a server or decentralised set of servers which process and store data from computers lower in the stack. This means that all of the IoT devices communicate with the top layer of the stack for processing and storage rather than having local processing and storage like with traditional computers.
 
 | Question 3: Explain the difference between a microcontroller (e.g. Arduino) and an embedded board (e.g. Raspberry Pi). |
 | :--------------------------------------------------------------------------------------------------------------------- |
 
-TODO: w4q3
+Microcontrollers like Arduinos use firmware to perform tasks, whereas embedded boards like a Raspberry Pi have a full operating system which then uses software to perform a task. Microcontrollers don't have a full operating system and are very focussed when compared with embedded boards which can have much broader tasks. Firmware is faster than software which also makes microcontrollers cheaper due to lower hardware and software complexity.
 
 ## Week 4 Lab Work
 
+Installing OpenJDK 11
 ![Installing OpenJDK 11](img/lab4-001.png)
+Using vim to edit HelloWorld.java
 ![Using vim to edit HelloWorld.java](img/lab4-002.png)
+Showing that HelloWorld.java exists using cat (batcat)
 ![Showing that HelloWorld.java exists using cat (batcat)](img/lab4-003.png)
+Compiling HelloWorld.java into a class and then running it using Java
 ![Compiling HelloWorld.java into a class and then running it using Java](img/lab4-004.png)
+Editing the file to use the arguments as shown in the example
 ![Editing the file to use the arguments as shown in the example](img/lab4-005.png)
+Compiling it and running it using no arguments and two arguments
 ![Compiling it and running it using no arguments and two arguments](img/lab4-006.png)
 
 ## Week 5 Questions
@@ -328,26 +355,111 @@ TODO: w4q3
 | Question 1: Describe the challenges facing mobile computing technology. |
 | :---------------------------------------------------------------------- |
 
-TODO: w5q1
+These days there aren't many issues with mobile computing anymore, as performance and portability have largely been solved through optimisations and improvements in production technology; modern mobile CPUs are incredibly performant, outpacing computers from as little as a decade or two ago.
+
+Because of this, technology in the mobile computing ecosystem has been primarily focussed on downsizing existing technology, relating to storage, processors, GPUs, displays, and other features which are commonplace on larger electronics; high refresh rate display panels are beginning to find a place in the mobile market, owing to improved production processes.
 
 | Question 2: What is context awareness? Give one example of a context awareness mobile app. |
 | :----------------------------------------------------------------------------------------- |
 
-TODO: w5q2
+Context awareness is where a mobile application can utilise existing system context, like time and previous app usage, to change behaviour. This is primarily used for features such as app suggestion, whereby usage statistics can be utilised to recommend an app that the user commonly uses at that time, in that place, or in that order.
 
 | Question 3: What are the challenges for doing Augmented Reality on a mobile device? |
 | :---------------------------------------------------------------------------------- |
 
-TODO: w5q3
+Most of the challenges revolve around machine vision, as the visual signal from the camera(s) can be quite complex to process and add onto; Augmented reality involves a 3D renderer that renders over the image of a camera, and doing so in 3D space is complex enough on its own without factoring in depth and object occlusion.
+
+Additionally, some forms of augmented reality utilise a fixed eye position to properly overlay the image onto a user's vision, whereas mobile AR doesn't have the ability to do this without mounting the phone to someone's head; the Microsoft Hololens uses a transparent display to add in elements to the user's vision, rather than on a video feed on a screen.
 
 ## Week 5 Lab Work
 
-TODO: Document further week 5
-
+Editing a simple shell script that performs the pwd and ls commands
 ![Editing a simple shell script that performs the pwd and ls commands](img/lab5-001.png)
+Editing a simple shell script that asks the user's name then says Hello to them
 ![Editing a simple shell script that asks the user's name then says Hello to them](img/lab5-002.png)
+Here it is being run
 ![Here it is being run](img/lab5-003.png)
+Simple shell script showing loop capability
 ![Simple shell script showing loop capability](img/lab5-004.png)
+Simple shell script showing loop capability being executed
 ![Simple shell script showing loop capability being executed](img/lab5-005.png)
+Simple shell script demonstrating while loops and getting an input to break or continue the loop
 ![Simple shell script demonstrating while loops and getting an input to break or continue the loop](img/lab5-006.png)
+Here it is being executed
 ![Here it is being executed](img/lab5-007.png)
+
+## Week 7 Questions
+
+| Question 1: Describe the three steps to design a circuit, given the specification. |
+| :--------------------------------------------------------------------------------- |
+|                                                                                    |
+
+Write the truth table: Using the specification, you can map out a truth table using all the expected inputs and outputs.
+
+Deriving the Boolean expression: Utilising the truth table, you can work out all the boolean expressions relevant to the circuit based on the required inputs and outputs.
+
+Simplifying the expression: Utilising logical axioms and laws, you can begin to simplify the boolean expression, which helps to demonstrate what elements are needed in the circuit.
+
+| Question 2: Explain the difference between a sequential logic circuit and a combinational logic circuit. |
+| :------------------------------------------------------------------------------------------------------- |
+|                                                                                                          |
+
+Combinational logic is sometimes described as time independent logic, as the logic is determined by the inputs at a single time. There's no concept of state. This differs from sequential logic, where various combinational logic elements are utilised to imply a logical state, whereby the logic of a system is dependent on time, previous and future inputs; adders and multiplexers are combinationally logical, whereas flip-flops are sequentially logical.
+
+As a rule, in Combinational logic, the output is deterministic based on the inputs, whereas in Sequential logic it is not.
+
+<https://www.differencebetween.com/difference-between-combinational-and-sequential-logic/>
+
+| Question 3: Describe the Set-Reset Flip-Flop. What is its problem? |
+| :----------------------------------------------------------------- |
+|                                                                    |
+
+This circuit is a bi-stable circuit used in sequential logic, effectively a 1-bit memory cell that can store a value. This value can be set or reset depending on the input utilised. It's one of the most simple memory cells, and as such has issues. These issues revolve around the truth table having some states that are non-allowed or indeterminate, making the operation of the SR flip-flop more complex. The truth table is as follows:
+
+| !S  | !R  | Q   | !Q  | Comments                                                           |
+| :-- | :-- | :-- | :-- | :----------------------------------------------------------------- |
+| 0   | 1   | 1   | 0   | Q is set to 1 by 0 on !S                                           |
+| 1   | 1   | 1   | 0   | No change (1 on Q is remembered)                                   |
+| 1   | 0   | 0   | 1   | Q is reset to 0 by 0 on !R                                         |
+| 1   | 1   | 0   | 1   | No change (0 on Q is remembered)                                   |
+| 0   | 0   | 1   | 1   | Both inputs at 0 - both outputs are 1 (non-allowed state)          |
+| 1   | 1   | ?   | ?   | Inputs change from 0,0 to 1,1 together - Outputs are indeterminate |
+
+Due to the non-allowed state and the indeterminate value, this circuit is usually not utilised over more complex memory cells, though the ideas utilised by the SR latch carry over.
+
+<https://www.learnabout-electronics.org/Digital/dig52.php>
+
+## Week 7 Lab Work
+
+Circuit diagram
+
+![Circuit diagram](img/lab7-001.png)
+
+This tool can generate a truth table based on the circuit.
+
+![Truth Table](img/lab7-002.png)
+
+The task is to create a circuit using this truth table. I've added in expressions for the table.
+
+| I1  | I2  | I3  | O1  | Expression     |
+| :-- | :-- | :-- | :-- | :------------- |
+| 0   | 0   | 0   | 0   |                |
+| 0   | 0   | 1   | 0   |                |
+| 0   | 1   | 0   | 1   | `!I1. I2. !I3` |
+| 0   | 1   | 1   | 1   | `!I1. I32. I`  |
+| 1   | 0   | 0   | 0   |                |
+| 1   | 0   | 1   | 0   |                |
+| 1   | 1   | 0   | 0   |                |
+| 1   | 1   | 1   | 1   | `I1. I2. I3`   |
+
+Using this table, we can work out that the boolean expression for this truth table is:
+
+`!I1. I2. !I3 + !I1. I2. I3 + I1. I2. I3`
+
+Each `.` is an and gate, and each `+` is an or gate. Using this, the circuit looks like this:
+
+![Messy circuit](img/lab7-004.png)
+
+This circuit is very messy, however. Utilising these laws and axioms, it's possible to simplify this boolean expression.
+
+![Laws and Axioms](img/lab7-003.png)
