@@ -1,0 +1,11 @@
+-classpath '/home/char/summerysaturn/y1-university/401-Programming/project-a2/Breakout/build/classes/java/main:/home/char/summerysaturn/y1-university/401-Programming/project-a2/Breakout/build/resources/main:/home/char/.gradle/caches/modules-2/files-2.1/org.openjfx/javafx-controls/15.0.1/11efce24b8ac1a119ec355fd7302dd1e373eb7dd/javafx-controls-15.0.1-linux.jar:/home/char/.gradle/caches/modules-2/files-2.1/org.openjfx/javafx-graphics/15.0.1/6ab161d111b173da74d3754fd4017cf17d491d58/javafx-graphics-15.0.1-linux.jar:/home/char/.gradle/caches/modules-2/files-2.1/org.openjfx/javafx-graphics/15.0.1/55565f47d9d4e295f8bdeb8a6577e29b8bc29267/javafx-graphics-15.0.1.jar:/home/char/.gradle/caches/modules-2/files-2.1/org.openjfx/javafx-base/15.0.1/181dfd960832b85c67764d229c8c6fdba5cd5a35/javafx-base-15.0.1-linux.jar:/home/char/.gradle/caches/modules-2/files-2.1/org.openjfx/javafx-base/15.0.1/88d5d4ad546e17904516fd05be69243e54144af4/javafx-base-15.0.1.jar'
+-d '/home/char/summerysaturn/y1-university/401-Programming/project-a2/Breakout/build/docs/javadoc'
+-doctitle 'Breakout API'
+-quiet 
+-windowtitle 'Breakout API'
+'/home/char/summerysaturn/y1-university/401-Programming/project-a2/Breakout/src/main/java/View.java'
+'/home/char/summerysaturn/y1-university/401-Programming/project-a2/Breakout/src/main/java/Model.java'
+'/home/char/summerysaturn/y1-university/401-Programming/project-a2/Breakout/src/main/java/Controller.java'
+'/home/char/summerysaturn/y1-university/401-Programming/project-a2/Breakout/src/main/java/GameObj.java'
+'/home/char/summerysaturn/y1-university/401-Programming/project-a2/Breakout/src/main/java/Debug.java'
+'/home/char/summerysaturn/y1-university/401-Programming/project-a2/Breakout/src/main/java/Main.java'

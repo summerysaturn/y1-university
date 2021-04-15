@@ -4,8 +4,8 @@
  * @version 1.0
  */
 
-public class Debug
-{
+public class Debug {
+
   private static boolean debug = true;
 
   /**
@@ -13,8 +13,7 @@ public class Debug
    * @param state Debugging true false
    * @return The old state
    */
-  public static synchronized boolean set( boolean state )
-  {
+  public static synchronized boolean set(boolean state) {
     boolean oldState = debug;
     debug = state;
     return oldState;
@@ -25,13 +24,10 @@ public class Debug
    * @param fmt  The same as printf etc
    * @param params The parameters to fmt
    */
-  public static void trace(String fmt, Object... params )
-  {
-    if ( debug )
-    {
-      synchronized( Debug.class )
-      {
-        System.out.printf( fmt, params );
+  public static void trace(String fmt, Object... params) {
+    if (debug) {
+      synchronized (Debug.class) {
+        System.out.printf(fmt, params);
         System.out.println();
       }
     }
@@ -43,11 +39,9 @@ public class Debug
    * @param fmt The same as printf etc
    * @param params The parameters to fmt
    */
-  public static void assertTrue( boolean ok, String fmt, Object... params )
-  {
-    if ( ! ok )
-    {
-      error( "Assert - " + fmt, params );
+  public static void assertTrue(boolean ok, String fmt, Object... params) {
+    if (!ok) {
+      error("Assert - " + fmt, params);
     }
   }
 
@@ -56,10 +50,8 @@ public class Debug
    * @param fmt The same as printf etc
    * @param params The parameters to fmt
    */
-  public static synchronized void error(String fmt, Object... params )
-  {
-    System.out.printf( "ERROR: " + fmt, params );
+  public static synchronized void error(String fmt, Object... params) {
+    System.out.printf("ERROR: " + fmt, params);
     System.out.println();
   }
-
 }
