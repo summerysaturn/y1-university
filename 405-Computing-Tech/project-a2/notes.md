@@ -19,6 +19,8 @@ Charlotte Ward | CI405 Assignment 2 | Year 1 CSG
   * [Week 5 Lab Work](#week-5-lab-work)
   * [Week 7 Questions](#week-7-questions)
   * [Week 7 Lab Work](#week-7-lab-work)
+  * [Week 8 Questions](#week-8-questions)
+  * [Week 8 Lab Work](#week-8-lab-work)
 
 ## Week 1 Questions
 
@@ -463,3 +465,37 @@ Each `.` is an and gate, and each `+` is an or gate. Using this, the circuit loo
 This circuit is very messy, however. Utilising these laws and axioms, it's possible to simplify this boolean expression.
 
 ![Laws and Axioms](img/lab7-003.png)
+
+## Week 8 Questions
+
+| Question 1: What is a data bus, an address bus, and a control bus? |
+| :----------------------------------------------------------------- |
+|                                                                    |
+
+Data busses are a set of wires or a connector inside a computer used for sending data. It often has a bit width of a power of 2, such as 8, 16, 64, etc. This differs from an address bus, which is utilised to address specific memory on another device or another memory location. Data busses directly send data whereas an address bus is more of a data reference.
+
+Control busses usually refer to system clock or to interrupt request, but the general idea is that they involve control from the CPU or a various chipset for submodules in the PC. The clock and interrupt request busses are utilised by other chips in the PC, such as with memory cells, which rely on clk to set and unset bits.
+
+https://www.techopedia.com/definition/6733/data-bus
+
+https://www.techopedia.com/definition/292/address-bus
+
+https://www.techopedia.com/definition/303/control-bus
+
+| Question 2: Explain the signal reflection problem. |
+| :------------------------------------------------- |
+|                                                    |
+
+Signal reflection is where hardware interfaces like cables or wireless transmissions can be partially reflected rather than being absorbed by the opposing receiver. This can affect the clarity of the signal, potentially causing data loss due to the signal being less clear. With physical cables it arises because of imperfections in the cable, whether it's copper or fiber or something else. In ideal scenarios it's not a problem, but with real-world scenarios it must be considered as a factor as it can introduce issues.
+
+https://www.infobloom.com/what-is-signal-reflection.htm
+
+| Question 3: What are the problems of parallel communication? |
+| :----------------------------------------------------------- |
+|                                                              |
+
+Parallel communication is where data is sent using multiple data lines, a byte or more at a time, rather than a single data line, with each bit in a sequence. It is much faster as there's simply more width to the connection. Some of the issues arise from the hardware complexity of the communication, as it takes at least 8x as many traces/wires to implement. Additionally, if a single line is damaged, all of the data sent will be incomplete. Finally, crosstalk is a phenomenon whereby some of the bits can be flipped due to various types of interference, causing the bytes sent to be incorrect. These issues are mitigated in serial communication as it's more obvious if the data is corrupted, and the overall complexity is much lower.
+
+## Week 8 Lab Work
+
+
