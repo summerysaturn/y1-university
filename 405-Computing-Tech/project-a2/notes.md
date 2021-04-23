@@ -498,4 +498,41 @@ Parallel communication is where data is sent using multiple data lines, a byte o
 
 ## Week 8 Lab Work
 
+1. Download the following files on the course website. Make sure they are in the same directory.
 
+- _junit-4.12.jar_: the main JUnit testing package.
+- _hamcrest-core-1.3.jar_: the frameowrk for doing object matchings.
+- _Calculator.java_: the Java program to be tested. It contains a function to add 2 numbers.
+
+2. Create the following Java tester file "CalculatorTest.java".
+
+   ```Java
+   import static org.junit.Assert.*;
+   import org.junit.Test;
+
+   public class CalculatorTest
+   {
+     @Test
+     public void testAdd1() // 1st test
+     {
+       Calculator calculator = new Calculator();  // create a new object to be tested
+       double result = calculator.add(10, 50);    // try adding 50 to 10
+       assertEquals(60, result, 0);               // used to check the result
+     }
+
+     @Test
+     public void testAdd2()
+     {
+       Calculator calculator = new Calculator();
+       double result = calculator.add(7.5,1.5);
+       assertEquals(9.0, result, 0);
+     }
+   }
+   ```
+
+3. Compile all java files. The command line argument `-cp` is used to specify the class path of the JUnit files. On Linux: `javac -cp .:junit-4.12.jar:hamcrest-core-1.3.jar *.java`
+4. Run the test. On Linux: `java -cp .:junit-4.12.jar:hamcrest-core-1.3.jar org.junit.runner.JUnitCore CalculatorTest`
+
+Nothing too bad this week, just some effort making sure that I've followed the brief properly.
+
+![Lab 8 work](img/lab8-001.png)

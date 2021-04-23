@@ -24,6 +24,8 @@
 <li><a href="#week-5-lab-work">Week 5 Lab Work</a></li>
 <li><a href="#week-7-questions">Week 7 Questions</a></li>
 <li><a href="#week-7-lab-work">Week 7 Lab Work</a></li>
+<li><a href="#week-8-questions">Week 8 Questions</a></li>
+<li><a href="#week-8-lab-work">Week 8 Lab Work</a></li>
 </ul></li>
 </ul>
 <h2 id="week-1-questions">Week 1 Questions</h2>
@@ -514,4 +516,82 @@ $ head -20 1661-0.txt</code></pre>
 <figure>
 <img src="img/lab7-003.png" alt="" /><figcaption>Laws and Axioms</figcaption>
 </figure>
+<h2 id="week-8-questions">Week 8 Questions</h2>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Question 1: What is a data bus, an address bus, and a control bus?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+<p>Data busses are a set of wires or a connector inside a computer used for sending data. It often has a bit width of a power of 2, such as 8, 16, 64, etc. This differs from an address bus, which is utilised to address specific memory on another device or another memory location. Data busses directly send data whereas an address bus is more of a data reference.</p>
+<p>Control busses usually refer to system clock or to interrupt request, but the general idea is that they involve control from the CPU or a various chipset for submodules in the PC. The clock and interrupt request busses are utilised by other chips in the PC, such as with memory cells, which rely on clk to set and unset bits.</p>
+<p>https://www.techopedia.com/definition/6733/data-bus</p>
+<p>https://www.techopedia.com/definition/292/address-bus</p>
+<p>https://www.techopedia.com/definition/303/control-bus</p>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Question 2: Explain the signal reflection problem.</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+<p>Signal reflection is where hardware interfaces like cables or wireless transmissions can be partially reflected rather than being absorbed by the opposing receiver. This can affect the clarity of the signal, potentially causing data loss due to the signal being less clear. With physical cables it arises because of imperfections in the cable, whether it’s copper or fiber or something else. In ideal scenarios it’s not a problem, but with real-world scenarios it must be considered as a factor as it can introduce issues.</p>
+<p>https://www.infobloom.com/what-is-signal-reflection.htm</p>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Question 3: What are the problems of parallel communication?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+<p>Parallel communication is where data is sent using multiple data lines, a byte or more at a time, rather than a single data line, with each bit in a sequence. It is much faster as there’s simply more width to the connection. Some of the issues arise from the hardware complexity of the communication, as it takes at least 8x as many traces/wires to implement. Additionally, if a single line is damaged, all of the data sent will be incomplete. Finally, crosstalk is a phenomenon whereby some of the bits can be flipped due to various types of interference, causing the bytes sent to be incorrect. These issues are mitigated in serial communication as it’s more obvious if the data is corrupted, and the overall complexity is much lower.</p>
+<h2 id="week-8-lab-work">Week 8 Lab Work</h2>
+<ol type="1">
+<li>Download the following files on the course website. Make sure they are in the same directory.</li>
+</ol>
+<ul>
+<li><em>junit-4.12.jar</em>: the main JUnit testing package.</li>
+<li><em>hamcrest-core-13.jar</em>: the frameowrk for doing object matchings.</li>
+<li><em>Calculator.java</em>: the Java program to be tested. It contains a function to add 2 numbers.</li>
+</ul>
+<ol start="2" type="1">
+<li><p>Create the following Java tester file “CalculatorTest.java”.</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode java"><code class="sourceCode java"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true"></a><span class="kw">import static</span><span class="im"> org.junit.Assert.*;</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true"></a><span class="kw">import</span><span class="im"> org.junit.Test;</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true"></a></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true"></a><span class="kw">public</span> <span class="kw">class</span> CalculatorTest</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true"></a>{</span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true"></a>  <span class="at">@Test</span></span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true"></a>  <span class="kw">public</span> <span class="dt">void</span> <span class="fu">testAdd1</span>() <span class="co">// 1st test</span></span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true"></a>  {</span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true"></a>    Calculator calculator = <span class="kw">new</span> <span class="fu">Calculator</span>();  <span class="co">// create a new object to be tested</span></span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true"></a>    <span class="dt">double</span> result = calculator.<span class="fu">add</span>(<span class="dv">10</span>, <span class="dv">50</span>);    <span class="co">// try adding 50 to 10</span></span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true"></a>    <span class="fu">assertEquals</span>(<span class="dv">60</span>, result, <span class="dv">0</span>);               <span class="co">// used to check the result</span></span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true"></a>  }</span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true"></a></span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true"></a>  <span class="at">@Test</span></span>
+<span id="cb4-15"><a href="#cb4-15" aria-hidden="true"></a>  <span class="kw">public</span> <span class="dt">void</span> <span class="fu">testAdd2</span>()</span>
+<span id="cb4-16"><a href="#cb4-16" aria-hidden="true"></a>  {</span>
+<span id="cb4-17"><a href="#cb4-17" aria-hidden="true"></a>    Calculator calculator = <span class="kw">new</span> <span class="fu">Calculator</span>();</span>
+<span id="cb4-18"><a href="#cb4-18" aria-hidden="true"></a>    <span class="dt">double</span> result = calculator.<span class="fu">add</span>(<span class="fl">7.</span><span class="dv">5</span>,<span class="fl">1.</span><span class="dv">5</span>);</span>
+<span id="cb4-19"><a href="#cb4-19" aria-hidden="true"></a>    <span class="fu">assertEquals</span>(<span class="fl">9.</span><span class="dv">0</span>, result, <span class="dv">0</span>);</span>
+<span id="cb4-20"><a href="#cb4-20" aria-hidden="true"></a>  }</span>
+<span id="cb4-21"><a href="#cb4-21" aria-hidden="true"></a>}</span></code></pre></div></li>
+</ol>
 </div>
