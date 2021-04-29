@@ -1,6 +1,3 @@
-## Remove resources folder due to size
-resources/
-
 ## Core latex/pdflatex auxiliary files:
 *.aux
 *.lof
@@ -284,4 +281,3 @@ TSWLatexianTemp*
 
 # Ignore Gradle build output directory
 build
-

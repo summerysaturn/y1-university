@@ -17,13 +17,14 @@ import javafx.stage.Stage;
  * The View component in the Model/View/Controller framework in this application
  */
 public class View {
-  int H = 420; // Height of window pixels
+  int H = 500; // Height of window pixels
   int W = 500; // Width of window pixels
 
   // variables for components of the user interface
   Label title; // Title area (not the window title)
   TextField message; // Message area, where numbers appear
   TextArea reply; // Reply area where results or info are shown
+
   ScrollPane scrollPane; // scrollbars around the TextArea object
   GridPane grid; // main layout grid
   TilePane buttonPane; // tiled area for buttons
@@ -32,16 +33,21 @@ public class View {
   public Model model;
   public Controller controller;
 
-  // we don't really need a constructor method, but include one to print a
-  // debugging message if required
+  /**
+   * Constructor method that prints a debug message (if required).
+   */
   public View() {
     Debug.trace("View::<constructor>");
   }
 
-  // start is called from Main, to start the GUI up
-  // Note that it is important to create controls etc here and
-  // not in the constructor (or as initialisations to instance variables),
-  // because we need things to be initialised in the right order
+  /**
+   * start is called from Main, to start the GUI up. Note that it is important to
+   * create controls etc here and not in the constructor (or as initialisations to
+   * instance variables), because we need things to be initialised in the right
+   * order
+   *
+   * @param window Stage window passed in from Main
+   */
   public void start(Stage window) {
     Debug.trace("View::start");
 
@@ -61,14 +67,18 @@ public class View {
     grid.add(title, 0, 0); // Add to GUI at the top
 
     message = new TextField(); // text field for numbers and error messages
+    message.getStyleClass().add("TextField");
     message.setEditable(false); // Read only (user can't type in)
     grid.add(message, 0, 1); // Add to GUI on second row
 
     reply = new TextArea(); // multi-line text area for instructions
+    reply.getStyleClass().add("TextArea");
     reply.setEditable(false); // Read only (user can't type in)
-    scrollPane = new ScrollPane(); // create a scrolling window
-    scrollPane.setContent(reply); // put the text area 'inside' the scrolling window
-    grid.add(scrollPane, 0, 2); // add the scrolling window to GUI on third row
+    // scrollPane = new ScrollPane(); // create a scrolling window
+    // scrollPane.getStyleClass().add("ScrollPane");
+    // scrollPane.setContent(reply); // put the text area 'inside' the scrolling
+    // window
+    grid.add(reply, 0, 2); // add the scrolling window to GUI on third row
 
     // Buttons - these are laid out on a tiled pane, then
     // the whole pane is added to the main grid as the fourth row
@@ -76,8 +86,8 @@ public class View {
     // Button labels - empty strings are for blank spaces
     // The number of button per row should match what is set in
     // the css file
-    String[][] labels = { { "7", "8", "9", "", "Dep", "" }, { "4", "5", "6", "", "W/D", "" },
-        { "1", "2", "3", "", "Bal", "Fin" }, { "CLR", "0", "", "", "", "Ent" } };
+    String[][] labels = { { "7", "8", "9", "", "Dep", "W/D" }, { "4", "5", "6", "", "Bal", "" },
+        { "1", "2", "3", "", "", "" }, { "CLR", "0", "", "", "Fin", "Ent" } };
 
     // loop through the array, making a Button object for each label
     // (and an empty text label for each blank space) and adding them to the
@@ -106,25 +116,28 @@ public class View {
     window.show();
   }
 
-  // This is how the View talks to the Controller
-  // This method is called when a button is pressed
-  // It fetches the label on the button and passes it to the controller's process
-  // method
+  /**
+   * This is how the View talks to the Controller. This method is called when a
+   * button is pressed. It fetches the label on the button and passes it to the
+   * controller's process method
+   *
+   * @param event an ActionEvent called by a button in the view, has a label which
+   *              is read.
+   */
   public void buttonClicked(ActionEvent event) {
-    // this line asks the event to provide the actual Button object that was clicked
     Button b = ((Button) event.getSource());
     if (controller != null) {
       String label = b.getText(); // get the button label
       Debug.trace("View::buttonClicked: label = " + label);
-      // Try setting a breakpoint here
-      controller.process(label); // Pass it to the controller's process method
+      controller.process(label); // process the controlled based on the label
     }
   }
 
-  // This is how the Model talks to the View
-  // This method gets called BY THE MODEL, whenever the model changes
-  // It fetches th title, display1 and display2 variables from the model
-  // and displays them in the GUI
+  /**
+   * This is how the Model talks to the View. This method gets called BY THE
+   * MODEL, whenever the model changes It fetches the title, display1 and display2
+   * variables from the model and displays them in the GUI
+   */
   public void update() {
     if (model != null) {
       Debug.trace("View::update");
