@@ -8,6 +8,11 @@ import javafx.stage.Stage;
 // The assessment project is to add further functionality as discussed in lectures and
 // seminars. Tutors may not help directly with this but will talk you through examples and
 // answer questions.
+
+/**
+ * Main class which instantiates the other classes and links them together.
+ * Entry point for the project.
+ */
 public class Main extends Application {
   public static void main(String[] args) {
     // The main method only gets used when launching from the command line

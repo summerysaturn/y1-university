@@ -1,8 +1,3 @@
-/**
- * A simple implementation of a bank object, which contains a list of bank
- * accounts.
- */
-
 // Bank class - simple implementation of a bank, with a list of bank accounts,
 // an
 // a current account that we are logged in to.
@@ -17,6 +12,11 @@
 // to
 // the system yourself, based on similar examples we will cover in lectures and
 // labs.
+
+/**
+ * A simple implementation of a bank object, which contains a list of bank
+ * accounts.
+ */
 public class Bank {
   // Instance variables containing the bank information
   int maxAccounts = 10; // maximum number of accounts the bank can hold
@@ -71,12 +71,6 @@ public class Bank {
     // search the array to find a bank account with matching account and password.
     // If you find it, store it in the variable currentAccount and return true.
     // If you don't find it, reset everything and return false
-
-    // TODO: YOU NEED TO ADD CODE HERE TO FIND THE RIGHT ACCOUNT IN THE accounts
-    // ARRAY,
-    // SET THE account VARIABLE AND RETURN true
-
-    // not found - return false
 
     for (BankAccount bankAccount : accounts) {
       if (newAccNumber == bankAccount.accNumber) {

@@ -5,7 +5,6 @@
 
 // We import lots of JavaFX libraries (we may not use them all, but it
 // saves us having to think about them if we add new code)
-import java.io.Console;
 
 import javafx.event.ActionEvent;
 import javafx.scene.Scene;

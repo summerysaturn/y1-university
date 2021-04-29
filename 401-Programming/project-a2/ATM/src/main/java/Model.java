@@ -1,7 +1,3 @@
-/**
- * The Model component in the Model/View/Controller framework in this
- * application
- */
 
 // The model represents all the actual content and functionality of the app
 // For the ATM, it keeps track of the information shown in the display
@@ -9,6 +5,11 @@
 // executes
 // commands provided by the controller and tells the view to update when
 // something changes
+
+/**
+ * The Model component in the Model/View/Controller framework in this
+ * application
+ */
 public class Model {
   // the ATM model is always in one of three states - waiting for an account
   // number,
@@ -93,35 +94,35 @@ public class Model {
   public void processEnter() {
     // Enter was pressed - what we do depends what state the ATM is already in
     switch (state) {
-      case ACCOUNT_NO:
-        // we were waiting for a complete account number - save the number we have
-        // reset the tyed in number to 0 and change to the state where we are expecting
-        // a password
-        accNumber = number;
-        number = 0;
-        setState(PASSWORD);
-        display1 = "";
-        display2 = "Now enter your password\n" + "Followed by \"Ent\"";
-        break;
-      case PASSWORD:
-        // we were waiting for a password - save the number we have as the password
-        // and then cotnact the bank with accumber and accPasswd to try and login to
-        // an account
-        accPasswd = number;
-        number = 0;
-        display1 = "";
-        // now check the account/password combination. If it's ok go into the LOGGED_IN
-        // state, otherwise go back to the start (by re-initialsing)
-        if (bank.login(accNumber, accPasswd)) {
-          setState(LOGGED_IN);
-          display2 = "Accepted\n" + "Now enter the transaction you require";
-        } else {
-          initialise("Unknown account/password");
-        }
-        break;
-      case LOGGED_IN:
-      default:
-        // do nothing in any other state (ie logged in)
+    case ACCOUNT_NO:
+      // we were waiting for a complete account number - save the number we have
+      // reset the tyed in number to 0 and change to the state where we are expecting
+      // a password
+      accNumber = number;
+      number = 0;
+      setState(PASSWORD);
+      display1 = "";
+      display2 = "Now enter your password\n" + "Followed by \"Ent\"";
+      break;
+    case PASSWORD:
+      // we were waiting for a password - save the number we have as the password
+      // and then cotnact the bank with accumber and accPasswd to try and login to
+      // an account
+      accPasswd = number;
+      number = 0;
+      display1 = "";
+      // now check the account/password combination. If it's ok go into the LOGGED_IN
+      // state, otherwise go back to the start (by re-initialsing)
+      if (bank.login(accNumber, accPasswd)) {
+        setState(LOGGED_IN);
+        display2 = "Accepted\n" + "Now enter the transaction you require";
+      } else {
+        initialise("Unknown account/password");
+      }
+      break;
+    case LOGGED_IN:
+    default:
+      // do nothing in any other state (ie logged in)
     }
     display(); // update the GUI
   }

@@ -1,6 +1,3 @@
-/**
- * The object type of a bank account
- */
 
 // BankAccount class
 // This class has instance variables for the account number, password and
@@ -13,13 +10,16 @@
 // to the system yourself, based on similar examples we will cover in lectures
 // and labs.
 
+/**
+ * The object type of a bank account
+ */
 public class BankAccount {
 
   public int accNumber = 0;
   public int accPasswd = 0;
   public int balance = 0;
 
-  // empty constructor, seems potentially harmful
+  // empty constructor
   /*
    * public BankAccount() { }
    */
@@ -35,23 +35,35 @@ public class BankAccount {
   public boolean withdraw(int amount) {
     Debug.trace("BankAccount::withdraw: amount =" + amount);
 
-    // TODO: CHANGE CODE HERE TO WITHDRAW MONEY FROM THE ACCOUNT
-    return false;
+    if (amount < 0) {
+      // working as intended, withdraw and return true
+      balance -= amount;
+      return true;
+    } else {
+      // shouldn't get here but return false if it does
+      return false;
+    }
   }
 
   // deposit the amount of money into the account. Return true if successful,
   // or false if the amount is negative
   public boolean deposit(int amount) {
     Debug.trace("LocalBank::deposit: amount = " + amount);
-    // TODO: CHANGE CODE HERE TO DEPOSIT MONEY INTO THE ACCOUNT
-    return false;
+
+    if (amount > 0) {
+      // working as intended, deposit and return true
+      balance += amount;
+      return true;
+    } else {
+      // shouldn't get here but return false if it does
+      return false;
+    }
   }
 
   // Return the current balance in the account
   public int getBalance() {
     Debug.trace("LocalBank::getBalance");
 
-    // TODO: CHANGE CODE HERE TO RETURN THE BALANCE
-    return 0;
+    return balance;
   }
 }
