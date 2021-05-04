@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 // Bank class - simple implementation of a bank, with a list of bank accounts,
 // an
 // a current account that we are logged in to.
@@ -138,6 +140,14 @@ public class Bank {
       return account.getBalance();
     } else {
       return -1; // use -1 as an indicator of an error
+    }
+  }
+
+  public ArrayList<String> getHistory () {
+    if (loggedIn()) {
+      return account.getHistory();
+    } else {
+      return null;
     }
   }
 }

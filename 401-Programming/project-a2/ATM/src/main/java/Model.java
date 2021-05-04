@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 
 // The model represents all the actual content and functionality of the app
 // For the ATM, it keeps track of the information shown in the display
@@ -188,7 +189,13 @@ public class Model {
 
   public void processStatement() {
     if (state.equals(LOGGED_IN)) {
-      // TODO: Fetch info from account history (added in this commit)
+      ArrayList<String> transactionHistory = bank.getHistory();
+      display2="";
+
+      for (int i = 0; i < transactionHistory.size(); i++) {
+        display2 += transactionHistory.get(i) + "\n";
+      }
+
     } else {
       initialise("You are not logged in");
     }

@@ -1,5 +1,6 @@
 import java.sql.Time;
 import java.time.LocalDate;
+import java.util.ArrayList;
 
 // BankAccount class
 // This class has instance variables for the account number, password and
@@ -22,7 +23,7 @@ public class BankAccount {
   public int balance = 0;
 
   // empty transaction log
-  public String[] history = {};
+  public ArrayList<String> history = new ArrayList<String>();
 
   // empty constructor
   /*
@@ -40,13 +41,13 @@ public class BankAccount {
   public boolean withdraw(int amount) {
     Debug.trace("BankAccount::withdraw: amount =" + amount);
 
-    if (amount < 0) {
+    if (amount > 0) {
       // working as intended, withdraw and return true
       balance -= amount;
-      history[history.length] = "withdrew " + amount + " on " + LocalDate.now();
+      history.add("withdrew " + amount + " on " + LocalDate.now());
       return true;
     } else {
-      // shouldn't get here but return false if it does
+      // negative withdrawal amount, panic
       return false;
     }
   }
@@ -59,12 +60,16 @@ public class BankAccount {
     if (amount > 0) {
       // working as intended, deposit and return true
       balance += amount;
-      history[history.length] = "deposited " + amount + " on " + LocalDate.now();
+      history.add("deposited " + amount + " on " + LocalDate.now());
       return true;
     } else {
-      // shouldn't get here but return false if it does
+      // negative deposit amount, panic
       return false;
     }
+  }
+
+  public ArrayList<String> getHistory() {
+    return history;
   }
 
   // Return the current balance in the account
