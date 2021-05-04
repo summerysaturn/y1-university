@@ -55,6 +55,9 @@ public class Controller {
     case "Fin":
       model.processFinish();
       break;
+    case "Sta":
+      model.processStatement();
+      break;
     default:
       model.processUnknownKey(action);
       break;

@@ -186,6 +186,15 @@ public class Model {
     display(); // update the GUI
   }
 
+  public void processStatement() {
+    if (state.equals(LOGGED_IN)) {
+      // TODO: Fetch info from account history (added in this commit)
+    } else {
+      initialise("You are not logged in");
+    }
+    display();
+  }
+
   // Any other key results in an error message and a reset of the GUI
   public void processUnknownKey(String action) {
     // unknown button, or invalid for this state - reset everything

@@ -86,7 +86,7 @@ public class View {
     // Button labels - empty strings are for blank spaces
     // The number of button per row should match what is set in
     // the css file
-    String[][] labels = { { "7", "8", "9", "", "Dep", "W/D" }, { "4", "5", "6", "", "Bal", "" },
+    String[][] labels = { { "7", "8", "9", "", "Dep", "W/D" }, { "4", "5", "6", "", "Bal", "Sta" },
         { "1", "2", "3", "", "", "" }, { "CLR", "0", "", "", "Fin", "Ent" } };
 
     // loop through the array, making a Button object for each label

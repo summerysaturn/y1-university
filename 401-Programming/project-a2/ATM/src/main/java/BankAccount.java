@@ -1,3 +1,5 @@
+import java.sql.Time;
+import java.time.LocalDate;
 
 // BankAccount class
 // This class has instance variables for the account number, password and
@@ -19,6 +21,9 @@ public class BankAccount {
   public int accPasswd = 0;
   public int balance = 0;
 
+  // empty transaction log
+  public String[] history = {};
+
   // empty constructor
   /*
    * public BankAccount() { }
@@ -38,6 +43,7 @@ public class BankAccount {
     if (amount < 0) {
       // working as intended, withdraw and return true
       balance -= amount;
+      history[history.length] = "withdrew " + amount + " on " + LocalDate.now();
       return true;
     } else {
       // shouldn't get here but return false if it does
@@ -53,6 +59,7 @@ public class BankAccount {
     if (amount > 0) {
       // working as intended, deposit and return true
       balance += amount;
+      history[history.length] = "deposited " + amount + " on " + LocalDate.now();
       return true;
     } else {
       // shouldn't get here but return false if it does
