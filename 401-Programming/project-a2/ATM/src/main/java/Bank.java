@@ -1,52 +1,59 @@
 import java.util.ArrayList;
 
-// Bank class - simple implementation of a bank, with a list of bank accounts,
-// an
-// a current account that we are logged in to.
-
-// This class contains one method ('login') which you need to complete as part
-// of
-// the lab exercise to make the basic ATM work. Tutors can help you get this
-// part
-// working in lab sessions.
-
-// If you choose the ATM for your project, you should make other modifications
-// to
-// the system yourself, based on similar examples we will cover in lectures and
-// labs.
-
 /**
  * A simple implementation of a bank object, which contains a list of bank
  * accounts.
  */
 public class Bank {
   // Instance variables containing the bank information
-  int maxAccounts = 10; // maximum number of accounts the bank can hold
-  int numAccounts = 0; // the number of accounts currently in the bank
+  /**
+   * maximum number of accounts the bank can hold
+   */
+  int maxAccounts = 10;
+  /**
+   * The number of accounts currently in the bank
+   */
+  int numAccounts = 0;
+  /**
+   * Array to hold the bank accounts
+   */
   BankAccount[] accounts = new BankAccount[maxAccounts]; // array to hold the bank accounts
-  BankAccount account = null; // currently logged in acccount ('null' if no-one is logged in)
+  /**
+   * currently logged in acccount ('null' if no-one is logged in)
+   */
+  BankAccount account = null;
 
-  // Constructor method - this provides a couple of example bank accounts to work
-  // with
+  /**
+   * Basic constructor method with debug logging
+   */
   public Bank() {
     Debug.trace("Bank::<constructor>");
   }
 
-  // a method to create new BankAccounts - this is known as a 'factory method' and
-  // is a more
-  // flexible way to do it than just using the 'new' keyword directly.
+  /**
+   * Inialisation method for a bank account. This is a factory method and differs
+   * from using the 'new' keyword.
+   *
+   * @param accNumber account number
+   * @param accPasswd account password
+   * @param balance   initial balance
+   * @return a new BankAccount object
+   */
   public BankAccount makeBankAccount(int accNumber, int accPasswd, int balance) {
     return new BankAccount(accNumber, accPasswd, balance);
   }
 
-  // a method to add a new bank account to the bank - it returns true if it
-  // succeeds
-  // or false if it fails (because the bank is 'full')
+  /**
+   * Method which creates a new bank account.
+   *
+   * @param a new bank account passed
+   * @return true if success or false if there's too many bank accounts
+   */
   public boolean addBankAccount(BankAccount a) {
     if (numAccounts < maxAccounts) {
       accounts[numAccounts] = a;
       numAccounts++;
-      Debug.trace("Bank::addBankAccount: added " + a.accNumber + " " + a.accPasswd + " �" + a.balance);
+      Debug.trace("Bank::addBankAccount: added " + a.accNumber + " " + a.accPasswd + " £" + a.balance);
       return true;
     } else {
       Debug.trace("Bank::addBankAccount: can't add bank account - too many accounts");
@@ -54,11 +61,15 @@ public class Bank {
     }
   }
 
-  // a variant of addBankAccount which makes the account and adds it all in one
-  // go.
-  // Using the same name for this method is called 'method overloading' - two
-  // methods
-  // can have the same name if they take different argument combinations
+  /**
+   * Variant of addBankAccount which constructs a new account from three integers
+   * (rather than an existing account)
+   *
+   * @param accNumber account number
+   * @param accPasswd account password
+   * @param balance   initial balance
+   * @return true if success or false if there's too many bank accounts
+   */
   public boolean addBankAccount(int accNumber, int accPasswd, int balance) {
     return addBankAccount(makeBankAccount(accNumber, accPasswd, balance));
   }
@@ -66,6 +77,14 @@ public class Bank {
   // Check whether the current saved account and password correspond to
   // an actual bank account, and if so login to it (by setting 'account' to it)
   // and return true. Otherwise, reset the account to null and return false
+  /**
+   * Method to log in an account using an account number and a password
+   *
+   * @param newAccNumber login account number
+   * @param newAccPasswd login account password
+   * @return true if logged in, false if not. on true the account is set to the
+   *         account. on false the account is set to null.
+   */
   public boolean login(int newAccNumber, int newAccPasswd) {
     Debug.trace("Bank::login: accNumber = " + newAccNumber);
     logout(); // logout of any previous account
@@ -96,7 +115,9 @@ public class Bank {
     return false;
   }
 
-  // Reset the bank to a 'logged out' state
+  /**
+   * method to log out the current account by setting it to null
+   */
   public void logout() {
     if (loggedIn()) {
       Debug.trace("Bank::logout: logging out, accNumber = " + account.accNumber);
@@ -104,7 +125,11 @@ public class Bank {
     }
   }
 
-  // test whether the bank is logged in to an account or not
+  /**
+   * Method to check whether or not an account is currently logged in
+   *
+   * @return false if not, true if it is.
+   */
   public boolean loggedIn() {
     if (account == null) {
       return false;
@@ -113,8 +138,14 @@ public class Bank {
     }
   }
 
-  // try to deposit money into the account (by calling the deposit method on the
-  // BankAccount object)
+  /**
+   * Method which tries to call account.deposit() if logged in, otherwise returns
+   * false.
+   *
+   * @param amount integer amount of money to deposit
+   * @return true if success, false if not logged in or amount can't be deposited.
+   * @see BankAccount
+   */
   public boolean deposit(int amount) {
     if (loggedIn()) {
       return account.deposit(amount);
@@ -123,8 +154,14 @@ public class Bank {
     }
   }
 
-  // try to withdraw money into the account (by calling the withdraw method on the
-  // BankAccount object)
+  /**
+   * Method which tries to call account.withdraw() if logged in, otherwise returns
+   * false.
+   *
+   * @param amount integer amount of money to withdraw
+   * @return true if success, false if not logged in or amount can't be withdrew.
+   * @see BankAccount
+   */
   public boolean withdraw(int amount) {
     if (loggedIn()) {
       return account.withdraw(amount);
@@ -133,8 +170,12 @@ public class Bank {
     }
   }
 
-  // get the account balance (by calling the balance method on the
-  // BankAccount object)
+  /**
+   * Method which tries to call account.getBalance() if logged in, otherwise
+   * returns false.
+   *
+   * @return -1 as an error value, otherwise returns the account balance.
+   */
   public int getBalance() {
     if (loggedIn()) {
       return account.getBalance();
@@ -143,7 +184,13 @@ public class Bank {
     }
   }
 
-  public ArrayList<String> getHistory () {
+  /**
+   * Method which tries to call account.getHistory() if logged in, otherwise
+   * returns false.
+   *
+   * @return null on error, otherwise an ArrayList of Strings with the history.
+   */
+  public ArrayList<String> getHistory() {
     if (loggedIn()) {
       return account.getHistory();
     } else {
