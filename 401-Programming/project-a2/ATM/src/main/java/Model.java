@@ -1,4 +1,6 @@
 import java.util.ArrayList;
+import java.text.DecimalFormat;
+import java.text.NumberFormat;
 
 // The model represents all the actual content and functionality of the app
 // For the ATM, it keeps track of the information shown in the display
@@ -27,10 +29,20 @@ public class Model {
    */
   final String LOGGED_IN = "logged_in";
 
+  final String SUBSTATE_NONE = "none";
+  final String SUBSTATE_DEPOSIT = "deposit";
+  final String SUBSTATE_WITHDRAW = "withdraw";
+  final String SUBSTATE_BALANCE = "balance";
+  final String SUBSTATE_STATEMENT = "statement";
+
   /**
-   * the state it is currently in
+   * the state the app is in
    */
   String state = ACCOUNT_NO;
+  /**
+   * the substate the app is in, for various functions
+   */
+  String substate = SUBSTATE_NONE;
   /**
    * current number displayed in GUI (as a number, not a string)
    */
@@ -99,7 +111,7 @@ public class Model {
   }
 
   /**
-   * Method to change state, mainly for debug
+   * Method to change state, controls login state
    *
    * @param newState State derived from the immutable state strings
    */
@@ -108,6 +120,19 @@ public class Model {
       String oldState = state;
       state = newState;
       Debug.trace("Model::setState: changed state from " + oldState + " to " + newState);
+    }
+  }
+
+  /**
+   * Method to change substate, utilised by the various functions in the app
+   *
+   * @param newSubstate Substate derived from the immutable state strings
+   */
+  public void setSubstate(String newSubstate) {
+    if (!substate.equals(newSubstate)) {
+      String oldSubstate = substate;
+      substate = newSubstate;
+      Debug.trace("Model::setState: changed state from " + oldSubstate + " to " + newSubstate);
     }
   }
 
@@ -184,10 +209,42 @@ public class Model {
         }
         break;
       case LOGGED_IN:
+        switch (substate) {
+          case SUBSTATE_BALANCE:
+            break;
+          case SUBSTATE_DEPOSIT:
+            processDeposit();
+            break;
+          case SUBSTATE_STATEMENT:
+            break;
+          case SUBSTATE_WITHDRAW:
+            processWithdraw();
+            break;
+          case SUBSTATE_NONE:
+          default:
+            break;
+        }
+        setSubstate(SUBSTATE_NONE);
       default:
         // do nothing in any other state (ie logged in)
         break;
     }
+    display(); // update the GUI
+  }
+
+  public void setWithdraw() {
+    if (state.equals(LOGGED_IN)) {
+      setSubstate(SUBSTATE_WITHDRAW);
+
+      number = 0;
+      display1 = "";
+      display2 = "Enter the value you'd like to withdraw\n" + "Your current balance is "
+          + formatCurrency(bank.getBalance());
+
+    } else {
+      initialise("You are not logged in");
+    }
+
     display(); // update the GUI
   }
 
@@ -201,7 +258,8 @@ public class Model {
   public void processWithdraw() {
     if (state.equals(LOGGED_IN)) {
       if (bank.withdraw(number)) {
-        display2 = "Withdrawn: " + number;
+        display2 = "Withdrawn: " + formatCurrency(number) + "\n" + "Your new balance is "
+            + formatCurrency(bank.getBalance());
       } else {
         display2 = "You do not have sufficient funds";
       }
@@ -210,6 +268,23 @@ public class Model {
     } else {
       initialise("You are not logged in");
     }
+
+    display(); // update the GUI
+  }
+
+  public void setDeposit() {
+    if (state.equals(LOGGED_IN)) {
+      setSubstate(SUBSTATE_DEPOSIT);
+
+      number = 0;
+      display1 = "";
+      display2 = "Enter the value you'd like to deposit\n" + "Your current balance is "
+          + formatCurrency(bank.getBalance());
+
+    } else {
+      initialise("You are not logged in");
+    }
+
     display(); // update the GUI
   }
 
@@ -222,9 +297,13 @@ public class Model {
    */
   public void processDeposit() {
     if (state.equals(LOGGED_IN)) {
+
+      setSubstate(SUBSTATE_DEPOSIT);
+
       bank.deposit(number);
       display1 = "";
-      display2 = "Deposited: " + number;
+      display2 = "Deposited: " + formatCurrency(number) + "\n" + "Your new balance is "
+          + formatCurrency(bank.getBalance());
       number = 0;
     } else {
       initialise("You are not logged in");
@@ -239,10 +318,13 @@ public class Model {
    * @see Controller
    * @see Model
    */
-  public void processBalance() {
+  public void setBalance() {
     if (state.equals(LOGGED_IN)) {
+
+      setSubstate(SUBSTATE_BALANCE);
+
       number = 0;
-      display2 = "Your balance is: " + bank.getBalance();
+      display2 = "Your balance is: " + formatCurrency(bank.getBalance());
     } else {
       initialise("You are not logged in");
     }
@@ -275,8 +357,11 @@ public class Model {
    * @see Controller
    * @see Model
    */
-  public void processStatement() {
+  public void setStatement() {
     if (state.equals(LOGGED_IN)) {
+
+      setSubstate(SUBSTATE_STATEMENT);
+
       ArrayList<String> transactionHistory = bank.getHistory();
       display2 = "";
 
@@ -304,6 +389,22 @@ public class Model {
     // go back to initial state
     initialise("Invalid command");
     display();
+  }
+
+  /**
+   * Load the locale currency and convert a value to that. Ex 500 -> "$5.00"
+   */
+  public String formatCurrency(Long l) {
+    NumberFormat dFormat = DecimalFormat.getCurrencyInstance();
+    return dFormat.format(l / 100.0);
+  }
+
+  /**
+   * integer overload for formatCurrency
+   */
+  public String formatCurrency(int i) {
+    NumberFormat dFormat = DecimalFormat.getCurrencyInstance();
+    return dFormat.format(i / 100.0);
   }
 
   /**

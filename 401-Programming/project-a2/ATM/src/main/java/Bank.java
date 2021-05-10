@@ -94,6 +94,11 @@ public class Bank {
     // If you don't find it, reset everything and return false
 
     for (BankAccount bankAccount : accounts) {
+      if (bankAccount == null) {
+        // no bank account here, keep checking! the bank has some empty slots sometimes
+        // because of how it's initialised
+        continue;
+      }
       if (newAccNumber == bankAccount.accNumber) {
         // found this in the search
         if (newAccPasswd == bankAccount.accPasswd) {
@@ -104,9 +109,6 @@ public class Bank {
           // password false
           break;
         }
-      } else {
-        // account not yet found, continue
-        continue;
       }
     }
 

@@ -57,19 +57,19 @@ public class Controller {
         model.processEnter();
         break;
       case "W/D":
-        model.processWithdraw();
+        model.setWithdraw();
         break;
       case "Dep":
-        model.processDeposit();
+        model.setDeposit();
         break;
       case "Bal":
-        model.processBalance();
+        model.setBalance();
         break;
       case "Fin":
         model.processFinish();
         break;
       case "Sta":
-        model.processStatement();
+        model.setStatement();
         break;
       default:
         model.processUnknownKey(action);

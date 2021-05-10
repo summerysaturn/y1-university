@@ -1,3 +1,5 @@
+import java.text.DecimalFormat;
+import java.text.NumberFormat;
 import java.time.LocalDate;
 import java.util.ArrayList;
 
@@ -57,7 +59,7 @@ public class BankAccount {
 
     if (amount > 0 && balance > amount) {
       balance -= amount;
-      history.add("withdrew " + amount + " on " + LocalDate.now());
+      history.add("withdrawn " + formatCurrency(amount) + " on " + LocalDate.now());
       return true;
     } else {
       return false;
@@ -75,7 +77,7 @@ public class BankAccount {
 
     if (amount > 0) {
       balance += amount;
-      history.add("deposited " + amount + " on " + LocalDate.now());
+      history.add("deposited " + formatCurrency(amount) + " on " + LocalDate.now());
       return true;
     } else {
       return false;
@@ -96,5 +98,21 @@ public class BankAccount {
     Debug.trace("LocalBank::getBalance");
 
     return balance;
+  }
+
+  /**
+   * Load the locale currency and convert a value to that. Ex 500 -> "$5.00"
+   */
+  public String formatCurrency(Long l) {
+    NumberFormat dFormat = DecimalFormat.getCurrencyInstance();
+    return dFormat.format(l / 100.0);
+  }
+
+  /**
+   * integer overload for formatCurrency
+   */
+  public String formatCurrency(int i) {
+    NumberFormat dFormat = DecimalFormat.getCurrencyInstance();
+    return dFormat.format(i / 100.0);
   }
 }
