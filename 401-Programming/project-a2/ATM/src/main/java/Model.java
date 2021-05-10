@@ -288,6 +288,7 @@ public class Model {
    */
   public void processWithdraw() {
     if (state.equals(LOGGED_IN)) {
+      setSubstate(SUBSTATE_NONE);
       if (bank.withdraw(Integer.parseInt(number))) {
         display2 = "Withdrawn: " + formatCurrency(number) + "\n" + "Your new balance is "
             + formatCurrency(bank.getBalance());
@@ -297,6 +298,7 @@ public class Model {
       number = "";
       display1 = "";
     } else {
+      setSubstate(SUBSTATE_NONE);
       initialise("You are not logged in");
     }
 
@@ -313,6 +315,7 @@ public class Model {
           + formatCurrency(bank.getBalance());
 
     } else {
+      setSubstate(SUBSTATE_NONE);
       initialise("You are not logged in");
     }
 
@@ -328,12 +331,14 @@ public class Model {
    */
   public void processDeposit() {
     if (state.equals(LOGGED_IN)) {
+      setSubstate(SUBSTATE_NONE);
       bank.deposit(Integer.parseInt(number));
       display1 = "";
       display2 = "Deposited: " + formatCurrency(number) + "\n" + "Your new balance is "
           + formatCurrency(bank.getBalance());
       number = "";
     } else {
+      setSubstate(SUBSTATE_NONE);
       initialise("You are not logged in");
     }
     display(); // update the GUI
@@ -348,9 +353,11 @@ public class Model {
    */
   public void setBalance() {
     if (state.equals(LOGGED_IN)) {
+      setSubstate(SUBSTATE_BALANCE);
       number = "";
       display2 = "Your balance is: " + formatCurrency(bank.getBalance());
     } else {
+      setSubstate(SUBSTATE_NONE);
       initialise("You are not logged in");
     }
     display(); // update the GUI
@@ -366,10 +373,12 @@ public class Model {
     if (state.equals(LOGGED_IN)) {
       // go back to the log in state
       setState(ACCOUNT_NO);
+      setSubstate(SUBSTATE_NONE);
       number = "";
       display2 = "Welcome: Enter your account number";
       bank.logout();
     } else {
+      setSubstate(SUBSTATE_NONE);
       initialise("You are not logged in");
     }
     display(); // update the GUI
@@ -388,13 +397,14 @@ public class Model {
       setSubstate(SUBSTATE_STATEMENT);
 
       ArrayList<String> transactionHistory = bank.getHistory();
-      display2 = "";
+      display2 = "Bank Statement:\n";
 
       for (int i = 0; i < transactionHistory.size(); i++) {
         display2 += transactionHistory.get(i) + "\n";
       }
 
     } else {
+      setSubstate(SUBSTATE_NONE);
       initialise("You are not logged in");
     }
     display();
@@ -413,6 +423,8 @@ public class Model {
     Debug.trace("Model::processUnknownKey: unknown button \"" + action + "\", re-initialising");
     // go back to initial state
     initialise("Invalid command");
+    setSubstate(SUBSTATE_NONE);
+    setState(ACCOUNT_NO);
     display();
   }
 
