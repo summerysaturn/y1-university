@@ -39,7 +39,7 @@ public class Bank {
    * @param balance   initial balance
    * @return a new BankAccount object
    */
-  public BankAccount makeBankAccount(int accNumber, int accPasswd, int balance) {
+  public BankAccount makeBankAccount(int accNumber, int accPasswd, Long balance) {
     return new BankAccount(accNumber, accPasswd, balance);
   }
 
@@ -70,7 +70,7 @@ public class Bank {
    * @param balance   initial balance
    * @return true if success or false if there's too many bank accounts
    */
-  public boolean addBankAccount(int accNumber, int accPasswd, int balance) {
+  public boolean addBankAccount(int accNumber, int accPasswd, Long balance) {
     return addBankAccount(makeBankAccount(accNumber, accPasswd, balance));
   }
 
@@ -176,11 +176,11 @@ public class Bank {
    *
    * @return -1 as an error value, otherwise returns the account balance.
    */
-  public int getBalance() {
+  public Long getBalance() {
     if (loggedIn()) {
       return account.getBalance();
     } else {
-      return -1; // use -1 as an indicator of an error
+      return -1L; // use -1 as an indicator of an error
     }
   }
 

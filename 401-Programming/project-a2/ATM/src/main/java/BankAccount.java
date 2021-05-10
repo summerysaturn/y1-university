@@ -1,4 +1,3 @@
-import java.sql.Time;
 import java.time.LocalDate;
 import java.util.ArrayList;
 
@@ -18,7 +17,7 @@ public class BankAccount {
   /**
    * Value for the money in the account (updated on construction)
    */
-  public int balance = 0;
+  public Long balance = 0L;
   /**
    * History log for the statement feature
    */
@@ -38,7 +37,7 @@ public class BankAccount {
    * @param p Account Password
    * @param b Balance
    */
-  public BankAccount(int a, int p, int b) {
+  public BankAccount(int a, int p, Long b) {
     accNumber = a;
     accPasswd = p;
     balance = b;
@@ -93,7 +92,7 @@ public class BankAccount {
   /**
    * @return the current balance in the account
    */
-  public int getBalance() {
+  public Long getBalance() {
     Debug.trace("LocalBank::getBalance");
 
     return balance;

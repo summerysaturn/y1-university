@@ -13,7 +13,7 @@ public class Main extends Application {
 
   /**
    * Entry point for command line, skipped over when started with BlueJ or Gradle
-   * 
+   *
    * @param args command line arguments
    */
   public static void main(String[] args) {
@@ -36,8 +36,8 @@ public class Main extends Application {
     // Create a Bank object for this ATM
     Bank b = new Bank();
     // add some test bank accounts
-    b.addBankAccount(10001, 11111, 100);
-    b.addBankAccount(10002, 22222, 50);
+    b.addBankAccount(10001, 11111, 100L);
+    b.addBankAccount(10002, 22222, 50L);
 
     // Create the Model, View and Controller objects
     Model model = new Model(b); // the model needs the Bank object to 'talk to' the bank
