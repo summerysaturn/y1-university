@@ -132,7 +132,7 @@ public class Model {
     if (!substate.equals(newSubstate)) {
       String oldSubstate = substate;
       substate = newSubstate;
-      Debug.trace("Model::setState: changed state from " + oldSubstate + " to " + newSubstate);
+      Debug.trace("Model::setSubstate: changed state from " + oldSubstate + " to " + newSubstate);
     }
   }
 
@@ -147,10 +147,14 @@ public class Model {
   public void processNumber(String label) {
     // a little magic to turn the first char of the label into an int
     // and update the number variable with it
-    char c = label.charAt(0);
-    number = number * 10 + c - '0'; // Build number
-    // show the new number in the display
-    display1 = "" + number;
+
+    if (Integer.toString(number).length() < 8) {
+      char c = label.charAt(0);
+      number = number * 10 + c - '0'; // Build number
+      // show the new number in the display
+      display1 = "" + number;
+    }
+
     display(); // update the GUI
   }
 
@@ -166,6 +170,17 @@ public class Model {
     number = 0;
     display1 = "";
     display(); // update the GUI
+  }
+
+  public void processBack() {
+    if (Integer.toString(number).length() > 1) {
+      number = number / 10;
+      display1 = "" + number;
+    } else {
+      number = 0;
+      display1 = "";
+    }
+    display();
   }
 
   /**
@@ -297,9 +312,6 @@ public class Model {
    */
   public void processDeposit() {
     if (state.equals(LOGGED_IN)) {
-
-      setSubstate(SUBSTATE_DEPOSIT);
-
       bank.deposit(number);
       display1 = "";
       display2 = "Deposited: " + formatCurrency(number) + "\n" + "Your new balance is "
@@ -320,9 +332,6 @@ public class Model {
    */
   public void setBalance() {
     if (state.equals(LOGGED_IN)) {
-
-      setSubstate(SUBSTATE_BALANCE);
-
       number = 0;
       display2 = "Your balance is: " + formatCurrency(bank.getBalance());
     } else {

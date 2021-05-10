@@ -50,8 +50,11 @@ public class Controller {
       case "0":
         model.processNumber(action);
         break;
-      case "CLR":
+      case "Clr":
         model.processClear();
+        break;
+      case "Bac":
+        model.processBack();
         break;
       case "Ent":
         model.processEnter();
