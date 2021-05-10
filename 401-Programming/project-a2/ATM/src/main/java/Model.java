@@ -46,7 +46,7 @@ public class Model {
   /**
    * current number displayed in GUI (as a number, not a string)
    */
-  int number = 0;
+  String number = "";
   /**
    * The ATM talks to a bank, represented by the Bank object.
    */
@@ -105,7 +105,7 @@ public class Model {
    */
   public void initialise(String message) {
     setState(ACCOUNT_NO);
-    number = 0;
+    number = "";
     display1 = message;
     display2 = "Enter your account number\n" + "Followed by \"Ent\"";
   }
@@ -148,11 +148,19 @@ public class Model {
     // a little magic to turn the first char of the label into an int
     // and update the number variable with it
 
-    if (Integer.toString(number).length() < 8) {
+    if (number.length() < 9) {
       char c = label.charAt(0);
-      number = number * 10 + c - '0'; // Build number
-      // show the new number in the display
-      display1 = "" + number;
+      number = number + c; // Build number
+      // show the new number in the display depending on substate
+      switch (substate) {
+        case SUBSTATE_DEPOSIT:
+        case SUBSTATE_WITHDRAW:
+          display1 = formatCurrency(number);
+          break;
+        default:
+          display1 = "" + number;
+          break;
+      }
     }
 
     display(); // update the GUI
@@ -167,17 +175,25 @@ public class Model {
    */
   public void processClear() {
     // clear the number stored in the model
-    number = 0;
+    number = "";
     display1 = "";
     display(); // update the GUI
   }
 
   public void processBack() {
-    if (Integer.toString(number).length() > 1) {
-      number = number / 10;
-      display1 = "" + number;
+    if (number.length() > 1) {
+      number = number.substring(0, number.length() - 1);
+      switch (substate) {
+        case SUBSTATE_DEPOSIT:
+        case SUBSTATE_WITHDRAW:
+          display1 = formatCurrency(number);
+          break;
+        default:
+          display1 = "" + number;
+          break;
+      }
     } else {
-      number = 0;
+      number = "";
       display1 = "";
     }
     display();
@@ -201,8 +217,8 @@ public class Model {
         // we were waiting for a complete account number - save the number we have
         // reset the tyed in number to 0 and change to the state where we are expecting
         // a password
-        accNumber = number;
-        number = 0;
+        accNumber = Integer.parseInt(number);
+        number = "";
         setState(PASSWORD);
         display1 = "";
         display2 = "Now enter your password\n" + "Followed by \"Ent\"";
@@ -211,8 +227,8 @@ public class Model {
         // we were waiting for a password - save the number we have as the password
         // and then cotnact the bank with accumber and accPasswd to try and login to
         // an account
-        accPasswd = number;
-        number = 0;
+        accPasswd = Integer.parseInt(number);
+        number = "";
         display1 = "";
         // now check the account/password combination. If it's ok go into the LOGGED_IN
         // state, otherwise go back to the start (by re-initialsing)
@@ -251,7 +267,7 @@ public class Model {
     if (state.equals(LOGGED_IN)) {
       setSubstate(SUBSTATE_WITHDRAW);
 
-      number = 0;
+      number = "";
       display1 = "";
       display2 = "Enter the value you'd like to withdraw\n" + "Your current balance is "
           + formatCurrency(bank.getBalance());
@@ -272,13 +288,13 @@ public class Model {
    */
   public void processWithdraw() {
     if (state.equals(LOGGED_IN)) {
-      if (bank.withdraw(number)) {
+      if (bank.withdraw(Integer.parseInt(number))) {
         display2 = "Withdrawn: " + formatCurrency(number) + "\n" + "Your new balance is "
             + formatCurrency(bank.getBalance());
       } else {
         display2 = "You do not have sufficient funds";
       }
-      number = 0;
+      number = "";
       display1 = "";
     } else {
       initialise("You are not logged in");
@@ -291,7 +307,7 @@ public class Model {
     if (state.equals(LOGGED_IN)) {
       setSubstate(SUBSTATE_DEPOSIT);
 
-      number = 0;
+      number = "";
       display1 = "";
       display2 = "Enter the value you'd like to deposit\n" + "Your current balance is "
           + formatCurrency(bank.getBalance());
@@ -312,11 +328,11 @@ public class Model {
    */
   public void processDeposit() {
     if (state.equals(LOGGED_IN)) {
-      bank.deposit(number);
+      bank.deposit(Integer.parseInt(number));
       display1 = "";
       display2 = "Deposited: " + formatCurrency(number) + "\n" + "Your new balance is "
           + formatCurrency(bank.getBalance());
-      number = 0;
+      number = "";
     } else {
       initialise("You are not logged in");
     }
@@ -332,7 +348,7 @@ public class Model {
    */
   public void setBalance() {
     if (state.equals(LOGGED_IN)) {
-      number = 0;
+      number = "";
       display2 = "Your balance is: " + formatCurrency(bank.getBalance());
     } else {
       initialise("You are not logged in");
@@ -350,7 +366,7 @@ public class Model {
     if (state.equals(LOGGED_IN)) {
       // go back to the log in state
       setState(ACCOUNT_NO);
-      number = 0;
+      number = "";
       display2 = "Welcome: Enter your account number";
       bank.logout();
     } else {
@@ -414,6 +430,14 @@ public class Model {
   public String formatCurrency(int i) {
     NumberFormat dFormat = DecimalFormat.getCurrencyInstance();
     return dFormat.format(i / 100.0);
+  }
+
+  /**
+   * String overload for formatCurrency
+   */
+  public String formatCurrency(String s) {
+    NumberFormat dFormat = DecimalFormat.getCurrencyInstance();
+    return dFormat.format(Integer.parseInt(s) / 100.0);
   }
 
   /**
