@@ -34,13 +34,27 @@ public class Bank {
    * Inialisation method for a bank account. This is a factory method and differs
    * from using the 'new' keyword.
    *
-   * @param accNumber account number
-   * @param accPasswd account password
-   * @param balance   initial balance
-   * @return a new BankAccount object
+   * @param accNumber   account number
+   * @param accPasswd   account password
+   * @param balance     initial balance
+   * @param accountType has value "BankAccount" or "BankAccountPlus", determines
+   *                    the type of bank account created. Defaults to BankAccount.
+   * @param values      additional values passed in depending on the type of
+   *                    account created. For BankAccount this is unutilised, for
+   *                    BankAccountPlus this should be a single Long.
+   * @return a new BankAccount or BankAccountPlus object
+   *
+   * @see BankAccount
+   * @see BankAccountPlus
    */
-  public BankAccount makeBankAccount(int accNumber, int accPasswd, Long balance) {
-    return new BankAccount(accNumber, accPasswd, balance);
+  public BankAccount makeBankAccount(int accNumber, int accPasswd, Long balance, String accountType, Long... values) {
+    switch (accountType) {
+      case "BankAccountPlus":
+        return new BankAccountPlus(accNumber, accPasswd, balance, values[0]);
+      case "BankAccount":
+      default:
+        return new BankAccount(accNumber, accPasswd, balance);
+    }
   }
 
   /**
@@ -70,8 +84,8 @@ public class Bank {
    * @param balance   initial balance
    * @return true if success or false if there's too many bank accounts
    */
-  public boolean addBankAccount(int accNumber, int accPasswd, Long balance) {
-    return addBankAccount(makeBankAccount(accNumber, accPasswd, balance));
+  public boolean addBankAccount(int accNumber, int accPasswd, Long balance, String type, Long... values) {
+    return addBankAccount(makeBankAccount(accNumber, accPasswd, balance, type, values));
   }
 
   // Check whether the current saved account and password correspond to

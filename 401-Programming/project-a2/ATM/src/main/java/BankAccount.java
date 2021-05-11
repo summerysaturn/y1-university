@@ -55,9 +55,9 @@ public class BankAccount {
    *         account.
    */
   public boolean withdraw(int amount) {
-    Debug.trace("BankAccount::withdraw: amount =" + amount);
+    Debug.trace("BankAccount::withdraw: amount = " + amount);
 
-    if (amount > 0 && balance > amount) {
+    if (amount > 0 && balance >= amount) {
       balance -= amount;
       history.add("withdrawn " + formatCurrency(amount) + " on " + LocalDate.now());
       return true;
