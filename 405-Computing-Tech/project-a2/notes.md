@@ -536,3 +536,71 @@ Parallel communication is where data is sent using multiple data lines, a byte o
 Nothing too bad this week, just some effort making sure that I've followed the brief properly.
 
 ![Lab 8 work](img/lab8-001.png)
+
+## Week 9 Questions
+
+| Question 1: Describe 3 benefits for using the Assembly language. |
+| :--------------------------------------------------------------- |
+|                                                                  |
+
+No compiler in the way which can have knock on effects like reduced performance and strange optimisation: the optimisation and function is wholly within your control. Additionally there's no compilation time as the program is already set for usage on the CPU, it just needs converting into Machine code. It can be much faster as the program uses internal registers rather than RAM, cutting down on memory management time. Thirdly, you get direct hardware control because you get full access to the CPU registers and instructions, rather than relying on a library or compiler to handle the integration indirectly.
+
+<https://theencarta.com/advantages-uses-assembly-language/>
+
+| Question 2: Explain this Assembly command: `LDR r1, [r0]`. |
+| :--------------------------------------------------------- |
+|                                                            |
+
+This command loads the value of register `r0` into the register `r1`.
+
+| Question 3: What is the problem when comparing signed and unsigned value? |
+| :------------------------------------------------------------------------ |
+|                                                                           |
+
+-1 in signed binary is a full set of 1's, so in 16 bit it's 1111111111111111, which is the max value of an unsigned integer. So comparing an unsigned integer with a signed integer can produce false comparisons if the signed integer is negative (i.e. first bit is 1), as an unsigned integer would use that as a positive value rather than a negative one.
+
+## Week 9 Lab Work
+
+1. Convert the binary number 11110 (in base to) to a decimal number (in base 10). Show the conversion method.
+
+| 16 | 8  | 4  | 2  | 1  |
+| :- | :- | :- | :- | :- |
+| 1  | 1  | 1  | 1  | 0  |
+
+**16 + 8 + 4 + 2 = 30**
+
+2. Convert the decimal number 99 into a binary number.
+
+99 - 64 = 35
+
+35 - 32 = 3
+
+3 - 2 = 1
+
+1 - 1 = 0
+
+| 64 | 32 | 16 | 8  | 4  | 2  | 1  |
+| :- | :- | :- | :- | :- | :- | :- |
+| 1  | 1  | 0  | 0  | 0  | 1  | 1  |
+
+3. Convert the Hexadecimal number AB (in base 16) into a binary number.
+
+```
+1 = 1
+2 = 10
+3 = 11
+4 = 100
+5 = 101
+6 = 110
+7 = 111
+8 = 1000
+9 = 1001
+A = 1010
+B = 1011
+C = 1100
+D = 1101
+E = 1110
+F = 1111
+```
+
+**AB = 10101011**
