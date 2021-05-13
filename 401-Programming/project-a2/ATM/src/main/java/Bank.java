@@ -82,7 +82,14 @@ public class Bank {
    * @param accNumber account number
    * @param accPasswd account password
    * @param balance   initial balance
+   * @param type      has value "BankAccount" or "BankAccountPlus", determines the
+   *                  type of bank account created. Defaults to BankAccount.
+   * @param values    additional values passed in depending on the type of account
+   *                  created. For BankAccount this is unutilised, for
+   *                  BankAccountPlus this should be a single Long.
    * @return true if success or false if there's too many bank accounts
+   *
+   * @see makeBankAccount
    */
   public boolean addBankAccount(int accNumber, int accPasswd, Long balance, String type, Long... values) {
     return addBankAccount(makeBankAccount(accNumber, accPasswd, balance, type, values));
@@ -159,8 +166,9 @@ public class Bank {
    * false.
    *
    * @param amount integer amount of money to deposit
-   * @return true if success, false if not logged in or amount can't be deposited.
    * @see BankAccount
+   *
+   * @return true if success, otherwise false
    */
   public boolean deposit(int amount) {
     if (loggedIn()) {

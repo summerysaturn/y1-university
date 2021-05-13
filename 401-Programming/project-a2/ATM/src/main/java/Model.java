@@ -429,7 +429,12 @@ public class Model {
   }
 
   /**
-   * Load the locale currency and convert a value to that. Ex 500 -> "$5.00"
+   * Load the locale currency and convert a value to that. Ex 500 = "$5.00"
+   *
+   * @param l Long to be formatted in the form 50000
+   *
+   * @return Returns a String similar to the parameter l, only formatted with the
+   *         locale currency.
    */
   public String formatCurrency(Long l) {
     NumberFormat dFormat = DecimalFormat.getCurrencyInstance();
@@ -438,6 +443,11 @@ public class Model {
 
   /**
    * integer overload for formatCurrency
+   *
+   * @param i int to be formatted in the form 50000
+   *
+   * @return Returns a String similar to the parameter i, only formatted with the
+   *         locale currency.
    */
   public String formatCurrency(int i) {
     NumberFormat dFormat = DecimalFormat.getCurrencyInstance();
@@ -446,6 +456,11 @@ public class Model {
 
   /**
    * String overload for formatCurrency
+   *
+   * @param s string to be formatted in the form "50000"
+   *
+   * @return Returns a String similar to the parameter s, only formatted with the
+   *         locale currency.
    */
   public String formatCurrency(String s) {
     NumberFormat dFormat = DecimalFormat.getCurrencyInstance();

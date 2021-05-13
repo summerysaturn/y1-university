@@ -24,6 +24,7 @@ public class BankAccountPlus extends BankAccount {
    * @param a Account Number
    * @param p Account Password
    * @param b Balance
+   * @param o Overdraft Limit (postive values become negative)
    */
   public BankAccountPlus(int a, int p, Long b, Long o) {
     accNumber = a;
@@ -57,6 +58,8 @@ public class BankAccountPlus extends BankAccount {
 
   /**
    * get function for the overdraft limit, returns a Long value.
+   *
+   * @return returns the value of the overdraftLimit variable
    */
   public Long getOverdraftLimit() {
     return overdraftLimit;
@@ -64,6 +67,8 @@ public class BankAccountPlus extends BankAccount {
 
   /**
    * integer version of overdraft limit get function.
+   *
+   * @return returns the value of the overdraftLimit variable
    */
   public int getOverdraftLimitInteger() {
     return overdraftLimit.intValue();
