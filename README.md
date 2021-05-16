@@ -37,15 +37,17 @@ This course is comprised of 6 modules for the first year, all exploring differen
 
 ### A2 Progress Chart
 
-| Module                        | Issues                                                          | Deadline           | Assignment Priority | Note                                    |
-| :---------------------------- | :-------------------------------------------------------------- | :----------------- | :------------------ | :-------------------------------------- |
-| :building_construction: CI401 | [#19](https://github.com/summerysaturn/y1-university/issues/19) | 2021-04-30, 3pm    | :green_heart: Low   | Needs technical report, otherwise done. |
-| :computer: CI405              | [#20](https://github.com/summerysaturn/y1-university/issues/20) | 2021-05-22, 3pm    | :white_check_mark:  | Finished (hand-in needed)               |
-| :video_game: CI410            | [#16](https://github.com/summerysaturn/y1-university/issues/16) | 2021-05-07, 3pm    | :green_heart: Low   |                                         |
-| :globe_with_meridians: CI435  | [#21](https://github.com/summerysaturn/y1-university/issues/21) | :question: Unclear | :green_heart: Low   | :recycle: Weekly Task & Exam            |
-| :mortar_board: CI465          | [#17](https://github.com/summerysaturn/y1-university/issues/17) | 2021-05-22, 3pm    | :green_heart: Low   |                                         |
-| :art: CI474 A2                | [#22](https://github.com/summerysaturn/y1-university/issues/22) | 2021-05-20, 3pm    | :heart: High        | Requires more work in A1                |
-| :art: CI474 A1                | [#22](https://github.com/summerysaturn/y1-university/issues/22) | :question: Unclear | :heart: High        | Deferred but prerequisite for A2        |
+| Module                        | Issues                                                                   | Deadline                           | Assignment Priority          | Note                             |
+| :---------------------------- | :----------------------------------------------------------------------- | :--------------------------------- | :--------------------------- | :------------------------------- |
+| :building_construction: CI401 | [#19](https://github.com/summerysaturn/y1-university/issues/19) (closed) | :x: 2021-04-30, 3pm                | :white_check_mark:           | Finished (hand-in needed)        |
+| :computer: CI405              | [#20](https://github.com/summerysaturn/y1-university/issues/20) (closed) | :white_check_mark: 2021-05-22, 3pm | :white_check_mark: Submitted | Finished                         |
+| :video_game: CI410            | [#16](https://github.com/summerysaturn/y1-university/issues/16)          | 2021-05-07, 3pm                    | :green_heart: Low            |                                  |
+| :globe_with_meridians: CI435  | [#21](https://github.com/summerysaturn/y1-university/issues/21)          | :question: Unclear                 | :green_heart: Low            | :recycle: Weekly Task & Exam     |
+| :mortar_board: CI465          | [#17](https://github.com/summerysaturn/y1-university/issues/17)          | 2021-05-22, 3pm                    | :green_heart: Low            |                                  |
+| :art: CI474 A2                | [#22](https://github.com/summerysaturn/y1-university/issues/22)          | 2021-05-20, 3pm                    | :heart: High                 | Requires more work in A1         |
+| :art: CI474 A1                | [#22](https://github.com/summerysaturn/y1-university/issues/22)          | :question: Unclear                 | :heart: High                 | Deferred but prerequisite for A2 |
+
+Note: Deadline should be adjusted by 2 weeks (14 days).
 
 ### Marks
 
