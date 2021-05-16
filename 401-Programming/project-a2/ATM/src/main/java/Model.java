@@ -1,6 +1,6 @@
-import java.util.ArrayList;
 import java.text.DecimalFormat;
 import java.text.NumberFormat;
+import java.util.ArrayList;
 
 // The model represents all the actual content and functionality of the app
 // For the ATM, it keeps track of the information shown in the display
@@ -16,6 +16,7 @@ import java.text.NumberFormat;
  * @see Main
  */
 public class Model {
+
   /**
    * Immutable variable for account state
    */
@@ -29,10 +30,25 @@ public class Model {
    */
   final String LOGGED_IN = "logged_in";
 
+  /**
+   * Immutable variable for account substate (utilised when specific buttons are pressed)
+   */
   final String SUBSTATE_NONE = "none";
+  /**
+   * Immutable variable for account substate (utilised when specific buttons are pressed)
+   */
   final String SUBSTATE_DEPOSIT = "deposit";
+  /**
+   * Immutable variable for account substate (utilised when specific buttons are pressed)
+   */
   final String SUBSTATE_WITHDRAW = "withdraw";
+  /**
+   * Immutable variable for account substate (utilised when specific buttons are pressed)
+   */
   final String SUBSTATE_BALANCE = "balance";
+  /**
+   * Immutable variable for account substate (utilised when specific buttons are pressed)
+   */
   final String SUBSTATE_STATEMENT = "statement";
 
   /**
@@ -119,7 +135,9 @@ public class Model {
     if (!state.equals(newState)) {
       String oldState = state;
       state = newState;
-      Debug.trace("Model::setState: changed state from " + oldState + " to " + newState);
+      Debug.trace(
+        "Model::setState: changed state from " + oldState + " to " + newState
+      );
     }
   }
 
@@ -132,7 +150,12 @@ public class Model {
     if (!substate.equals(newSubstate)) {
       String oldSubstate = substate;
       substate = newSubstate;
-      Debug.trace("Model::setSubstate: changed state from " + oldSubstate + " to " + newSubstate);
+      Debug.trace(
+        "Model::setSubstate: changed state from " +
+        oldSubstate +
+        " to " +
+        newSubstate
+      );
     }
   }
 
@@ -180,6 +203,9 @@ public class Model {
     display(); // update the GUI
   }
 
+  /**
+   * Method called by controller to handle the backspace command. Slices the input string shorter by one character.
+   */
   public void processBack() {
     if (number.length() > 1) {
       number = number.substring(0, number.length() - 1);
@@ -269,9 +295,10 @@ public class Model {
 
       number = "";
       display1 = "";
-      display2 = "Enter the value you'd like to withdraw\n" + "Your current balance is "
-          + formatCurrency(bank.getBalance());
-
+      display2 =
+        "Enter the value you'd like to withdraw\n" +
+        "Your current balance is " +
+        formatCurrency(bank.getBalance());
     } else {
       initialise("You are not logged in");
     }
@@ -290,8 +317,12 @@ public class Model {
     if (state.equals(LOGGED_IN)) {
       setSubstate(SUBSTATE_NONE);
       if (bank.withdraw(Integer.parseInt(number))) {
-        display2 = "Withdrawn: " + formatCurrency(number) + "\n" + "Your new balance is "
-            + formatCurrency(bank.getBalance());
+        display2 =
+          "Withdrawn: " +
+          formatCurrency(number) +
+          "\n" +
+          "Your new balance is " +
+          formatCurrency(bank.getBalance());
       } else {
         display2 = "You do not have sufficient funds";
       }
@@ -311,9 +342,10 @@ public class Model {
 
       number = "";
       display1 = "";
-      display2 = "Enter the value you'd like to deposit\n" + "Your current balance is "
-          + formatCurrency(bank.getBalance());
-
+      display2 =
+        "Enter the value you'd like to deposit\n" +
+        "Your current balance is " +
+        formatCurrency(bank.getBalance());
     } else {
       setSubstate(SUBSTATE_NONE);
       initialise("You are not logged in");
@@ -334,8 +366,12 @@ public class Model {
       setSubstate(SUBSTATE_NONE);
       bank.deposit(Integer.parseInt(number));
       display1 = "";
-      display2 = "Deposited: " + formatCurrency(number) + "\n" + "Your new balance is "
-          + formatCurrency(bank.getBalance());
+      display2 =
+        "Deposited: " +
+        formatCurrency(number) +
+        "\n" +
+        "Your new balance is " +
+        formatCurrency(bank.getBalance());
       number = "";
     } else {
       setSubstate(SUBSTATE_NONE);
@@ -393,7 +429,6 @@ public class Model {
    */
   public void setStatement() {
     if (state.equals(LOGGED_IN)) {
-
       setSubstate(SUBSTATE_STATEMENT);
 
       ArrayList<String> transactionHistory = bank.getHistory();
@@ -402,7 +437,6 @@ public class Model {
       for (int i = 0; i < transactionHistory.size(); i++) {
         display2 += transactionHistory.get(i) + "\n";
       }
-
     } else {
       setSubstate(SUBSTATE_NONE);
       initialise("You are not logged in");
@@ -420,7 +454,11 @@ public class Model {
    */
   public void processUnknownKey(String action) {
     // unknown button, or invalid for this state - reset everything
-    Debug.trace("Model::processUnknownKey: unknown button \"" + action + "\", re-initialising");
+    Debug.trace(
+      "Model::processUnknownKey: unknown button \"" +
+      action +
+      "\", re-initialising"
+    );
     // go back to initial state
     initialise("Invalid command");
     setSubstate(SUBSTATE_NONE);
