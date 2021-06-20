@@ -47,8 +47,6 @@ This course is comprised of 6 modules for the first year, all exploring differen
 | :art: CI474 A2                | [#22](https://github.com/summerysaturn/y1-university/issues/22)          | :heart: High        | :x:       |
 | :art: CI474 A1                | [#22](https://github.com/summerysaturn/y1-university/issues/22)          | :heart: High        | :x:       |
 
-(M.C): Mitigacting Circumstances
-
 ### Marks
 
 Values above 40% are considered a **pass mark**.
