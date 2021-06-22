@@ -43,7 +43,7 @@ This course is comprised of 6 modules for the first year, all exploring differen
 | :computer: CI405              | [#20](https://github.com/summerysaturn/y1-university/issues/20) (closed) | :white_check_mark:  | Submitted |
 | :video_game: CI410            | [#16](https://github.com/summerysaturn/y1-university/issues/16)          | :green_heart: Low   | :x:       |
 | :globe_with_meridians: CI435  | [#21](https://github.com/summerysaturn/y1-university/issues/21) (closed) | :white_check_mark:  | :x:       |
-| :mortar_board: CI465          | [#17](https://github.com/summerysaturn/y1-university/issues/17)          | :green_heart: Low   | :x:       |
+| :mortar_board: CI465          | [#17](https://github.com/summerysaturn/y1-university/issues/17)          | :white_check_mark:  | :x:       |
 | :art: CI474 A2                | [#22](https://github.com/summerysaturn/y1-university/issues/22)          | :heart: High        | :x:       |
 | :art: CI474 A1                | [#22](https://github.com/summerysaturn/y1-university/issues/22)          | :heart: High        | :x:       |
 
