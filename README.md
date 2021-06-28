@@ -41,24 +41,24 @@ This course is comprised of 6 modules for the first year, all exploring differen
 | :---------------------------- | :----------------------------------------------------------------------- | :------------------ | :-------- |
 | :building_construction: CI401 | [#19](https://github.com/summerysaturn/y1-university/issues/19) (closed) | :white_check_mark:  | :x:       |
 | :computer: CI405              | [#20](https://github.com/summerysaturn/y1-university/issues/20) (closed) | :white_check_mark:  | Submitted |
-| :video_game: CI410            | [#16](https://github.com/summerysaturn/y1-university/issues/16)          | :green_heart: Low   | :x:       |
+| :video_game: CI410            | [#16](https://github.com/summerysaturn/y1-university/issues/16)          | :one: 1             | :x:       |
 | :globe_with_meridians: CI435  | [#21](https://github.com/summerysaturn/y1-university/issues/21) (closed) | :white_check_mark:  | :x:       |
-| :mortar_board: CI465          | [#17](https://github.com/summerysaturn/y1-university/issues/17)          | :white_check_mark:  | :x:       |
-| :art: CI474 A2                | [#22](https://github.com/summerysaturn/y1-university/issues/22)          | :heart: High        | :x:       |
-| :art: CI474 A1                | [#22](https://github.com/summerysaturn/y1-university/issues/22)          | :heart: High        | :x:       |
+| :mortar_board: CI465          | [#17](https://github.com/summerysaturn/y1-university/issues/17) (closed) | :white_check_mark:  | :x:       |
+| :art: CI474 A2                | [#22](https://github.com/summerysaturn/y1-university/issues/22)          | :white_check_mark:  | :x:       |
+| :art: CI474 A1                | [#22](https://github.com/summerysaturn/y1-university/issues/22)          | :two: 2             | :x:       |
 
 ### Marks
 
 Values above 40% are considered a **pass mark**.
 
-| Module                        | A1 Grade         | A2 Grade           | Overall Percent                     |
-| :---------------------------- | :--------------- | :----------------- | :---------------------------------- |
-| :building_construction: CI401 | :a: 100.00 / 100 | :question: pending | :white_check_mark: 50%              |
-| :computer: CI405              | :a: 83.00 / 100  | :question: pending | :negative_squared_cross_mark: 33.2% |
-| :video_game: CI410            | :a: 82.00 / 100  | :x:                | :white_check_mark: 41%              |
-| :globe_with_meridians: CI435  | :a: 72.00 / 100  | :question: pending | :negative_squared_cross_mark: 36%   |
-| :mortar_board: CI465          | :a: 77.00 / 100  | :x:                | :negative_squared_cross_mark: 38.5  |
-| :art: CI474                   | :x:              | :x:                | :negative_squared_cross_mark: 0%    |
+| Module                        | A1 Grade           | A2 Grade           | Overall Percent                     |
+| :---------------------------- | :----------------- | :----------------- | :---------------------------------- |
+| :building_construction: CI401 | :a: 100.00 / 100   | :question: pending | :white_check_mark: 50%              |
+| :computer: CI405              | :a: 83.00 / 100    | :question: pending | :negative_squared_cross_mark: 33.2% |
+| :video_game: CI410            | :a: 82.00 / 100    | :x:                | :white_check_mark: 41%              |
+| :globe_with_meridians: CI435  | :a: 72.00 / 100    | :question: pending | :negative_squared_cross_mark: 36%   |
+| :mortar_board: CI465          | :a: 77.00 / 100    | :question: pending | :negative_squared_cross_mark: 38.5  |
+| :art: CI474                   | :question: pending | :x:                | :negative_squared_cross_mark: 0%    |
 
 ```plaintext
 CI401 is 50%/50%
